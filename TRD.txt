@@ -1,0 +1,404 @@
+DYU HANDMADE
+Digital Atelier Website
+Technical Requirements Document
+TRD | Headless Shopify + Next.js architecture
+
+Prepared for DYU Handmade leadership and implementation stakeholders
+Version 1.0 | 22 September 2026
+
+Document Control
+
+This TRD defines the reference implementation. Library versions should use supported stable releases at implementation time and must be pinned, tested and upgraded under the versioning policy in this document.
+Document Contents
+
+1. Technical Executive Summary
+The DYU Handmade website will use a headless commerce architecture: Shopify owns products, variants, pricing, inventory, cart and checkout; a custom Next.js application owns presentation, narrative storytelling, motion, 3D experiences, SEO delivery and analytics. This separation allows the client to keep Shopify's mature merchant operations while removing the visual and interaction limits of a conventional theme storefront.
+The reference frontend uses Next.js App Router with TypeScript and Tailwind CSS. Server-rendered React components will deliver indexable narrative and commerce content. Client components will be reserved for interactions such as menu state, product gallery, filter controls, cart actions, scroll choreography and 3D scenes. Shopify Storefront API will be used for public commerce queries/mutations. Rich narrative data will be modeled through Shopify metafields/metaobjects and exposed to the Storefront API with appropriate storefront access.
+
+Figure 1. High-level system context.
+2. Architecture Principles and Stack
+2.1 Principles
+
+2.2 Reference technology stack
+
+3. System Context and Components
+
+Figure 2. Logical components and responsibility boundaries.
+3.1 Component responsibilities
+
+4. Shopify Integration
+4.1 API model
+The storefront will integrate with Shopify's GraphQL Storefront API. Shopify documents the Storefront API as framework-agnostic and suitable for custom storefronts, including products, collections, search and cart. The cart object exposes a checkoutUrl that redirects the buyer to Shopify's web checkout. Storefront API versions are released on a schedule; the implementation must pin an explicit supported version rather than using an unversioned endpoint.
+4.2 Authentication
+
+4.3 Required Storefront capabilities
+Product by handle and product lists.
+Collections and collection products.
+Predictive/search queries as supported by selected implementation.
+Variant options, availability, price ranges and media.
+Metafields/metaobjects required by story modules.
+Cart create, cart lines add/update/remove, discount/gift data if enabled, buyer context where needed and checkoutUrl.
+Menus/pages if Shopify is used as source for those resources.
+5. Commerce and Story Data Model
+
+Figure 3. Commerce entities and narrative extensions.
+5.1 Recommended product metafields
+
+5.2 Recommended metaobject definitions
+
+Metafield definitions exposed to the Storefront API must use Shopify's current storefront-access mechanism. Current Shopify guidance uses metafield definition access.storefront = PUBLIC_READ for public retrieval.
+6. Next.js Application Architecture
+6.1 Routing
+
+6.2 Server/client boundaries
+Server Components: product narrative, pricing snapshot, collection content, article content, SEO metadata, structured data.
+Client Components: variant selector, quantity, add-to-cart, gallery interactions, menu, filter drawer, scroll-linked interaction, 3D canvas, consent controls.
+Avoid fetching data from internal Route Handlers when a Server Component can query Shopify directly; this avoids unnecessary server-to-server round trips.
+Use typed GraphQL query documents and generated or validated TypeScript result types.
+7. Rendering, Caching and Revalidation
+
+Figure 4. Server rendering and revalidation strategy.
+7.1 Caching policy
+
+7.2 Revalidation triggers
+Shopify product update/publish/unpublish.
+Collection update.
+Metaobject or relevant content update.
+Optional manual purge/revalidate endpoint secured for operations.
+Deployment or schema migration.
+8. Cart and Checkout
+
+Figure 5. Headless cart and Shopify checkout handoff.
+8.1 Cart state
+Create cart lazily on first add-to-bag or earlier only if required.
+Persist full cart ID token/secret safely according to Shopify requirements; do not parse or assume token length/format.
+Store cart identifier in an appropriate same-site cookie or client storage strategy chosen during implementation; prevent accidental cross-user leakage.
+Re-fetch cart on cart page/open when stale or after mutation.
+Handle merchandise changes, sold-out lines, price changes and userErrors explicitly.
+8.2 Checkout
+The final transaction is completed using the checkout URL returned on the Shopify cart. This keeps payment, tax, address, shipping and Shopify-supported checkout controls in Shopify. The DYU storefront is responsible for creating the correct cart and transitioning the buyer cleanly to checkout.
+9. Motion and 3D Subsystem
+
+Figure 6. Motion/3D subsystem and fallbacks.
+9.1 Technical rules
+
+10. Design System and Frontend Components
+10.1 Token groups
+Color: ivory, beige, sage, olive, deep forest, terracotta, walnut, charcoal and semantic states.
+Typography: display serif, body sans, handwritten accent used only as controlled artwork/font asset if licensed.
+Spacing: 4/8-based scale with editorial large gaps.
+Radius: subtle rounded cards/controls; avoid generic fully-pill UI everywhere.
+Shadow: soft material depth, not strong SaaS-style elevation.
+Motion tokens: fast UI, normal UI, editorial reveal, page transition and scroll choreography.
+Z-index layers: base, sticky nav, overlays, cart/search, 3D canvas, modals.
+10.2 Core components
+
+11. Search, Filtering and Navigation
+Initial implementation should use Shopify-native search/product querying unless catalogue scale, merchandising needs or relevance requirements justify a dedicated search provider. Architecture should hide search behind an internal interface so a future engine can replace it without rewriting page UI.
+
+12. SEO and Structured Data
+Use Next.js metadata APIs for canonical title, description, social previews and robots directives.
+Generate canonical URLs consistently across product/collection query states.
+Server-render Product JSON-LD with actual price/availability data; do not invent ratings unless verified review data is available.
+Render BreadcrumbList where page hierarchy exists.
+Render Article markup for journal entries where appropriate.
+Generate sitemap indexes/pages appropriate to catalogue size and include only canonical public URLs.
+Ensure filter parameters do not create uncontrolled indexable duplicate pages unless intentionally designed.
+Use optimized image alt text and descriptive filenames where practical.
+13. Analytics and Event Instrumentation
+13.1 Event contract
+
+13.2 Consent and privacy
+Do not fire non-essential advertising tags before the applicable consent state allows it.
+Avoid sending customer health concerns, free-text form data or sensitive data into analytics events.
+Document every third-party script because scripts can materially affect performance and privacy.
+14. Performance Engineering
+14.1 Budgets
+
+14.2 Performance testing
+Lighthouse / lab runs on representative pages during CI or release QA.
+Real-user Web Vitals instrumentation after launch.
+Test on constrained network and mid-range Android device profile.
+Record bundle size and route-level JS changes to prevent silent regression.
+15. Accessibility Engineering
+WCAG-oriented semantic HTML and keyboard-first control implementation.
+No critical action depends only on hover.
+All custom variant, filter, gallery and ingredient controls expose name/state/role to assistive technology.
+Focus management for menu, cart drawer, search overlay and dialogs.
+Reduced-motion branch for GSAP/Three scenes.
+Canvas/3D scenes have equivalent HTML text content outside the canvas.
+Color contrast and target-size QA on actual design tokens.
+Automated accessibility checks supplemented by manual keyboard and screen-reader smoke tests.
+16. Security and Privacy
+
+Figure 7. Security zones and credential boundaries.
+16.1 Security controls
+
+17. Error Handling and Resilience
+
+18. Testing Strategy
+
+19. CI/CD and Environments
+
+Figure 8. Recommended release pipeline.
+19.1 Environments
+
+19.2 CI quality gates
+Dependency install with lockfile.
+TypeScript typecheck.
+Lint and formatting check.
+Unit/component tests.
+Build success.
+E2E smoke tests on preview/staging.
+Optional Lighthouse / bundle budget checks.
+Manual client approval for major visual releases.
+20. Observability and Operations
+
+21. Data Migration and Merchant Handover
+Audit existing Shopify catalogue, collections, variants, media, tags, SEO fields and policy pages.
+Define DYU metafield/metaobject schema and create definitions in Shopify.
+Map each launch product to required story modules; identify missing data.
+Import/enter approved narrative content and media.
+Validate storefront API visibility and query payloads.
+Migrate redirects/handles where URLs change.
+Run content QA against a launch checklist.
+Train client team on product creation, story fields, media specifications and publication workflow.
+Deliver a concise merchant handbook and field-definition reference.
+22. Implementation Plan and Acceptance
+22.1 Engineering workstreams
+
+22.2 Technical acceptance checklist
+No private Shopify/Admin credentials are present in browser bundles.
+All P0 routes build and render without runtime console errors.
+Shopify product/variant/collection/cart flows function against production-equivalent data.
+Checkout URL opens the correct Shopify cart/checkout.
+Metafield/metaobject story data is editable and reflected after the agreed revalidation interval/trigger.
+3D/motion modules have poster/reduced-motion fallbacks.
+Core pages pass accessibility, responsive and browser QA.
+Core Web Vitals instrumentation is active and performance budgets are documented.
+SEO metadata, structured data, sitemap and canonical rules validate.
+Monitoring and rollback procedure are documented.
+23. Risks, Trade-offs and Future Extensibility
+
+23.1 Future extension points
+Ritual finder / quiz engine.
+Subscription/replenishment integration.
+Dedicated search/recommendation provider.
+Separate editorial CMS through an adapter layer.
+International markets and localized story content.
+Customer accounts / saved rituals.
+Loyalty/community programme.
+Expanded 3D or AR scenes.
+24. Technical References
+Shopify Storefront API - latest reference: https://shopify.dev/docs/api/storefront/latest
+Shopify headless Storefront API getting started: https://shopify.dev/docs/storefronts/headless/building-with-the-storefront-api/getting-started
+Shopify cart management: https://shopify.dev/docs/storefronts/headless/building-with-the-storefront-api/cart/manage
+Shopify Cart object / checkoutUrl: https://shopify.dev/docs/api/storefront/latest/objects/Cart
+Shopify storefront metafields: https://shopify.dev/docs/storefronts/headless/building-with-the-storefront-api/products-collections/metafields
+Shopify Metaobject: https://shopify.dev/docs/api/storefront/latest/objects/metaobject
+Next.js App Router: https://nextjs.org/docs/app
+Next.js Backend for Frontend guidance: https://nextjs.org/docs/app/guides/backend-for-frontend
+Core Web Vitals: https://web.dev/articles/vitals
+Implementation note: Storefront API versioning and framework/library versions must be rechecked immediately before build kickoff. This TRD intentionally specifies architecture and compatibility policy rather than freezing transient package versions.
+Field | Value
+Document | DYU Handmade Digital Atelier - Technical Requirements Document
+Version | 1.0
+Date | 22 September 2026
+Status | Client review / engineering baseline
+Architecture decision | Custom Next.js storefront integrated with Shopify Storefront API; Shopify Admin remains merchant back office.
+Rich content decision | Use Shopify metafields and metaobjects as the initial narrative CMS to avoid a second content dashboard.
+Deployment recommendation | Vercel or equivalent Node/edge-capable hosting; final platform confirmed during implementation.
+1 | Technical Executive Summary
+2 | Architecture Principles and Stack
+3 | System Context and Components
+4 | Shopify Integration
+5 | Commerce and Story Data Model
+6 | Next.js Application Architecture
+7 | Rendering, Caching and Revalidation
+8 | Cart and Checkout
+9 | Motion and 3D Subsystem
+10 | Design System and Frontend Components
+11 | Search, Filtering and Navigation
+12 | SEO and Structured Data
+13 | Analytics and Event Instrumentation
+14 | Performance Engineering
+15 | Accessibility Engineering
+16 | Security and Privacy
+17 | Error Handling and Resilience
+18 | Testing Strategy
+19 | CI/CD and Environments
+20 | Observability and Operations
+21 | Data Migration and Merchant Handover
+22 | Implementation Plan and Acceptance
+23 | Risks, Trade-offs and Future Extensibility
+24 | Technical References
+Principle | Engineering consequence
+Server first | Render indexable content and initial product data on the server; hydrate only interaction-heavy islands.
+Shopify as source of truth | Never duplicate operational price, inventory or variant state in a separate database unless a future use case explicitly requires it.
+Progressive enhancement | Story remains readable when animation/3D is unavailable or reduced.
+Client-operable content | Story metadata is editable in Shopify via defined metafields/metaobjects.
+Performance budget | Every 3D/motion feature must justify its bytes and CPU cost.
+Composable modules | Story blocks are reusable components rather than one-off page code.
+Secure by default | Private credentials stay server-side; privileged Admin API is not exposed to the browser.
+Observable releases | Core errors, web vitals and checkout failures are measurable.
+Layer | Technology / service | Role
+Frontend framework | Next.js App Router + React + TypeScript | Routing, server/client components, streaming, metadata, image handling.
+Styling | Tailwind CSS + CSS custom properties | Design tokens, responsive composition, utilities and component styling.
+UI motion | Motion / Framer Motion | Micro-interactions and component-level transitions.
+Scroll choreography | GSAP + ScrollTrigger | Controlled scroll-linked editorial sequences.
+3D | Three.js via React Three Fiber | Selective hero / ingredient / product scenes.
+Commerce | Shopify Storefront API (GraphQL) | Products, collections, search, cart and checkout URL.
+Merchant back office | Shopify Admin | Catalogue, inventory, pricing, discounts, orders and rich content fields.
+Rich content | Shopify Metafields + Metaobjects | Ingredients, craft steps, ritual steps, story blocks and media references.
+Hosting | Vercel recommended | Next.js deployment, CDN/edge delivery, preview deployments.
+Analytics | GA4 + tag manager and approved pixels | Product/story funnel measurement; consent-aware integration.
+Monitoring | Platform logs + error monitoring + Web Vitals RUM | Reliability and performance operations.
+Component | Responsibilities
+Storefront shell | Global layout, navigation, footer, consent, theme tokens and responsive shell.
+Commerce gateway | Typed Storefront API client, queries/mutations, error normalization, API-version header/path management.
+Catalogue domain | Products, variants, collections, availability, price formatting and taxonomy.
+Story domain | Metafields/metaobjects for origin, ingredients, craft, ritual and trust modules.
+Cart domain | Cart creation, line add/update/remove, buyer context, cart persistence and checkout URL.
+Experience engine | Motion primitives, scroll timelines, 3D scene loader, reduced-motion strategy.
+SEO layer | Metadata, canonical URLs, structured data, sitemap/robots and social cards.
+Analytics layer | Event schema, commerce events, story-engagement events and consent-aware dispatch.
+Operations layer | Error logging, web-vitals reporting, health checks and release metadata.
+Credential | Usage | Exposure rule
+Public Storefront access token | Browser-safe queries/mutations if direct client access is required. | May be present client-side only for scopes designed for public access.
+Private Storefront token | Server-side queries requiring private access. | Environment variable; never shipped to the browser.
+Admin API token | Schema setup, migration or server-only operational scripts if required. | Privileged secret; no browser access; least-privilege scopes.
+Webhook secret | Verify Shopify webhook signatures. | Server-only secret.
+Namespace.key | Type | Purpose
+dyu.short_story | multi_line_text_field | Short emotional product introduction.
+dyu.sensory_notes | rich_text_field | Texture, aroma, finish / feel description.
+dyu.ritual_intro | multi_line_text_field | Ritual positioning copy.
+dyu.ingredients | list.metaobject_reference | Ordered Ingredient objects.
+dyu.craft_steps | list.metaobject_reference | Ordered Craft Step objects.
+dyu.ritual_steps | list.metaobject_reference | Ordered Ritual Step objects.
+dyu.story_blocks | list.metaobject_reference | Flexible editorial sections.
+dyu.trust_blocks | list.metaobject_reference | Approved customer/maker/sustainability proof.
+dyu.model_3d | file_reference or URL field | Optional GLB/3D asset reference.
+dyu.hero_video | file_reference | Optional story video / poster source.
+Metaobject | Core fields
+Ingredient | name, botanical_name?, summary, benefit_copy, sourcing_copy, image, illustration, alt_text, display_order.
+CraftStep | step_number, title, description, image/video, note, duration/phase if relevant.
+RitualStep | step_number, title, instructions, image, time_of_day, icon.
+StoryBlock | eyebrow, heading, body, media, layout_variant, CTA label/link.
+TrustBlock | type, quote/body, attribution, source/verification reference, media, display rules.
+FAQItem | question, answer, category, order.
+EditorialAuthor | name, role, bio, image, optional social/reference fields.
+Route | Rendering intent
+/ | Server-rendered/cached home with client motion islands.
+/shop | Server-rendered catalogue shell + client filter interactions as required.
+/collections/[handle] | Cached collection page with revalidation.
+/products/[handle] | Server-rendered product/story payload + client product gallery, cart and 3D modules.
+/ingredients/[handle] | Server-rendered ingredient editorial page.
+/journal | Cached article listing.
+/journal/[slug] | Server-rendered article with related products.
+/search | Dynamic search experience.
+/cart | Dynamic cart page/drawer; cart state persisted per user session.
+/api/* or route handlers | Webhooks, analytics proxy or server-only integration endpoints only where necessary.
+Data | Recommended policy
+Navigation / menus | Long cache; invalidate on menu/content webhook or deployment.
+Collection content | Cached; revalidate on product/collection changes.
+Product narrative | Cached; targeted invalidation when product/metafield/metaobject changes.
+Price / availability | Use sufficiently fresh server fetch or Shopify data policy appropriate to business; cart validation remains authoritative.
+Journal / story pages | Longer cache with on-demand revalidation.
+Cart | No shared cache; user/session scoped only.
+Search | Dynamic query; debounce client input; cache only safe repeated public responses if beneficial.
+Area | Rule
+Framer/Motion | Use for opacity/transform-based micro-interactions, layout transitions and component entrance/exit.
+GSAP | Use for curated scroll sequences where timeline control materially improves storytelling.
+React Three Fiber | Use only for approved signature scenes; dynamically import and lazy-load.
+Asset format | Prefer optimized GLB/GLTF with compressed textures and geometry where 3D is used.
+Poster fallback | Every 3D scene has a static high-quality image poster and content equivalent.
+Reduced motion | Disable or simplify continuous/parallax/scroll-linked motion when requested by user preference.
+Mobile | Cap complexity; consider disabling pointer-driven scenes or replacing with touch-safe interactions.
+Main thread | Avoid long-running JS on scroll; use transform/opacity and requestAnimationFrame-driven libraries rather than layout-thrashing code.
+Component family | Examples
+Navigation | Header, mega/menu, mobile menu, search trigger, cart indicator.
+Editorial | Section heading, quote, story split, image reveal, handwritten-note motif, timeline.
+Commerce | Product card, price, variant selector, quantity, add-to-bag, inventory state, cart line.
+Story product | Hero, 360/3D module, ingredient atlas, craft timeline, ritual steps, community story.
+Content | Article card, rich text, gallery, related products, FAQ accordion.
+Feedback | Toast, inline error, loading/skeleton, empty state, unavailable state.
+Accessibility | Skip link, visually hidden label, focus ring, reduced-motion wrapper.
+Capability | Technical requirement
+Predictive search | Debounced query, keyboard navigation, loading and empty states.
+Collection filters | Represent selected filters in URL query parameters for shareability and back-button correctness where practical.
+Sorting | Server/query-driven sort modes mapped to Shopify capabilities.
+Facets | Use standardized product taxonomy/metafields so ingredient/concern filters are not driven by uncontrolled free text.
+Navigation | Menu configuration sourced from Shopify or a versioned config, with stable route handles.
+Event | Core payload
+view_item | product_id, handle, variant_id?, price, currency, collection_context.
+story_section_view | product_id, section_key, section_index, dwell_time bucket.
+ingredient_open | product_id, ingredient_handle, interaction_method.
+ritual_step_view | product_id, step_index.
+add_to_cart | cart_id hash/anonymous id, product_id, variant_id, quantity, value, currency.
+begin_checkout | cart value, currency, line count.
+purchase | order/purchase payload as available from approved Shopify/analytics integration; avoid duplicate firing.
+Category | Budget / target
+Core Web Vitals | Aim for LCP <=2.5 s, INP <=200 ms and CLS <=0.10 at p75 after sufficient field data.
+Hero media | Responsive dimensions, priority only for true LCP media, modern format.
+3D | Not part of critical rendering path; dynamically loaded after intent/visibility.
+Fonts | Minimize families/weights; self-host or use optimized delivery subject to licensing.
+Third-party JS | Only approved scripts; load after core content where possible.
+Listing images | Use appropriately sized thumbnails; never load PDP-resolution originals into grids.
+Animations | Prefer compositor-friendly transforms/opacity; avoid forced synchronous layout on scroll.
+Control | Requirement
+Secrets | All private tokens in deployment secret store; never committed to source or embedded in client JS.
+CSP / headers | Define Content-Security-Policy and standard security headers compatible with Shopify checkout, analytics and approved media origins.
+Webhook verification | Validate Shopify webhook signature before triggering revalidation or data operations.
+Input validation | Validate search, cart attributes, forms and webhook payloads at boundaries.
+Rate limiting | Apply to custom public route handlers/forms that could be abused.
+Dependencies | Automated vulnerability scanning / dependency update process.
+PII | Minimize storage in custom app; prefer Shopify checkout/account systems for customer commerce data.
+Logging | Do not log secrets, full tokens, payment data or unnecessary personal data.
+Failure | Required behaviour
+Shopify query timeout | Show recoverable error state or cached content where safe; log correlation ID.
+Product missing/unpublished | Return 404/not-found route; remove from sitemap on next rebuild/revalidation.
+Variant sold out | Disable add action and surface clear availability state.
+Cart mutation error | Preserve current cart UI, show actionable message, allow retry.
+3D asset fails | Fall back to poster image; never block product content.
+Analytics failure | Must not block navigation, cart or checkout.
+Image missing | Use controlled placeholder or hide optional media slot; never collapse layout unpredictably.
+Test layer | Coverage
+Unit | Price formatting, option mapping, story-schema transforms, analytics payload builders.
+Component | Variant selector, product card, cart line, ingredient card, timeline controls.
+Integration | Shopify query/mutation wrappers, webhook verification, cache invalidation.
+E2E | Browse -> product -> variant -> add to cart -> cart -> checkout URL; search/filter; mobile navigation.
+Visual regression | Key templates at desktop/tablet/mobile; especially animation-free states.
+Accessibility | Automated checks plus keyboard, focus and reduced-motion manual passes.
+Performance | Lighthouse/bundle analysis and representative-device profiling.
+Content QA | No placeholder facts, broken media, invalid claims or empty required fields.
+Environment | Purpose | Data considerations
+Local | Developer work and component testing. | Use development Shopify store/token or controlled fixtures.
+Preview | Per-PR deployment for design/QA review. | Never use privileged production Admin credentials unless strictly required and access-controlled.
+Staging | Release candidate and client UAT. | Use production-like Shopify content or approved test store strategy.
+Production | Public storefront. | Production Storefront credentials, monitoring and rollback enabled.
+Signal | Implementation
+Application errors | Error monitoring with environment/release tags and source maps.
+Shopify errors | Normalize GraphQL errors/userErrors; alert on sustained failures.
+Web Vitals | RUM collection for LCP, INP, CLS and route context.
+Checkout funnel | Monitor add-to-cart -> cart -> checkout transitions.
+404s | Track broken incoming links and stale product handles.
+Deployment | Release identifier visible in logs and support tooling.
+Uptime | External synthetic monitoring for home, product and cart endpoints where appropriate.
+Workstream | Outputs
+Foundation | Repository, App Router, TypeScript, Tailwind, tokens, CI, environments.
+Shopify gateway | Typed GraphQL client, product/collection/search/cart operations, API version pinning.
+Content schema | Metafields/metaobjects, query fragments, merchant field definitions.
+Core UI | Navigation, footer, product cards, collection/search, cart.
+Story product | Hero, origin, craft, ingredients, ritual, trust and purchase modules.
+Motion/3D | Animation primitives, scroll timelines, lazy 3D loader and reduced-motion branch.
+SEO/analytics | Metadata, JSON-LD, sitemap, events, consent integration.
+Quality | Accessibility, performance, E2E, visual QA, content validation.
+Launch | Migration, staging/UAT, domain, monitoring, handover.
+Decision / risk | Trade-off / response
+Shopify as rich-content store | Simplifies client operations and avoids a second CMS; complex editorial workflows may later justify a dedicated CMS adapter.
+Next.js rather than Shopify theme | More engineering and maintenance, but significantly greater control over storytelling, performance strategy and 3D.
+Selective 3D | Limits novelty on some pages but protects performance and accessibility.
+Shopify checkout handoff | Checkout visual customization is constrained by Shopify plan/capabilities, but payment/security/operations remain robust.
+Native search initially | Lower complexity and cost; keep search provider abstraction if relevance/catalogue scale grows.
+Metafield schema evolution | Changes require migration discipline; version definitions and avoid uncontrolled ad-hoc fields.
+Third-party review/marketing apps | May introduce scripts and data dependencies; integrate through approved APIs/widgets only after performance/privacy review.

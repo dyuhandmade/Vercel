@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-02",
+  "shopifyChangesSaved": true,
+  "originalDataPreserved": true,
+  "websiteContentEntries": 66,
+  "productMetafieldDefinitions": 10,
+  "ingredientEntries": 9,
+  "seededProductStories": 26,
+  "productsWithIngredientReferences": 6,
+  "uploadedExistingSiteImages": 4,
+  "productionBuild": "passed",
+  "regressionTests": {"passed": 26, "failed": 0},
+  "liveBrowserChecks": {"routes": 13, "viewports": [1440, 390], "checks": 26, "browserErrors": 0, "horizontalOverflow": 0},
+  "frontendDeployment": "local workspace updated; not deployed to a public host",
+  "preview": "http://127.0.0.1:3200",
+  "guide": "README.md — Editing the website in Shopify"
+}

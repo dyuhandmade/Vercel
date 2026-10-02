@@ -1,0 +1,20 @@
+.atelier-preview-overlay{bottom:auto}
+.atelier-preview-overlay .overlay-head{margin-bottom:16px}
+.atelier-preview-invitation{font-size:.85rem;color:var(--muted);margin-bottom:18px}
+.atelier-preview-choices{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:15px}
+.atelier-preview-choices button{min-height:44px;padding:10px 17px;border:1px solid #b8c1ad;border-radius:24px;color:var(--forest);font-size:.73rem;transition:background .2s,color .2s}
+.atelier-preview-choices button[aria-pressed=true]{background:var(--forest);color:#f9f7f1;border-color:var(--forest)}
+.atelier-preview-choices button:hover:not([aria-pressed=true]){background:#e6e9dc}
+.atelier-preview-overlay .atelier-preview-stage .product-visual{height:clamp(330px,48dvh,460px);background:radial-gradient(ellipse at 50% 32%,#fcfaf4 0%,#e8e9df 78%)}
+.atelier-preview-stage .visual-photo{object-fit:contain;padding:18px 10% 85px;mix-blend-mode:multiply}
+.atelier-preview-stage .viewer-controls{bottom:8px}
+.atelier-preview-stage .viewer-controls button{min-height:44px;min-width:44px}
+.atelier-preview-stage .photo-model-caption{bottom:69px}
+.atelier-preview-stage .model-loading{inset:auto;bottom:90px;left:7%;right:7%;text-align:center;color:var(--forest);font-size:.76rem}
+.atelier-preview-stage .model-note{bottom:83px;left:7%;right:7%;text-align:center;line-height:1.5}
+.atelier-preview-details{display:flex;align-items:center;justify-content:space-between;gap:25px;padding-top:25px}
+.atelier-preview-details .eyebrow{font-size:.59rem}
+.atelier-preview-details h3{margin:7px 0 0;font-size:1.85rem}
+.atelier-preview-details .text-link{display:flex;gap:9px;align-items:center;white-space:nowrap}
+@media(max-width:540px){.atelier-preview-overlay .overlay-inner{padding:23px 18px}.atelier-preview-invitation{font-size:.78rem}.atelier-preview-choices{gap:7px}.atelier-preview-choices button{font-size:.66rem;padding:8px 12px}.atelier-preview-overlay .atelier-preview-stage .product-visual{height:330px}.atelier-preview-details{gap:15px;align-items:flex-start;flex-direction:column;padding-top:21px}.atelier-preview-details h3{font-size:1.6rem}}
+@media(prefers-reduced-motion:reduce){.atelier-preview-choices button{transition:none}}

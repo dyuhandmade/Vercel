@@ -1,0 +1,395 @@
+DYU HANDMADE
+Digital Atelier Website
+Product Requirements Document
+PRD | Story-first headless commerce experience
+
+Prepared for DYU Handmade leadership and implementation stakeholders
+Version 1.0 | 22 September 2026
+
+Document Control
+
+Important: all concept mockups in this PRD are visual-direction studies. Product names, prices, testimonials, founder names, counts and claims visible inside generated concepts are placeholders unless separately validated by DYU. Production content must use client-approved facts only.
+Document Contents
+
+1. Executive Summary
+DYU Handmade will be rebuilt as a premium, story-first digital commerce experience that combines botanical editorial storytelling, handcrafted product discovery and a highly polished Shopify-powered buying flow. The website should feel like entering a quiet botanical atelier rather than entering a conventional online store. Commerce remains essential, but the primary persuasion model is trust and emotional connection: visitors first understand the product, ingredients, craft and ritual; only then does the interface progressively strengthen the purchase action.
+The experience direction comes from the supplied Digital Atelier concept, the DYU brand references supplied by the client, the Kadam Haat ambience benchmark, and the eight UI/UX concept images created for this project. The website must preserve DYU's soft natural tone while advancing beyond template commerce through purposeful animation, tactile editorial composition, selective 3D product/ingredient experiences and a strong mobile journey.
+Shopify will be integrated as the operational commerce system so the DYU team can manage products, variants, prices, inventory, collections, media, discounts and orders without developer involvement. The custom frontend will transform that commerce data into the brand experience.
+
+Figure 1. DYU conversion model: relationship before transaction.
+2. Product Vision & Experience Thesis
+2.1 Vision statement
+Create a digital atelier where customers can discover what a DYU product is, where it comes from, how it is made, what it contains, how it feels, and why it matters - before being asked to buy it.
+2.2 Experience principles
+
+3. Objectives and Success Outcomes
+
+
+Figure 2. Success is deliberately broader than conversion alone.
+4. Scope and Release Boundaries
+4.1 Phase 1 - required scope
+Custom responsive Next.js storefront connected to Shopify.
+Home / Atelier landing experience.
+Shop landing, collection pages, search, filters and sorting.
+Story-first product detail journey with product media, origin, craft, ingredients, ritual, community proof and final purchase module.
+Brand Story, How It Is Made, Ingredient Atlas / ingredient library, Journal and support pages.
+Cart experience and redirect/hand-off to Shopify checkout.
+Shopify product/variant/inventory/collection administration.
+Shopify metafields/metaobjects for rich DYU story content.
+Responsive mobile-first implementation.
+Analytics, SEO metadata, structured data, accessibility and performance monitoring.
+Content migration/import for the agreed launch catalogue and agreed editorial content.
+Production deployment, domain cutover and launch QA.
+4.2 Phase 2 / optional enhancements
+Personalized ritual finder or guided product quiz.
+Subscriptions / replenishment flows if commercially adopted.
+Internationalisation, additional currencies/markets and regional content.
+Workshops, community/event modules or loyalty programme.
+Advanced personalization/recommendations based on consented behaviour.
+AR or expanded 3D product visualisation where suitable assets exist.
+4.3 Explicitly out of scope unless separately approved
+Building a custom order-management or inventory-management system to replace Shopify.
+Manufacturing ERP, warehouse management or courier software.
+Unverified health/medical efficacy claims.
+Automated generation of testimonials, customer identities or product claims.
+A pixel-for-pixel clone of Kadam Haat or any third-party website.
+5. Design and Brand Experience System
+
+Figure 3. Working palette derived from the botanical atelier direction; final tokens require brand sign-off.
+5.1 Typography and layout
+Editorial serif headings with grounded, book-like rhythm; highly readable sans-serif for utility and commerce UI.
+Generous margins and negative space; avoid crowded card grids and compressed text blocks.
+12-column desktop grid with responsive reductions for tablet/mobile.
+Use torn-paper, botanical illustration and handwritten-note motifs selectively - not as a decorative layer on every section.
+Photography must contextualize products with ingredients, hands, materials, environments and ritual rather than relying only on isolated packshots.
+5.2 Tone of voice
+Calm, honest and knowledgeable.
+Educate before selling.
+Sensory language may describe texture, aroma and ritual when it is factually approved.
+Avoid false scarcity, exaggerated efficacy language and generic luxury clichés.
+6. Audience and User Needs
+The following are design personas, not demographic claims about DYU's existing customers. They are used to ensure the product supports different intent patterns.
+
+7. Experience Funnel and User Journeys
+
+Figure 4. Required narrative sequence for product discovery.
+7.1 Primary product journey
+Arrive through home, collection, search, social or organic landing page.
+See the product in context with a strong emotional/visual opening.
+Understand the origin story and what need/ritual the product was created around.
+Explore how the product is made and what materials/ingredients contribute to it.
+See how the product is used and how the ritual feels.
+Read real customer/maker proof and reassurance.
+Reach the purchase module with price, variant, quantity, optional gift/subscription information and Add to Bag.
+Review cart and continue into Shopify checkout.
+7.2 Returning-user shortcut
+The story must never become a barrier. Returning users need persistent navigation, search and a discoverable add-to-bag path. On mobile, a compact sticky commerce control may appear after the core product identity is established, while the page continues to encourage story exploration.
+8. Information Architecture
+
+Figure 5. Proposed information architecture.
+8.1 Page inventory
+
+9. Functional Requirements by Page
+9.1 Home / Atelier entrance
+
+9.2 Shop and collection pages
+
+10. Story-First Product Journey Requirements
+The product page is the centrepiece of DYU. It should sell the story, the making, the ingredient logic and the ritual - and only then let the product sell itself.
+10.1 Required content sequence
+
+10.2 Product requirements
+
+11. Shopify Merchant Experience
+
+Figure 6. Catalogue and story management without routine developer involvement.
+11.1 Merchant-editable fields
+
+11.2 Client usability requirement
+A product manager should be able to publish a normal new product, assign it to a collection, add media, enter narrative content and make it visible on the custom storefront without editing source code. Advanced new animation scenes or new data structures may require development, but normal content population must not.
+12. Content and Data Requirements
+12.1 Content model categories
+Product commerce data: title, handle, variants, price, availability, inventory, media.
+Product narrative: short story, long story, sensory notes, approved claims, care instructions, ritual copy.
+Ingredient objects: common name, botanical name if approved, role, sourcing copy, benefit copy, image/illustration, display order.
+Craft-step objects: step number, title, description, media, optional quote/note.
+Ritual-step objects: step number, title, instructions, time-of-day, media.
+Trust content: verified testimonials/reviews, maker notes, certifications or factual commitments.
+Editorial content: journal article title, slug, excerpt, body, author, date, imagery and related products.
+12.2 Content governance
+
+13. Motion, 3D and Interaction Requirements
+
+Figure 7. Motion system: progressive intensity with accessibility fallback.
+13.1 Signature animation opportunities
+Hero product depth: subtle pointer parallax / camera shift, not constant rotation.
+Scroll-driven transition from raw botanical to finished product.
+Ingredient Atlas: botanical nodes or ingredient objects reveal details on hover/tap.
+Craft timeline: sections reveal in sequence as the visitor moves through the process.
+Image masks and line-by-line type reveals for editorial pacing.
+Product texture or container 360/3D interaction only where real high-quality source assets are supplied.
+13.2 Motion guardrails
+No auto-playing motion that blocks content access.
+No animation required to understand essential product information.
+Respect prefers-reduced-motion with static/shortened alternatives.
+Avoid simultaneous parallax layers that compromise legibility or motion comfort.
+Lazy-load heavyweight animation/3D bundles.
+Mobile may simplify or replace desktop 3D scenes with optimized alternatives.
+14. Responsive and Mobile UX
+The mobile experience is not a compressed desktop design. It should preserve the same emotional sequence while converting wide editorial compositions into swipeable, stacked and tap-friendly modules.
+
+A complete mobile journey concept is included in the Concept Image Gallery. The production implementation must be validated on real devices, including mid-range Android hardware commonly used in India.
+15. Accessibility, SEO and Performance
+15.1 Accessibility requirements
+Semantic heading order and landmark regions.
+Keyboard access to navigation, menus, product variants, gallery, ingredient interactions and cart controls.
+Visible focus states that fit the brand system.
+Alt text for meaningful imagery and decorative treatment for purely ornamental graphics.
+Sufficient contrast for text and controls; do not place essential copy over uncontrolled photography without a contrast treatment.
+Screen-reader labels for icon-only controls.
+Reduced-motion support.
+Form labels, error messaging and status announcements for cart interactions.
+15.2 SEO requirements
+Indexable server-rendered product, collection, story and journal content.
+Unique title/meta description and canonical URL strategy.
+Product, BreadcrumbList, Organization and Article structured data where eligible and factually supported.
+XML sitemap and robots configuration.
+Clean handles and internal linking between products, ingredients, collections and articles.
+Open Graph / social preview metadata.
+15.3 Performance targets
+
+The Core Web Vitals thresholds above align with current web.dev guidance; they are targets, not guarantees, and must be measured in field data after launch.
+16. Analytics and Measurement
+16.1 Event model
+
+16.2 Measurement principles
+Track the story funnel as well as conventional commerce.
+Do not collect sensitive personal data unnecessarily.
+Use consent management where legally/operationally required for analytics and advertising tags.
+Establish KPI baselines after launch before committing to numerical improvement targets.
+17. Acceptance Criteria
+
+18. Delivery Roadmap, Risks and Dependencies
+18.1 Recommended delivery sequence
+
+18.2 Key risks and mitigations
+
+18.3 Client dependencies
+Shopify store/admin access and required sales-channel permissions.
+Approved product catalogue, pricing, variants, stock logic and collections.
+Approved brand logo assets and typography/licensing decisions.
+Final product photography, process imagery, ingredient imagery/illustration and any video/3D assets.
+Approved ingredient, efficacy, sustainability and production claims.
+Shipping, returns, privacy, terms and customer-service policies.
+Analytics/ad account access if tracking tags are required at launch.
+19. Concept Image Gallery
+The following eight images are concept studies generated during the design exploration. They define ambience, information hierarchy and narrative sequencing. They are not production screenshots and must not be treated as approved factual product content.
+
+Concept 01 - Emotional product landing: story and atmosphere before commerce.
+Production interpretation: preserve the composition logic, pacing and experience intent while replacing all visible placeholder copy, prices, reviews, product claims and identities with DYU-approved data.
+
+
+Concept 02 - Product origin and editorial story: formula, texture, botanicals and maker narrative.
+Production interpretation: preserve the composition logic, pacing and experience intent while replacing all visible placeholder copy, prices, reviews, product claims and identities with DYU-approved data.
+
+
+Concept 03 - Craft journey: sourcing, infusion, blending, handcrafting, quality, packaging and ritual.
+Production interpretation: preserve the composition logic, pacing and experience intent while replacing all visible placeholder copy, prices, reviews, product claims and identities with DYU-approved data.
+
+
+Concept 04 - Ingredient Atlas: interactive botanical exploration around the product.
+Production interpretation: preserve the composition logic, pacing and experience intent while replacing all visible placeholder copy, prices, reviews, product claims and identities with DYU-approved data.
+
+
+Concept 05 - Ritual and sensory experience: how to use, texture, feeling and daily ritual.
+Production interpretation: preserve the composition logic, pacing and experience intent while replacing all visible placeholder copy, prices, reviews, product claims and identities with DYU-approved data.
+
+
+Concept 06 - Community and trust: human stories, maker promise and social proof.
+Production interpretation: preserve the composition logic, pacing and experience intent while replacing all visible placeholder copy, prices, reviews, product claims and identities with DYU-approved data.
+
+
+Concept 07 - Final conversion moment: purchase becomes the natural conclusion of the story.
+Production interpretation: preserve the composition logic, pacing and experience intent while replacing all visible placeholder copy, prices, reviews, product claims and identities with DYU-approved data.
+
+
+Concept 08 - Mobile story-driven journey: emotional landing to story, ingredients, ritual and add-to-bag.
+Production interpretation: preserve the composition logic, pacing and experience intent while replacing all visible placeholder copy, prices, reviews, product claims and identities with DYU-approved data.
+20. References and Assumptions
+20.1 Project source material
+The Digital Atelier - 15-page botanical digital artistry concept supplied for DYU Handmade.
+Client-supplied DYU Handmade Amazon store, Instagram profile and Flourish feature links.
+Kadam Haat used as an ambience / craft-commerce reference only.
+Eight project-specific UI/UX concept images generated and included in this PRD.
+20.2 Technical reference sources informing requirements
+Shopify Storefront API: https://shopify.dev/docs/api/storefront/latest
+Shopify Cart / checkoutUrl flow: https://shopify.dev/docs/storefronts/headless/building-with-the-storefront-api/cart/manage
+Shopify Storefront metafields: https://shopify.dev/docs/storefronts/headless/building-with-the-storefront-api/products-collections/metafields
+Shopify Metaobjects: https://shopify.dev/docs/api/storefront/latest/objects/metaobject
+Next.js App Router: https://nextjs.org/docs/app
+Core Web Vitals: https://web.dev/articles/vitals
+20.3 Assumptions
+DYU will use Shopify as the operational commerce system.
+The custom site will be permitted to use Shopify Storefront API / headless capabilities.
+The launch catalogue size is within normal Shopify headless storefront limits and does not require a separate product-search engine at initial launch.
+All legal, medical/skin, sustainability and testimonial claims are subject to client validation.
+Final schedule and commercial scope depend on content readiness and number of products/collections to migrate.
+Field | Value
+Document | DYU Handmade Digital Atelier - Product Requirements Document
+Version | 1.0
+Date | 22 September 2026
+Status | Client review / implementation baseline
+Primary objective | Define the customer experience, functional scope, content model and acceptance criteria for the new DYU Handmade website.
+Commerce platform | Shopify as catalogue, inventory, cart and checkout source of truth
+Experience layer | Custom story-led web experience; final technical implementation defined in the companion TRD
+1 | Executive Summary
+2 | Product Vision & Experience Thesis
+3 | Objectives and Success Outcomes
+4 | Scope and Release Boundaries
+5 | Design and Brand Experience System
+6 | Audience and User Needs
+7 | Experience Funnel and User Journeys
+8 | Information Architecture
+9 | Functional Requirements by Page
+10 | Story-First Product Journey Requirements
+11 | Shopify Merchant Experience
+12 | Content and Data Requirements
+13 | Motion, 3D and Interaction Requirements
+14 | Responsive and Mobile UX
+15 | Accessibility, SEO and Performance
+16 | Analytics and Measurement
+17 | Acceptance Criteria
+18 | Delivery Roadmap, Risks and Dependencies
+19 | Concept Image Gallery
+20 | References and Assumptions
+Principle | Product requirement
+Trust, not urgency | Avoid countdown timers, intrusive discount overlays and aggressive scarcity language unless there is a genuine time-bound operational reason.
+Discovering a craft | Expose process, ingredients, makers and ritual as first-class product content.
+Luxury via restraint | Use space, typography, photography, material texture and motion discipline rather than visual excess.
+Tactility on screen | Use close-up texture, raw materials, soft shadows, wood, paper, stone and botanical motion to imply physical touch.
+Editorial before transactional | Product pages should read like a guided story; price and add-to-bag remain accessible but should not visually dominate the early journey.
+Performance is part of luxury | Animation and 3D must not make the experience slow, unstable or inaccessible.
+Client-operable commerce | Routine product changes must be possible from Shopify Admin without source-code edits.
+Objective | Desired outcome | Example measurement
+Brand differentiation | DYU is recognizable as an artisanal botanical brand rather than a commodity storefront. | Direct traffic growth; returning visitors; qualitative customer feedback.
+Product understanding | Visitors understand ingredients, process, usage and sensory characteristics. | Ingredient interactions; journey-section completion; scroll depth.
+Trust | Claims are transparent and supported with real content. | Engagement with sourcing, reviews, maker/process sections.
+Commerce | Narrative translates into confident buying. | Add-to-bag rate, checkout starts, conversion, repeat purchase.
+Merchant independence | DYU team can manage core catalogue without engineering support. | Percentage of catalogue updates completed from Shopify Admin.
+Organic discovery | Search engines can index product, collection, story and journal content. | Organic impressions, indexed pages, non-brand queries.
+Experience quality | The rich interface remains fast and accessible. | Core Web Vitals, accessibility audit, device QA pass rate.
+Conceptual persona | Primary need | What the site must provide
+The ingredient-conscious explorer | Wants to know what is inside and why. | Ingredient Atlas, plain-language purpose, sourcing and transparent product data.
+The ritual seeker | Wants a calming, intentional self-care experience. | Ritual guidance, sensory content, pairing and morning/evening usage.
+The gift buyer | Wants confidence, presentation and meaning. | Gift sets, clear shipping, gifting story, note option and easy checkout.
+The returning customer | Already trusts the product and wants speed. | Fast search, direct add-to-bag, saved/recent context where feasible.
+The editorial visitor | Discovers DYU through search/social and is not yet ready to buy. | Journal, story, ingredients, internal links and soft commerce hand-offs.
+Page / module | Purpose | Priority
+Home | Atelier entrance, brand thesis, collection discovery, ingredients, craft, community and journal. | P0
+Shop | All products / category discovery. | P0
+Collection | Category-specific narrative + filtered product listing. | P0
+Product Journey | Story-led product detail and conversion. | P0
+Cart | Review, quantities, totals and checkout handoff. | P0
+Search | Predictive / instant discovery and result page. | P0
+Our Story | Brand philosophy, people and purpose. | P0
+How It Is Made | Craft / production narrative. | P0
+Ingredients | Ingredient library / Atlas. | P0
+Journal | SEO/editorial discovery. | P1
+Article | Long-form ingredient, ritual or brand content. | P1
+Gifting / Corporate Gifting | Gift-oriented discovery. | P1
+FAQ / Contact | Support and confidence. | P0
+Account | Optional customer-account entry depending launch decision. | P1
+Policies | Privacy, terms, returns, shipping, accessibility. | P0
+ID | Requirement | Acceptance statement
+PRD-HOME-01 | Immersive hero | Hero combines approved brand copy, high-quality product/lifestyle media, restrained motion and one primary CTA.
+PRD-HOME-02 | Collection discovery | Key collections are visible within the first major content sequence and link to collection pages.
+PRD-HOME-03 | Brand thesis | Homepage communicates handmade/botanical positioning without requiring an About-page visit.
+PRD-HOME-04 | Ingredient preview | At least one ingredient-led module links to Ingredient Atlas / relevant product.
+PRD-HOME-05 | Craft preview | A concise making/process sequence links to full craft narrative.
+PRD-HOME-06 | Featured products | Products are sourced from Shopify; cards show approved title, price, media and availability.
+PRD-HOME-07 | Editorial discovery | Journal / story content is represented without overwhelming commerce.
+PRD-HOME-08 | Community proof | Approved testimonials or verified proof can be shown; no fabricated social proof.
+PRD-HOME-09 | Newsletter | Optional newsletter capture uses consent-compliant copy and clear expectation setting.
+ID | Requirement | Acceptance statement
+PRD-SHOP-01 | Shop landing | Supports collection/category exploration before presenting a dense grid.
+PRD-SHOP-02 | Product listing | Shows Shopify products with inventory-aware states.
+PRD-SHOP-03 | Filtering | Filters may include category, product type, key ingredient, concern/ritual, price and availability where data exists.
+PRD-SHOP-04 | Sorting | Supports featured, price and newest/relevant sorting supported by the data layer.
+PRD-SHOP-05 | Quick add | May be used for simple single-variant products; multi-variant items open a selection flow.
+PRD-SHOP-06 | Empty states | Every zero-result state provides a recovery path and avoids dead ends.
+PRD-SHOP-07 | Collection story | Collection pages may include editorial hero/story modules configured from Shopify content fields.
+Stage | Required content | Interaction model
+Emotional landing | Hero product imagery, name, short sensory statement, soft story CTA. | Cinematic reveal; optional 360/3D where available.
+Origin | Why the product exists; formula inspiration; approved maker/founder note. | Editorial scroll; layered imagery.
+Craft | Sourcing, infusion/extraction, blending, small-batch production, QC, packaging. | Timeline / scroll sequence.
+Ingredients | Hero botanicals, purpose, sourcing and approved benefits. | Interactive Atlas / cards / hover-tap.
+Sensory & ritual | Texture, amount, method, AM/PM usage, pairing. | Step sequence with tactile imagery.
+Community & trust | Real customer reviews/stories, policies, maker promise, verified trust details. | Story cards and reviews.
+Purchase | Price, variants, inventory, quantity, gifting/subscription if enabled, add-to-bag. | Clear but restrained conversion module.
+Pairing | Related products and complete-the-ritual suggestions. | Editorial product pairing.
+ID | Requirement
+PRD-PDP-01 | All commerce data must resolve from Shopify product/variant data.
+PRD-PDP-02 | Narrative blocks must be manageable through defined Shopify metafields/metaobjects.
+PRD-PDP-03 | The initial viewport must not resemble a marketplace-style specification sheet.
+PRD-PDP-04 | Price and Add to Bag must remain discoverable and accessible; narrative must not prevent purchase.
+PRD-PDP-05 | Ingredient and efficacy copy must be approved by DYU before publication.
+PRD-PDP-06 | Media gallery supports product imagery, texture, lifestyle, process and optional video/3D poster.
+PRD-PDP-07 | Structured product data must be available to search engines despite the custom visual layout.
+PRD-PDP-08 | Unavailable variants are clearly disabled; inventory state is never faked.
+PRD-PDP-09 | Reviews/testimonials use real customer data from an approved source/app or client-provided content.
+PRD-PDP-10 | Each narrative module degrades gracefully when data is absent; no empty decorative sections.
+Area | Managed in Shopify | Examples
+Commerce core | Standard product / variant fields | Title, handle, price, compare-at price, SKU, options, inventory, status.
+Media | Product media | Packshot, lifestyle, texture, process stills, video poster.
+Taxonomy | Collections, product type, tags / standardized attributes | Skincare, hair care, ritual sets, ingredient facets.
+Narrative | Metafields/metaobjects | Origin story, sensory notes, ingredients, craft steps, ritual steps, quote blocks.
+SEO | Product/collection/page SEO fields and custom metadata where needed | Meta title, description, canonical behaviour, social image.
+Operations | Shopify Admin | Orders, discounts, inventory, fulfilment, customer service operations.
+Rule | Requirement
+Claims approval | Health, skin and sustainability claims require client approval and, where appropriate, supporting evidence.
+Source of truth | Commerce facts come from Shopify; the frontend must not hard-code prices or stock.
+Placeholder ban | Generated concept text and fake testimonials must not enter production.
+Media rights | DYU must have rights to all photographs, video, illustration, fonts and 3D assets used in production.
+Content completeness | Launch checklist must identify missing story modules per product and define fallback behaviour.
+Breakpoint intent | Experience requirement
+Mobile | Single-column narrative; large tap areas; simplified motion; sticky compact commerce after identity/story introduction.
+Tablet | Two-column editorial modules where legible; touch-first interactions; reduced hover dependence.
+Desktop | Full editorial grid, richer parallax, hover detail and selective 3D.
+Large desktop | Content width remains controlled; avoid stretching text and product grids across the entire viewport.
+Metric | Launch target | Notes
+LCP | <= 2.5 s at p75 | Mobile and desktop field data goal.
+INP | <= 200 ms at p75 | Interactive product/3D features must not monopolize the main thread.
+CLS | <= 0.10 at p75 | Reserve media dimensions and avoid late layout shifts.
+Initial JS | Minimize by server-rendering narrative content | 3D and non-critical animation code lazy-loaded.
+Image delivery | Responsive, modern formats, explicit sizes | No uncompressed full-resolution assets on listing pages.
+Event group | Example events
+Discovery | view_home, view_collection, search, filter_apply, sort_change
+Story | story_section_view, craft_step_view, ingredient_open, ritual_step_view, video_play
+Commerce | view_item, select_variant, add_to_cart, view_cart, begin_checkout, purchase
+Trust | review_view, policy_view, maker_story_view
+Editorial | article_view, related_product_click, newsletter_submit
+Area | Release acceptance
+Brand fidelity | Approved palette, type hierarchy, imagery style and editorial spacing are implemented consistently.
+Story journey | A visitor can progress from product introduction through story, craft, ingredients, ritual, trust and purchase without broken sections.
+Shopify sync | Approved products, variants, price and availability update from Shopify without code changes.
+Cart/checkout | Add/update/remove works; totals are correct; checkout handoff opens the Shopify checkout for the correct cart.
+Responsive | All P0 pages pass agreed desktop/tablet/mobile QA.
+Accessibility | No critical accessibility defects in launch audit; keyboard and reduced-motion paths are tested.
+Performance | Core pages meet agreed lab budgets and are instrumented for field monitoring.
+SEO | Canonical metadata, sitemap, robots and structured data are validated.
+Analytics | Core event taxonomy is firing and purchase attribution is testable end-to-end.
+Content | No placeholder/generated facts, names, prices or testimonials remain in production.
+Phase | Key outputs
+0. Discovery & content audit | Final catalogue mapping, brand claim validation, content gaps, Shopify access, photography/3D audit.
+1. Design system & prototypes | Tokens, components, homepage, collection, product journey, mobile prototypes, motion prototype.
+2. Commerce foundation | Shopify headless channel, Storefront API, content model, collections, search/filter, cart.
+3. Story modules | Origin, craft, Ingredient Atlas, ritual, trust, journal, rich media.
+4. Quality & migration | Content migration, SEO, analytics, accessibility, performance and cross-device testing.
+5. Launch | Domain cutover, production smoke tests, merchant handover and monitoring.
+Risk | Mitigation
+Too much animation slows mobile | Progressive enhancement, lazy loading, performance budget and mobile-specific simplification.
+Insufficient authentic content | Content audit early; define fallbacks rather than filling gaps with fabricated copy.
+Complex Shopify narrative fields confuse merchant | Use a compact metaobject schema, grouped field naming and a short merchant guide.
+3D assets are unavailable or low quality | Design poster-image fallbacks; do not make 3D a launch blocker.
+Product claims create compliance risk | Client review gate and evidence-backed content governance.
+Theme-reference becomes imitation | Use Kadam Haat only as an ambience benchmark; preserve DYU-specific design system and story structure.

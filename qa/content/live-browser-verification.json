@@ -1,0 +1,189 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "route": "/",
+      "status": 200,
+      "heading": "Rooted in nature.\nMade for\nslower moments.",
+      "overflow": false,
+      "heroImage": "/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2Fdyu-website-hero.webp%3Fv%3D1790942714&w=3840&q=75"
+    },
+    {
+      "width": 1440,
+      "route": "/shop",
+      "status": 200,
+      "heading": "A ritual for\nevery kind of day.",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/products/facial-ubtan-orange-almond-1",
+      "status": 200,
+      "heading": "Facial Ubtan Orange Almond",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/our-story",
+      "status": 200,
+      "heading": "A little closer to nature.\nA little closer to yourself.",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/ingredients",
+      "status": 200,
+      "heading": "Nature has\na story to tell.",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/ingredients/almond",
+      "status": 200,
+      "heading": "Almond",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/how-its-made",
+      "status": 200,
+      "heading": "From raw ingredients.\nTo everyday care.",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/faq",
+      "status": 200,
+      "heading": "Good questions.\nThoughtful answers.",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/journal",
+      "status": 200,
+      "heading": "A pause for\nperspective.",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/journal/making-space-for-a-ritual",
+      "status": 200,
+      "heading": "The quiet art of making time for yourself.",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/contact",
+      "status": 200,
+      "heading": "Care begins\nwith listening.",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/policies/privacy",
+      "status": 200,
+      "heading": "Privacy",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/policies/shipping",
+      "status": 200,
+      "heading": "Shipping & returns",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "heading": "Rooted in nature.\nMade for\nslower moments.",
+      "overflow": false,
+      "heroImage": "/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2Fdyu-website-hero.webp%3Fv%3D1790942714&w=3840&q=75"
+    },
+    {
+      "width": 390,
+      "route": "/shop",
+      "status": 200,
+      "heading": "A ritual for\nevery kind of day.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/products/facial-ubtan-orange-almond-1",
+      "status": 200,
+      "heading": "Facial Ubtan Orange Almond",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/our-story",
+      "status": 200,
+      "heading": "A little closer to nature.\nA little closer to yourself.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/ingredients",
+      "status": 200,
+      "heading": "Nature has\na story to tell.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/ingredients/almond",
+      "status": 200,
+      "heading": "Almond",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/how-its-made",
+      "status": 200,
+      "heading": "From raw ingredients.\nTo everyday care.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/faq",
+      "status": 200,
+      "heading": "Good questions.\nThoughtful answers.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/journal",
+      "status": 200,
+      "heading": "A pause for\nperspective.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/journal/making-space-for-a-ritual",
+      "status": 200,
+      "heading": "The quiet art of making time for yourself.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/contact",
+      "status": 200,
+      "heading": "Care begins\nwith listening.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/policies/privacy",
+      "status": 200,
+      "heading": "Privacy",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/policies/shipping",
+      "status": 200,
+      "heading": "Shipping & returns",
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

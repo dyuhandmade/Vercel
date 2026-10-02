@@ -1,0 +1,414 @@
+[
+  {
+    "name": "DYU • Website content",
+    "type": "dyu_site_content",
+    "description": "Editable site sections. Handles connect entries to the website. Content and images can be changed safely without editing code.",
+    "displayNameKey": "name",
+    "access": {
+      "storefront": "PUBLIC_READ"
+    },
+    "fieldDefinitions": [
+      {
+        "key": "name",
+        "name": "Editor label",
+        "type": "single_line_text_field",
+        "description": "Name shown in Shopify. Keep the entry handle unchanged; it identifies the site section.",
+        "required": true,
+        "validations": [
+          {
+            "name": "max",
+            "value": "100"
+          }
+        ]
+      },
+      {
+        "key": "eyebrow",
+        "name": "Eyebrow / small heading",
+        "type": "single_line_text_field",
+        "description": "Short line above the heading.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "100"
+          }
+        ]
+      },
+      {
+        "key": "title",
+        "name": "Heading",
+        "type": "multi_line_text_field",
+        "description": "Main heading. Line breaks are supported; layout stays managed by the site.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "160"
+          }
+        ]
+      },
+      {
+        "key": "title_emphasis",
+        "name": "Emphasized heading",
+        "type": "multi_line_text_field",
+        "description": "Optional italic part of the heading.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "160"
+          }
+        ]
+      },
+      {
+        "key": "body",
+        "name": "Body text",
+        "type": "multi_line_text_field",
+        "description": "Plain text only. Leave blank to keep the site default. Use short copy for home sections; longer paragraphs for journal or information pages.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "20000"
+          }
+        ]
+      },
+      {
+        "key": "image",
+        "name": "Desktop / section image",
+        "type": "file_reference",
+        "description": "Choose a Shopify image. Leaving this blank uses the existing site artwork.",
+        "required": false,
+        "validations": [
+          {
+            "name": "file_type_options",
+            "value": "[\"Image\"]"
+          }
+        ]
+      },
+      {
+        "key": "mobile_image",
+        "name": "Mobile image",
+        "type": "file_reference",
+        "description": "Choose a Shopify image. Leaving this blank uses the existing site artwork.",
+        "required": false,
+        "validations": [
+          {
+            "name": "file_type_options",
+            "value": "[\"Image\"]"
+          }
+        ]
+      },
+      {
+        "key": "image_alt",
+        "name": "Image description",
+        "type": "single_line_text_field",
+        "description": "Describe the image for accessibility.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "240"
+          }
+        ]
+      },
+      {
+        "key": "image_position",
+        "name": "Image focal position",
+        "type": "single_line_text_field",
+        "description": "Safe crop position.",
+        "required": false,
+        "validations": [
+          {
+            "name": "choices",
+            "value": "[\"left\",\"center\",\"right\",\"top\",\"bottom\"]"
+          }
+        ]
+      },
+      {
+        "key": "link_label",
+        "name": "Primary button text",
+        "type": "single_line_text_field",
+        "description": "Keep labels short.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "80"
+          }
+        ]
+      },
+      {
+        "key": "link_url",
+        "name": "Primary destination",
+        "type": "single_line_text_field",
+        "description": "Use a local route (/shop), https URL, mailto: or tel:. Unsafe links are ignored by the site.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "500"
+          }
+        ]
+      },
+      {
+        "key": "secondary_label",
+        "name": "Secondary button text",
+        "type": "single_line_text_field",
+        "description": "Optional second button.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "80"
+          }
+        ]
+      },
+      {
+        "key": "secondary_url",
+        "name": "Secondary destination",
+        "type": "single_line_text_field",
+        "description": "Use a local route or https URL.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "500"
+          }
+        ]
+      },
+      {
+        "key": "enabled",
+        "name": "Show this section",
+        "type": "boolean",
+        "description": "Turn optional sections off without removing their content. Main hero always remains visible.",
+        "required": false
+      },
+      {
+        "key": "sort_order",
+        "name": "Display order",
+        "type": "number_integer",
+        "description": "Orders repeatable FAQ/navigation/journal entries; fixed page composition remains protected.",
+        "required": false,
+        "validations": [
+          {
+            "name": "min",
+            "value": "0"
+          },
+          {
+            "name": "max",
+            "value": "1000"
+          }
+        ]
+      },
+      {
+        "key": "products",
+        "name": "Selected products",
+        "type": "list.product_reference",
+        "description": "Choose products in display order. Native product data stays in Products.",
+        "required": false,
+        "validations": [
+          {
+            "name": "list.max",
+            "value": "12"
+          }
+        ]
+      },
+      {
+        "key": "collections",
+        "name": "Selected collections",
+        "type": "list.collection_reference",
+        "description": "Choose collections in display order.",
+        "required": false,
+        "validations": [
+          {
+            "name": "list.max",
+            "value": "12"
+          }
+        ]
+      },
+      {
+        "key": "items",
+        "name": "Short list items",
+        "type": "list.single_line_text_field",
+        "description": "For bullet lists, captions, or navigation labels used by this section.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "240"
+          },
+          {
+            "name": "list.max",
+            "value": "20"
+          }
+        ]
+      },
+      {
+        "key": "note",
+        "name": "Supporting note",
+        "type": "single_line_text_field",
+        "description": "Short supporting line.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "240"
+          }
+        ]
+      },
+      {
+        "key": "caption",
+        "name": "Caption",
+        "type": "single_line_text_field",
+        "description": "Short caption beneath the content.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "240"
+          }
+        ]
+      },
+      {
+        "key": "category",
+        "name": "Category",
+        "type": "single_line_text_field",
+        "description": "Journal or information category.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "100"
+          }
+        ]
+      },
+      {
+        "key": "read_time",
+        "name": "Reading time",
+        "type": "single_line_text_field",
+        "description": "Example: 3 MIN READ.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DYU • Ingredient",
+    "type": "dyu_ingredient",
+    "description": "Ingredient names and optional approved descriptions. Reference these from DYU ingredients on products; existing taxonomy remains unchanged.",
+    "displayNameKey": "name",
+    "access": {
+      "storefront": "PUBLIC_READ"
+    },
+    "fieldDefinitions": [
+      {
+        "key": "name",
+        "name": "Ingredient name",
+        "type": "single_line_text_field",
+        "description": "Use the approved ingredient name.",
+        "required": true,
+        "validations": [
+          {
+            "name": "max",
+            "value": "120"
+          }
+        ]
+      },
+      {
+        "key": "description",
+        "name": "Description",
+        "type": "multi_line_text_field",
+        "description": "Approved ingredient description. Leave blank if not yet reviewed.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "2000"
+          }
+        ]
+      },
+      {
+        "key": "botanical_name",
+        "name": "Botanical name",
+        "type": "single_line_text_field",
+        "description": "Optional verified botanical name.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "160"
+          }
+        ]
+      },
+      {
+        "key": "image",
+        "name": "Ingredient image",
+        "type": "file_reference",
+        "description": "Choose a Shopify image. Leaving this blank uses the existing site artwork.",
+        "required": false,
+        "validations": [
+          {
+            "name": "file_type_options",
+            "value": "[\"Image\"]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DYU • Making or ritual step",
+    "type": "dyu_story_step",
+    "description": "Reusable approved making and usage steps. The product list controls the order.",
+    "displayNameKey": "name",
+    "access": {
+      "storefront": "PUBLIC_READ"
+    },
+    "fieldDefinitions": [
+      {
+        "key": "name",
+        "name": "Step name",
+        "type": "single_line_text_field",
+        "description": "Short step heading.",
+        "required": true,
+        "validations": [
+          {
+            "name": "max",
+            "value": "120"
+          }
+        ]
+      },
+      {
+        "key": "description",
+        "name": "Instructions / description",
+        "type": "multi_line_text_field",
+        "description": "Approved instructions only. Do not infer usage or manufacture from a product name.",
+        "required": false,
+        "validations": [
+          {
+            "name": "max",
+            "value": "2000"
+          }
+        ]
+      },
+      {
+        "key": "image",
+        "name": "Step image",
+        "type": "file_reference",
+        "description": "Choose a Shopify image. Leaving this blank uses the existing site artwork.",
+        "required": false,
+        "validations": [
+          {
+            "name": "file_type_options",
+            "value": "[\"Image\"]"
+          }
+        ]
+      }
+    ]
+  }
+]

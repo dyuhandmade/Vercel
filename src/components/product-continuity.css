@@ -1,0 +1,36 @@
+.product-journey-page .experience-invitation{max-width:var(--reading-width);display:grid;grid-template-columns:1.3fr 1fr;text-align:left;gap:45px 10%;padding:85px var(--story-gutter) 100px;box-sizing:content-box;margin:auto;max-width:calc(100% - 2 * var(--story-gutter))}
+.intention-copy>.eyebrow{font-size:.59rem}
+.experience-invitation .intention-copy h2{font-size:clamp(2.7rem,4.3vw,4.5rem);margin:22px 0 23px;max-width:650px;text-wrap:balance}
+.intention-copy h2 em{color:#59634f}
+.intention-copy>p{font:italic 1.2rem/1.7 var(--serif);color:#59634f;max-width:430px;margin:0}
+.experience-invitation .experience-path{display:flex;flex-direction:column;align-self:center;width:100%;max-width:420px;margin:0}
+.experience-invitation .experience-path a{display:grid;grid-template-columns:1fr auto;align-items:center;gap:10px;text-align:left;padding:23px 0;border:0;border-bottom:1px solid #bfc6b1;background:none}
+.experience-invitation .experience-path a>span{grid-column:1;letter-spacing:.1em}
+.experience-invitation .experience-path a>strong{grid-row:2;font-size:1.65rem;transition:transform .25s}
+.experience-invitation .experience-path a>svg{grid-column:2;grid-row:1/3;transition:transform .25s}
+.experience-invitation .experience-path a:hover>strong{transform:translateX(5px)}
+.experience-invitation .experience-path a:hover>svg{transform:translateY(4px)}
+.experience-invitation .experience-description{grid-column:1/-1;margin:0;max-width:700px}
+.experience-invitation .experience-description summary{text-align:left;padding-left:0}
+.product-journey-page .experience-ritual{padding-block:40px 70px}
+.experience-ritual .ritual-experience{background:transparent;padding-top:45px;padding-bottom:0}
+.experience-ritual .ritual-experience-heading{margin-bottom:45px}
+.product-guidance .guidance-conversation{display:inline-flex;align-items:center;gap:12px;font-size:.76rem;min-height:44px;border-bottom:1px solid #8b967f;margin-top:22px}
+.guidance-questions details{border-bottom:1px solid #bfc6b1}
+.guidance-questions summary{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:25px 0;min-height:74px;cursor:pointer;list-style:none;font:1.4rem/1.35 var(--serif);color:var(--forest)}
+.guidance-questions summary::-webkit-details-marker{display:none}
+.guidance-questions summary>svg{flex-shrink:0;transition:transform .25s}
+.guidance-questions details[open] summary>svg{transform:rotate(45deg)}
+.guidance-questions details>div{padding-bottom:28px;max-width:460px}
+.guidance-questions p{font-size:.86rem;line-height:1.85;color:#59634f;margin-bottom:17px}
+.guidance-questions details a{display:inline-flex;align-items:center;gap:12px;font-size:.73rem;min-height:36px;border-bottom:1px solid #8b967f;color:var(--forest)}
+.selected-ritual{border-block:1px solid #b7bea8;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 0;margin:24px 0;color:var(--forest)}
+.selected-ritual>div>span{font-size:.53rem;letter-spacing:.15em;color:#59634f}
+.selected-ritual p{font:italic 1.6rem/1.2 var(--serif);margin:9px 0 0;color:var(--forest)}
+.selected-ritual>a{display:inline-flex;align-items:center;gap:9px;min-height:44px;font-size:.68rem;text-decoration:underline;text-underline-offset:5px}
+.product-journey-page .chapter-nav{background:var(--paper);backdrop-filter:none;-webkit-backdrop-filter:none}
+.chapter-nav::before{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:#788663;transform:scaleX(var(--journey-progress,0));transform-origin:left;pointer-events:none}
+.chapter-nav .chapter-shop[aria-current]{color:var(--forest)}
+@media(max-width:800px){.product-journey-page .experience-invitation{padding-top:60px;padding-bottom:70px;grid-template-columns:1fr;gap:30px}.experience-invitation .experience-path{max-width:none}.experience-invitation .experience-path a{padding:18px 0}.experience-invitation .intention-copy h2{font-size:3rem;max-width:650px}.intention-copy>p{max-width:560px}.product-journey-page .experience-ritual{padding-block:10px 55px}.experience-ritual .ritual-experience{padding-top:30px}}
+@media(max-width:540px){.product-journey-page .experience-invitation{padding-top:45px;padding-bottom:55px;gap:25px}.experience-invitation .intention-copy h2{font-size:2.6rem;margin-block:19px}.intention-copy>p{font-size:1.1rem}.experience-invitation .experience-path a>span{font-size:.54rem}.experience-invitation .experience-path a>strong{font-size:1.4rem}.guidance-questions summary{font-size:1.22rem;padding:21px 0}.guidance-questions p{font-size:.84rem}.selected-ritual{gap:12px}.selected-ritual p{font-size:1.4rem}.selected-ritual>a{font-size:.62rem;white-space:nowrap}}
+@media(prefers-reduced-motion:reduce){.experience-invitation .experience-path a>*{transition:none}.experience-invitation .experience-path a:hover>*{transform:none}.guidance-questions summary>svg{transition:none}}

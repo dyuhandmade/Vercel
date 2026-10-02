@@ -1,0 +1,45 @@
+.philosophy-page{padding-bottom:85px}
+.philosophy-page .story-title{padding-inline:6vw}
+.philosophy-page .story-title>p:last-child{font-size:.84rem;color:#59624f}
+.philosophy-experience{position:relative;display:grid;grid-template-columns:1.15fr 1fr;grid-template-rows:auto 1fr auto;gap:35px;isolation:isolate;min-height:790px;max-width:1800px;padding:42px 6vw 28px;margin:auto;background:#25382c;color:#f4f0e6;overflow:hidden}
+.philosophy-scene,.philosophy-scene-reveal,.philosophy-shade{position:absolute;inset:0;pointer-events:none}
+.philosophy-scene{z-index:-2}
+.philosophy-scene-reveal{animation:philosophy-scene-in 1.05s cubic-bezier(.2,.6,.3,1) both}
+.philosophy-scene-reveal>img{object-fit:cover}
+.philosophy-shade{z-index:-1;background:linear-gradient(90deg,#12291de0 0%,#12291dc2 47%,#12291dc9 100%),linear-gradient(0deg,#12291df0 0%,#12291dbb 21%,transparent 58%)}
+.philosophy-topline{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:25px;border-bottom:1px solid #f4f0e645;padding-bottom:21px}
+.philosophy-topline h2{font:400 .66rem/1.5 var(--sans);letter-spacing:.18em;text-transform:uppercase;margin:0;color:#f4f0e6}
+.philosophy-topline>span{font:italic 1rem/1.4 var(--serif);color:#f4f0e6}
+.philosophy-words{display:flex;flex-direction:column;justify-content:center;align-self:center;gap:23px;padding:35px 0 65px;min-width:0}
+.philosophy-words>button{display:flex;align-items:center;gap:20px;position:relative;min-height:73px;text-align:left;padding:8px 0;color:#eee9dc;transition:color .3s;min-width:0}
+.philosophy-words>button:after{content:'';position:absolute;left:39px;bottom:0;width:0;height:1px;background:#f4f0e68c;transition:width .4s}
+.philosophy-words>button[aria-selected=true]:after{width:calc(100% - 39px)}
+.philosophy-words small{font-size:.61rem;font-weight:400;letter-spacing:.08em;min-width:19px}
+.philosophy-words>button>span{font:400 clamp(3rem,4.65vw,5.9rem)/1.12 var(--serif);letter-spacing:-.06em;white-space:nowrap;transition:transform .35s}
+.philosophy-words>button>svg{flex-shrink:0;margin-left:auto;opacity:0;transform:translate(-5px,5px);transition:opacity .3s,transform .3s}
+.philosophy-words>button[aria-selected=true]{color:#fffdf4}
+.philosophy-words>button[aria-selected=true]>span{font-style:italic}
+.philosophy-words>button[aria-selected=true]>svg,.philosophy-words>button:hover>svg{opacity:1;transform:none}
+.philosophy-words>button:hover>span{transform:translateX(5px)}
+.philosophy-experience button:focus-visible,.philosophy-experience a:focus-visible,.philosophy-panel:focus-visible{outline:2px solid #f4f0e6;outline-offset:7px}
+.philosophy-panel{align-self:end;margin:0 0 35px;padding:0 0 0 35px;max-width:520px;min-width:0}
+.philosophy-panel-copy{animation:philosophy-copy-in .6s ease both}
+.philosophy-detail-note{display:block;color:#eee9dc;font-size:.64rem;line-height:1.6;letter-spacing:.12em;text-transform:uppercase;max-width:330px;margin-bottom:24px}
+.philosophy-panel p{font:400 clamp(1.9rem,2.8vw,3.15rem)/1.25 var(--serif);letter-spacing:-.035em;margin:0 0 32px;color:#fffdf4;text-wrap:balance}
+.philosophy-next-link{display:inline-flex;align-items:center;gap:22px;min-height:44px;color:#fffdf4;font-size:.76rem;border-bottom:1px solid #f4f0e68c;padding:0 0 8px}
+.philosophy-next-link svg{transition:transform .3s}
+.philosophy-next-link:hover svg{transform:translate(3px,-3px)}
+.philosophy-bottomline{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:25px;border-top:1px solid #f4f0e640;padding-top:18px}
+.philosophy-controls{display:flex;align-items:center;gap:23px}
+.philosophy-controls button{display:grid;place-items:center;width:44px;height:44px;border:1px solid #f4f0e654;border-radius:50%;color:#f4f0e6;transition:background .25s}
+.philosophy-controls button:hover{background:#f4f0e61a}
+.philosophy-controls>span{display:flex;align-items:center;gap:9px;font-size:.72rem;color:#fffdf4}
+.philosophy-controls i{font-size:.61rem;font-style:normal;color:#eee9dc}
+.philosophy-footnote{font-size:.59rem;color:#eee9dc;line-height:1.6;letter-spacing:.015em}
+@keyframes philosophy-scene-in{from{opacity:.25;transform:scale(1.035)}to{opacity:1;transform:scale(1)}}
+@keyframes philosophy-copy-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(max-width:1050px){.philosophy-experience{min-height:750px;gap:25px;grid-template-columns:1.2fr 1fr}.philosophy-words{gap:18px}.philosophy-words>button{gap:13px}.philosophy-words>button>span{font-size:clamp(3.25rem,6.4vw,4.1rem)}.philosophy-panel{padding-left:16px}.philosophy-panel p{font-size:2.2rem}.philosophy-words>button>svg{display:none}}
+@media(max-width:760px){.philosophy-page{padding-bottom:55px}.philosophy-experience{grid-template-columns:1fr;grid-template-rows:auto auto 1fr auto;gap:25px;padding:28px 7vw 22px;min-height:870px}.philosophy-topline{gap:14px;padding-bottom:18px}.philosophy-topline h2{font-size:.58rem}.philosophy-topline>span{font-size:.85rem}.philosophy-words{padding:20px 0 10px;gap:15px}.philosophy-words>button{min-height:64px;padding:8px 0;gap:15px}.philosophy-words>button>span{font-size:clamp(2.9rem,8.5vw,4.6rem)}.philosophy-words>button>svg{display:block;width:21px}.philosophy-words>button:after{left:34px}.philosophy-words>button[aria-selected=true]:after{width:calc(100% - 34px)}.philosophy-panel{padding:35px 0 0 34px;margin:0 0 10px;max-width:500px}.philosophy-panel p{font-size:2.05rem;margin-bottom:21px}.philosophy-detail-note{font-size:.59rem;margin-bottom:18px}.philosophy-bottomline{flex-wrap:wrap;gap:19px;padding-top:19px}.philosophy-footnote{font-size:.56rem}.philosophy-shade{background:linear-gradient(90deg,#12291dce,#12291dc2),linear-gradient(0deg,#12291df5,#12291dad 35%,transparent 75%)}.philosophy-scene-reveal>img{object-position:58% center!important}}
+@media(max-width:400px){.philosophy-experience{min-height:830px;padding-inline:6vw}.philosophy-words>button>span{font-size:clamp(2.3rem,10.8vw,2.9rem)}.philosophy-words>button{gap:12px}.philosophy-words>button>svg{width:18px}.philosophy-topline>span{font-size:.76rem}.philosophy-panel{padding-left:0}.philosophy-panel p{font-size:1.9rem}.philosophy-controls{gap:18px}.philosophy-words small{font-size:.55rem}.philosophy-words>button:after{left:31px}.philosophy-words>button[aria-selected=true]:after{width:calc(100% - 31px)}}
+@media(max-width:360px){.philosophy-words>button>span{font-size:clamp(2.1rem,10vw,2.4rem)}.philosophy-words>button>svg{display:none}}
+@media(prefers-reduced-motion:reduce){.philosophy-scene-reveal,.philosophy-panel-copy{animation:none}.philosophy-experience *{transition:none!important}}

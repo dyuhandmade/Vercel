@@ -1,0 +1,6 @@
+import Link from 'next/link';
+import Image from 'next/image';
+import {getArticles} from '@/lib/journal';
+import {getSiteContent,section} from '@/lib/site-content';
+export const metadata={title:'Notes from the atelier'};
+export default async function Journal(){const content=await getSiteContent(),intro=section(content,'journal-page'),articles=getArticles(content);return <div className="page-shell journal-page"><header className="page-intro"><p className="eyebrow">{intro.eyebrow||'NOTES FROM THE ATELIER'}</p><h1>{intro.title||'A pause for'}<br/><em>{intro.titleEmphasis||'perspective.'}</em></h1><p>{intro.body||'On everyday rituals, curiosity, and a slower way of being.'}</p></header><div className="editorial-cards">{articles.map((a,i)=><Link href={`/journal/${a.slug}`} className="editorial-card" key={a.slug}><div className="editorial-photo"><Image src={a.image||(i===0?'/images/atelier-hero.webp':'/images/botanical-study.webp')} alt={a.imageAlt||(i===0?'A sunlit still life of everyday care':'An illustrative study of botanical forms')} fill sizes="(max-width:800px) 100vw, 50vw"/></div><span className="eyebrow">{a.category} / {a.readTime}</span><h2>{a.title}</h2><p>{a.excerpt}</p><span className="text-link">Read the story</span></Link>)}</div></div>;}

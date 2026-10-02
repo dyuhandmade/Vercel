@@ -1,0 +1,3 @@
+import {createHmac,timingSafeEqual} from 'node:crypto';
+import {revalidateTag} from 'next/cache';
+export async function POST(req:Request){const secret=process.env.SHOPIFY_WEBHOOK_SECRET;if(!secret)return new Response('Not configured',{status:503});const body=await req.text();const actual=Buffer.from(req.headers.get('x-shopify-hmac-sha256')||'','base64');const expected=createHmac('sha256',secret).update(body).digest();if(actual.length!==expected.length||!timingSafeEqual(actual,expected))return new Response('Unauthorized',{status:401});revalidateTag('shopify','max');return Response.json({revalidated:true});}

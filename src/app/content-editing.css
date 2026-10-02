@@ -1,0 +1,14 @@
+/* Keep merchant copy inside its component at narrow widths and with long words. */
+.page-intro,.prose,.support-card,.faq-item,.editorial-card,.footer-top>div,
+.philosophy-panel,.ritual-experience-copy,.process-step-detail{min-width:0;overflow-wrap:anywhere}
+.philosophy-words>button>span{min-width:0;white-space:normal;overflow-wrap:anywhere}
+.ritual-moment-options{grid-template-columns:repeat(3,minmax(0,1fr))}
+.ritual-moment-options button{min-width:0;white-space:normal;overflow-wrap:anywhere}
+.site-header>.wordmark{max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.site-header>.wordmark>span{overflow:hidden;text-overflow:ellipsis}
+.desktop-nav{min-width:0}
+.desktop-nav .nav-item{min-width:0}
+.desktop-nav .nav-item>a{max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.announcement{overflow-wrap:anywhere}
+.footer-top .wordmark{overflow-wrap:anywhere}
+@media(max-width:600px){.site-header>.wordmark{max-width:120px}}

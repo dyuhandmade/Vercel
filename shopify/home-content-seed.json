@@ -1,0 +1,182 @@
+[
+  {
+    "handle": "home-hero",
+    "fields": {
+      "name": "Home · Hero",
+      "enabled": true,
+      "eyebrow": "WELCOME TO THE DIGITAL ATELIER",
+      "title": "Rooted in nature.\nMade for",
+      "title_emphasis": "slower moments.",
+      "body": "A little nature. A human touch.\nEveryday care, with a story worth knowing.",
+      "image": "/images/atelier-hero.webp",
+      "image_alt": "Illustrative DYUhandmade care products with botanicals, linen and sunlit stone",
+      "link_label": "Discover your ritual",
+      "link_url": "/shop",
+      "secondary_label": "The story of DYU",
+      "secondary_url": "/our-story",
+      "items": [
+        "Botanical inspiration",
+        "The human touch"
+      ],
+      "note": "TAKE YOUR TIME. THERE’S MORE TO DISCOVER.",
+      "caption": "NATURE / CRAFT / RITUAL"
+    }
+  },
+  {
+    "handle": "home-hero-preview",
+    "fields": {
+      "name": "Home · Hero 3D product preview",
+      "enabled": true,
+      "eyebrow": "THE ATELIER, IN YOUR HANDS",
+      "title": "Get a little closer.",
+      "body": "Explore the collection in 3D",
+      "caption": "A closer look",
+      "note": "Choose an object. Turn it in your hands.",
+      "link_label": "Meet the product"
+    }
+  },
+  {
+    "handle": "home-welcome",
+    "fields": {
+      "name": "Home · Welcome note",
+      "enabled": true,
+      "eyebrow": "NATURE. HANDS. YOUR EVERYDAY.",
+      "title": "Some things ask you to hurry.",
+      "title_emphasis": "This is a place to take your time.",
+      "link_label": "Discover the collections"
+    }
+  },
+  {
+    "handle": "home-collections",
+    "fields": {
+      "name": "Home · Featured collections",
+      "enabled": true,
+      "eyebrow": "A PLACE TO BEGIN",
+      "title": "What does your",
+      "title_emphasis": "day need?",
+      "body": "A fresh beginning. A quiet evening.\nA little something, just for someone.",
+      "link_label": "Enter the collection"
+    }
+  },
+  {
+    "handle": "home-craft",
+    "fields": {
+      "name": "Home · Making story",
+      "enabled": true,
+      "eyebrow": "THE ART OF MAKING",
+      "title": "How it’s made.",
+      "title_emphasis": "One step at a time.",
+      "caption": "01 / THE HUMAN TOUCH",
+      "note": "From an idea, to an object.",
+      "secondary_label": "And in every detail, a reason to look closer.",
+      "link_label": "Follow the making",
+      "link_url": "/how-its-made"
+    }
+  },
+  {
+    "handle": "home-ingredients",
+    "fields": {
+      "name": "Home · Ingredient story",
+      "enabled": true,
+      "eyebrow": "LOOK WITHIN / THE INGREDIENT STORY",
+      "title": "Every detail.",
+      "title_emphasis": "Worth knowing.",
+      "body": "Choose an ingredient to discover its story.",
+      "link_label": "Open the ingredient library",
+      "link_url": "/ingredients"
+    }
+  },
+  {
+    "handle": "home-favorites",
+    "fields": {
+      "name": "Home · Featured products",
+      "enabled": true,
+      "eyebrow": "BRING A LITTLE OF THAT FEELING HOME",
+      "title": "Find your",
+      "title_emphasis": "everyday companion.",
+      "link_label": "Explore all rituals",
+      "link_url": "/shop"
+    }
+  },
+  {
+    "handle": "home-journal",
+    "fields": {
+      "name": "Home · Journal previews",
+      "enabled": true,
+      "eyebrow": "KEEP A LITTLE CURIOSITY",
+      "title": "Notes for",
+      "title_emphasis": "slower days.",
+      "link_label": "From the journal",
+      "link_url": "/journal"
+    }
+  },
+  {
+    "handle": "home-journal-1",
+    "fields": {
+      "name": "Home · Journal card 1",
+      "enabled": true,
+      "title": "The quiet art of making\ntime for yourself.",
+      "image": "/images/atelier-ritual-v2.webp",
+      "image_alt": "Illustrative quiet moment with linen and care vessels",
+      "category": "EVERYDAY RITUALS",
+      "read_time": "3 MIN READ",
+      "link_url": "/journal/making-space-for-a-ritual"
+    }
+  },
+  {
+    "handle": "home-journal-2",
+    "fields": {
+      "name": "Home · Journal card 2",
+      "enabled": true,
+      "title": "A little curiosity\ngoes a long way.",
+      "image": "/images/botanical-study.webp",
+      "image_alt": "A study of botanical forms and textures",
+      "category": "THOUGHTFUL CARE",
+      "read_time": "3 MIN READ",
+      "link_url": "/journal/look-closer-at-your-care"
+    }
+  },
+  {
+    "handle": "home-reassurance",
+    "fields": {
+      "name": "Home · Discovery links",
+      "enabled": true
+    }
+  },
+  {
+    "handle": "home-reassurance-1",
+    "fields": {
+      "name": "Home · Ingredient discovery link",
+      "enabled": true,
+      "link_label": "Explore the ingredients",
+      "link_url": "/ingredients"
+    }
+  },
+  {
+    "handle": "home-reassurance-2",
+    "fields": {
+      "name": "Home · Making discovery link",
+      "enabled": true,
+      "link_label": "Discover the making",
+      "link_url": "/how-its-made"
+    }
+  },
+  {
+    "handle": "home-reassurance-3",
+    "fields": {
+      "name": "Home · Shop discovery link",
+      "enabled": true,
+      "link_label": "Find your everyday ritual",
+      "link_url": "/shop"
+    }
+  },
+  {
+    "handle": "home-reassurance-4",
+    "fields": {
+      "name": "Home · WhatsApp catalogue link",
+      "enabled": true,
+      "link_label": "Browse our WhatsApp catalogue",
+      "link_url": "https://wa.me/c/919945945750"
+    }
+  }
+]

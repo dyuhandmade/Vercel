@@ -1,0 +1,6 @@
+import {getSiteContent,section} from '@/lib/site-content';
+import IngredientDiscovery from '@/components/IngredientDiscovery';
+import ProductCard from '@/components/ProductCard';
+import {getProducts,isDemo} from '@/lib/shopify';
+export const metadata={title:'The ingredient atlas'};
+export default async function Ingredients(){const [products,content]=await Promise.all([getProducts(),getSiteContent()]);const intro=section(content,'ingredients-page');const items=[...new Map(products.flatMap(p=>p.ingredients).map(i=>[i.handle||i.name,i])).values()];return <div className="page-shell atlas-page"><header className="page-intro"><p className="eyebrow">{intro.eyebrow||'THE INGREDIENT ATLAS'}</p><h1>{intro.title||'Nature has'}<br/><em>{intro.titleEmphasis||'a story to tell.'}</em></h1><p>{intro.body||(items.length||isDemo()?'Open the object. Meet the details. Follow your curiosity.':'Ingredient stories will appear here as DYU adds them to Shopify. Explore the product descriptions for the information currently available.')}</p></header>{items.length||isDemo()?<IngredientDiscovery items={items} content={section(content,'home-ingredients')}/>:<div className="product-grid">{products.slice(0,6).map(p=><ProductCard product={p} key={p.id}/>)}</div>}</div>;}

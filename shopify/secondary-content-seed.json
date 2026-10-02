@@ -1,0 +1,478 @@
+[
+  {
+    "handle": "brand",
+    "fields": {
+      "name": "Brand identity",
+      "title": "dyu",
+      "body": "H A N D M A D E",
+      "caption": "DYUhandmade"
+    }
+  },
+  {
+    "handle": "announcement",
+    "fields": {
+      "name": "Header · Announcement",
+      "enabled": true,
+      "body": "A slower kind of care. A little closer to nature."
+    }
+  },
+  {
+    "handle": "header-menu",
+    "fields": {
+      "name": "Header · Collection menu",
+      "eyebrow": "FIND YOUR EVERYDAY",
+      "title": "A ritual.\nA little pause.",
+      "title_emphasis": "Just for you.",
+      "link_label": "Shop the whole collection",
+      "link_url": "/shop"
+    }
+  },
+  {
+    "handle": "nav-collection",
+    "fields": {
+      "name": "Navigation · The collection",
+      "title": "The collection",
+      "link_url": "/shop"
+    }
+  },
+  {
+    "handle": "nav-story",
+    "fields": {
+      "name": "Navigation · Our story",
+      "title": "Our story",
+      "link_url": "/our-story"
+    }
+  },
+  {
+    "handle": "nav-ingredients",
+    "fields": {
+      "name": "Navigation · The ingredients",
+      "title": "The ingredients",
+      "link_url": "/ingredients"
+    }
+  },
+  {
+    "handle": "nav-journal",
+    "fields": {
+      "name": "Navigation · The journal",
+      "title": "The journal",
+      "link_url": "/journal"
+    }
+  },
+  {
+    "handle": "nav-making",
+    "fields": {
+      "name": "Navigation · How it is made",
+      "title": "How it is made",
+      "link_url": "/how-its-made"
+    }
+  },
+  {
+    "handle": "nav-contact",
+    "fields": {
+      "name": "Navigation · Get in touch",
+      "title": "Get in touch",
+      "link_url": "/contact"
+    }
+  },
+  {
+    "handle": "nav-faq",
+    "fields": {
+      "name": "Navigation · Frequently asked questions",
+      "title": "Frequently asked questions",
+      "link_url": "/faq"
+    }
+  },
+  {
+    "handle": "nav-shipping",
+    "fields": {
+      "name": "Navigation · Shipping & returns",
+      "title": "Shipping & returns",
+      "link_url": "/policies/shipping"
+    }
+  },
+  {
+    "handle": "nav-privacy",
+    "fields": {
+      "name": "Navigation · Privacy",
+      "title": "Privacy",
+      "link_url": "/policies/privacy"
+    }
+  },
+  {
+    "handle": "nav-terms",
+    "fields": {
+      "name": "Navigation · Terms",
+      "title": "Terms",
+      "link_url": "/policies/terms"
+    }
+  },
+  {
+    "handle": "nav-accessibility",
+    "fields": {
+      "name": "Navigation · Accessibility",
+      "title": "Accessibility",
+      "link_url": "/policies/accessibility"
+    }
+  },
+  {
+    "handle": "footer",
+    "fields": {
+      "name": "Footer · Main copy",
+      "title": "Explore",
+      "title_emphasis": "A little guidance",
+      "body": "Room for nature.\nTime for yourself.",
+      "note": "Made with intention."
+    }
+  },
+  {
+    "handle": "footer-philosophy",
+    "fields": {
+      "name": "Footer · Philosophy",
+      "title": "The DYU philosophy",
+      "body": "Thoughtful care.\nEveryday rituals.\nA slower way of being."
+    }
+  },
+  {
+    "handle": "contact-page",
+    "fields": {
+      "name": "Contact · Page introduction",
+      "eyebrow": "A LITTLE CONVERSATION",
+      "title": "Care begins",
+      "title_emphasis": "with listening.",
+      "body": "A question about the collection, a thoughtful gift,\nor finding a ritual that feels right for you?",
+      "note": "A question about the website?",
+      "link_label": "Read our frequently asked questions",
+      "link_url": "/faq"
+    }
+  },
+  {
+    "handle": "contact",
+    "fields": {
+      "name": "Contact · Details",
+      "title": "Say hello to DYU.",
+      "body": "Explore our current catalogue on WhatsApp, or open a conversation with the team. Take your time. We’re happy to hear from you.",
+      "link_label": "Chat on WhatsApp",
+      "link_url": "https://wa.me/919945945750",
+      "secondary_label": "Browse the catalogue",
+      "secondary_url": "https://wa.me/c/919945945750",
+      "note": "Email: dyuhandmadesoaps@gmail.com"
+    }
+  },
+  {
+    "handle": "story-page",
+    "fields": {
+      "name": "Our story · Page introduction",
+      "eyebrow": "THE WORLD OF DYUHANDMADE",
+      "title": "A little closer to nature.",
+      "title_emphasis": "A little closer to yourself.",
+      "body": "Three ways to see an everyday moment differently."
+    }
+  },
+  {
+    "handle": "philosophy",
+    "fields": {
+      "name": "Philosophy · Introduction",
+      "enabled": true,
+      "title": "Our philosophy",
+      "body": "Choose what draws you in",
+      "note": "Illustrative scenes · The world of DYUhandmade"
+    }
+  },
+  {
+    "handle": "philosophy-nature",
+    "fields": {
+      "name": "Philosophy · Nature",
+      "title": "Nature.",
+      "caption": "Nature",
+      "image": "/images/botanical-study.webp",
+      "image_position": "center",
+      "image_alt": "Illustrative botanical study with flowers, leaves, and natural textures",
+      "body": "There is a whole world in the smallest detail.",
+      "link_url": "/ingredients",
+      "link_label": "Meet the botanicals",
+      "note": "A world worth looking closer at"
+    }
+  },
+  {
+    "handle": "philosophy-human-touch",
+    "fields": {
+      "name": "Philosophy · Human touch",
+      "title": "Human touch.",
+      "caption": "Human touch",
+      "image": "/images/atelier-craft-v2.webp",
+      "image_position": "center",
+      "image_alt": "Illustrative atelier scene exploring the care and detail of making",
+      "body": "The things we choose can invite us to notice the hands behind them.",
+      "link_url": "/how-its-made",
+      "link_label": "Follow the making",
+      "note": "The beauty is in the attention"
+    }
+  },
+  {
+    "handle": "philosophy-everyday",
+    "fields": {
+      "name": "Philosophy · Your everyday",
+      "title": "Your everyday.",
+      "caption": "Your everyday",
+      "image": "/images/atelier-ritual-v2.webp",
+      "image_position": "center",
+      "image_alt": "Illustrative everyday ritual with warm light and botanical care objects",
+      "body": "A familiar moment can become a little time that belongs to you.",
+      "link_url": "/shop",
+      "link_label": "Find your ritual",
+      "note": "The story continues with you"
+    }
+  },
+  {
+    "handle": "ritual",
+    "fields": {
+      "name": "Ritual · Introduction",
+      "enabled": true,
+      "eyebrow": "THE NEXT CHAPTER / YOU",
+      "title": "A little time.",
+      "title_emphasis": "Entirely yours.",
+      "body": "Choose the moment. Find your own rhythm."
+    }
+  },
+  {
+    "handle": "ritual-morning",
+    "fields": {
+      "name": "Ritual · Morning",
+      "title": "Morning",
+      "body": "Before the world asks anything of you.",
+      "image": "/images/atelier-ritual-v2.webp",
+      "image_position": "center",
+      "image_alt": "Illustrative atelier scene with natural textures and objects of everyday care"
+    }
+  },
+  {
+    "handle": "ritual-morning-step-1",
+    "fields": {
+      "name": "Ritual · Morning · Step 1",
+      "title": "Let the day arrive.",
+      "body": "A little daylight. A moment before the rush. Choose a place to begin."
+    }
+  },
+  {
+    "handle": "ritual-morning-step-2",
+    "fields": {
+      "name": "Ritual · Morning · Step 2",
+      "title": "Notice the little things.",
+      "body": "The light on the table. The texture of linen. The familiar objects close to hand."
+    }
+  },
+  {
+    "handle": "ritual-morning-step-3",
+    "fields": {
+      "name": "Ritual · Morning · Step 3",
+      "title": "Make this moment yours.",
+      "body": "One small pause, before everything else. Carry that intention into your day."
+    }
+  },
+  {
+    "handle": "ritual-evening",
+    "fields": {
+      "name": "Ritual · Evening",
+      "title": "Evening",
+      "body": "A soft landing at the end of the day.",
+      "image": "/images/atelier-craft-v2.webp",
+      "image_position": "center",
+      "image_alt": "Illustrative atelier scene with natural textures and objects of everyday care"
+    }
+  },
+  {
+    "handle": "ritual-evening-step-1",
+    "fields": {
+      "name": "Ritual · Evening · Step 1",
+      "title": "Set the day down.",
+      "body": "Find your favourite corner. Let the next thing wait a little."
+    }
+  },
+  {
+    "handle": "ritual-evening-step-2",
+    "fields": {
+      "name": "Ritual · Evening · Step 2",
+      "title": "Return to the familiar.",
+      "body": "A quiet room. Warm light. A small collection of things that feel like you."
+    }
+  },
+  {
+    "handle": "ritual-evening-step-3",
+    "fields": {
+      "name": "Ritual · Evening · Step 3",
+      "title": "Leave a little space.",
+      "body": "Nothing elaborate. Just a moment you might look forward to returning to."
+    }
+  },
+  {
+    "handle": "ritual-pause",
+    "fields": {
+      "name": "Ritual · A quiet pause",
+      "title": "A quiet pause",
+      "body": "No occasion needed. Just a little time.",
+      "image": "/images/botanical-study.webp",
+      "image_position": "center",
+      "image_alt": "Illustrative atelier scene with natural textures and objects of everyday care"
+    }
+  },
+  {
+    "handle": "ritual-pause-step-1",
+    "fields": {
+      "name": "Ritual · A quiet pause · Step 1",
+      "title": "Step out of the rush.",
+      "body": "There does not have to be a perfect time. Begin with the moment you have."
+    }
+  },
+  {
+    "handle": "ritual-pause-step-2",
+    "fields": {
+      "name": "Ritual · A quiet pause · Step 2",
+      "title": "Look a little closer.",
+      "body": "A leaf. A shadow. An everyday object. Give one small detail your attention."
+    }
+  },
+  {
+    "handle": "ritual-pause-step-3",
+    "fields": {
+      "name": "Ritual · A quiet pause · Step 3",
+      "title": "Keep a moment for you.",
+      "body": "A pause can be a ritual, too. Let yours be as simple as you like."
+    }
+  },
+  {
+    "handle": "craft-page",
+    "fields": {
+      "name": "Making · Page introduction",
+      "eyebrow": "INSIDE THE ATELIER",
+      "title": "From raw ingredients.",
+      "title_emphasis": "To everyday care."
+    }
+  },
+  {
+    "handle": "ingredients-page",
+    "fields": {
+      "name": "Ingredients · Page introduction",
+      "eyebrow": "THE INGREDIENT ATLAS",
+      "title": "Nature has",
+      "title_emphasis": "a story to tell."
+    }
+  },
+  {
+    "handle": "faq-page",
+    "fields": {
+      "name": "FAQ · Page introduction",
+      "eyebrow": "A LITTLE GUIDANCE",
+      "title": "Good questions.",
+      "title_emphasis": "Thoughtful answers."
+    }
+  },
+  {
+    "handle": "faq-find-a-ritual",
+    "fields": {
+      "name": "FAQ · How do I find the right ritual?",
+      "title": "How do I find the right ritual?",
+      "body": "Start with the collection and choose a product category. Each product page brings together its story, available options, and product information so you can explore at your own pace."
+    }
+  },
+  {
+    "handle": "faq-ingredients",
+    "fields": {
+      "name": "FAQ · Where can I read the ingredient list?",
+      "title": "Where can I read the ingredient list?",
+      "body": "Read the product description and ingredient story on each product page. If you need the complete formulation or further details, contact DYU before choosing a product."
+    }
+  },
+  {
+    "handle": "faq-3d",
+    "fields": {
+      "name": "FAQ · Can I look at products in 3D?",
+      "title": "Can I look at products in 3D?",
+      "body": "Where available, the product viewer lets you rotate a study based on the main product photograph. Unseen surfaces are approximations. The original product photos remain available in the gallery."
+    }
+  },
+  {
+    "handle": "faq-orders",
+    "fields": {
+      "name": "FAQ · How do I place an order?",
+      "title": "How do I place an order?",
+      "body": "Select an available product option and add it to your bag. Checkout continues securely with Shopify. If an item is unavailable, contact DYU for more information."
+    }
+  },
+  {
+    "handle": "faq-delivery",
+    "fields": {
+      "name": "FAQ · What are the shipping and return options?",
+      "title": "What are the shipping and return options?",
+      "body": "Visit Shipping & returns for the information currently available, or contact DYU about your delivery location and return questions before placing an order."
+    }
+  },
+  {
+    "handle": "journal-page",
+    "fields": {
+      "name": "Journal · Page introduction",
+      "eyebrow": "NOTES FROM THE ATELIER",
+      "title": "A pause for",
+      "title_emphasis": "perspective.",
+      "body": "On everyday rituals, curiosity, and a slower way of being."
+    }
+  },
+  {
+    "handle": "article-making-space-for-a-ritual",
+    "fields": {
+      "name": "Journal · The quiet art of making time for yourself.",
+      "title": "The quiet art of making time for yourself.",
+      "category": "Everyday rituals",
+      "note": "A small pause can change the shape of an ordinary day.",
+      "body": "Some days move faster than we do. We arrive at the evening with a long list behind us and very little space left for ourselves. A ritual can be a way of finding that space again.\n\nStart small. A quiet minute before opening your phone. A warm shower without rushing. A familiar routine that asks you to pay attention to what you are doing, rather than what comes next.\n\nYou do not need a perfect setting or an elaborate sequence. Choose a moment that already exists in your day and let it be a little slower. Notice the water, the light, the sound of the room.\n\nA ritual is something you return to. Let yours be simple enough to repeat, and personal enough to feel like your own.",
+      "read_time": "3 MIN READ",
+      "image": "/images/atelier-hero.webp",
+      "image_alt": "A sunlit still life of everyday care"
+    }
+  },
+  {
+    "handle": "article-look-closer-at-your-care",
+    "fields": {
+      "name": "Journal · A little curiosity goes a long way.",
+      "title": "A little curiosity goes a long way.",
+      "category": "Thoughtful care",
+      "note": "Getting to know the things we bring into our everyday.",
+      "body": "Every product has details worth understanding. What is in it? How should it be used? Where can you find the full ingredient list?\n\nTake a moment to read a product’s directions and ingredient information. A pleasing texture or beautiful package is only one part of the story.\n\nWhen you have a question, ask it. Thoughtful care starts with clear information and the room to make your own decision.",
+      "read_time": "3 MIN READ",
+      "image": "/images/botanical-study.webp",
+      "image_alt": "An illustrative study of botanical forms"
+    }
+  },
+  {
+    "handle": "policy-shipping",
+    "fields": {
+      "name": "Policy · Shipping & returns",
+      "eyebrow": "THE DETAILS",
+      "title": "Shipping & returns"
+    }
+  },
+  {
+    "handle": "policy-privacy",
+    "fields": {
+      "name": "Policy · Privacy",
+      "eyebrow": "THE DETAILS",
+      "title": "Privacy"
+    }
+  },
+  {
+    "handle": "policy-terms",
+    "fields": {
+      "name": "Policy · Terms of use",
+      "eyebrow": "THE DETAILS",
+      "title": "Terms of use"
+    }
+  },
+  {
+    "handle": "policy-accessibility",
+    "fields": {
+      "name": "Policy · Accessibility",
+      "eyebrow": "THE DETAILS",
+      "title": "Accessibility"
+    }
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "namespace": "dyu",
+    "key": "short_story",
+    "name": "DYU short story",
+    "type": "multi_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Short introduction shown beside the product. Original Shopify description remains intact.",
+    "access": {
+      "storefront": "PUBLIC_READ"
+    },
+    "pin": true,
+    "validations": [
+      {
+        "name": "max",
+        "value": "500"
+      }
+    ]
+  },
+  {
+    "namespace": "dyu",
+    "key": "sensory_notes",
+    "name": "DYU sensory notes",
+    "type": "multi_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Approved texture, scent and feel notes.",
+    "access": {
+      "storefront": "PUBLIC_READ"
+    },
+    "pin": true,
+    "validations": [
+      {
+        "name": "max",
+        "value": "1000"
+      }
+    ]
+  },
+  {
+    "namespace": "dyu",
+    "key": "ingredients",
+    "name": "DYU ingredients",
+    "type": "list.metaobject_reference",
+    "ownerType": "PRODUCT",
+    "description": "Selected ingredient stories. This is not a substitute for the complete ingredient label.",
+    "access": {
+      "storefront": "PUBLIC_READ"
+    },
+    "pin": true,
+    "validations": [
+      {
+        "name": "metaobject_definition_id",
+        "value": "gid://shopify/MetaobjectDefinition/25469321435"
+      },
+      {
+        "name": "list.max",
+        "value": "30"
+      }
+    ]
+  },
+  {
+    "namespace": "dyu",
+    "key": "craft_steps",
+    "name": "DYU making steps",
+    "type": "list.metaobject_reference",
+    "ownerType": "PRODUCT",
+    "description": "Approved making steps, in display order.",
+    "access": {
+      "storefront": "PUBLIC_READ"
+    },
+    "pin": true,
+    "validations": [
+      {
+        "name": "metaobject_definition_id",
+        "value": "gid://shopify/MetaobjectDefinition/25469354203"
+      },
+      {
+        "name": "list.max",
+        "value": "12"
+      }
+    ]
+  },
+  {
+    "namespace": "dyu",
+    "key": "ritual_steps",
+    "name": "DYU ritual steps",
+    "type": "list.metaobject_reference",
+    "ownerType": "PRODUCT",
+    "description": "Approved product usage steps, in display order.",
+    "access": {
+      "storefront": "PUBLIC_READ"
+    },
+    "pin": true,
+    "validations": [
+      {
+        "name": "metaobject_definition_id",
+        "value": "gid://shopify/MetaobjectDefinition/25469354203"
+      },
+      {
+        "name": "list.max",
+        "value": "12"
+      }
+    ]
+  },
+  {
+    "namespace": "dyu",
+    "key": "care_notes",
+    "name": "DYU care and storage",
+    "type": "multi_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Approved care, storage and caution notes.",
+    "access": {
+      "storefront": "PUBLIC_READ"
+    },
+    "pin": true,
+    "validations": [
+      {
+        "name": "max",
+        "value": "2000"
+      }
+    ]
+  },
+  {
+    "namespace": "dyu",
+    "key": "full_ingredient_list",
+    "name": "DYU full ingredient list",
+    "type": "multi_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Complete approved ingredient label / INCI. Leave empty until verified.",
+    "access": {
+      "storefront": "PUBLIC_READ"
+    },
+    "pin": true,
+    "validations": [
+      {
+        "name": "max",
+        "value": "4000"
+      }
+    ]
+  },
+  {
+    "namespace": "dyu",
+    "key": "display_shape",
+    "name": "DYU 3D display shape",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Optional override. Leaving blank lets the site infer a display form from product type.",
+    "access": {
+      "storefront": "PUBLIC_READ"
+    },
+    "pin": true,
+    "validations": [
+      {
+        "name": "choices",
+        "value": "[\"jar\",\"bottle\",\"soap\",\"general\"]"
+      }
+    ]
+  },
+  {
+    "namespace": "dyu",
+    "key": "tone",
+    "name": "DYU display accent colour",
+    "type": "color",
+    "ownerType": "PRODUCT",
+    "description": "Optional display accent. Does not alter the product photograph.",
+    "access": {
+      "storefront": "PUBLIC_READ"
+    },
+    "pin": true,
+    "validations": []
+  },
+  {
+    "namespace": "dyu",
+    "key": "related_products",
+    "name": "DYU related products",
+    "type": "list.product_reference",
+    "ownerType": "PRODUCT",
+    "description": "Choose the products shown as related companions, in display order.",
+    "access": {
+      "storefront": "PUBLIC_READ"
+    },
+    "pin": true,
+    "validations": [
+      {
+        "name": "list.max",
+        "value": "12"
+      }
+    ]
+  }
+]

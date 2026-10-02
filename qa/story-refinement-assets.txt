@@ -1,0 +1,16 @@
+Story refinement — 2 October 2026
+
+Source direction: full PRD text and tables, embedded concepts 01–08, TRD, 15-page Digital Atelier overview; https://www.kadamhaat.com/ as ambience reference.
+Implementation: connected home and product narrative; photographic category entry; nature/craft/botanical/ritual sequence; support reassurance before purchase; reusable product story component; reduced-motion-safe CSS image drift.
+
+Built-in image_gen used (no CLI/API fallback).
+Generated concept photographs, not real DYU production or customer documentation.
+Deployed assets:
+public/images/atelier-craft-v2.webp
+public/images/atelier-ritual-v2.webp
+
+Craft prompt:
+Use case: photorealistic-natural. Create a single wide landscape editorial photograph for the DYUhandmade botanical care website, premium quiet artisanal aesthetic, 3:2 landscape. A close intimate overhead angled view of a warm walnut workbench: anonymous adult brown hands on the right half holding a small simple amber glass cosmetic jar with a plain ivory blank label, a wooden spatula resting alongside a shallow handmade ceramic bowl containing ivory botanical balm, scattered small dried chamomile and calendula flowers and folded unbleached linen on the left. Only hands and linen sleeves visible, no faces, no branding or text. Natural soft late afternoon window light from left, fine real skin detail, tactile paper and wood grain, muted olive and warm ivory palette, relaxed imperfect composition, beautiful restrained magazine art direction, subtle film grain, realistic photographic image not illustration. Show care and attention, no lab claims or certification symbols. Intended as clearly labelled illustrative design imagery, not documentation of an actual manufacturer. No collage, no borders, no typography, no watermark. Objects prominent and enough context in landscape frame.
+
+Ritual prompt:
+Use case: photorealistic-natural. Create a single wide landscape editorial photograph for DYUhandmade premium botanical care ritual chapter, 3:2 landscape. A tranquil close-up scene in a sunlit room: anonymous adult brown hands lightly resting together on wrinkled warm ivory linen, foreground amber dropper bottle with plain blank ivory label beside a small open amber balm jar and walnut lid on a pale travertine ledge. No face or torso visible, no product application instructions. Hands at left, simple care objects right, a subtle out-of-focus leafy branch casting soft shadows on cream plaster background. Authentic natural photographic texture, soft morning light, warm ivory F4F0E6, muted sage 98A68D, walnut brown and amber accents. Restrained luxury independent craft magazine, spacious and intimate, shallow depth, not studio ecommerce render. Image is illustrative concept for the design preview, not real brand/customer photography. No text, logos, watermark, flowers overload, collage, border or inset.

@@ -1,0 +1,70 @@
+.product-exhibit{position:relative;isolation:isolate;overflow:hidden;text-align:center;padding:0 5vw 80px;background:radial-gradient(ellipse at 50% 29%,#fffdf3 0%,#f6f0e166 35%,transparent 68%)}
+.exhibit-gallery{position:relative;max-width:1320px;margin:0 auto;isolation:isolate}
+.exhibit-edition{position:relative;z-index:2;display:block;padding:12px 0 5px;font-size:.57rem;letter-spacing:.23em;color:#59634f}
+.exhibit-edition i{font-style:normal;margin:0 16px;color:#8b8f7b}
+.exhibit-light{position:absolute;pointer-events:none;z-index:-1;top:-220px;height:850px;width:43%;filter:blur(35px);opacity:.85;transform-origin:center}
+.exhibit-light-left{left:15%;transform:rotate(-35deg);background:radial-gradient(ellipse at center,#fff7d6c9,transparent 68%)}
+.exhibit-light-right{right:15%;transform:rotate(35deg);background:radial-gradient(ellipse at center,#fffef8,transparent 68%)}
+.exhibit-light-top{left:25%;top:-60px;width:50%;height:470px;filter:blur(26px);opacity:.7;background:radial-gradient(ellipse at 50% 30%,#fffdfa,transparent 65%)}
+.exhibit-stage{position:relative;max-width:980px;height:clamp(360px,48svh,535px);margin:0 auto}
+.exhibit-stage>.product-visual{height:100%;width:100%;overflow:visible}
+.exhibit-media-player{position:relative;z-index:2;display:block;width:min(85%,900px);height:100%;margin:auto;border:0;object-fit:contain;background:#25382c}
+.exhibit-stage .visual-model{object-fit:contain;padding:0 20% 45px;filter:drop-shadow(0 25px 17px #60503218);transform:scale(1.18)}
+.exhibit-stage .visual-photo{object-fit:contain;padding:18px 11% 62px;mix-blend-mode:multiply}
+.exhibit-ground{position:absolute;width:33%;height:28px;left:33.5%;bottom:65px;border-radius:50%;background:#655b3e1c;filter:blur(17px);pointer-events:none}
+.exhibit-stage .viewer-controls{left:50%;right:auto;bottom:8px;transform:translateX(-50%);white-space:nowrap;border-color:#c6cbbb80;background:#f8f6edf5;box-shadow:0 7px 25px #25382c0a;color:var(--forest);z-index:4}
+.exhibit-stage .viewer-controls button{font-size:.7rem;min-width:44px;min-height:44px;border-radius:50%;transition:background .2s,color .2s}
+.exhibit-stage .viewer-controls button:hover:not(:disabled){background:#e4e8da;color:#25382c}
+.exhibit-stage .viewer-controls button:focus-visible{outline:2px solid var(--forest);outline-offset:2px}
+.exhibit-stage .viewer-toggle{padding-inline:17px}
+.exhibit-stage .viewer-controls .viewer-toggle{border-radius:30px}
+.exhibit-stage .model-note{bottom:76px;left:50%;transform:translateX(-50%);width:min(400px,90%);text-align:center;line-height:1.65;color:#46563d;background:#f4f0e6ed;padding:12px 18px;border-radius:3px;backdrop-filter:blur(10px)}
+.exhibit-stage .model-render-layer{transition:opacity .35s ease}
+.exhibit-stage .model-loading{inset:auto;left:50%;bottom:80px;transform:translateX(-50%);display:flex;align-items:center;justify-content:center;gap:11px;background:#f4f0e6ef;color:#46563d;backdrop-filter:blur(12px);border:1px solid #d4d8c8;border-radius:40px;padding:12px 19px;font-size:.71rem;white-space:nowrap}
+.exhibit-stage .model-loading-mark{width:13px;height:13px;border:1px solid #a8b39a;border-top-color:#3e5136;border-radius:50%;animation:exhibit-preparing 1.1s linear infinite}
+.exhibit-stage:has(.product-visual[data-model-ready=true][data-view=3d]) .exhibit-ground{opacity:0}
+.exhibit-view-options{display:flex;flex-direction:column;align-items:center;position:relative;z-index:2}
+.exhibit-view-caption{font-size:.6rem;line-height:1.65;letter-spacing:.095em;text-transform:uppercase;color:#59634f;margin-top:12px}
+.exhibit-modes{display:flex;gap:25px;margin:7px auto 0}
+.exhibit-modes button{display:flex;align-items:center;gap:8px;font-size:.7rem;min-height:44px;color:#59634f;padding:0 2px;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}
+.exhibit-modes button:hover{color:var(--forest);border-bottom-color:#acb49a}
+.exhibit-modes button[aria-pressed=true]{color:var(--forest);border-bottom-color:#7d8a6b}
+.exhibit-gallery .gallery-thumbs{max-width:100%;overflow-x:auto;padding:16px 5px;gap:14px}
+.exhibit-gallery .gallery-thumbs button{flex-shrink:0;min-width:58px;min-height:58px;border-radius:3px;overflow:hidden;opacity:.76;transition:opacity .25s,border-color .25s}
+.exhibit-gallery .gallery-thumbs button[aria-pressed=true],.exhibit-gallery .gallery-thumbs button:hover{opacity:1;border-color:#7d8a6b}
+.exhibit-scene .exhibit-ground{display:none}
+.exhibit-scene .exhibit-stage{max-width:920px}
+.exhibit-scene .visual-photo{object-fit:cover;mix-blend-mode:normal;padding:0;mask-image:linear-gradient(90deg,transparent,black 15%,black 85%,transparent),linear-gradient(0deg,transparent,black 15%,black 85%,transparent);mask-composite:intersect}
+.exhibit-introduction{position:relative;max-width:950px;margin:40px auto 0}
+.exhibit-introduction>.eyebrow{font-size:.59rem;letter-spacing:.19em;margin:0 0 21px;color:#59634f}
+.exhibit-introduction h1{font-size:clamp(3.3rem,6.3vw,7rem);line-height:1.01;letter-spacing:-.055em;margin:0 auto 20px;color:var(--forest);text-wrap:balance}
+.exhibit-story{font:italic clamp(1.1rem,1.6vw,1.5rem)/1.6 var(--serif);color:#536147;max-width:650px;margin:0 auto}
+.exhibit-actions{display:flex;justify-content:center;align-items:center;gap:36px;margin:29px 0 0}
+.exhibit-discover{display:flex;align-items:center;gap:13px;font-size:.76rem;color:var(--forest);min-height:48px}
+.exhibit-discover svg{border:1px solid #8d997d80;border-radius:50%;width:38px;height:38px;padding:10px;transition:transform .3s}
+.exhibit-discover:hover svg{transform:translateY(3px)}
+.exhibit-actions .text-link{font-size:.74rem}
+.exhibit-preview{display:block;font-size:.6rem;color:#59634f;margin-top:26px}
+@keyframes exhibit-preparing{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.exhibit-stage .model-loading-mark{animation:none}.exhibit-stage .model-render-layer,.exhibit-stage .viewer-controls button,.exhibit-modes button,.exhibit-gallery .gallery-thumbs button{transition:none}}
+.experience-invitation{text-align:center;padding:95px max(6vw,24px) 75px;max-width:1200px;margin:auto;color:var(--forest)}
+.experience-invitation .eyebrow{font-size:.62rem;color:#59634f}
+.experience-invitation h2{font-size:clamp(2.7rem,4.4vw,4.7rem);line-height:1.1;max-width:800px;margin:24px auto 38px;text-wrap:balance}
+.experience-path{display:flex;justify-content:center;align-items:stretch;gap:0;max-width:790px;margin:auto}
+.experience-path a{flex:1;display:flex;flex-direction:column;align-items:center;gap:13px;min-width:0;padding:20px 26px;border-right:1px solid #c7cbbd;font-family:var(--serif);font-size:1.45rem;color:var(--forest);transition:background .3s}
+.experience-path a:last-child{border:0}
+.experience-path a:hover{background:#e4e7d64d}
+.experience-path a>span{font:400 .56rem/1.4 var(--sans);letter-spacing:.14em;color:#59634f}
+.experience-path a>svg{width:21px;color:#536147}
+.experience-path a>strong{font-weight:400}
+.experience-description{max-width:650px;margin:25px auto 0;text-align:left;color:#59634f;font-size:.88rem;line-height:1.8}
+.experience-description summary{cursor:pointer;text-align:center;color:var(--forest);font-size:.76rem;text-decoration:underline;text-underline-offset:4px;padding:12px}
+.experience-description p{margin-top:18px}
+.product-journey-page .experience-making{padding-top:20px;padding-bottom:70px}
+.product-journey-page .experience-botanicals{padding-top:35px;padding-bottom:60px;border-block:1px solid #c7cbbd66;background:linear-gradient(180deg,transparent,#e5e8d757,transparent)}
+.experience-ritual{padding-block:95px}
+.experience-next{display:flex;align-items:center;justify-content:space-between;gap:22px;border-top:1px solid #c7cbbd;padding-top:30px;margin-top:50px;font:italic 1.4rem/1.4 var(--serif);color:#536147}
+.experience-next a{display:flex;gap:12px;align-items:center;font:400 .76rem/1.5 var(--sans);color:var(--forest)}
+@media(max-width:800px){.product-exhibit{padding-bottom:60px}.exhibit-stage{height:440px}.exhibit-introduction{margin-top:32px}.exhibit-introduction h1{font-size:clamp(3.6rem,8vw,5rem)}.exhibit-stage .visual-model{padding-inline:12%}.experience-invitation{padding-block:65px}.experience-path a{padding:15px;font-size:1.25rem}.experience-ritual{padding-block:65px}.experience-next{font-size:1.2rem}}
+@media(max-width:540px){.product-exhibit{padding-inline:5vw;padding-bottom:45px}.exhibit-edition{font-size:.48rem;letter-spacing:.17em;padding-top:8px}.exhibit-edition i{margin-inline:9px}.exhibit-stage{height:340px}.exhibit-stage .visual-model{padding:0 5% 45px}.exhibit-stage .viewer-controls{bottom:5px}.exhibit-ground{width:42%;left:29%;bottom:64px}.exhibit-introduction{margin-top:28px}.exhibit-introduction>.eyebrow{font-size:.52rem;letter-spacing:.14em;margin-bottom:17px}.exhibit-introduction h1{font-size:clamp(2.9rem,11vw,4rem);margin-bottom:17px}.exhibit-story{font-size:1.14rem;max-width:320px}.exhibit-actions{gap:20px;margin-top:24px;flex-wrap:wrap}.exhibit-actions .text-link,.exhibit-discover{font-size:.66rem}.exhibit-discover svg{width:31px;height:31px;padding:8px}.exhibit-preview{font-size:.52rem;margin-top:20px}.exhibit-modes{margin-top:7px;gap:20px}.exhibit-modes button{font-size:.6rem}.exhibit-light{height:520px;width:90%;top:-120px}.experience-invitation{padding-top:60px;padding-bottom:55px}.experience-invitation h2{font-size:2.5rem;margin-bottom:25px}.experience-invitation .eyebrow{font-size:.54rem}.experience-path a{font-size:1.05rem;padding:15px 8px;gap:10px}.experience-path a>span{font-size:.48rem;letter-spacing:.05em}.experience-path a>svg{width:19px}.experience-next{align-items:flex-start;flex-direction:column;margin-top:30px;padding-top:23px}.product-journey-page .experience-making{padding-bottom:50px}.product-journey-page .experience-botanicals{padding-top:15px;padding-bottom:35px}.experience-ritual{padding-block:55px}}
+@media(prefers-reduced-motion:reduce){.exhibit-discover svg,.experience-path a{transition:none}}

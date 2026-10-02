@@ -1,0 +1,258 @@
+[
+  {
+    "ownerId": "gid://shopify/Product/8903888994523",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Infused with saponified extra Virgin- coconut oil, this handmade soap deeply cleanses while maintaining natural skin moisture, making it suitable for all skin types including sensitive skin.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8903910523099",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Crafted with saponified extra Virgin- coconut oil, this luxurious soap gently cleanses while locking in moisture, making it perfect for dry, sensitive, and normal skin types.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8903931658459",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Formulated with saponified extra Virgin- coconut oil, this soap deeply cleanses and nourishes while maintaining the skin’s natural barrier and hydration level for daily freshness.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8903944306907",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Enriched with French green clay to gently exfoliate, detoxify pores, and remove impurities, this soap bar supports clearer, smoother skin without irritation or dryness.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8904052965595",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Infused with herb Annato, this bar cleanses deeply while leaving skin soft and nourished; ideal for dry, sensitive, or acne-prone skin types needing gentle purification.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8904061976795",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Energizing arabica coffee gently exfoliates dead skin while stimulating circulation, leaving skin smooth, refreshed, and visibly brighter after every use—ideal for dull or tired skin.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8904077607131",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Infused with Jasminum Grandiflorum, this bar offers a delicate floral aroma that soothes the senses while enhancing skin tone and delivering a luxurious cleansing experience.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8904094679259",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Activated bamboo charcoal deeply cleanses pores, removes toxins, and reduces acne, making this bar perfect for oily, acne-prone, and combination skin seeking a detoxifying cleanse.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8904099201243",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Rhassoul clay gently exfoliates, detoxifies, and improves skin clarity by drawing out deep-seated impurities—ideal for dull, oily, or congested skin seeking balance and radiance.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8904100184283",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Neem oil and turmeric work together to calm inflammation, fight acne-causing bacteria, and promote clearer, healthier skin—perfect for blemish-prone or oily skin types.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8904101724379",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "This luxury gift set includes three uniquely blended soaps: Orange Tangerine, Oriental Lavender, and Tea Tree, offering a complete sensory experience with every shower or bath.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8904103035099",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "This Wellness Trio Soap Bundle includes three invigorating soaps: Charcoal Mint, Tea Tree, and Camphora Pink Salt—perfect for detoxifying, purifying, and refreshing your skin with every use.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8904106082523",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Organic Mamra Almonds provide natural exfoliation and nourishment, helping to brighten, soften, and rejuvenate the skin for a healthy, glowing complexion with each use.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8904108048603",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Colloidal Oats soothe and calm irritated skin, offering deep hydration and relief for dry, itchy, or sensitive skin, making this ubtan perfect for post-shower care or skin flare-ups.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8906849222875",
+    "namespace": "dyu",
+    "key": "ingredients",
+    "type": "list.metaobject_reference",
+    "value": "[\"gid://shopify/Metaobject/611149938907\"]",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8906850205915",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "100% Cold-Pressed Almond Seed Oil is rich in antioxidants, vitamins, and essential fatty acids that nourish, hydrate, and rejuvenate your skin for a youthful, glowing complexion.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8906850205915",
+    "namespace": "dyu",
+    "key": "ingredients",
+    "type": "list.metaobject_reference",
+    "value": "[\"gid://shopify/Metaobject/611149971675\"]",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8906853089499",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "DYU Triple Body Butter - Rose blends cocoa, mango, and shea butter with coconut oil and rose absolute to deliver deep, lasting hydration while leaving skin soft, smooth, and beautifully scented.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8906853449947",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "DYU Triple Body Butter - Lavender blends rich cocoa, mango, and shea butters with coconut oil and lavender essential oil to intensely moisturize and soothe dry, tired, or irritated skin.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8906854957275",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "DYU Triple Body Butter ?",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8971085185243",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Calm your senses and indulge your skin with our Lavender Honeycomb Soap, a handcrafted cold process soap bar made with pure coconut oil and naturally colored with alkanet root.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8974567407835",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Revive your skin and uplift your senses with our Rose Reset Soap Bar, a handcrafted cold process soap made with pure coconut oil and naturally tinted with rose clay.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8974634778843",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Energize your skin and awaken your senses with our Tea Tree Trips Soap Bar, a handcrafted cold process soap made with pure coconut oil and naturally colored with French Green Clay .",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8994673295579",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "With Premium Bentonite Clay: Draws out impurities, deeply detoxifies pores, and balances oil without drying your skin — a superior alternative to Multani Mitti.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8994673295579",
+    "namespace": "dyu",
+    "key": "ingredients",
+    "type": "list.metaobject_reference",
+    "value": "[\"gid://shopify/Metaobject/611150004443\"]",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8994674114779",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "100 % Pure Luxury Cold Pressed Olive Oil: The highest grade, nutrient-rich olive oil—never diluted or blended—retaining maximum vitamins and polyphenols for intense hydration and hair strength.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8994750759131",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "100 % Pure & Cold Pressed – Extracted from high-quality almond seeds using traditional cold-press methods to retain nutrients and potency.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8994750759131",
+    "namespace": "dyu",
+    "key": "ingredients",
+    "type": "list.metaobject_reference",
+    "value": "[\"gid://shopify/Metaobject/611150037211\",\"gid://shopify/Metaobject/611150069979\",\"gid://shopify/Metaobject/611150102747\",\"gid://shopify/Metaobject/611150135515\"]",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8997684314331",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Multi-Benefit Daily Ritual: Use as a daily face cleanser, weekly exfoliating mask, or festive glow-up treatment.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8997684314331",
+    "namespace": "dyu",
+    "key": "ingredients",
+    "type": "list.metaobject_reference",
+    "value": "[\"gid://shopify/Metaobject/611150102747\",\"gid://shopify/Metaobject/611150168283\",\"gid://shopify/Metaobject/611149971675\"]",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8997686608091",
+    "namespace": "dyu",
+    "key": "short_story",
+    "type": "multi_line_text_field",
+    "value": "Tea Tree & Neem for Acne Care – Enriched with antibacterial Tea Tree and detoxifying Neem to target body acne, clogged pores, and inflammation for visibly clearer skin.",
+    "compareDigest": null
+  },
+  {
+    "ownerId": "gid://shopify/Product/8997686608091",
+    "namespace": "dyu",
+    "key": "ingredients",
+    "type": "list.metaobject_reference",
+    "value": "[\"gid://shopify/Metaobject/611150201051\",\"gid://shopify/Metaobject/611150004443\"]",
+    "compareDigest": null
+  }
+]

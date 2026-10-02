@@ -1,0 +1,1414 @@
+{
+  "date": "2026-10-02",
+  "shopId": "gid://shopify/Shop/76637307099",
+  "storefrontDomain": "dyuhandmade.myshopify.com",
+  "canonicalDomain": "fgm0vn-7t.myshopify.com",
+  "additive": true,
+  "metaobjectDefinitions": {
+    "site": {
+      "metaobjectDefinition": {
+        "id": "gid://shopify/MetaobjectDefinition/25469288667",
+        "type": "dyu_site_content",
+        "fieldDefinitions": [
+          {
+            "key": "name",
+            "type": {
+              "name": "single_line_text_field"
+            }
+          },
+          {
+            "key": "eyebrow",
+            "type": {
+              "name": "single_line_text_field"
+            }
+          },
+          {
+            "key": "title",
+            "type": {
+              "name": "multi_line_text_field"
+            }
+          },
+          {
+            "key": "title_emphasis",
+            "type": {
+              "name": "multi_line_text_field"
+            }
+          },
+          {
+            "key": "body",
+            "type": {
+              "name": "multi_line_text_field"
+            }
+          },
+          {
+            "key": "image",
+            "type": {
+              "name": "file_reference"
+            }
+          },
+          {
+            "key": "mobile_image",
+            "type": {
+              "name": "file_reference"
+            }
+          },
+          {
+            "key": "image_alt",
+            "type": {
+              "name": "single_line_text_field"
+            }
+          },
+          {
+            "key": "image_position",
+            "type": {
+              "name": "single_line_text_field"
+            }
+          },
+          {
+            "key": "link_label",
+            "type": {
+              "name": "single_line_text_field"
+            }
+          },
+          {
+            "key": "link_url",
+            "type": {
+              "name": "single_line_text_field"
+            }
+          },
+          {
+            "key": "secondary_label",
+            "type": {
+              "name": "single_line_text_field"
+            }
+          },
+          {
+            "key": "secondary_url",
+            "type": {
+              "name": "single_line_text_field"
+            }
+          },
+          {
+            "key": "enabled",
+            "type": {
+              "name": "boolean"
+            }
+          },
+          {
+            "key": "sort_order",
+            "type": {
+              "name": "number_integer"
+            }
+          },
+          {
+            "key": "products",
+            "type": {
+              "name": "list.product_reference"
+            }
+          },
+          {
+            "key": "collections",
+            "type": {
+              "name": "list.collection_reference"
+            }
+          },
+          {
+            "key": "items",
+            "type": {
+              "name": "list.single_line_text_field"
+            }
+          },
+          {
+            "key": "note",
+            "type": {
+              "name": "single_line_text_field"
+            }
+          },
+          {
+            "key": "caption",
+            "type": {
+              "name": "single_line_text_field"
+            }
+          },
+          {
+            "key": "category",
+            "type": {
+              "name": "single_line_text_field"
+            }
+          },
+          {
+            "key": "read_time",
+            "type": {
+              "name": "single_line_text_field"
+            }
+          }
+        ]
+      },
+      "userErrors": []
+    },
+    "ingredient": {
+      "metaobjectDefinition": {
+        "id": "gid://shopify/MetaobjectDefinition/25469321435",
+        "type": "dyu_ingredient"
+      },
+      "userErrors": []
+    },
+    "step": {
+      "metaobjectDefinition": {
+        "id": "gid://shopify/MetaobjectDefinition/25469354203",
+        "type": "dyu_story_step"
+      },
+      "userErrors": []
+    }
+  },
+  "productDefinitions": {
+    "d0": {
+      "createdDefinition": {
+        "id": "gid://shopify/MetafieldDefinition/298943873243",
+        "namespace": "dyu",
+        "key": "short_story",
+        "type": {
+          "name": "multi_line_text_field"
+        }
+      },
+      "userErrors": []
+    },
+    "d1": {
+      "createdDefinition": {
+        "id": "gid://shopify/MetafieldDefinition/298943906011",
+        "namespace": "dyu",
+        "key": "sensory_notes",
+        "type": {
+          "name": "multi_line_text_field"
+        }
+      },
+      "userErrors": []
+    },
+    "d2": {
+      "createdDefinition": {
+        "id": "gid://shopify/MetafieldDefinition/298943938779",
+        "namespace": "dyu",
+        "key": "ingredients",
+        "type": {
+          "name": "list.metaobject_reference"
+        }
+      },
+      "userErrors": []
+    },
+    "d3": {
+      "createdDefinition": {
+        "id": "gid://shopify/MetafieldDefinition/298943971547",
+        "namespace": "dyu",
+        "key": "craft_steps",
+        "type": {
+          "name": "list.metaobject_reference"
+        }
+      },
+      "userErrors": []
+    },
+    "d4": {
+      "createdDefinition": {
+        "id": "gid://shopify/MetafieldDefinition/298944004315",
+        "namespace": "dyu",
+        "key": "ritual_steps",
+        "type": {
+          "name": "list.metaobject_reference"
+        }
+      },
+      "userErrors": []
+    },
+    "d5": {
+      "createdDefinition": {
+        "id": "gid://shopify/MetafieldDefinition/298944037083",
+        "namespace": "dyu",
+        "key": "care_notes",
+        "type": {
+          "name": "multi_line_text_field"
+        }
+      },
+      "userErrors": []
+    },
+    "d6": {
+      "createdDefinition": {
+        "id": "gid://shopify/MetafieldDefinition/298944069851",
+        "namespace": "dyu",
+        "key": "full_ingredient_list",
+        "type": {
+          "name": "multi_line_text_field"
+        }
+      },
+      "userErrors": []
+    },
+    "d7": {
+      "createdDefinition": {
+        "id": "gid://shopify/MetafieldDefinition/298944102619",
+        "namespace": "dyu",
+        "key": "display_shape",
+        "type": {
+          "name": "single_line_text_field"
+        }
+      },
+      "userErrors": []
+    },
+    "d8": {
+      "createdDefinition": {
+        "id": "gid://shopify/MetafieldDefinition/298944135387",
+        "namespace": "dyu",
+        "key": "tone",
+        "type": {
+          "name": "color"
+        }
+      },
+      "userErrors": []
+    },
+    "d9": {
+      "createdDefinition": {
+        "id": "gid://shopify/MetafieldDefinition/298944168155",
+        "namespace": "dyu",
+        "key": "related_products",
+        "type": {
+          "name": "list.product_reference"
+        }
+      },
+      "userErrors": []
+    }
+  },
+  "ingredientEntries": {
+    "e0": {
+      "metaobject": {
+        "id": "gid://shopify/Metaobject/611149938907",
+        "handle": "moringa",
+        "type": "dyu_ingredient",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Moringa"
+          },
+          {
+            "key": "description",
+            "value": null
+          },
+          {
+            "key": "botanical_name",
+            "value": null
+          },
+          {
+            "key": "image",
+            "value": null
+          }
+        ]
+      },
+      "userErrors": []
+    },
+    "e1": {
+      "metaobject": {
+        "id": "gid://shopify/Metaobject/611149971675",
+        "handle": "almond",
+        "type": "dyu_ingredient",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Almond"
+          },
+          {
+            "key": "description",
+            "value": null
+          },
+          {
+            "key": "botanical_name",
+            "value": null
+          },
+          {
+            "key": "image",
+            "value": null
+          }
+        ]
+      },
+      "userErrors": []
+    },
+    "e2": {
+      "metaobject": {
+        "id": "gid://shopify/Metaobject/611150004443",
+        "handle": "clay",
+        "type": "dyu_ingredient",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Clay"
+          },
+          {
+            "key": "description",
+            "value": null
+          },
+          {
+            "key": "botanical_name",
+            "value": null
+          },
+          {
+            "key": "image",
+            "value": null
+          }
+        ]
+      },
+      "userErrors": []
+    },
+    "e3": {
+      "metaobject": {
+        "id": "gid://shopify/Metaobject/611150037211",
+        "handle": "vitamin-a",
+        "type": "dyu_ingredient",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Vitamin A"
+          },
+          {
+            "key": "description",
+            "value": null
+          },
+          {
+            "key": "botanical_name",
+            "value": null
+          },
+          {
+            "key": "image",
+            "value": null
+          }
+        ]
+      },
+      "userErrors": []
+    },
+    "e4": {
+      "metaobject": {
+        "id": "gid://shopify/Metaobject/611150069979",
+        "handle": "almond-oil",
+        "type": "dyu_ingredient",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Almond oil"
+          },
+          {
+            "key": "description",
+            "value": null
+          },
+          {
+            "key": "botanical_name",
+            "value": null
+          },
+          {
+            "key": "image",
+            "value": null
+          }
+        ]
+      },
+      "userErrors": []
+    },
+    "e5": {
+      "metaobject": {
+        "id": "gid://shopify/Metaobject/611150102747",
+        "handle": "vitamin-c",
+        "type": "dyu_ingredient",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Vitamin C"
+          },
+          {
+            "key": "description",
+            "value": null
+          },
+          {
+            "key": "botanical_name",
+            "value": null
+          },
+          {
+            "key": "image",
+            "value": null
+          }
+        ]
+      },
+      "userErrors": []
+    },
+    "e6": {
+      "metaobject": {
+        "id": "gid://shopify/Metaobject/611150135515",
+        "handle": "vitamin-e",
+        "type": "dyu_ingredient",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Vitamin E"
+          },
+          {
+            "key": "description",
+            "value": null
+          },
+          {
+            "key": "botanical_name",
+            "value": null
+          },
+          {
+            "key": "image",
+            "value": null
+          }
+        ]
+      },
+      "userErrors": []
+    },
+    "e7": {
+      "metaobject": {
+        "id": "gid://shopify/Metaobject/611150168283",
+        "handle": "orange",
+        "type": "dyu_ingredient",
+        "fields": [
+          {
+            "key": "name",
+            "value": "orange"
+          },
+          {
+            "key": "description",
+            "value": null
+          },
+          {
+            "key": "botanical_name",
+            "value": null
+          },
+          {
+            "key": "image",
+            "value": null
+          }
+        ]
+      },
+      "userErrors": []
+    },
+    "e8": {
+      "metaobject": {
+        "id": "gid://shopify/Metaobject/611150201051",
+        "handle": "tea-tree-oil",
+        "type": "dyu_ingredient",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Tea tree oil"
+          },
+          {
+            "key": "description",
+            "value": null
+          },
+          {
+            "key": "botanical_name",
+            "value": null
+          },
+          {
+            "key": "image",
+            "value": null
+          }
+        ]
+      },
+      "userErrors": []
+    }
+  },
+  "productValues": [
+    {
+      "metafieldsSet": {
+        "metafields": [
+          {
+            "id": "gid://shopify/Metafield/70722141094107",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Infused with saponified extra Virgin- coconut oil, this handmade soap deeply cleanses while maintaining natural skin moisture, making it suitable for all skin types including sensitive skin.",
+            "owner": {
+              "id": "gid://shopify/Product/8903888994523"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722141061339",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Crafted with saponified extra Virgin- coconut oil, this luxurious soap gently cleanses while locking in moisture, making it perfect for dry, sensitive, and normal skin types.",
+            "owner": {
+              "id": "gid://shopify/Product/8903910523099"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722141028571",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Formulated with saponified extra Virgin- coconut oil, this soap deeply cleanses and nourishes while maintaining the skin’s natural barrier and hydration level for daily freshness.",
+            "owner": {
+              "id": "gid://shopify/Product/8903931658459"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140995803",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Enriched with French green clay to gently exfoliate, detoxify pores, and remove impurities, this soap bar supports clearer, smoother skin without irritation or dryness.",
+            "owner": {
+              "id": "gid://shopify/Product/8903944306907"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140963035",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Infused with herb Annato, this bar cleanses deeply while leaving skin soft and nourished; ideal for dry, sensitive, or acne-prone skin types needing gentle purification.",
+            "owner": {
+              "id": "gid://shopify/Product/8904052965595"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140930267",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Energizing arabica coffee gently exfoliates dead skin while stimulating circulation, leaving skin smooth, refreshed, and visibly brighter after every use—ideal for dull or tired skin.",
+            "owner": {
+              "id": "gid://shopify/Product/8904061976795"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140897499",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Infused with Jasminum Grandiflorum, this bar offers a delicate floral aroma that soothes the senses while enhancing skin tone and delivering a luxurious cleansing experience.",
+            "owner": {
+              "id": "gid://shopify/Product/8904077607131"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140864731",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Activated bamboo charcoal deeply cleanses pores, removes toxins, and reduces acne, making this bar perfect for oily, acne-prone, and combination skin seeking a detoxifying cleanse.",
+            "owner": {
+              "id": "gid://shopify/Product/8904094679259"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140831963",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Rhassoul clay gently exfoliates, detoxifies, and improves skin clarity by drawing out deep-seated impurities—ideal for dull, oily, or congested skin seeking balance and radiance.",
+            "owner": {
+              "id": "gid://shopify/Product/8904099201243"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140799195",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Neem oil and turmeric work together to calm inflammation, fight acne-causing bacteria, and promote clearer, healthier skin—perfect for blemish-prone or oily skin types.",
+            "owner": {
+              "id": "gid://shopify/Product/8904100184283"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140766427",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "This luxury gift set includes three uniquely blended soaps: Orange Tangerine, Oriental Lavender, and Tea Tree, offering a complete sensory experience with every shower or bath.",
+            "owner": {
+              "id": "gid://shopify/Product/8904101724379"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140733659",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "This Wellness Trio Soap Bundle includes three invigorating soaps: Charcoal Mint, Tea Tree, and Camphora Pink Salt—perfect for detoxifying, purifying, and refreshing your skin with every use.",
+            "owner": {
+              "id": "gid://shopify/Product/8904103035099"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140700891",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Organic Mamra Almonds provide natural exfoliation and nourishment, helping to brighten, soften, and rejuvenate the skin for a healthy, glowing complexion with each use.",
+            "owner": {
+              "id": "gid://shopify/Product/8904106082523"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140668123",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Colloidal Oats soothe and calm irritated skin, offering deep hydration and relief for dry, itchy, or sensitive skin, making this ubtan perfect for post-shower care or skin flare-ups.",
+            "owner": {
+              "id": "gid://shopify/Product/8904108048603"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140635355",
+            "namespace": "dyu",
+            "key": "ingredients",
+            "value": "[\"gid://shopify/Metaobject/611149938907\"]",
+            "owner": {
+              "id": "gid://shopify/Product/8906849222875"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140602587",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "100% Cold-Pressed Almond Seed Oil is rich in antioxidants, vitamins, and essential fatty acids that nourish, hydrate, and rejuvenate your skin for a youthful, glowing complexion.",
+            "owner": {
+              "id": "gid://shopify/Product/8906850205915"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140569819",
+            "namespace": "dyu",
+            "key": "ingredients",
+            "value": "[\"gid://shopify/Metaobject/611149971675\"]",
+            "owner": {
+              "id": "gid://shopify/Product/8906850205915"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140537051",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "DYU Triple Body Butter - Rose blends cocoa, mango, and shea butter with coconut oil and rose absolute to deliver deep, lasting hydration while leaving skin soft, smooth, and beautifully scented.",
+            "owner": {
+              "id": "gid://shopify/Product/8906853089499"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140504283",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "DYU Triple Body Butter - Lavender blends rich cocoa, mango, and shea butters with coconut oil and lavender essential oil to intensely moisturize and soothe dry, tired, or irritated skin.",
+            "owner": {
+              "id": "gid://shopify/Product/8906853449947"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140471515",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "DYU Triple Body Butter ?",
+            "owner": {
+              "id": "gid://shopify/Product/8906854957275"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140438747",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Calm your senses and indulge your skin with our Lavender Honeycomb Soap, a handcrafted cold process soap bar made with pure coconut oil and naturally colored with alkanet root.",
+            "owner": {
+              "id": "gid://shopify/Product/8971085185243"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140405979",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Revive your skin and uplift your senses with our Rose Reset Soap Bar, a handcrafted cold process soap made with pure coconut oil and naturally tinted with rose clay.",
+            "owner": {
+              "id": "gid://shopify/Product/8974567407835"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140373211",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Energize your skin and awaken your senses with our Tea Tree Trips Soap Bar, a handcrafted cold process soap made with pure coconut oil and naturally colored with French Green Clay .",
+            "owner": {
+              "id": "gid://shopify/Product/8974634778843"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140340443",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "With Premium Bentonite Clay: Draws out impurities, deeply detoxifies pores, and balances oil without drying your skin — a superior alternative to Multani Mitti.",
+            "owner": {
+              "id": "gid://shopify/Product/8994673295579"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722140307675",
+            "namespace": "dyu",
+            "key": "ingredients",
+            "value": "[\"gid://shopify/Metaobject/611150004443\"]",
+            "owner": {
+              "id": "gid://shopify/Product/8994673295579"
+            }
+          }
+        ],
+        "userErrors": []
+      }
+    },
+    {
+      "metafieldsSet": {
+        "metafields": [
+          {
+            "id": "gid://shopify/Metafield/70722141815003",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "100 % Pure Luxury Cold Pressed Olive Oil: The highest grade, nutrient-rich olive oil—never diluted or blended—retaining maximum vitamins and polyphenols for intense hydration and hair strength.",
+            "owner": {
+              "id": "gid://shopify/Product/8994674114779"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722141782235",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "100 % Pure & Cold Pressed – Extracted from high-quality almond seeds using traditional cold-press methods to retain nutrients and potency.",
+            "owner": {
+              "id": "gid://shopify/Product/8994750759131"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722141749467",
+            "namespace": "dyu",
+            "key": "ingredients",
+            "value": "[\"gid://shopify/Metaobject/611150037211\",\"gid://shopify/Metaobject/611150069979\",\"gid://shopify/Metaobject/611150102747\",\"gid://shopify/Metaobject/611150135515\"]",
+            "owner": {
+              "id": "gid://shopify/Product/8994750759131"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722141716699",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Multi-Benefit Daily Ritual: Use as a daily face cleanser, weekly exfoliating mask, or festive glow-up treatment.",
+            "owner": {
+              "id": "gid://shopify/Product/8997684314331"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722141683931",
+            "namespace": "dyu",
+            "key": "ingredients",
+            "value": "[\"gid://shopify/Metaobject/611150102747\",\"gid://shopify/Metaobject/611150168283\",\"gid://shopify/Metaobject/611149971675\"]",
+            "owner": {
+              "id": "gid://shopify/Product/8997684314331"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722141651163",
+            "namespace": "dyu",
+            "key": "short_story",
+            "value": "Tea Tree & Neem for Acne Care – Enriched with antibacterial Tea Tree and detoxifying Neem to target body acne, clogged pores, and inflammation for visibly clearer skin.",
+            "owner": {
+              "id": "gid://shopify/Product/8997686608091"
+            }
+          },
+          {
+            "id": "gid://shopify/Metafield/70722141618395",
+            "namespace": "dyu",
+            "key": "ingredients",
+            "value": "[\"gid://shopify/Metaobject/611150201051\",\"gid://shopify/Metaobject/611150004443\"]",
+            "owner": {
+              "id": "gid://shopify/Product/8997686608091"
+            }
+          }
+        ],
+        "userErrors": []
+      }
+    }
+  ],
+  "websiteEntries": [
+    {
+      "e0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611150594267",
+          "handle": "home-hero"
+        },
+        "userErrors": []
+      },
+      "e1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611150627035",
+          "handle": "home-hero-preview"
+        },
+        "userErrors": []
+      },
+      "e2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611150659803",
+          "handle": "home-welcome"
+        },
+        "userErrors": []
+      },
+      "e3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611150692571",
+          "handle": "home-collections"
+        },
+        "userErrors": []
+      },
+      "e4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611150725339",
+          "handle": "home-craft"
+        },
+        "userErrors": []
+      },
+      "e5": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611150758107",
+          "handle": "home-ingredients"
+        },
+        "userErrors": []
+      },
+      "e6": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611150790875",
+          "handle": "home-favorites"
+        },
+        "userErrors": []
+      },
+      "e7": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611150823643",
+          "handle": "home-journal"
+        },
+        "userErrors": []
+      },
+      "e8": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611150856411",
+          "handle": "home-journal-1"
+        },
+        "userErrors": []
+      },
+      "e9": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611150889179",
+          "handle": "home-journal-2"
+        },
+        "userErrors": []
+      }
+    },
+    {
+      "e0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611150921947",
+          "handle": "home-reassurance"
+        },
+        "userErrors": []
+      },
+      "e1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611150954715",
+          "handle": "home-reassurance-1"
+        },
+        "userErrors": []
+      },
+      "e2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611150987483",
+          "handle": "home-reassurance-2"
+        },
+        "userErrors": []
+      },
+      "e3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611151020251",
+          "handle": "home-reassurance-3"
+        },
+        "userErrors": []
+      },
+      "e4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611151053019",
+          "handle": "home-reassurance-4"
+        },
+        "userErrors": []
+      }
+    },
+    {
+      "e0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611151708379",
+          "handle": "brand"
+        },
+        "userErrors": []
+      },
+      "e1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611151741147",
+          "handle": "announcement"
+        },
+        "userErrors": []
+      },
+      "e2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611151773915",
+          "handle": "header-menu"
+        },
+        "userErrors": []
+      },
+      "e3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611151806683",
+          "handle": "nav-collection"
+        },
+        "userErrors": []
+      },
+      "e4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611151839451",
+          "handle": "nav-story"
+        },
+        "userErrors": []
+      },
+      "e5": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611151872219",
+          "handle": "nav-ingredients"
+        },
+        "userErrors": []
+      },
+      "e6": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611151904987",
+          "handle": "nav-journal"
+        },
+        "userErrors": []
+      },
+      "e7": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611151937755",
+          "handle": "nav-making"
+        },
+        "userErrors": []
+      },
+      "e8": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611151970523",
+          "handle": "nav-contact"
+        },
+        "userErrors": []
+      },
+      "e9": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152003291",
+          "handle": "nav-faq"
+        },
+        "userErrors": []
+      }
+    },
+    {
+      "e0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152068827",
+          "handle": "nav-shipping"
+        },
+        "userErrors": []
+      },
+      "e1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152101595",
+          "handle": "nav-privacy"
+        },
+        "userErrors": []
+      },
+      "e2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152134363",
+          "handle": "nav-terms"
+        },
+        "userErrors": []
+      },
+      "e3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152167131",
+          "handle": "nav-accessibility"
+        },
+        "userErrors": []
+      },
+      "e4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152199899",
+          "handle": "footer"
+        },
+        "userErrors": []
+      },
+      "e5": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152232667",
+          "handle": "footer-philosophy"
+        },
+        "userErrors": []
+      },
+      "e6": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152265435",
+          "handle": "contact-page"
+        },
+        "userErrors": []
+      },
+      "e7": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152298203",
+          "handle": "contact"
+        },
+        "userErrors": []
+      },
+      "e8": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152330971",
+          "handle": "story-page"
+        },
+        "userErrors": []
+      },
+      "e9": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152363739",
+          "handle": "philosophy"
+        },
+        "userErrors": []
+      }
+    },
+    {
+      "e0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152494811",
+          "handle": "philosophy-nature"
+        },
+        "userErrors": []
+      },
+      "e1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152527579",
+          "handle": "philosophy-human-touch"
+        },
+        "userErrors": []
+      },
+      "e2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152560347",
+          "handle": "philosophy-everyday"
+        },
+        "userErrors": []
+      },
+      "e3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152593115",
+          "handle": "ritual"
+        },
+        "userErrors": []
+      },
+      "e4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152625883",
+          "handle": "ritual-morning"
+        },
+        "userErrors": []
+      },
+      "e5": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152658651",
+          "handle": "ritual-morning-step-1"
+        },
+        "userErrors": []
+      },
+      "e6": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152691419",
+          "handle": "ritual-morning-step-2"
+        },
+        "userErrors": []
+      },
+      "e7": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152724187",
+          "handle": "ritual-morning-step-3"
+        },
+        "userErrors": []
+      },
+      "e8": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152756955",
+          "handle": "ritual-evening"
+        },
+        "userErrors": []
+      },
+      "e9": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152789723",
+          "handle": "ritual-evening-step-1"
+        },
+        "userErrors": []
+      }
+    },
+    {
+      "e0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152822491",
+          "handle": "ritual-evening-step-2"
+        },
+        "userErrors": []
+      },
+      "e1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152855259",
+          "handle": "ritual-evening-step-3"
+        },
+        "userErrors": []
+      },
+      "e2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152888027",
+          "handle": "ritual-pause"
+        },
+        "userErrors": []
+      },
+      "e3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152920795",
+          "handle": "ritual-pause-step-1"
+        },
+        "userErrors": []
+      },
+      "e4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152953563",
+          "handle": "ritual-pause-step-2"
+        },
+        "userErrors": []
+      },
+      "e5": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611152986331",
+          "handle": "ritual-pause-step-3"
+        },
+        "userErrors": []
+      },
+      "e6": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153019099",
+          "handle": "craft-page"
+        },
+        "userErrors": []
+      },
+      "e7": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153051867",
+          "handle": "ingredients-page"
+        },
+        "userErrors": []
+      },
+      "e8": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153084635",
+          "handle": "faq-page"
+        },
+        "userErrors": []
+      },
+      "e9": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153117403",
+          "handle": "faq-find-a-ritual"
+        },
+        "userErrors": []
+      }
+    },
+    {
+      "e0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153182939",
+          "handle": "faq-ingredients"
+        },
+        "userErrors": []
+      },
+      "e1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153215707",
+          "handle": "faq-3d"
+        },
+        "userErrors": []
+      },
+      "e2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153248475",
+          "handle": "faq-orders"
+        },
+        "userErrors": []
+      },
+      "e3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153281243",
+          "handle": "faq-delivery"
+        },
+        "userErrors": []
+      },
+      "e4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153314011",
+          "handle": "journal-page"
+        },
+        "userErrors": []
+      },
+      "e5": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153346779",
+          "handle": "article-making-space-for-a-ritual"
+        },
+        "userErrors": []
+      },
+      "e6": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153379547",
+          "handle": "article-look-closer-at-your-care"
+        },
+        "userErrors": []
+      },
+      "e7": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153412315",
+          "handle": "policy-shipping"
+        },
+        "userErrors": []
+      },
+      "e8": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153445083",
+          "handle": "policy-privacy"
+        },
+        "userErrors": []
+      },
+      "e9": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153477851",
+          "handle": "policy-terms"
+        },
+        "userErrors": []
+      }
+    },
+    {
+      "metaobjectUpsert": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/611153510619",
+          "handle": "policy-accessibility",
+          "type": "dyu_site_content",
+          "fields": [
+            {
+              "key": "name",
+              "value": "Policy · Accessibility"
+            },
+            {
+              "key": "eyebrow",
+              "value": "THE DETAILS"
+            },
+            {
+              "key": "title",
+              "value": "Accessibility"
+            },
+            {
+              "key": "title_emphasis",
+              "value": null
+            },
+            {
+              "key": "body",
+              "value": null
+            },
+            {
+              "key": "image",
+              "value": null
+            },
+            {
+              "key": "mobile_image",
+              "value": null
+            },
+            {
+              "key": "image_alt",
+              "value": null
+            },
+            {
+              "key": "image_position",
+              "value": null
+            },
+            {
+              "key": "link_label",
+              "value": null
+            },
+            {
+              "key": "link_url",
+              "value": null
+            },
+            {
+              "key": "secondary_label",
+              "value": null
+            },
+            {
+              "key": "secondary_url",
+              "value": null
+            },
+            {
+              "key": "enabled",
+              "value": null
+            },
+            {
+              "key": "sort_order",
+              "value": null
+            },
+            {
+              "key": "products",
+              "value": null
+            },
+            {
+              "key": "collections",
+              "value": null
+            },
+            {
+              "key": "items",
+              "value": null
+            },
+            {
+              "key": "note",
+              "value": null
+            },
+            {
+              "key": "caption",
+              "value": null
+            },
+            {
+              "key": "category",
+              "value": null
+            },
+            {
+              "key": "read_time",
+              "value": null
+            }
+          ]
+        },
+        "userErrors": []
+      }
+    }
+  ],
+  "images": {
+    "/images/atelier-hero.webp": {
+      "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/dyu-website-hero.webp?v=1790942714",
+      "fileId": "gid://shopify/MediaImage/46365272408283",
+      "filename": "dyu-website-hero.webp",
+      "alt": "Illustrative DYUhandmade care products with botanicals, linen and sunlit stone"
+    },
+    "/images/botanical-study.webp": {
+      "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/dyu-website-botanical-study.webp?v=1790942797",
+      "fileId": "gid://shopify/MediaImage/46365287842011",
+      "filename": "dyu-website-botanical-study.webp",
+      "alt": "Illustrative study of botanical forms and textures"
+    },
+    "/images/atelier-craft-v2.webp": {
+      "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/dyu-website-craft.webp?v=1790942850",
+      "fileId": "gid://shopify/MediaImage/46365293871323",
+      "filename": "dyu-website-craft.webp",
+      "alt": "Illustrative atelier craft scene"
+    },
+    "/images/atelier-ritual-v2.webp": {
+      "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/dyu-website-ritual.webp?v=1790942903",
+      "fileId": "gid://shopify/MediaImage/46365321199835",
+      "filename": "dyu-website-ritual.webp",
+      "alt": "Illustrative quiet ritual with linen and care vessels"
+    }
+  },
+  "source": "Site entries preserve existing site copy and illustrative artwork. Product story excerpts come from original descriptions; ingredient references come only from existing Shopify taxonomy. No original catalogue fields, policies, taxonomy or media were changed or removed."
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "handle": "triple-body-butter-lavendar",
+    "images": [
+      {
+        "index": 1,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/DamaskRoseBodyButter.jpg?v=1749474416",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2FDamaskRoseBodyButter.jpg%3Fv%3D1749474416&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\triple-body-butter-lavendar-1.png"
+      },
+      {
+        "index": 2,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/DamaskRoseBodyButter_760e5b26-0bef-4c64-aa13-ed37bf698f33.jpg?v=1749473921",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2FDamaskRoseBodyButter_760e5b26-0bef-4c64-aa13-ed37bf698f33.jpg%3Fv%3D1749473921&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\triple-body-butter-lavendar-2.png"
+      }
+    ],
+    "sheet": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\triple-body-butter-lavendar-contact.png"
+  },
+  {
+    "handle": "triple-body-butter-sandalwood",
+    "images": [
+      {
+        "index": 1,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/16_c965d560-7b56-40ed-b66c-5f3f700c7233.jpg?v=1749473859",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F16_c965d560-7b56-40ed-b66c-5f3f700c7233.jpg%3Fv%3D1749473859&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\triple-body-butter-sandalwood-1.png"
+      }
+    ],
+    "sheet": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\triple-body-butter-sandalwood-contact.png"
+  },
+  {
+    "handle": "mud-face-wash",
+    "images": [
+      {
+        "index": 1,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/MudFaceWash.jpg?v=1758192288",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2FMudFaceWash.jpg%3Fv%3D1758192288&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\mud-face-wash-1.png"
+      }
+    ],
+    "sheet": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\mud-face-wash-contact.png"
+  },
+  {
+    "handle": "body-ubtan-tea-tree-1",
+    "images": [
+      {
+        "index": 1,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_33ae4182-eb40-455d-b2f2-72dd3da330aa.jpg?v=1758704160",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_33ae4182-eb40-455d-b2f2-72dd3da330aa.jpg%3Fv%3D1758704160&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\body-ubtan-tea-tree-1-1.png"
+      },
+      {
+        "index": 2,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_88e5d7dc-f7e0-49d1-b86e-b9fa0515482d.jpg?v=1758704160",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_88e5d7dc-f7e0-49d1-b86e-b9fa0515482d.jpg%3Fv%3D1758704160&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\body-ubtan-tea-tree-1-2.png"
+      },
+      {
+        "index": 3,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_53a4f47c-470b-4cc3-beac-c45b0b04c6c0.jpg?v=1758704160",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_53a4f47c-470b-4cc3-beac-c45b0b04c6c0.jpg%3Fv%3D1758704160&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\body-ubtan-tea-tree-1-3.png"
+      },
+      {
+        "index": 4,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_fbdac7d3-5a09-4bd0-ae27-2e57981ee5a6.jpg?v=1758704160",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_fbdac7d3-5a09-4bd0-ae27-2e57981ee5a6.jpg%3Fv%3D1758704160&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\body-ubtan-tea-tree-1-4.png"
+      },
+      {
+        "index": 5,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_aebde1c8-201d-4d2a-8a89-3bca0e5fbc9b.jpg?v=1758704160",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_aebde1c8-201d-4d2a-8a89-3bca0e5fbc9b.jpg%3Fv%3D1758704160&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\body-ubtan-tea-tree-1-5.png"
+      },
+      {
+        "index": 6,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_79a1f17e-b449-47e9-b2da-16faf047bc94.jpg?v=1758704160",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F6_79a1f17e-b449-47e9-b2da-16faf047bc94.jpg%3Fv%3D1758704160&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\body-ubtan-tea-tree-1-6.png"
+      },
+      {
+        "index": 7,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_e57a0996-9d65-4a54-8967-d67945bd0deb.jpg?v=1758704160",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7_e57a0996-9d65-4a54-8967-d67945bd0deb.jpg%3Fv%3D1758704160&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\body-ubtan-tea-tree-1-7.png"
+      },
+      {
+        "index": 8,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/8_b5ff3c0a-129e-4d48-8cc1-d46ff90260c9.jpg?v=1758704160",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F8_b5ff3c0a-129e-4d48-8cc1-d46ff90260c9.jpg%3Fv%3D1758704160&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\body-ubtan-tea-tree-1-8.png"
+      }
+    ],
+    "sheet": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\body-ubtan-tea-tree-1-contact.png"
+  },
+  {
+    "handle": "facial-ubtan-orange-almond-1",
+    "images": [
+      {
+        "index": 1,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1.jpg?v=1758703135",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1.jpg%3Fv%3D1758703135&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\facial-ubtan-orange-almond-1-1.png"
+      },
+      {
+        "index": 2,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2.jpg?v=1758703134",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2.jpg%3Fv%3D1758703134&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\facial-ubtan-orange-almond-1-2.png"
+      },
+      {
+        "index": 3,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3.jpg?v=1758703134",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3.jpg%3Fv%3D1758703134&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\facial-ubtan-orange-almond-1-3.png"
+      },
+      {
+        "index": 4,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4.jpg?v=1758703135",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4.jpg%3Fv%3D1758703135&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\facial-ubtan-orange-almond-1-4.png"
+      },
+      {
+        "index": 5,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5.jpg?v=1758703135",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5.jpg%3Fv%3D1758703135&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\facial-ubtan-orange-almond-1-5.png"
+      },
+      {
+        "index": 6,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6.jpg?v=1758703135",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F6.jpg%3Fv%3D1758703135&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\facial-ubtan-orange-almond-1-6.png"
+      },
+      {
+        "index": 7,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_12a8df7f-334c-4455-835b-1c8a0bb3d5d1.jpg?v=1758703135",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7_12a8df7f-334c-4455-835b-1c8a0bb3d5d1.jpg%3Fv%3D1758703135&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\facial-ubtan-orange-almond-1-7.png"
+      },
+      {
+        "index": 8,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/8.jpg?v=1758703135",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F8.jpg%3Fv%3D1758703135&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\facial-ubtan-orange-almond-1-8.png"
+      },
+      {
+        "index": 9,
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/9.jpg?v=1758703135",
+        "proxy": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F9.jpg%3Fv%3D1758703135&w=640&q=75",
+        "file": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\facial-ubtan-orange-almond-1-9.png"
+      }
+    ],
+    "sheet": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\model-source-candidates\\facial-ubtan-orange-almond-1-contact.png"
+  }
+]

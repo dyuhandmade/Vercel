@@ -1,0 +1,26 @@
+{
+  "/images/atelier-hero.webp": {
+    "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/dyu-website-hero.webp?v=1790942714",
+    "fileId": "gid://shopify/MediaImage/46365272408283",
+    "filename": "dyu-website-hero.webp",
+    "alt": "Illustrative DYUhandmade care products with botanicals, linen and sunlit stone"
+  },
+  "/images/botanical-study.webp": {
+    "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/dyu-website-botanical-study.webp?v=1790942797",
+    "fileId": "gid://shopify/MediaImage/46365287842011",
+    "filename": "dyu-website-botanical-study.webp",
+    "alt": "Illustrative study of botanical forms and textures"
+  },
+  "/images/atelier-craft-v2.webp": {
+    "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/dyu-website-craft.webp?v=1790942850",
+    "fileId": "gid://shopify/MediaImage/46365293871323",
+    "filename": "dyu-website-craft.webp",
+    "alt": "Illustrative atelier craft scene"
+  },
+  "/images/atelier-ritual-v2.webp": {
+    "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/dyu-website-ritual.webp?v=1790942903",
+    "fileId": "gid://shopify/MediaImage/46365321199835",
+    "filename": "dyu-website-ritual.webp",
+    "alt": "Illustrative quiet ritual with linen and care vessels"
+  }
+}

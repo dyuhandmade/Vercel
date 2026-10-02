@@ -1,0 +1,1177 @@
+[
+  {
+    "handle": "damask-rose-cold-processed-soap",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "2",
+    "partKinds": "box,soap",
+    "view": "3d",
+    "title": "Damask Rose Cold Processed Soap",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2FDamask_Rose_Soap_Amazon.png%3Fv%3D1787828685&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2FDamask_Rose_-2.png%3Fv%3D1787828796&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4.png%3Fv%3D1748521038&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5.png%3Fv%3D1748521038&w=96&q=75"
+      },
+      {
+        "alt": "Damask Rose Cold Processed Soap",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2FDamask_Rose_Soap_Amazon.png%3Fv%3D1787828685&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\damask-rose-cold-processed-soap-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\damask-rose-cold-processed-soap-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\damask-rose-cold-processed-soap-back.png"
+  },
+  {
+    "handle": "oriental-lavendar",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "box",
+    "view": "3d",
+    "title": "Oriental Lavendar Cold Processed Soap",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_5bed7105-3566-49c4-a95c-7ecf7f55c646.png%3Fv%3D1790925962&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_744bc2a0-1fb6-47df-98e1-c9d601179699.png%3Fv%3D1748524265&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_ef3756b7-58f9-4619-b355-d48e75476b98.png%3Fv%3D1748524264&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_929a0d4f-baa5-4e5a-a381-e39f699a9f1c.png%3Fv%3D1748524264&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_bd39e75f-e3ed-493b-a4a4-1be448f7d3d7.png%3Fv%3D1748524265&w=96&q=75"
+      },
+      {
+        "alt": "Oriental Lavendar Cold Processed Soap",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_5bed7105-3566-49c4-a95c-7ecf7f55c646.png%3Fv%3D1790925962&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\oriental-lavendar-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\oriental-lavendar-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\oriental-lavendar-back.png"
+  },
+  {
+    "handle": "camphora-pink-salt",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "2",
+    "partKinds": "box,soap",
+    "view": "3d",
+    "title": "Camphora Pink Salt Cold Processed Soap",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_a8ebd1ff-a0c2-42b7-a6b9-f5d37f27ca57.png%3Fv%3D1748524927&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_5815d415-f2f9-4081-8883-6a115b9eb597.png%3Fv%3D1748524927&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_92c2da1c-be91-4715-bd18-abe6686b10e6.png%3Fv%3D1748524927&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_fe98cab4-e3c5-4aea-9ca4-a410c1c5a832.png%3Fv%3D1748524927&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_e7b5e388-9179-45ee-a5be-d79c9da74126.png%3Fv%3D1748524927&w=96&q=75"
+      },
+      {
+        "alt": "Camphora Pink Salt Cold Processed Soap",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_a8ebd1ff-a0c2-42b7-a6b9-f5d37f27ca57.png%3Fv%3D1748524927&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\camphora-pink-salt-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\camphora-pink-salt-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\camphora-pink-salt-back.png"
+  },
+  {
+    "handle": "tea-tree-cold-processed-soap",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "box",
+    "view": "3d",
+    "title": "Tea Tree Cold processed Soap",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_f51edee3-e394-4db6-af76-9630cf17fc1f.png%3Fv%3D1748526427&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_19953daf-beb7-4691-98fe-c807f6ad13d7.png%3Fv%3D1748526427&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_beb28857-2ae4-459e-a5e8-5642a7f2e74a.png%3Fv%3D1748526427&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_ed455842-b13d-4f08-a6ab-6a610a35603e.png%3Fv%3D1748526427&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_f6e80a7a-3f8e-4da9-b35c-cd037c092b18.png%3Fv%3D1748526427&w=96&q=75"
+      },
+      {
+        "alt": "Tea Tree Cold processed Soap",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_f51edee3-e394-4db6-af76-9630cf17fc1f.png%3Fv%3D1748526427&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\tea-tree-cold-processed-soap-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\tea-tree-cold-processed-soap-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\tea-tree-cold-processed-soap-back.png"
+  },
+  {
+    "handle": "orange-tangerine",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "box",
+    "view": "3d",
+    "title": "Orange Tangerine Cold Processed Soap",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_527a3b5c-f4b5-40b6-be44-62da754481d7.png%3Fv%3D1748531992&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_235f59a7-5306-40f5-b18d-fb562e34192b.png%3Fv%3D1748531992&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_e6c302f6-d248-4d98-a0a6-7b6bed7eec7d.png%3Fv%3D1748531992&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_810cc067-cb49-4d2c-80c6-a514ecefe6a8.png%3Fv%3D1748531992&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_5eed2fb8-e3fe-48d0-90a3-59a78a01a850.png%3Fv%3D1748531992&w=96&q=75"
+      },
+      {
+        "alt": "Orange Tangerine Cold Processed Soap",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_527a3b5c-f4b5-40b6-be44-62da754481d7.png%3Fv%3D1748531992&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\orange-tangerine-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\orange-tangerine-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\orange-tangerine-back.png"
+  },
+  {
+    "handle": "coffee-vanilla",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "box",
+    "view": "3d",
+    "title": "Coffee Vanilla Cold Processed Soap",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_29cabfe1-b47e-4733-80a9-d2aaf70190a6.png%3Fv%3D1748532495&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_5f929842-fe8d-4fab-a7e7-17977589b7ad.png%3Fv%3D1748532495&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_c096ae19-9b27-47ef-81bc-d011d9755a4a.png%3Fv%3D1748532495&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_a6d7dc5f-2f28-40ff-8c4d-fcdc1d01e228.png%3Fv%3D1748532495&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_956894b6-495b-4eee-b5d4-72e384d79e00.png%3Fv%3D1748532495&w=96&q=75"
+      },
+      {
+        "alt": "Coffee Vanilla Cold Processed Soap",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_29cabfe1-b47e-4733-80a9-d2aaf70190a6.png%3Fv%3D1748532495&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\coffee-vanilla-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\coffee-vanilla-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\coffee-vanilla-back.png"
+  },
+  {
+    "handle": "himalayan-jasmine",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "box",
+    "view": "3d",
+    "title": "Himalayan Jasmine Cold Processed Soap",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_e8cb89ad-bf95-4094-9780-1a5c583922f1.png%3Fv%3D1748532897&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_730fdfaf-aded-4e64-92f2-c9b97d13b788.png%3Fv%3D1748532897&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_efbfeda9-aa86-4a05-ab49-ef81c9ab4551.png%3Fv%3D1748532897&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_47a0149b-968c-4608-85ba-7792edb8e56f.png%3Fv%3D1748532897&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_fc176ee4-88d6-4616-9565-625f5ab252a0.png%3Fv%3D1748532897&w=96&q=75"
+      },
+      {
+        "alt": "Himalayan Jasmine Cold Processed Soap",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_e8cb89ad-bf95-4094-9780-1a5c583922f1.png%3Fv%3D1748532897&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\himalayan-jasmine-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\himalayan-jasmine-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\himalayan-jasmine-back.png"
+  },
+  {
+    "handle": "charcoal-mint-cold-processed-soap",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "box",
+    "view": "3d",
+    "title": "Charcoal Mint Cold Processed Soap",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_28d26563-2dfc-43ec-830c-625a9a649d5f.png%3Fv%3D1748534228&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_b1e9f7cc-c603-4a29-b345-4e250828ead7.png%3Fv%3D1748534228&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_1b4ec974-5365-411d-ab05-1a08c41d551b.png%3Fv%3D1748534228&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_fa79c6bc-99d5-446f-95a8-5374215be306.png%3Fv%3D1748534228&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_6ceb4e5a-c2d2-43f5-8a07-acbe37d85323.png%3Fv%3D1748534228&w=96&q=75"
+      },
+      {
+        "alt": "Charcoal Mint Cold Processed Soap",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_28d26563-2dfc-43ec-830c-625a9a649d5f.png%3Fv%3D1748534228&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\charcoal-mint-cold-processed-soap-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\charcoal-mint-cold-processed-soap-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\charcoal-mint-cold-processed-soap-back.png"
+  },
+  {
+    "handle": "red-sandalwood",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "box",
+    "view": "3d",
+    "title": "Red Sandalwood Cold Processed Soap",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_11d51518-382f-4da6-a7c6-1a9fa813464b.png%3Fv%3D1748535007&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_265c8e19-7f18-46eb-8b7e-68ca046bfe99.png%3Fv%3D1748535007&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_58d3adfb-9b34-42a4-8e99-f166cdc5c1e3.png%3Fv%3D1748535007&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_a70d77e3-5b90-41be-bd18-e5b401434c19.png%3Fv%3D1748535007&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_d2f6dd29-3c21-4100-9da3-639bf77924ff.png%3Fv%3D1748535007&w=96&q=75"
+      },
+      {
+        "alt": "Red Sandalwood Cold Processed Soap",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_11d51518-382f-4da6-a7c6-1a9fa813464b.png%3Fv%3D1748535007&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\red-sandalwood-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\red-sandalwood-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\red-sandalwood-back.png"
+  },
+  {
+    "handle": "neem-basil-cold-processed-soap",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "box",
+    "view": "3d",
+    "title": "Neem Basil Cold Processed Soap",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_835cf629-0b7e-40d0-b4ee-7de8db44aeaa.png%3Fv%3D1748535202&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_03c2ead2-4962-4cae-a1e0-0ce0d585f331.png%3Fv%3D1748535203&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_4f6f397a-bb71-4dac-80d6-3c75eabaf19d.png%3Fv%3D1748535203&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_9a766235-5575-4235-80cd-bc9d26fd800a.png%3Fv%3D1748535203&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_78577484-f21c-4da4-9af8-c66834300726.png%3Fv%3D1748535203&w=96&q=75"
+      },
+      {
+        "alt": "Neem Basil Cold Processed Soap",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_835cf629-0b7e-40d0-b4ee-7de8db44aeaa.png%3Fv%3D1748535202&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\neem-basil-cold-processed-soap-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\neem-basil-cold-processed-soap-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\neem-basil-cold-processed-soap-back.png"
+  },
+  {
+    "handle": "floral-soap-gift-set",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "relief",
+    "construction": "relief",
+    "parts": "1",
+    "partKinds": null,
+    "view": "3d",
+    "title": "Floral Soap Gift Set",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_acda69ed-9c88-4a99-9a58-ceffedca02b7.png%3Fv%3D1748535514&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_3d21bf77-52ab-4ddc-82cd-dcb3f4ee8d61.png%3Fv%3D1748535514&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_838604fc-e07d-4b44-a0d2-effb3e7e5bb7.png%3Fv%3D1748535514&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_496ccdcb-5145-4539-a74e-a56b03a47507.png%3Fv%3D1748535514&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_d2a3a079-61bb-496a-9c13-ee2d5f3d7faa.png%3Fv%3D1748535514&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F6.png%3Fv%3D1748535514&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7.png%3Fv%3D1748535514&w=96&q=75"
+      },
+      {
+        "alt": "Floral Soap Gift Set",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_acda69ed-9c88-4a99-9a58-ceffedca02b7.png%3Fv%3D1748535514&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\floral-soap-gift-set-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\floral-soap-gift-set-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\floral-soap-gift-set-back.png"
+  },
+  {
+    "handle": "wellness-trio-soap-bundle",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "relief",
+    "construction": "relief",
+    "parts": "1",
+    "partKinds": null,
+    "view": "3d",
+    "title": "Wellness Trio Soap Bundle",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_1acd5629-8a9a-4d2a-9034-0d12902aaea8.png%3Fv%3D1748535762&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_5093ee0a-9f44-49ef-bdb7-3b63b41e66d5.png%3Fv%3D1748535762&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_9f1a2a38-00cf-4872-9227-8cfe260cfa29.png%3Fv%3D1748535762&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_bccbd501-24ad-461e-8d52-5c32b9e1c5ed.png%3Fv%3D1748535762&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_6fb5dd89-56aa-4f20-b15c-d32b413e3b57.png%3Fv%3D1748535762&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F6_64339390-c0aa-4a26-a785-11f6f7253775.png%3Fv%3D1748535762&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7_cba3c5c2-7f05-41ce-a033-9e2f0645d1c0.png%3Fv%3D1748535762&w=96&q=75"
+      },
+      {
+        "alt": "Wellness Trio Soap Bundle",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_1acd5629-8a9a-4d2a-9034-0d12902aaea8.png%3Fv%3D1748535762&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\wellness-trio-soap-bundle-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\wellness-trio-soap-bundle-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\wellness-trio-soap-bundle-back.png"
+  },
+  {
+    "handle": "facial-ubtan-orange-almond",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "jar",
+    "view": "3d",
+    "title": "Facial Ubtan - Orange Almond",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_cc41f68a-cd7c-420c-af9a-dfcd7a085b13.png%3Fv%3D1748535974&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_4b8896f5-cad7-44a0-80f8-05a262eead16.png%3Fv%3D1748535974&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_11dd3271-fbf5-44e7-bc17-4f96a340c021.png%3Fv%3D1748535974&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_78709e98-80ef-459f-af2e-1deb15e27849.png%3Fv%3D1748535974&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_d32c57ba-ef29-4151-8c20-45965491ebc5.png%3Fv%3D1748535974&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F6_7fcce39a-50c0-4320-84c7-a5071d7ced6d.png%3Fv%3D1748535974&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7_b5353daf-a1f2-45e7-826c-8a313503a256.png%3Fv%3D1748535975&w=96&q=75"
+      },
+      {
+        "alt": "Facial Ubtan - Orange Almond",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_cc41f68a-cd7c-420c-af9a-dfcd7a085b13.png%3Fv%3D1748535974&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\facial-ubtan-orange-almond-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\facial-ubtan-orange-almond-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\facial-ubtan-orange-almond-back.png"
+  },
+  {
+    "handle": "body-ubtan-tea-tree",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "jar",
+    "view": "3d",
+    "title": "Body Ubtan - Tea Tree",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_42ae658a-c91b-4ca8-b5ad-d9df26a70b00.png%3Fv%3D1748536216&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_76fb9bb6-1d15-40a5-a387-9aed629cc327.png%3Fv%3D1748536216&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_0714b212-651c-41b6-adec-f94479a51f5d.png%3Fv%3D1748536216&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_c217a64e-82d4-4bdd-806b-57c43f1cb893.png%3Fv%3D1748536216&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_ee2ff3f3-3528-4f59-b8b3-c60c6b1cb3ba.png%3Fv%3D1748536216&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F6_660905b9-9592-4013-a089-f68c90b1d918.png%3Fv%3D1748536216&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7_333ebc69-26b6-4e55-aa98-776a1d0251d7.png%3Fv%3D1748536216&w=96&q=75"
+      },
+      {
+        "alt": "Body Ubtan - Tea Tree",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_42ae658a-c91b-4ca8-b5ad-d9df26a70b00.png%3Fv%3D1748536216&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\body-ubtan-tea-tree-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\body-ubtan-tea-tree-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\body-ubtan-tea-tree-back.png"
+  },
+  {
+    "handle": "moringa-facial-oil",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "bottle",
+    "view": "3d",
+    "title": "Moringa Facial Oil",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_8449d4f3-caf5-4998-a6ba-b1f1cd2c5fe3.png%3Fv%3D1748867272&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_b1c92315-6b8e-4112-ac44-41045b605cb6.png%3Fv%3D1748867272&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_a64cee59-6731-45e1-bc30-bd0dc75b6d2c.png%3Fv%3D1748867272&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_79be88b9-80a7-4bb8-8809-f0afe468822a.png%3Fv%3D1748867272&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_b6a135b3-ea90-4ba8-85d5-0ceaa37636ea.png%3Fv%3D1748867272&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F6_df8a94c1-2e3c-4ffd-b186-faf9cef5d27f.png%3Fv%3D1748867272&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7_182b807f-903e-4ed9-a266-9ed1f5867109.png%3Fv%3D1748867272&w=96&q=75"
+      },
+      {
+        "alt": "Moringa Facial Oil",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_8449d4f3-caf5-4998-a6ba-b1f1cd2c5fe3.png%3Fv%3D1748867272&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\moringa-facial-oil-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\moringa-facial-oil-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\moringa-facial-oil-back.png"
+  },
+  {
+    "handle": "almond-facial-oil",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "bottle",
+    "view": "3d",
+    "title": "Almond Facial Oil",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_f906ce8b-0299-41b5-a149-736839561145.png%3Fv%3D1748867665&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_4a8184ff-ece3-4dde-b3b6-41e03f80090c.png%3Fv%3D1748867665&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_ea9d06bb-ba14-4e17-a7cf-ffd9d2e0f793.png%3Fv%3D1748867665&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_9def0338-0c42-4e75-9930-1c8cdbf8267f.png%3Fv%3D1748867665&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_8bd2a8ab-8a03-4ffa-a3d3-2017757ed52f.png%3Fv%3D1748867665&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F6_df34cc42-2c07-448e-a5b6-dacc42dde57c.png%3Fv%3D1748867665&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7_2cf061f9-ea96-4add-bc8c-c36d912a9f09.png%3Fv%3D1748867665&w=96&q=75"
+      },
+      {
+        "alt": "Almond Facial Oil",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_f906ce8b-0299-41b5-a149-736839561145.png%3Fv%3D1748867665&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\almond-facial-oil-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\almond-facial-oil-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\almond-facial-oil-back.png"
+  },
+  {
+    "handle": "triple-body-butter-rose",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "jar",
+    "view": "3d",
+    "title": "Triple Body Butter -Rose",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F55.jpg%3Fv%3D1749473211&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F16.jpg%3Fv%3D1749473211&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F14.jpg%3Fv%3D1749473202&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7.jpg%3Fv%3D1749653505&w=96&q=75"
+      },
+      {
+        "alt": "Triple Body Butter -Rose",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F55.jpg%3Fv%3D1749473211&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\triple-body-butter-rose-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\triple-body-butter-rose-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\triple-body-butter-rose-back.png"
+  },
+  {
+    "handle": "triple-body-butter-lavendar",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "jar",
+    "view": "3d",
+    "title": "Triple Body Butter -Lavendar",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2FDamaskRoseBodyButter.jpg%3Fv%3D1749474416&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2FDamaskRoseBodyButter_760e5b26-0bef-4c64-aa13-ed37bf698f33.jpg%3Fv%3D1749473921&w=96&q=75"
+      },
+      {
+        "alt": "Triple Body Butter -Lavendar",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2FDamaskRoseBodyButter.jpg%3Fv%3D1749474416&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\triple-body-butter-lavendar-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\triple-body-butter-lavendar-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\triple-body-butter-lavendar-back.png"
+  },
+  {
+    "handle": "triple-body-butter-sandalwood",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "jar",
+    "view": "3d",
+    "title": "Triple Body Butter -Sandalwood",
+    "images": [
+      {
+        "alt": "Triple Body Butter -Sandalwood",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F16_c965d560-7b56-40ed-b66c-5f3f700c7233.jpg%3Fv%3D1749473859&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\triple-body-butter-sandalwood-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\triple-body-butter-sandalwood-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\triple-body-butter-sandalwood-back.png"
+  },
+  {
+    "handle": "lavendar-haze-soap-bar-60-gm",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "2",
+    "partKinds": "box,soap",
+    "view": "3d",
+    "title": "Lavendar Haze Soap Bar -60 gm",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_45570032-b7db-4cef-b9db-e9ce3b246083.png%3Fv%3D1755942863&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_f7bf3bd2-7715-4531-beae-854fed7b801d.png%3Fv%3D1755942863&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_86aced20-1985-44fe-a45b-ade009dccaca.png%3Fv%3D1755942863&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_bedc75c6-6e5c-40b0-9a4b-3ad94d9d6fca.png%3Fv%3D1755942862&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_31c59989-36a8-4d8c-84f9-bf5b120ec42f.png%3Fv%3D1755942863&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7_a2139c84-9928-4e81-8008-1f32b9bac65d.png%3Fv%3D1755942864&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F8.png%3Fv%3D1755942863&w=96&q=75"
+      },
+      {
+        "alt": "Lavendar Haze Soap Bar -60 gm",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_45570032-b7db-4cef-b9db-e9ce3b246083.png%3Fv%3D1755942863&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\lavendar-haze-soap-bar-60-gm-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\lavendar-haze-soap-bar-60-gm-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\lavendar-haze-soap-bar-60-gm-back.png"
+  },
+  {
+    "handle": "rose-reset-cold-process-soap",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "2",
+    "partKinds": "box,soap",
+    "view": "3d",
+    "title": "Rose Reset Soap Bar",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_220818c3-38a8-4d2f-95a5-fa727f3ce614.png%3Fv%3D1756376578&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_074718ba-f0ba-4f68-8abf-33c09eb3a704.png%3Fv%3D1756376578&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_8b3ebbf4-e499-40ea-ad19-ff508709cbd8.png%3Fv%3D1756376578&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_5b9793c1-dc96-4180-8ecc-b7281924c79e.png%3Fv%3D1756376578&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_02281caa-4335-460b-99a8-35f8302e11af.png%3Fv%3D1756376578&w=96&q=75"
+      },
+      {
+        "alt": "Rose Reset Soap Bar",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_220818c3-38a8-4d2f-95a5-fa727f3ce614.png%3Fv%3D1756376578&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\rose-reset-cold-process-soap-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\rose-reset-cold-process-soap-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\rose-reset-cold-process-soap-back.png"
+  },
+  {
+    "handle": "tea-tree-trip-soap-bar",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "2",
+    "partKinds": "box,soap",
+    "view": "3d",
+    "title": "Tea Tree Trip Soap Bar",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_745d5475-fd94-4e18-8c37-710fcab926c2.png%3Fv%3D1756379184&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_94cd04ca-6715-491c-a76b-45da4c53c387.png%3Fv%3D1756379184&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_145f01a9-2258-430e-8904-3fced3d66960.png%3Fv%3D1756379183&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_535d7bfb-70b7-40ed-9f01-01b43fae4fe8.png%3Fv%3D1756379183&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_05e31c7c-9b80-428a-bbba-9a30d670b188.png%3Fv%3D1756379183&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F6_d19974bf-81f4-4457-bb1b-a84c7f6d13f6.png%3Fv%3D1756379184&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7_25eb16d0-1df5-463b-ab25-e7cced5419a7.png%3Fv%3D1756379184&w=96&q=75"
+      },
+      {
+        "alt": "Tea Tree Trip Soap Bar",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_745d5475-fd94-4e18-8c37-710fcab926c2.png%3Fv%3D1756379184&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\tea-tree-trip-soap-bar-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\tea-tree-trip-soap-bar-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\tea-tree-trip-soap-bar-back.png"
+  },
+  {
+    "handle": "mud-face-wash",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "jar",
+    "view": "3d",
+    "title": "Mud Face Wash",
+    "images": [
+      {
+        "alt": "Mud Face Wash",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2FMudFaceWash.jpg%3Fv%3D1758192288&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\mud-face-wash-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\mud-face-wash-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\mud-face-wash-back.png"
+  },
+  {
+    "handle": "rosemary-olive-hair-oil",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "bottle",
+    "view": "3d",
+    "title": "Rosemary Olive Hair Oil",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_8260560c-a9a6-4df2-88d2-d25ea23b8b42.png%3Fv%3D1758194270&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_bf54f428-7d9c-4b2a-8177-e2fe2ce98361.png%3Fv%3D1758194270&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_94d96f92-4c5d-4668-a17f-69514d3be14e.png%3Fv%3D1758194270&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_eed128ac-2844-4d73-9ed8-1ee8578321a7.png%3Fv%3D1758194270&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_cc21fe13-9286-40c6-9312-8866c432b3af.png%3Fv%3D1758194270&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F6_f91a861a-6b70-46de-a75d-20fbd99bd154.png%3Fv%3D1758194270&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7_684376bb-0a6c-450d-97f1-3a2b337911c8.png%3Fv%3D1758194270&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F8_10b3aee2-bae7-48f0-b237-55ffaaffa293.png%3Fv%3D1758194270&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F9.png%3Fv%3D1758194270&w=96&q=75"
+      },
+      {
+        "alt": "Rosemary Olive Hair Oil",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_8260560c-a9a6-4df2-88d2-d25ea23b8b42.png%3Fv%3D1758194270&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\rosemary-olive-hair-oil-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\rosemary-olive-hair-oil-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\rosemary-olive-hair-oil-back.png"
+  },
+  {
+    "handle": "cold-pressed-sweet-almond-oil",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "bottle",
+    "view": "3d",
+    "title": "Cold Pressed Sweet Almond Oil",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_ee33fd0c-0ff2-4d8a-8913-39bc93c832b0.png%3Fv%3D1758199888&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_357ecc9f-cb41-43be-8dd8-18c8a2a956e0.png%3Fv%3D1758199888&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_5049a296-104a-406c-b407-1a2123dc46e9.png%3Fv%3D1758199888&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_6c0753ec-ac6e-4459-b3a9-75d687ce0f4c.png%3Fv%3D1758705735&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F6_7fcc2fc6-e0cb-47ea-bee2-2b3aee0c0715.png%3Fv%3D1758705735&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F10.png%3Fv%3D1758705736&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_120e2d3e-b3ec-4527-bb36-01b4448e9b5d.png%3Fv%3D1758705736&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7_33c01c23-e152-460b-b219-175062d49801.png%3Fv%3D1758705736&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F8_4551c4a6-8325-42fc-a8a8-81265041b3e0.png%3Fv%3D1758705736&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F9_4e291d63-6b4c-4537-9c8b-39cdbb41acef.png%3Fv%3D1758705736&w=96&q=75"
+      },
+      {
+        "alt": "Cold Pressed Sweet Almond Oil",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_ee33fd0c-0ff2-4d8a-8913-39bc93c832b0.png%3Fv%3D1758199888&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\cold-pressed-sweet-almond-oil-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\cold-pressed-sweet-almond-oil-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\cold-pressed-sweet-almond-oil-back.png"
+  },
+  {
+    "handle": "facial-ubtan-orange-almond-1",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "jar",
+    "view": "3d",
+    "title": "Facial Ubtan Orange Almond",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1.jpg%3Fv%3D1758703135&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2.jpg%3Fv%3D1758703134&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3.jpg%3Fv%3D1758703134&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4.jpg%3Fv%3D1758703135&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5.jpg%3Fv%3D1758703135&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F6.jpg%3Fv%3D1758703135&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7_12a8df7f-334c-4455-835b-1c8a0bb3d5d1.jpg%3Fv%3D1758703135&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F8.jpg%3Fv%3D1758703135&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F9.jpg%3Fv%3D1758703135&w=96&q=75"
+      },
+      {
+        "alt": "Facial Ubtan Orange Almond",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1.jpg%3Fv%3D1758703135&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\facial-ubtan-orange-almond-1-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\facial-ubtan-orange-almond-1-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\facial-ubtan-orange-almond-1-back.png"
+  },
+  {
+    "handle": "body-ubtan-tea-tree-1",
+    "errors": [],
+    "requests": [],
+    "ready": "true",
+    "kind": "volume",
+    "construction": "solids",
+    "parts": "1",
+    "partKinds": "jar",
+    "view": "3d",
+    "title": "Body Ubtan Tea Tree Neem",
+    "images": [
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_33ae4182-eb40-455d-b2f2-72dd3da330aa.jpg%3Fv%3D1758704160&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F2_88e5d7dc-f7e0-49d1-b86e-b9fa0515482d.jpg%3Fv%3D1758704160&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F3_53a4f47c-470b-4cc3-beac-c45b0b04c6c0.jpg%3Fv%3D1758704160&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F4_fbdac7d3-5a09-4bd0-ae27-2e57981ee5a6.jpg%3Fv%3D1758704160&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F5_aebde1c8-201d-4d2a-8a89-3bca0e5fbc9b.jpg%3Fv%3D1758704160&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F6_79a1f17e-b449-47e9-b2da-16faf047bc94.jpg%3Fv%3D1758704160&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F7_e57a0996-9d65-4a54-8967-d67945bd0deb.jpg%3Fv%3D1758704160&w=96&q=75"
+      },
+      {
+        "alt": "",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F8_b5ff3c0a-129e-4d48-8cc1-d46ff90260c9.jpg%3Fv%3D1758704160&w=96&q=75"
+      },
+      {
+        "alt": "Body Ubtan Tea Tree Neem",
+        "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2F1_33ae4182-eb40-455d-b2f2-72dd3da330aa.jpg%3Fv%3D1758704160&w=640&q=75"
+      }
+    ],
+    "front": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\body-ubtan-tea-tree-1-front.png",
+    "side": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\body-ubtan-tea-tree-1-side.png",
+    "back": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\qa\\catalog-model-audit\\body-ubtan-tea-tree-1-back.png"
+  }
+]

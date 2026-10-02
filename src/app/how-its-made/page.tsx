@@ -1,0 +1,8 @@
+import Link from 'next/link';
+import {getSiteContent,section} from '@/lib/site-content';
+import CraftJourney from '@/components/CraftJourney';
+import ProductCard from '@/components/ProductCard';
+import {getProducts,isDemo} from '@/lib/shopify';
+import {ArrowUpRight} from 'lucide-react';
+export const metadata={title:'The art of making'};
+export default async function Craft(){const [products,content]=await Promise.all([getProducts(),getSiteContent()]);const intro=section(content,'craft-page'),heading=section(content,'home-craft');const withCraft=products.filter(p=>p.craft.length>0);return <div className="page-shell craft-page"><header className="page-intro"><p className="eyebrow">{intro.eyebrow||'INSIDE THE ATELIER'}</p><h1>{intro.title||'From raw ingredients.'}<br/><em>{intro.titleEmphasis||'To everyday care.'}</em></h1><p>{intro.body||(withCraft.length||isDemo()?'Follow the care and craft behind each object.':'The product making stories will appear here as DYU adds them to Shopify.')}</p></header>{withCraft.length?<><CraftJourney content={heading} items={withCraft[0].craft} product={withCraft[0]}/><div className="product-grid">{withCraft.map(p=><ProductCard product={p} key={p.id}/>)}</div></>:isDemo()?<CraftJourney content={heading}/>:<div className="product-grid">{products.slice(0,3).map(p=><ProductCard product={p} key={p.id}/>)}</div>}<nav className="making-onward" aria-label="Continue your atelier visit"><Link href="/ingredients"><span>KEEP A LITTLE CURIOSITY</span><strong>Meet the botanicals</strong><ArrowUpRight size={23}/></Link><Link href="/shop"><span>THE NEXT CHAPTER IS YOURS</span><strong>Find your everyday ritual</strong><ArrowUpRight size={23}/></Link></nav></div>;}

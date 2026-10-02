@@ -1,0 +1,1307 @@
+{
+  "m0": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/110103527643",
+        "handle": "rose",
+        "type": "shopify--fragrance",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Rose"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/17441"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110105592027",
+        "handle": "lavendar",
+        "type": "shopify--fragrance",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Lavendar"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/17440"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110108049627",
+        "handle": "camphora",
+        "type": "shopify--fragrance",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Camphora"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10772"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110108934363",
+        "handle": "tea-tree",
+        "type": "shopify--fragrance",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Tea tree"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/8181"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110114799835",
+        "handle": "orange",
+        "type": "shopify--fragrance",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Orange"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/17437"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110115094747",
+        "handle": "vanilla",
+        "type": "shopify--fragrance",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Vanilla"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/17443"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110115160283",
+        "handle": "vanilla-1",
+        "type": "shopify--fragrance",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Vanilla"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/17443"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110115782875",
+        "handle": "jasmine",
+        "type": "shopify--fragrance",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Jasmine"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/17439"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110116765915",
+        "handle": "peppermint",
+        "type": "shopify--fragrance",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Peppermint"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/25585"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110117617883",
+        "handle": "sandalwood",
+        "type": "shopify--fragrance",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Sandalwood"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/17442"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110117945563",
+        "handle": "basil",
+        "type": "shopify--fragrance",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Basil"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/25585"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMTAxMTc5NDU1NjMsImxhc3RfdmFsdWUiOiIxMTAxMTc5NDU1NjMiLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m1": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/110103560411",
+        "handle": "all-ages",
+        "type": "shopify--age-group",
+        "fields": [
+          {
+            "key": "label",
+            "value": "All ages"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/534"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110789722331",
+        "handle": "universal",
+        "type": "shopify--age-group",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Universal"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/18291"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/123453178075",
+        "handle": "adults",
+        "type": "shopify--age-group",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Adults"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/2403"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMjM0NTMxNzgwNzUsImxhc3RfdmFsdWUiOiIxMjM0NTMxNzgwNzUiLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m2": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/110103593179",
+        "handle": "all-skin-types",
+        "type": "shopify--suitable-for-skin-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "All skin types"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10247"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110105657563",
+        "handle": "dry",
+        "type": "shopify--suitable-for-skin-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Dry"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20015"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110105690331",
+        "handle": "sensitive",
+        "type": "shopify--suitable-for-skin-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Sensitive"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10248"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110105723099",
+        "handle": "normal",
+        "type": "shopify--suitable-for-skin-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Normal"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/19935"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110788051163",
+        "handle": "aging",
+        "type": "shopify--suitable-for-skin-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Aging"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10493"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110788083931",
+        "handle": "mature",
+        "type": "shopify--suitable-for-skin-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Mature"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10495"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110788116699",
+        "handle": "problem",
+        "type": "shopify--suitable-for-skin-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Problem"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10497"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/124426518747",
+        "handle": "oily",
+        "type": "shopify--suitable-for-skin-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Oily"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10496"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMjQ0MjY1MTg3NDcsImxhc3RfdmFsdWUiOiIxMjQ0MjY1MTg3NDciLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m3": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/110119485659",
+        "handle": "jar",
+        "type": "shopify--package-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Jar"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/19322"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110789787867",
+        "handle": "tin",
+        "type": "shopify--package-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Tin"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/17939"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMTA3ODk3ODc4NjcsImxhc3RfdmFsdWUiOiIxMTA3ODk3ODc4NjciLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m4": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/110119518427",
+        "handle": "anti-dark-spot",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Anti-dark spot"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10657"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110119551195",
+        "handle": "anti-dullness",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Anti-dullness"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10659"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110119583963",
+        "handle": "brightening",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Brightening"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20104"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110119616731",
+        "handle": "cleansing",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Cleansing"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10673"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110119649499",
+        "handle": "tightening",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Tightening"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10640"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110788673755",
+        "handle": "anti-drying",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Anti-drying"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10658"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110788706523",
+        "handle": "anti-dark-circle",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Anti-dark circle"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10656"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110788739291",
+        "handle": "anti-stretch-mark",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Anti-stretch mark"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10671"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110788772059",
+        "handle": "anti-wrinkle",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Anti-wrinkle"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10600"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110788804827",
+        "handle": "hydrating",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Hydrating"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10602"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110788837595",
+        "handle": "firming",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Firming"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10680"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110788870363",
+        "handle": "prevents-age-spots",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Prevents age spots"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10687"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127099011291",
+        "handle": "anti-acne",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Anti-acne"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10651"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127099044059",
+        "handle": "moisturizing",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Moisturizing"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10642"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127099076827",
+        "handle": "exfoliating",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Exfoliating"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10678"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127099142363",
+        "handle": "revitalizing",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Revitalizing"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20110"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127099175131",
+        "handle": "soothing",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Soothing"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10649"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127109824731",
+        "handle": "elasticity",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Elasticity"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20109"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127109890267",
+        "handle": "anti-aging",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Anti-aging"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10599"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127109923035",
+        "handle": "nourishing",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Nourishing"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20106"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/128370835675",
+        "handle": "smoothing",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Smoothing"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10601"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/128370868443",
+        "handle": "anti-blemish",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Anti-blemish"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10654"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/128370901211",
+        "handle": "softening",
+        "type": "shopify--skin-care-effect",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Softening"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10700"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMjgzNzA5MDEyMTEsImxhc3RfdmFsdWUiOiIxMjgzNzA5MDEyMTEiLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m5": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/110787920091",
+        "handle": "moringa",
+        "type": "shopify--active-ingredient",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Moringa"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/26723"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110788509915",
+        "handle": "almond",
+        "type": "shopify--active-ingredient",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Almond"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/26723"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMTA3ODg1MDk5MTUsImxhc3RfdmFsdWUiOiIxMTA3ODg1MDk5MTUiLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m6": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/110787985627",
+        "handle": "lightly-scented",
+        "type": "shopify--fragrance-level",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Lightly scented"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/11349"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/128371196123",
+        "handle": "fragrance-free",
+        "type": "shopify--fragrance-level",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Fragrance-free"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/11348"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMjgzNzExOTYxMjMsImxhc3RfdmFsdWUiOiIxMjgzNzExOTYxMjMiLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m7": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/110788018395",
+        "handle": "oil",
+        "type": "shopify--product-form",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Oil"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20182"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110789755099",
+        "handle": "cream",
+        "type": "shopify--product-form",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Cream"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/19944"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127098978523",
+        "handle": "powder",
+        "type": "shopify--product-form",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Powder"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/19932"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMjcwOTg5Nzg1MjMsImxhc3RfdmFsdWUiOiIxMjcwOTg5Nzg1MjMiLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m8": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/110788149467",
+        "handle": "day-care",
+        "type": "shopify--moisturizer-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Day care"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/25502"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/110788182235",
+        "handle": "night-care",
+        "type": "shopify--moisturizer-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Night care"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/25503"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMTA3ODgxODIyMzUsImxhc3RfdmFsdWUiOiIxMTA3ODgxODIyMzUiLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m9": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/127099109595",
+        "handle": "paraben-free",
+        "type": "shopify--product-certifications-standards",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Paraben-free"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10567"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127099207899",
+        "handle": "all-natural-ingredients",
+        "type": "shopify--product-certifications-standards",
+        "fields": [
+          {
+            "key": "label",
+            "value": "All-natural ingredients"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10911"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127099240667",
+        "handle": "sulfate-free",
+        "type": "shopify--product-certifications-standards",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Sulfate-free"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10572"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/128370802907",
+        "handle": "sensitive-skin",
+        "type": "shopify--product-certifications-standards",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Sensitive skin"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/23341"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/128371327195",
+        "handle": "natural-ingredients",
+        "type": "shopify--product-certifications-standards",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Natural ingredients"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20066"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/128371359963",
+        "handle": "organic",
+        "type": "shopify--product-certifications-standards",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Organic"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20068"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMjgzNzEzNTk5NjMsImxhc3RfdmFsdWUiOiIxMjgzNzEzNTk5NjMiLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m10": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/127099273435",
+        "handle": "clay",
+        "type": "shopify--constitutive-ingredients",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Clay"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/24611"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127109857499",
+        "handle": "vitamin-a",
+        "type": "shopify--constitutive-ingredients",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Vitamin A"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/24637"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127109955803",
+        "handle": "almond-oil",
+        "type": "shopify--constitutive-ingredients",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Almond oil"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20197"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127109988571",
+        "handle": "vitamin-c",
+        "type": "shopify--constitutive-ingredients",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Vitamin C"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/24638"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127110021339",
+        "handle": "vitamin-e",
+        "type": "shopify--constitutive-ingredients",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Vitamin E"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/24639"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/128370409691",
+        "handle": "orange",
+        "type": "shopify--constitutive-ingredients",
+        "fields": [
+          {
+            "key": "label",
+            "value": "orange"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20207"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/128370475227",
+        "handle": "almond",
+        "type": "shopify--constitutive-ingredients",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Almond"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20197"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/128370507995",
+        "handle": "orange-1",
+        "type": "shopify--constitutive-ingredients",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Orange "
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20207"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/128371294427",
+        "handle": "tea-tree-oil",
+        "type": "shopify--constitutive-ingredients",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Tea tree oil"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/24635"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMjgzNzEyOTQ0MjcsImxhc3RfdmFsdWUiOiIxMjgzNzEyOTQ0MjciLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m11": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/127099601115",
+        "handle": "unisex",
+        "type": "shopify--target-gender",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Unisex"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMjcwOTk2MDExMTUsImxhc3RfdmFsdWUiOiIxMjcwOTk2MDExMTUiLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m12": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/127099633883",
+        "handle": "hair-oil",
+        "type": "shopify--hair-care-items-included",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Hair oil"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/25526"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMjcwOTk2MzM4ODMsImxhc3RfdmFsdWUiOiIxMjcwOTk2MzM4ODMiLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m13": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/127099666651",
+        "handle": "treated",
+        "type": "shopify--suitable-for-hair-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Treated"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10894"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127099699419",
+        "handle": "thick",
+        "type": "shopify--suitable-for-hair-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Thick"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20251"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127099732187",
+        "handle": "sensitive",
+        "type": "shopify--suitable-for-hair-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Sensitive"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/20248"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/127099764955",
+        "handle": "all-hair-types",
+        "type": "shopify--suitable-for-hair-type",
+        "fields": [
+          {
+            "key": "label",
+            "value": "All hair types"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/10878"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMjcwOTk3NjQ5NTUsImxhc3RfdmFsdWUiOiIxMjcwOTk3NjQ5NTUiLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  },
+  "m14": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/128371228891",
+        "handle": "moisturizing",
+        "type": "shopify--skin-care-features",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Moisturizing"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/22719"
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Metaobject/128371261659",
+        "handle": "soothing",
+        "type": "shopify--skin-care-features",
+        "fields": [
+          {
+            "key": "label",
+            "value": "Soothing"
+          },
+          {
+            "key": "taxonomy_reference",
+            "value": "gid://shopify/TaxonomyValue/22722"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMjgzNzEyNjE2NTksImxhc3RfdmFsdWUiOiIxMjgzNzEyNjE2NTkiLCJiYWNrZW5kIjoiZWxhc3RpY3NlYXJjaCJ9"
+    }
+  }
+}
