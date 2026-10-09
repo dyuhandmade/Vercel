@@ -6,6 +6,8 @@ A spacious, editorial Next.js storefront with optional interactive 3D, built fro
 
 ## Run locally
 
+**Shopify editing:** see [the website editor guide](docs/shopify-editability-guide.md). The 9 October expansion adds 299 controls for shopping/account wording, gallery behavior and navigation, plus a separate global appearance editor. Shopify now holds 460 website content entries; the original 161 entries were preserved. See [the verified migration receipt](shopify/full-editability-receipt.json).
+
 Use a patched Node.js 24 LTS release for new setups; the installed Next.js minimum is 20.9. CI targets Node 24. See [deployment.md](docs/deployment.md) for target-host validation and [testing.md](docs/testing.md) for secret-free CI versus connected-store acceptance.
 
 On Windows, double-click [`START_DYU.bat`](./START_DYU.bat). It checks the local setup, installs missing dependencies, starts the Next.js frontend and API routes, waits for the server, and opens `http://127.0.0.1:3000`. Keep the server window open while using the site. The explicit IPv4 address avoids Windows `localhost`/IPv6 resolution conflicts.

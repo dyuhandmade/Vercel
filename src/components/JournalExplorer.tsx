@@ -7,11 +7,15 @@ import {ArrowUpRight, Search, X} from 'lucide-react';
 import {motion, useReducedMotion} from 'motion/react';
 import type {Article} from '@/lib/journal';
 import type {ContentSection} from '@/lib/content-safety';
+import {editableText} from '@/lib/content-safety';
+import {useSiteContent} from './SiteContentProvider';
 import styles from '@/app/journal/journal.module.css';
 
 export default function JournalExplorer({articles, initialCategory, initialQuery,content}: {
  articles: Article[]; initialCategory?: string; initialQuery?: string;content?:ContentSection;
 }) {
+ const siteContent=useSiteContent();
+ const text=(key:string,fallback:string)=>editableText(siteContent,`journal-${key}`,fallback);
  const categories = useMemo(() => [...new Set(articles.map(article => article.category))], [articles]);
  const [category, setCategory] = useState(categories.includes(initialCategory || '') ? initialCategory! : '');
  const [query, setQuery] = useState(initialQuery || '');
@@ -57,7 +61,7 @@ export default function JournalExplorer({articles, initialCategory, initialQuery
     {query && <button type="button" aria-label="Clear search" onClick={() => updateFilters(category, '')}><X size={16}/></button>}
    </div>
   </div>
-  <p className={styles.resultCount} role="status" aria-live="polite">{filtered.length} {filtered.length === 1 ? 'story' : 'stories'}{category ? ` in ${category.toLowerCase()}` : ' to spend a little time with'}{query.trim() ? ` matching “${query.trim()}”` : ''}</p>
+  <p className={styles.resultCount} role="status" aria-live="polite">{filtered.length} {filtered.length === 1 ? text('story','story') : text('stories','stories')}{category ? ` ${text('in','in')} ${category.toLowerCase()}` : ` ${text('count-note','to spend a little time with')}`}{query.trim() ? ` ${text('matching','matching')} “${query.trim()}”` : ''}</p>
   {filtered.length ? <div className={styles.storyGrid}>
    {filtered.map((article, index) => <motion.article
     key={article.slug} className={styles.storyCard}
@@ -79,9 +83,9 @@ export default function JournalExplorer({articles, initialCategory, initialQuery
    </motion.article>)}
   </div> : <div className={styles.emptyState}>
    <Search size={27} strokeWidth={1.2} aria-hidden="true"/>
-   <h3>{articles.length ? 'A different word, perhaps?' : 'A little space for what comes next.'}</h3>
-   <p>{articles.length ? 'No stories match this combination. Try another topic or clear your search.' : 'There are no stories here just now. Explore the collection while the next chapter takes shape.'}</p>
-   {articles.length ? <button type="button" onClick={() => updateFilters('', '')} className={styles.pillButton}>Show all stories</button> : <Link href="/shop" className={styles.pillButton}>Explore the collection <ArrowUpRight size={16}/></Link>}
+   <h3>{articles.length ? text('no-match-title','A different word, perhaps?') : text('empty-title','A little space for what comes next.')}</h3>
+   <p>{articles.length ? text('no-match-body','No stories match this combination. Try another topic or clear your search.') : text('empty-body','There are no stories here just now. Explore the collection while the next chapter takes shape.')}</p>
+   {articles.length ? <button type="button" onClick={() => updateFilters('', '')} className={styles.pillButton}>{text('reset','Show all stories')}</button> : <Link href="/shop" className={styles.pillButton}>{text('explore','Explore the collection')} <ArrowUpRight size={16}/></Link>}
   </div>}
  </section>;
 }

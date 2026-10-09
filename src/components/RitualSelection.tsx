@@ -1,4 +1,6 @@
 'use client';
+import {useSiteContent} from './SiteContentProvider';
+import {editableText} from '@/lib/content-safety';
 
 import {createContext,useContext,useState,type ReactNode} from 'react';
 
@@ -12,8 +14,10 @@ export function RitualSelectionProvider({children}:{children:ReactNode}){
 export const useRitualSelection=()=>useContext(RitualSelection);
 
 export function SelectedRitual(){
+ const siteContent=useSiteContent();
+ const t=(key:string,fallback:string)=>editableText(siteContent,key,fallback);
  const {moment}=useRitualSelection();
  if(!moment)return null;
- const phrase=moment==='Morning'?'For your mornings.':moment==='Evening'?'For your evenings.':'For a quiet pause.';
- return <div className="selected-ritual" aria-live="polite"><div><span>YOUR CHOSEN MOMENT</span><p>{phrase}</p></div><a href="#ritual">Change moment <span aria-hidden="true">↗</span></a></div>;
+ const phrase=moment==='Morning'?t("purchase-moment-morning","For your mornings."):moment==='Evening'?t("purchase-moment-evening","For your evenings."):t("purchase-moment-pause","For a quiet pause.");
+ return <div className="selected-ritual" aria-live="polite"><div><span>{t("purchase-moment-heading","YOUR CHOSEN MOMENT")}</span><p>{phrase}</p></div><a href="#ritual">{t("purchase-moment-change","Change moment")} <span aria-hidden="true">↗</span></a></div>;
 }

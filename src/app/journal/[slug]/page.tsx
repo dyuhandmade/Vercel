@@ -4,6 +4,7 @@ import {notFound} from 'next/navigation';
 import {ArrowLeft, ArrowUpRight, Clock3, Leaf} from 'lucide-react';
 import {getArticles} from '@/lib/journal';
 import {getSiteContent,section} from '@/lib/site-content';
+import {editableText} from '@/lib/content-safety';
 import {canonicalMetadata} from '@/lib/seo';
 import JournalReader from '@/components/JournalReader';
 import styles from '../journal.module.css';
@@ -27,7 +28,7 @@ export default async function Article({params}: {params: Promise<{slug: string}>
   .sort((a, b) => Number(b.category === article.category) - Number(a.category === article.category)).slice(0, 3);
  return <div className={styles.articlePage}>
   <nav className={styles.articleBreadcrumb} aria-label="Breadcrumb">
-   <Link href="/journal"><ArrowLeft size={15}/> The journal</Link><span aria-hidden="true">/</span>
+   <Link href="/journal"><ArrowLeft size={15}/> {editableText(content,'journal-breadcrumb','The journal')}</Link><span aria-hidden="true">/</span>
    <Link href={`/journal?category=${encodeURIComponent(article.category)}`}>{article.category}</Link>
   </nav>
   <article>

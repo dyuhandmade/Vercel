@@ -1,6 +1,7 @@
 import {expect,test} from '@playwright/test';
 import {articles,getArticles,parseArticleBody} from '../src/lib/journal';
 import {normalizeContentSection} from '../src/lib/content-safety';
+import {navigationItems} from '../src/lib/navigation-content';
 import {buildIngredientIndex} from '../src/app/ingredients/ingredient-data';
 import type {Product} from '../src/lib/types';
 import {createElement} from 'react';
@@ -17,6 +18,26 @@ require.extensions['.tsx']=(loadedModule,filename)=>{
 };
 const ContentImage=(require('../src/components/ContentImage') as typeof import('../src/components/ContentImage')).default;
 require.extensions['.tsx']=previousTsxLoader;
+
+test('merchant navigation supports new links and explicit order while rejecting missing, duplicate and unsafe destinations',()=>{
+ const sections={
+  'navigation-header':{handle:'navigation-header',items:['nav-gifts','nav-story','nav-gifts','not-a-menu','nav-missing','nav-invalid','nav-collection']},
+  'nav-gifts':{handle:'nav-gifts',title:'Thoughtful gifts',linkUrl:'/collections/gifts'},
+  'nav-story':{handle:'nav-story',title:'Our atelier',sortOrder:-100},
+  'nav-invalid':{handle:'nav-invalid',title:'Unsafe',linkUrl:'javascript:alert(1)'},
+  'nav-collection':{handle:'nav-collection',enabled:false},
+ };
+ expect(navigationItems({sections},'navigation-header',['collection','story'])).toEqual([
+  {key:'gifts',label:'Thoughtful gifts',href:'/collections/gifts'},
+  {key:'story',label:'Our atelier',href:'/our-story'},
+ ]);
+ expect(navigationItems({sections:{'navigation-header':{handle:'navigation-header',enabled:false}}},'navigation-header',['collection'])).toEqual([]);
+});
+
+test('menus retain existing defaults and use merchant sort order when there is no explicit list',()=>{
+ expect(navigationItems(undefined,'navigation-header',['collection','story']).map(item=>item.key)).toEqual(['collection','story']);
+ expect(navigationItems({sections:{'nav-story':{handle:'nav-story',sortOrder:-1}}},'navigation-header',['collection','story']).map(item=>item.key)).toEqual(['story','collection']);
+});
 
 test('editorial images retain fill layout and select mobile artwork without changing desktop artwork',()=>{
  const markup=renderToStaticMarkup(createElement(ContentImage,{src:'/images/atelier-hero.webp',mobileSrc:'/images/botanical-study.webp',alt:'Merchant artwork',fill:true,sizes:'100vw',preload:true,style:{objectPosition:'right'}}));

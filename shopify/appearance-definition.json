@@ -1,0 +1,173 @@
+{
+  "type": "dyu_site_settings",
+  "name": "DYU • Website appearance",
+  "description": "Global visual controls for the custom DYU storefront. Edit the Global appearance entry; leave fields blank to preserve the original design. Preview desktop and mobile after changes.",
+  "displayNameKey": "name",
+  "access": {
+    "storefront": "PUBLIC_READ"
+  },
+  "fieldDefinitions": [
+    {
+      "key": "name",
+      "name": "Editor label",
+      "type": "single_line_text_field",
+      "description": "Keep the entry handle global.",
+      "validations": [
+        {
+          "name": "max",
+          "value": "100"
+        }
+      ],
+      "required": true
+    },
+    {
+      "key": "enabled",
+      "name": "Use appearance overrides",
+      "type": "boolean",
+      "description": "Turn off to restore the original design without deleting saved settings.",
+      "validations": []
+    },
+    {
+      "key": "paper",
+      "name": "Page background",
+      "type": "color",
+      "description": "Optional palette override. Leave blank for the original design. Keep text and backgrounds readable.",
+      "validations": []
+    },
+    {
+      "key": "cream",
+      "name": "Soft backgrounds",
+      "type": "color",
+      "description": "Optional palette override. Leave blank for the original design. Keep text and backgrounds readable.",
+      "validations": []
+    },
+    {
+      "key": "forest",
+      "name": "Primary buttons / forest",
+      "type": "color",
+      "description": "Optional palette override. Leave blank for the original design. Keep text and backgrounds readable.",
+      "validations": []
+    },
+    {
+      "key": "ink",
+      "name": "Main text",
+      "type": "color",
+      "description": "Optional palette override. Leave blank for the original design. Keep text and backgrounds readable.",
+      "validations": []
+    },
+    {
+      "key": "muted",
+      "name": "Secondary text",
+      "type": "color",
+      "description": "Optional palette override. Leave blank for the original design. Keep text and backgrounds readable.",
+      "validations": []
+    },
+    {
+      "key": "sage",
+      "name": "Sage accent",
+      "type": "color",
+      "description": "Optional palette override. Leave blank for the original design. Keep text and backgrounds readable.",
+      "validations": []
+    },
+    {
+      "key": "olive",
+      "name": "Olive accent",
+      "type": "color",
+      "description": "Optional palette override. Leave blank for the original design. Keep text and backgrounds readable.",
+      "validations": []
+    },
+    {
+      "key": "clay",
+      "name": "Focus / clay accent",
+      "type": "color",
+      "description": "Optional palette override. Leave blank for the original design. Keep text and backgrounds readable.",
+      "validations": []
+    },
+    {
+      "key": "walnut",
+      "name": "Hover accent",
+      "type": "color",
+      "description": "Optional palette override. Leave blank for the original design. Keep text and backgrounds readable.",
+      "validations": []
+    },
+    {
+      "key": "line",
+      "name": "Dividers",
+      "type": "color",
+      "description": "Optional palette override. Leave blank for the original design. Keep text and backgrounds readable.",
+      "validations": []
+    },
+    {
+      "key": "heading_font",
+      "name": "Heading font",
+      "type": "single_line_text_field",
+      "description": "Classic: Georgia. Literary: Palatino. Modern: Arial. Fonts fall back to installed system fonts.",
+      "validations": [
+        {
+          "name": "choices",
+          "value": "[\"classic\",\"literary\",\"modern\"]"
+        }
+      ]
+    },
+    {
+      "key": "body_font",
+      "name": "Body font",
+      "type": "single_line_text_field",
+      "description": "Classic: Arial. Humanist: Trebuchet. System: device font.",
+      "validations": [
+        {
+          "name": "choices",
+          "value": "[\"classic\",\"humanist\",\"system\"]"
+        }
+      ]
+    },
+    {
+      "key": "text_size",
+      "name": "Base text size (px)",
+      "type": "number_integer",
+      "description": "Scales rem-based text across pages. Default 16. Check mobile layouts with longer wording.",
+      "validations": [
+        {
+          "name": "min",
+          "value": "14"
+        },
+        {
+          "name": "max",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "key": "button_radius",
+      "name": "Button corner radius (px)",
+      "type": "number_integer",
+      "description": "Applies to standard primary and outline buttons. Blank preserves existing styling; 0 is square; 40 is rounded.",
+      "validations": [
+        {
+          "name": "min",
+          "value": "0"
+        },
+        {
+          "name": "max",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "key": "panel_roundness",
+      "name": "Panel roundness (%)",
+      "type": "number_integer",
+      "description": "Scales panels using the shared radius tokens. Default100; 0 square; 150 softer. Fixed image crops and mobile art frames retain their layout.",
+      "validations": [
+        {
+          "name": "min",
+          "value": "0"
+        },
+        {
+          "name": "max",
+          "value": "150"
+        }
+      ]
+    }
+  ]
+}

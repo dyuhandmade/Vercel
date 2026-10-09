@@ -19,6 +19,9 @@ export default defineConfig({
       testMatch: [
         '**/account-security.spec.ts', '**/account-callback.spec.ts', '**/customer-login.spec.ts',
         '**/content-safety.spec.ts', '**/editorial-content.spec.ts',
+        '**/site-appearance.spec.tsx',
+        '**/commerce-editability.spec.ts',
+        '**/account-content.spec.ts',
         '**/hero-content.spec.ts', '**/hero-scene.spec.ts',
         '**/home-content-settings.spec.ts', '**/ingredient-index.spec.ts',
         '**/launch-readiness.spec.ts', '**/site-content.spec.ts',

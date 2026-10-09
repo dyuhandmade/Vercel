@@ -1,0 +1,1073 @@
+[
+  {
+    "handle": "account-welcome",
+    "fields": {
+      "name": "Account · Guest welcome",
+      "eyebrow": "MAKE YOURSELF AT HOME",
+      "title": "Your rituals.",
+      "title_emphasis": "All in one place.",
+      "body": "Sign in to keep your orders, everyday favourites, and personal details close at hand.",
+      "link_label": "Sign in or create an account",
+      "secondary_label": "Continue exploring",
+      "secondary_url": "/shop",
+      "note": "A secure code sent to your email. No password to remember.",
+      "image_alt": "A quiet moment with botanical care and natural textures",
+      "caption": "A little closer to your everyday."
+    }
+  },
+  {
+    "handle": "account-overview",
+    "fields": {
+      "name": "Account · Signed-in welcome",
+      "eyebrow": "IT’S GOOD TO HAVE YOU HERE",
+      "title": "A familiar ritual.",
+      "title_emphasis": "A fresh discovery.",
+      "body": "Pick up where you left off, find something you love, or make a little room for something new.",
+      "link_label": "Explore the collection",
+      "link_url": "/shop",
+      "enabled": "true"
+    }
+  },
+  {
+    "handle": "account-benefit-1",
+    "fields": {
+      "name": "Account · Welcome benefit 1",
+      "title": "Follow your rituals",
+      "body": "Find order details and follow every delivery.",
+      "enabled": "true"
+    }
+  },
+  {
+    "handle": "account-benefit-2",
+    "fields": {
+      "name": "Account · Welcome benefit 2",
+      "title": "Keep what you love",
+      "body": "Gather your favourites for another little pause.",
+      "enabled": "true"
+    }
+  },
+  {
+    "handle": "account-benefit-3",
+    "fields": {
+      "name": "Account · Welcome benefit 3",
+      "title": "Make it yours",
+      "body": "Keep your details and delivery addresses up to date.",
+      "enabled": "true"
+    }
+  },
+  {
+    "handle": "ui-account-loading",
+    "fields": {
+      "name": "Account · Loading",
+      "body": "Opening your space…"
+    }
+  },
+  {
+    "handle": "ui-account-nav-overview",
+    "fields": {
+      "name": "Account · Nav overview",
+      "body": "Overview"
+    }
+  },
+  {
+    "handle": "ui-account-nav-orders",
+    "fields": {
+      "name": "Account · Nav orders",
+      "body": "My orders"
+    }
+  },
+  {
+    "handle": "ui-account-nav-wishlist",
+    "fields": {
+      "name": "Account · Nav wishlist",
+      "body": "Wishlist"
+    }
+  },
+  {
+    "handle": "ui-account-nav-history",
+    "fields": {
+      "name": "Account · Nav history",
+      "body": "Recently viewed"
+    }
+  },
+  {
+    "handle": "ui-account-nav-profile",
+    "fields": {
+      "name": "Account · Nav profile",
+      "body": "My profile"
+    }
+  },
+  {
+    "handle": "ui-account-nav-addresses",
+    "fields": {
+      "name": "Account · Nav addresses",
+      "body": "Addresses"
+    }
+  },
+  {
+    "handle": "ui-account-welcome",
+    "fields": {
+      "name": "Account · Welcome",
+      "body": "Welcome"
+    }
+  },
+  {
+    "handle": "ui-account-welcome-back",
+    "fields": {
+      "name": "Account · Welcome back",
+      "body": "Welcome back"
+    }
+  },
+  {
+    "handle": "ui-account-welcome-emphasis",
+    "fields": {
+      "name": "Account · Welcome emphasis",
+      "body": "Make yourself at home."
+    }
+  },
+  {
+    "handle": "ui-account-navigation-label",
+    "fields": {
+      "name": "Account · Navigation label",
+      "body": "Account navigation"
+    }
+  },
+  {
+    "handle": "ui-account-masthead-eyebrow",
+    "fields": {
+      "name": "Account · Masthead eyebrow",
+      "body": "YOUR DYU CORNER"
+    }
+  },
+  {
+    "handle": "ui-account-masthead-title",
+    "fields": {
+      "name": "Account · Masthead title",
+      "body": "A little space."
+    }
+  },
+  {
+    "handle": "ui-account-masthead-emphasis",
+    "fields": {
+      "name": "Account · Masthead emphasis",
+      "body": "Just for you."
+    }
+  },
+  {
+    "handle": "ui-account-sign-out",
+    "fields": {
+      "name": "Account · Sign out",
+      "body": "Sign out"
+    }
+  },
+  {
+    "handle": "ui-account-sidebar-note",
+    "fields": {
+      "name": "Account · Sidebar note",
+      "body": "A private space for your orders and the things you love."
+    }
+  },
+  {
+    "handle": "ui-account-help-note",
+    "fields": {
+      "name": "Account · Help note",
+      "body": "A little care goes a long way."
+    }
+  },
+  {
+    "handle": "ui-account-contact-link",
+    "fields": {
+      "name": "Account · Contact link",
+      "body": "Need a hand? Get in touch"
+    }
+  },
+  {
+    "handle": "ui-account-error-title",
+    "fields": {
+      "name": "Account · Error title",
+      "body": "A small pause."
+    }
+  },
+  {
+    "handle": "ui-account-try-again",
+    "fields": {
+      "name": "Account · Try again",
+      "body": "Try again"
+    }
+  },
+  {
+    "handle": "ui-account-profile-eyebrow",
+    "fields": {
+      "name": "Account · Profile eyebrow",
+      "body": "THE PERSONAL DETAILS"
+    }
+  },
+  {
+    "handle": "ui-account-profile-title",
+    "fields": {
+      "name": "Account · Profile title",
+      "body": "A little more"
+    }
+  },
+  {
+    "handle": "ui-account-profile-emphasis",
+    "fields": {
+      "name": "Account · Profile emphasis",
+      "body": "you."
+    }
+  },
+  {
+    "handle": "ui-account-first-name",
+    "fields": {
+      "name": "Account · First name",
+      "body": "First name"
+    }
+  },
+  {
+    "handle": "ui-account-last-name",
+    "fields": {
+      "name": "Account · Last name",
+      "body": "Last name"
+    }
+  },
+  {
+    "handle": "ui-account-email",
+    "fields": {
+      "name": "Account · Email",
+      "body": "Email address"
+    }
+  },
+  {
+    "handle": "ui-account-phone",
+    "fields": {
+      "name": "Account · Phone",
+      "body": "Phone number"
+    }
+  },
+  {
+    "handle": "ui-account-profile-settings-link",
+    "fields": {
+      "name": "Account · Profile settings link",
+      "body": "Manage your email and account settings"
+    }
+  },
+  {
+    "handle": "ui-account-profile-contact-note",
+    "fields": {
+      "name": "Account · Profile contact note",
+      "body": "For help with email or account changes,"
+    }
+  },
+  {
+    "handle": "ui-account-profile-contact-link",
+    "fields": {
+      "name": "Account · Profile contact link",
+      "body": "get in touch with us"
+    }
+  },
+  {
+    "handle": "ui-account-orders-empty-title",
+    "fields": {
+      "name": "Account · Orders empty title",
+      "body": "Your next ritual"
+    }
+  },
+  {
+    "handle": "ui-account-orders-empty-emphasis",
+    "fields": {
+      "name": "Account · Orders empty emphasis",
+      "body": "awaits."
+    }
+  },
+  {
+    "handle": "ui-account-orders-empty-body",
+    "fields": {
+      "name": "Account · Orders empty body",
+      "body": "You haven’t placed an order with this account yet. When you do, you’ll find its details here."
+    }
+  },
+  {
+    "handle": "ui-account-orders-empty-link",
+    "fields": {
+      "name": "Account · Orders empty link",
+      "body": "Find something you love"
+    }
+  },
+  {
+    "handle": "ui-account-orders-eyebrow",
+    "fields": {
+      "name": "Account · Orders eyebrow",
+      "body": "FROM OUR HANDS TO YOURS"
+    }
+  },
+  {
+    "handle": "ui-account-orders-title",
+    "fields": {
+      "name": "Account · Orders title",
+      "body": "Your orders,"
+    }
+  },
+  {
+    "handle": "ui-account-orders-emphasis",
+    "fields": {
+      "name": "Account · Orders emphasis",
+      "body": "at a glance."
+    }
+  },
+  {
+    "handle": "ui-account-orders-help-note",
+    "fields": {
+      "name": "Account · Orders help note",
+      "body": "Looking for an order placed with a different email?"
+    }
+  },
+  {
+    "handle": "ui-account-orders-help-link",
+    "fields": {
+      "name": "Account · Orders help link",
+      "body": "We’re here to help."
+    }
+  },
+  {
+    "handle": "ui-account-orders-back",
+    "fields": {
+      "name": "Account · Orders back",
+      "body": "All orders"
+    }
+  },
+  {
+    "handle": "ui-account-order-delivering-to",
+    "fields": {
+      "name": "Account · Order delivering to",
+      "body": "DELIVERING TO"
+    }
+  },
+  {
+    "handle": "ui-account-order-subtotal",
+    "fields": {
+      "name": "Account · Order subtotal",
+      "body": "Subtotal"
+    }
+  },
+  {
+    "handle": "ui-account-order-shipping",
+    "fields": {
+      "name": "Account · Order shipping",
+      "body": "Shipping"
+    }
+  },
+  {
+    "handle": "ui-account-order-tax",
+    "fields": {
+      "name": "Account · Order tax",
+      "body": "Tax"
+    }
+  },
+  {
+    "handle": "ui-account-order-total",
+    "fields": {
+      "name": "Account · Order total",
+      "body": "Total"
+    }
+  },
+  {
+    "handle": "ui-account-order-refunded",
+    "fields": {
+      "name": "Account · Order refunded",
+      "body": "Refunded"
+    }
+  },
+  {
+    "handle": "ui-account-order-payment",
+    "fields": {
+      "name": "Account · Order payment",
+      "body": "Payment"
+    }
+  },
+  {
+    "handle": "ui-account-order-delivery-eyebrow",
+    "fields": {
+      "name": "Account · Order delivery eyebrow",
+      "body": "ON ITS WAY TO YOU"
+    }
+  },
+  {
+    "handle": "ui-account-order-updates-link",
+    "fields": {
+      "name": "Account · Order updates link",
+      "body": "View order updates"
+    }
+  },
+  {
+    "handle": "ui-account-order-help-link",
+    "fields": {
+      "name": "Account · Order help link",
+      "body": "Need help with this order?"
+    }
+  },
+  {
+    "handle": "ui-account-addresses-eyebrow",
+    "fields": {
+      "name": "Account · Addresses eyebrow",
+      "body": "A HOME FOR YOUR RITUALS"
+    }
+  },
+  {
+    "handle": "ui-account-addresses-title",
+    "fields": {
+      "name": "Account · Addresses title",
+      "body": "Your address"
+    }
+  },
+  {
+    "handle": "ui-account-addresses-emphasis",
+    "fields": {
+      "name": "Account · Addresses emphasis",
+      "body": "book."
+    }
+  },
+  {
+    "handle": "ui-account-address-add",
+    "fields": {
+      "name": "Account · Address add",
+      "body": "Add address"
+    }
+  },
+  {
+    "handle": "ui-account-addresses-empty-title",
+    "fields": {
+      "name": "Account · Addresses empty title",
+      "body": "Where should we send"
+    }
+  },
+  {
+    "handle": "ui-account-addresses-empty-emphasis",
+    "fields": {
+      "name": "Account · Addresses empty emphasis",
+      "body": "a little care?"
+    }
+  },
+  {
+    "handle": "ui-account-addresses-empty-body",
+    "fields": {
+      "name": "Account · Addresses empty body",
+      "body": "Add a delivery address to make your next checkout a little easier."
+    }
+  },
+  {
+    "handle": "ui-account-address-add-first",
+    "fields": {
+      "name": "Account · Address add first",
+      "body": "Add your first address"
+    }
+  },
+  {
+    "handle": "ui-account-address-remove-prompt",
+    "fields": {
+      "name": "Account · Address remove prompt",
+      "body": "Remove this address from your account?"
+    }
+  },
+  {
+    "handle": "ui-account-address-keep",
+    "fields": {
+      "name": "Account · Address keep",
+      "body": "Keep address"
+    }
+  },
+  {
+    "handle": "ui-account-address-edit",
+    "fields": {
+      "name": "Account · Address edit",
+      "body": "Edit"
+    }
+  },
+  {
+    "handle": "ui-account-address-remove",
+    "fields": {
+      "name": "Account · Address remove",
+      "body": "Remove"
+    }
+  },
+  {
+    "handle": "ui-account-address-country",
+    "fields": {
+      "name": "Account · Address country",
+      "body": "Country / region"
+    }
+  },
+  {
+    "handle": "ui-account-address-state",
+    "fields": {
+      "name": "Account · Address state",
+      "body": "State / territory"
+    }
+  },
+  {
+    "handle": "ui-account-address-state-placeholder",
+    "fields": {
+      "name": "Account · Address state placeholder",
+      "body": "Select your state"
+    }
+  },
+  {
+    "handle": "ui-account-address-province",
+    "fields": {
+      "name": "Account · Address province",
+      "body": "State / province code (if applicable)"
+    }
+  },
+  {
+    "handle": "ui-account-address-make-default",
+    "fields": {
+      "name": "Account · Address make default",
+      "body": "Use as my default address"
+    }
+  },
+  {
+    "handle": "ui-account-cancel",
+    "fields": {
+      "name": "Account · Cancel",
+      "body": "Cancel"
+    }
+  },
+  {
+    "handle": "ui-account-profile-email-note",
+    "fields": {
+      "name": "Account · Profile email note",
+      "body": "Your email is used for sign-in and order updates."
+    }
+  },
+  {
+    "handle": "ui-account-masthead-note",
+    "fields": {
+      "name": "Account · Masthead note",
+      "body": "Your favourite rituals, thoughtful discoveries, and everything along the way."
+    }
+  },
+  {
+    "handle": "ui-account-masthead-detail-note",
+    "fields": {
+      "name": "Account · Masthead detail note",
+      "body": "The little details that make your everyday feel more like you."
+    }
+  },
+  {
+    "handle": "ui-account-identity-title",
+    "fields": {
+      "name": "Account · Identity title",
+      "body": "Your account"
+    }
+  },
+  {
+    "handle": "ui-account-identity-welcome",
+    "fields": {
+      "name": "Account · Identity welcome",
+      "body": "Welcome to your account"
+    }
+  },
+  {
+    "handle": "ui-account-identity-guest-title",
+    "fields": {
+      "name": "Account · Identity guest title",
+      "body": "A slower kind of care"
+    }
+  },
+  {
+    "handle": "ui-account-identity-guest-note",
+    "fields": {
+      "name": "Account · Identity guest note",
+      "body": "A place for your everyday"
+    }
+  },
+  {
+    "handle": "ui-account-not-provided",
+    "fields": {
+      "name": "Account · Not provided",
+      "body": "Not provided"
+    }
+  },
+  {
+    "handle": "ui-account-saving",
+    "fields": {
+      "name": "Account · Saving",
+      "body": "Saving…"
+    }
+  },
+  {
+    "handle": "ui-account-profile-save",
+    "fields": {
+      "name": "Account · Profile save",
+      "body": "Save changes"
+    }
+  },
+  {
+    "handle": "ui-account-profile-saved",
+    "fields": {
+      "name": "Account · Profile saved",
+      "body": "Your details have been saved."
+    }
+  },
+  {
+    "handle": "ui-account-quick-orders",
+    "fields": {
+      "name": "Account · Quick orders",
+      "body": "Order details, updates, and deliveries"
+    }
+  },
+  {
+    "handle": "ui-account-quick-wishlist",
+    "fields": {
+      "name": "Account · Quick wishlist",
+      "body": "The little things you have your eye on"
+    }
+  },
+  {
+    "handle": "ui-account-quick-history",
+    "fields": {
+      "name": "Account · Quick history",
+      "body": "Rediscover your recent favourites"
+    }
+  },
+  {
+    "handle": "ui-account-quick-profile",
+    "fields": {
+      "name": "Account · Quick profile",
+      "body": "The details that make this space yours"
+    }
+  },
+  {
+    "handle": "ui-account-quick-addresses",
+    "fields": {
+      "name": "Account · Quick addresses",
+      "body": "A home for your next delivery"
+    }
+  },
+  {
+    "handle": "ui-account-loading-more",
+    "fields": {
+      "name": "Account · Loading more",
+      "body": "Loading…"
+    }
+  },
+  {
+    "handle": "ui-account-orders-load-more",
+    "fields": {
+      "name": "Account · Orders load more",
+      "body": "Load more orders"
+    }
+  },
+  {
+    "handle": "ui-account-order-items-more",
+    "fields": {
+      "name": "Account · Order items more",
+      "body": "View more items"
+    }
+  },
+  {
+    "handle": "ui-account-order-track-link",
+    "fields": {
+      "name": "Account · Order track link",
+      "body": "Track delivery"
+    }
+  },
+  {
+    "handle": "ui-account-order-tracking-pending",
+    "fields": {
+      "name": "Account · Order tracking pending",
+      "body": "Tracking updates will appear when available."
+    }
+  },
+  {
+    "handle": "ui-account-address-deleted",
+    "fields": {
+      "name": "Account · Address deleted",
+      "body": "Address removed."
+    }
+  },
+  {
+    "handle": "ui-account-address-default-updated",
+    "fields": {
+      "name": "Account · Address default updated",
+      "body": "Your default address has been updated."
+    }
+  },
+  {
+    "handle": "ui-account-address-saved",
+    "fields": {
+      "name": "Account · Address saved",
+      "body": "Your address has been saved."
+    }
+  },
+  {
+    "handle": "ui-account-address-default",
+    "fields": {
+      "name": "Account · Address default",
+      "body": "Default address"
+    }
+  },
+  {
+    "handle": "ui-account-address-delivery",
+    "fields": {
+      "name": "Account · Address delivery",
+      "body": "Delivery address"
+    }
+  },
+  {
+    "handle": "ui-account-address-removing",
+    "fields": {
+      "name": "Account · Address removing",
+      "body": "Removing…"
+    }
+  },
+  {
+    "handle": "ui-account-address-remove-confirm",
+    "fields": {
+      "name": "Account · Address remove confirm",
+      "body": "Yes, remove"
+    }
+  },
+  {
+    "handle": "ui-account-address-updating",
+    "fields": {
+      "name": "Account · Address updating",
+      "body": "Updating…"
+    }
+  },
+  {
+    "handle": "ui-account-address-make-default-button",
+    "fields": {
+      "name": "Account · Address make default button",
+      "body": "Make default"
+    }
+  },
+  {
+    "handle": "ui-account-addresses-load-more",
+    "fields": {
+      "name": "Account · Addresses load more",
+      "body": "Load more addresses"
+    }
+  },
+  {
+    "handle": "ui-account-address-edit-title",
+    "fields": {
+      "name": "Account · Address edit title",
+      "body": "Edit your address"
+    }
+  },
+  {
+    "handle": "ui-account-address-new-title",
+    "fields": {
+      "name": "Account · Address new title",
+      "body": "A new delivery address"
+    }
+  },
+  {
+    "handle": "ui-account-address-save",
+    "fields": {
+      "name": "Account · Address save",
+      "body": "Save address"
+    }
+  },
+  {
+    "handle": "ui-account-orders-loading",
+    "fields": {
+      "name": "Account · Orders loading",
+      "body": "Finding your orders…"
+    }
+  },
+  {
+    "handle": "ui-account-order-loading",
+    "fields": {
+      "name": "Account · Order loading",
+      "body": "Opening your order…"
+    }
+  },
+  {
+    "handle": "ui-account-addresses-loading",
+    "fields": {
+      "name": "Account · Addresses loading",
+      "body": "Opening your address book…"
+    }
+  },
+  {
+    "handle": "ui-account-address-cancel-label",
+    "fields": {
+      "name": "Account · Address cancel label",
+      "body": "Cancel address changes"
+    }
+  },
+  {
+    "handle": "ui-account-address-province-placeholder",
+    "fields": {
+      "name": "Account · Address province placeholder",
+      "body": "For example, CA"
+    }
+  },
+  {
+    "handle": "ui-account-address-last-name",
+    "fields": {
+      "name": "Account · Address last name",
+      "body": "Last name (optional)"
+    }
+  },
+  {
+    "handle": "ui-account-address-company",
+    "fields": {
+      "name": "Account · Address company",
+      "body": "Company (optional)"
+    }
+  },
+  {
+    "handle": "ui-account-address-line-one",
+    "fields": {
+      "name": "Account · Address line one",
+      "body": "Address"
+    }
+  },
+  {
+    "handle": "ui-account-address-line-two",
+    "fields": {
+      "name": "Account · Address line two",
+      "body": "Apartment, suite, etc. (optional)"
+    }
+  },
+  {
+    "handle": "ui-account-address-city",
+    "fields": {
+      "name": "Account · Address city",
+      "body": "City"
+    }
+  },
+  {
+    "handle": "ui-account-address-postal-code",
+    "fields": {
+      "name": "Account · Address postal code",
+      "body": "Postal code"
+    }
+  },
+  {
+    "handle": "ui-account-address-phone",
+    "fields": {
+      "name": "Account · Address phone",
+      "body": "Phone number (optional, include country code)"
+    }
+  },
+  {
+    "handle": "ui-account-order-quantity",
+    "fields": {
+      "name": "Account · Order quantity",
+      "body": "Quantity"
+    }
+  },
+  {
+    "handle": "ui-account-order-placed",
+    "fields": {
+      "name": "Account · Order placed",
+      "body": "PLACED"
+    }
+  },
+  {
+    "handle": "ui-account-order-heading",
+    "fields": {
+      "name": "Account · Order heading",
+      "body": "Order"
+    }
+  },
+  {
+    "handle": "ui-account-order-delivery",
+    "fields": {
+      "name": "Account · Order delivery",
+      "body": "Delivery"
+    }
+  },
+  {
+    "handle": "ui-account-order-estimated-arrival",
+    "fields": {
+      "name": "Account · Order estimated arrival",
+      "body": "Estimated arrival"
+    }
+  },
+  {
+    "handle": "ui-account-sign-in-error",
+    "fields": {
+      "name": "Account · Sign in error",
+      "body": "We couldn’t finish signing you in. Please try again."
+    }
+  },
+  {
+    "handle": "ui-account-sign-in-unavailable",
+    "fields": {
+      "name": "Account · Sign in unavailable",
+      "body": "Account sign-in isn’t available just yet. You can still explore the collection and check out as a guest."
+    }
+  },
+  {
+    "handle": "ui-account-explore-collection",
+    "fields": {
+      "name": "Account · Explore collection",
+      "body": "Explore the collection"
+    }
+  },
+  {
+    "handle": "ui-account-history-region-label",
+    "fields": {
+      "name": "Account · History region label",
+      "body": "Recently viewed products"
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-region-label",
+    "fields": {
+      "name": "Account · Wishlist region label",
+      "body": "Saved products"
+    }
+  },
+  {
+    "handle": "ui-account-history-note",
+    "fields": {
+      "name": "Account · History note",
+      "body": "Your last 24 viewed products are saved only in this browser. This history is separate from your orders and does not sync between devices."
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-signed-in-note",
+    "fields": {
+      "name": "Account · Wishlist signed in note",
+      "body": "Your wishlist is saved to your account, ready whenever you return."
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-guest-note",
+    "fields": {
+      "name": "Account · Wishlist guest note",
+      "body": "Your wishlist is saved in this browser. Sign in to keep it across your devices."
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-refresh",
+    "fields": {
+      "name": "Account · Wishlist refresh",
+      "body": "Refresh wishlist"
+    }
+  },
+  {
+    "handle": "ui-account-history-empty-title",
+    "fields": {
+      "name": "Account · History empty title",
+      "body": "Follow your curiosity."
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-empty-title",
+    "fields": {
+      "name": "Account · Wishlist empty title",
+      "body": "A little space for your favourites."
+    }
+  },
+  {
+    "handle": "ui-account-history-empty-body",
+    "fields": {
+      "name": "Account · History empty body",
+      "body": "The products you explore will appear here, so you can find your way back."
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-empty-body",
+    "fields": {
+      "name": "Account · Wishlist empty body",
+      "body": "Tap the heart on a product to keep it here for another day."
+    }
+  },
+  {
+    "handle": "ui-account-history-clear",
+    "fields": {
+      "name": "Account · History clear",
+      "body": "Clear history"
+    }
+  },
+  {
+    "handle": "ui-account-history-loading",
+    "fields": {
+      "name": "Account · History loading",
+      "body": "Finding your recently viewed rituals…"
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-loading",
+    "fields": {
+      "name": "Account · Wishlist loading",
+      "body": "Finding your saved rituals…"
+    }
+  },
+  {
+    "handle": "ui-account-saved-one-unavailable",
+    "fields": {
+      "name": "Account · Saved one unavailable",
+      "body": "product is no longer available in the collection."
+    }
+  },
+  {
+    "handle": "ui-account-saved-many-unavailable",
+    "fields": {
+      "name": "Account · Saved many unavailable",
+      "body": "products are no longer available in the collection."
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-remove",
+    "fields": {
+      "name": "Account · Wishlist remove",
+      "body": "Remove from wishlist"
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-save",
+    "fields": {
+      "name": "Account · Wishlist save",
+      "body": "Save to wishlist"
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-unavailable",
+    "fields": {
+      "name": "Account · Wishlist unavailable",
+      "body": "Wishlist unavailable. Open your account to retry."
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-saved",
+    "fields": {
+      "name": "Account · Wishlist saved",
+      "body": "Saved to wishlist"
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-remove-verb",
+    "fields": {
+      "name": "Account · wishlist remove verb",
+      "body": "Remove"
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-save-verb",
+    "fields": {
+      "name": "Account · wishlist save verb",
+      "body": "Save"
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-remove-destination",
+    "fields": {
+      "name": "Account · wishlist remove destination",
+      "body": "from wishlist"
+    }
+  },
+  {
+    "handle": "ui-account-wishlist-save-destination",
+    "fields": {
+      "name": "Account · wishlist save destination",
+      "body": "to wishlist"
+    }
+  }
+]

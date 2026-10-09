@@ -11,6 +11,13 @@ export type SiteContent = {sections:Record<string,ContentSection>};
 export type ContentField = {key:string;value?:string|null;type?:string;reference?:{image?:{url?:string;altText?:string|null}}|null;references?:{nodes:{__typename?:string;handle?:string}[]}|null};
 export type RawContentSection = {handle:string;fields:ContentField[]};
 
+/** UI entries use Body text; empty/disabled entries restore the built-in wording. */
+export function editableText(content:SiteContent|undefined,key:string,fallback:string):string {
+ const handle=`ui-${key}`;
+ const entry=content&&Object.hasOwn(content.sections,handle)?content.sections[handle]:undefined;
+ return entry?.enabled===false?fallback:plainText(entry?.body||entry?.title,1000)||fallback;
+}
+
 function richText(node:unknown, depth=0):string {
  if(depth>12||!node||typeof node!=='object')return '';
  const n=node as {type?:string;value?:unknown;children?:unknown[]};

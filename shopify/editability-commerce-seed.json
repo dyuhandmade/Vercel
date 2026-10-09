@@ -1,0 +1,672 @@
+[
+  {
+    "handle": "ui-bag-retry",
+    "fields": {
+      "name": "Bag · Retry",
+      "body": "Retry"
+    }
+  },
+  {
+    "handle": "ui-bag-empty-title",
+    "fields": {
+      "name": "Bag · Empty title",
+      "body": "A little space for your rituals."
+    }
+  },
+  {
+    "handle": "ui-bag-empty-body",
+    "fields": {
+      "name": "Bag · Empty body",
+      "body": "Your bag is waiting to be filled."
+    }
+  },
+  {
+    "handle": "ui-bag-empty-action",
+    "fields": {
+      "name": "Bag · Empty action",
+      "body": "Explore the collection"
+    }
+  },
+  {
+    "handle": "ui-bag-subtotal",
+    "fields": {
+      "name": "Bag · Subtotal",
+      "body": "Subtotal"
+    }
+  },
+  {
+    "handle": "ui-bag-checkout-note",
+    "fields": {
+      "name": "Bag · Checkout note",
+      "body": "Shipping and taxes are calculated at checkout."
+    }
+  },
+  {
+    "handle": "ui-bag-checkout-busy",
+    "fields": {
+      "name": "Bag · Checkout busy",
+      "body": "Preparing your bag…"
+    }
+  },
+  {
+    "handle": "ui-bag-checkout-action",
+    "fields": {
+      "name": "Bag · Checkout action",
+      "body": "Continue to checkout"
+    }
+  },
+  {
+    "handle": "ui-bag-continue-action",
+    "fields": {
+      "name": "Bag · Continue action",
+      "body": "Continue exploring"
+    }
+  },
+  {
+    "handle": "ui-catalog-search-placeholder",
+    "fields": {
+      "name": "Catalog · Search placeholder",
+      "body": "Find your ritual"
+    }
+  },
+  {
+    "handle": "ui-catalog-search-action",
+    "fields": {
+      "name": "Catalog · Search action",
+      "body": "Search"
+    }
+  },
+  {
+    "handle": "ui-catalog-refine",
+    "fields": {
+      "name": "Catalog · Refine",
+      "body": "Refine"
+    }
+  },
+  {
+    "handle": "ui-catalog-available",
+    "fields": {
+      "name": "Catalog · Available",
+      "body": "Available now"
+    }
+  },
+  {
+    "handle": "ui-catalog-reset",
+    "fields": {
+      "name": "Catalog · Reset",
+      "body": "Reset filters"
+    }
+  },
+  {
+    "handle": "ui-catalog-result-single",
+    "fields": {
+      "name": "Catalog · Result single",
+      "body": "ritual"
+    }
+  },
+  {
+    "handle": "ui-catalog-result-plural",
+    "fields": {
+      "name": "Catalog · Result plural",
+      "body": "rituals"
+    }
+  },
+  {
+    "handle": "ui-catalog-results-suffix",
+    "fields": {
+      "name": "Catalog · Results suffix",
+      "body": "to discover"
+    }
+  },
+  {
+    "handle": "ui-catalog-sort-label",
+    "fields": {
+      "name": "Catalog · Sort label",
+      "body": "Sort by"
+    }
+  },
+  {
+    "handle": "ui-catalog-sort-featured",
+    "fields": {
+      "name": "Catalog · Sort featured",
+      "body": "Featured"
+    }
+  },
+  {
+    "handle": "ui-catalog-sort-price-asc",
+    "fields": {
+      "name": "Catalog · Sort price asc",
+      "body": "Price: low to high"
+    }
+  },
+  {
+    "handle": "ui-catalog-sort-price-desc",
+    "fields": {
+      "name": "Catalog · Sort price desc",
+      "body": "Price: high to low"
+    }
+  },
+  {
+    "handle": "ui-catalog-sort-newest",
+    "fields": {
+      "name": "Catalog · Sort newest",
+      "body": "Newest"
+    }
+  },
+  {
+    "handle": "ui-catalog-empty-title",
+    "fields": {
+      "name": "Catalog · Empty title",
+      "body": "No rituals found."
+    }
+  },
+  {
+    "handle": "ui-catalog-empty-body",
+    "fields": {
+      "name": "Catalog · Empty body",
+      "body": "Try another search or clear your filters."
+    }
+  },
+  {
+    "handle": "ui-catalog-empty-action",
+    "fields": {
+      "name": "Catalog · Empty action",
+      "body": "Clear search & filters"
+    }
+  },
+  {
+    "handle": "ui-catalog-all-tab",
+    "fields": {
+      "name": "Catalog · All tab",
+      "body": "All rituals"
+    }
+  },
+  {
+    "handle": "ui-purchase-choose-prefix",
+    "fields": {
+      "name": "Purchase · Choose prefix",
+      "body": "Choose your"
+    }
+  },
+  {
+    "handle": "ui-purchase-choose-option",
+    "fields": {
+      "name": "Purchase · Choose option",
+      "body": "Choose an option"
+    }
+  },
+  {
+    "handle": "ui-purchase-heading",
+    "fields": {
+      "name": "Purchase · Heading",
+      "body": "MAKE IT YOUR RITUAL"
+    }
+  },
+  {
+    "handle": "ui-purchase-sold-out",
+    "fields": {
+      "name": "Purchase · Sold out",
+      "body": "Sold out"
+    }
+  },
+  {
+    "handle": "ui-purchase-adding",
+    "fields": {
+      "name": "Purchase · Adding",
+      "body": "Adding to your bag…"
+    }
+  },
+  {
+    "handle": "ui-purchase-add",
+    "fields": {
+      "name": "Purchase · Add",
+      "body": "Add to bag"
+    }
+  },
+  {
+    "handle": "ui-purchase-unavailable",
+    "fields": {
+      "name": "Purchase · Unavailable",
+      "body": "Currently unavailable"
+    }
+  },
+  {
+    "handle": "ui-purchase-shipping",
+    "fields": {
+      "name": "Purchase · Shipping",
+      "body": "Shipping & returns"
+    }
+  },
+  {
+    "handle": "ui-purchase-guidance",
+    "fields": {
+      "name": "Purchase · Guidance",
+      "body": "A little guidance"
+    }
+  },
+  {
+    "handle": "ui-card-explore",
+    "fields": {
+      "name": "Product card · Card explore",
+      "body": "EXPLORE THE RITUAL"
+    }
+  },
+  {
+    "handle": "ui-card-unavailable",
+    "fields": {
+      "name": "Product card · Card unavailable",
+      "body": "SOLD OUT"
+    }
+  },
+  {
+    "handle": "ui-gallery-edition",
+    "fields": {
+      "name": "Product gallery · Gallery edition",
+      "body": "THE DYU ATELIER"
+    }
+  },
+  {
+    "handle": "ui-gallery-subtitle",
+    "fields": {
+      "name": "Product gallery · Gallery subtitle",
+      "body": "A STUDY IN CARE"
+    }
+  },
+  {
+    "handle": "ui-gallery-explore-3d",
+    "fields": {
+      "name": "Product gallery · Gallery explore 3d",
+      "body": "Explore in 3D"
+    }
+  },
+  {
+    "handle": "ui-gallery-photo-caption",
+    "fields": {
+      "name": "Product gallery · Gallery photo caption",
+      "body": "A closer look"
+    }
+  },
+  {
+    "handle": "ui-gallery-video-caption",
+    "fields": {
+      "name": "Product gallery · Gallery video caption",
+      "body": "From the atelier, in motion"
+    }
+  },
+  {
+    "handle": "ui-gallery-pause",
+    "fields": {
+      "name": "Product gallery · Gallery pause",
+      "body": "Pause"
+    }
+  },
+  {
+    "handle": "ui-gallery-play",
+    "fields": {
+      "name": "Product gallery · Gallery play",
+      "body": "Play"
+    }
+  },
+  {
+    "handle": "ui-gallery-photos",
+    "fields": {
+      "name": "Product gallery · Gallery photos",
+      "body": "Photos"
+    }
+  },
+  {
+    "handle": "ui-gallery-3d-view",
+    "fields": {
+      "name": "Product gallery · Gallery 3d view",
+      "body": "3D view"
+    }
+  },
+  {
+    "handle": "ui-gallery-model-heading",
+    "fields": {
+      "name": "Product gallery · Gallery model heading",
+      "body": "THE OBJECT IN 3D"
+    }
+  },
+  {
+    "handle": "product-gallery",
+    "fields": {
+      "name": "Product gallery · Display and slideshow",
+      "display_mode": "3d",
+      "carousel_autoplay": "true",
+      "carousel_interval": "5000",
+      "note": "Display mode: image hides the 3D viewer; 3d enables it alongside photos. Autoplay and interval apply to product photographs."
+    }
+  },
+  {
+    "handle": "ui-model-loading-photo",
+    "fields": {
+      "name": "3D viewer · Model loading photo",
+      "body": "Shaping the view from the photograph…"
+    }
+  },
+  {
+    "handle": "ui-model-loading",
+    "fields": {
+      "name": "3D viewer · Model loading",
+      "body": "Preparing your 3D view…"
+    }
+  },
+  {
+    "handle": "ui-model-unavailable",
+    "fields": {
+      "name": "3D viewer · Model unavailable",
+      "body": "3D is unavailable right now. The product image is still here to explore."
+    }
+  },
+  {
+    "handle": "ui-model-retry",
+    "fields": {
+      "name": "3D viewer · Model retry",
+      "body": "Retry 3D"
+    }
+  },
+  {
+    "handle": "ui-model-drag",
+    "fields": {
+      "name": "3D viewer · Model drag",
+      "body": "Drag to turn"
+    }
+  },
+  {
+    "handle": "ui-model-opening",
+    "fields": {
+      "name": "3D viewer · Model opening",
+      "body": "Opening…"
+    }
+  },
+  {
+    "handle": "ui-related-count-single",
+    "fields": {
+      "name": "Related products · Related count single",
+      "body": "related ritual"
+    }
+  },
+  {
+    "handle": "ui-related-count-plural",
+    "fields": {
+      "name": "Related products · Related count plural",
+      "body": "related rituals"
+    }
+  },
+  {
+    "handle": "ui-guidance-ingredients-title",
+    "fields": {
+      "name": "Product guidance · Guidance ingredients title",
+      "body": "What’s inside?"
+    }
+  },
+  {
+    "handle": "ui-guidance-ingredients-action",
+    "fields": {
+      "name": "Product guidance · Guidance ingredients action",
+      "body": "Explore each ingredient"
+    }
+  },
+  {
+    "handle": "ui-guidance-ingredients-missing",
+    "fields": {
+      "name": "Product guidance · Guidance ingredients missing",
+      "body": "A full ingredient list has not been added to this product yet."
+    }
+  },
+  {
+    "handle": "ui-guidance-ingredients-contact",
+    "fields": {
+      "name": "Product guidance · Guidance ingredients contact",
+      "body": "Ask DYU for the complete ingredient list"
+    }
+  },
+  {
+    "handle": "ui-guidance-care-title",
+    "fields": {
+      "name": "Product guidance · Guidance care title",
+      "body": "Care & storage"
+    }
+  },
+  {
+    "handle": "ui-guidance-routine-title",
+    "fields": {
+      "name": "Product guidance · Guidance routine title",
+      "body": "How do I make it part of my routine?"
+    }
+  },
+  {
+    "handle": "ui-guidance-routine-body",
+    "fields": {
+      "name": "Product guidance · Guidance routine body",
+      "body": "The product’s directions are available in Your ritual. Follow the directions supplied with your product."
+    }
+  },
+  {
+    "handle": "ui-guidance-routine-action",
+    "fields": {
+      "name": "Product guidance · Guidance routine action",
+      "body": "See the product directions"
+    }
+  },
+  {
+    "handle": "ui-guidance-routine-missing",
+    "fields": {
+      "name": "Product guidance · Guidance routine missing",
+      "body": "Directions for this product are not available here yet. Ask DYU how to use it and follow the directions supplied with your product."
+    }
+  },
+  {
+    "handle": "ui-guidance-routine-contact",
+    "fields": {
+      "name": "Product guidance · Guidance routine contact",
+      "body": "Ask about the product ritual"
+    }
+  },
+  {
+    "handle": "ui-guidance-delivery-title",
+    "fields": {
+      "name": "Product guidance · Guidance delivery title",
+      "body": "Delivery & returns"
+    }
+  },
+  {
+    "handle": "ui-guidance-delivery-body",
+    "fields": {
+      "name": "Product guidance · Guidance delivery body",
+      "body": "Review the available delivery and return information before placing your order."
+    }
+  },
+  {
+    "handle": "ui-product-path-craft-caption",
+    "fields": {
+      "name": "Product journey · Product path craft caption",
+      "body": "01 / FOLLOW THE HANDS"
+    }
+  },
+  {
+    "handle": "ui-product-path-craft-title",
+    "fields": {
+      "name": "Product journey · Product path craft title",
+      "body": "Meet the making"
+    }
+  },
+  {
+    "handle": "ui-product-path-ingredients-caption",
+    "fields": {
+      "name": "Product journey · Product path ingredients caption",
+      "body": "02 / OPEN YOUR CURIOSITY"
+    }
+  },
+  {
+    "handle": "ui-product-path-ingredients-title",
+    "fields": {
+      "name": "Product journey · Product path ingredients title",
+      "body": "Look within"
+    }
+  },
+  {
+    "handle": "ui-product-path-ritual-caption",
+    "fields": {
+      "name": "Product journey · Product path ritual caption",
+      "body": "03 / FIND YOUR MOMENT"
+    }
+  },
+  {
+    "handle": "ui-product-path-ritual-title",
+    "fields": {
+      "name": "Product journey · Product path ritual title",
+      "body": "Make it personal"
+    }
+  },
+  {
+    "handle": "ui-product-path-purchase-caption",
+    "fields": {
+      "name": "Product journey · Product path purchase caption",
+      "body": "THE NEXT CHAPTER"
+    }
+  },
+  {
+    "handle": "ui-product-path-purchase-title",
+    "fields": {
+      "name": "Product journey · Product path purchase title",
+      "body": "Make it yours"
+    }
+  },
+  {
+    "handle": "ui-product-about-prefix",
+    "fields": {
+      "name": "Product journey · Product about prefix",
+      "body": "About"
+    }
+  },
+  {
+    "handle": "ui-purchase-moment-morning",
+    "fields": {
+      "name": "Purchase · Moment morning",
+      "body": "For your mornings."
+    }
+  },
+  {
+    "handle": "ui-purchase-moment-evening",
+    "fields": {
+      "name": "Purchase · Moment evening",
+      "body": "For your evenings."
+    }
+  },
+  {
+    "handle": "ui-purchase-moment-pause",
+    "fields": {
+      "name": "Purchase · Moment pause",
+      "body": "For a quiet pause."
+    }
+  },
+  {
+    "handle": "ui-purchase-moment-heading",
+    "fields": {
+      "name": "Purchase · Moment heading",
+      "body": "YOUR CHOSEN MOMENT"
+    }
+  },
+  {
+    "handle": "ui-purchase-moment-change",
+    "fields": {
+      "name": "Purchase · Moment change",
+      "body": "Change moment"
+    }
+  },
+  {
+    "handle": "ui-product-chapter-invitation",
+    "fields": {
+      "name": "Product chapters · Product chapter invitation",
+      "body": "The invitation"
+    }
+  },
+  {
+    "handle": "ui-product-chapter-craft",
+    "fields": {
+      "name": "Product chapters · Product chapter craft",
+      "body": "The making"
+    }
+  },
+  {
+    "handle": "ui-product-chapter-ingredients",
+    "fields": {
+      "name": "Product chapters · Product chapter ingredients",
+      "body": "Look within"
+    }
+  },
+  {
+    "handle": "ui-product-chapter-ritual",
+    "fields": {
+      "name": "Product chapters · Product chapter ritual",
+      "body": "Your ritual"
+    }
+  },
+  {
+    "handle": "ui-product-chapter-guidance",
+    "fields": {
+      "name": "Product chapters · Product chapter guidance",
+      "body": "A little guidance"
+    }
+  },
+  {
+    "handle": "ui-breadcrumb-home",
+    "fields": {
+      "name": "Navigation · Breadcrumb home",
+      "body": "The atelier"
+    }
+  },
+  {
+    "handle": "ui-breadcrumb-shop",
+    "fields": {
+      "name": "Navigation · Breadcrumb shop",
+      "body": "The collection"
+    }
+  },
+  {
+    "handle": "search-page",
+    "fields": {
+      "name": "Search · Page introduction",
+      "eyebrow": "A LITTLE DISCOVERY",
+      "title": "Find your",
+      "title_emphasis": "ritual."
+    }
+  },
+  {
+    "handle": "ui-catalog-loading",
+    "fields": {
+      "name": "Catalog · Loading collection",
+      "body": "Preparing the collection…"
+    }
+  },
+  {
+    "handle": "ui-catalog-hero-loading",
+    "fields": {
+      "name": "Catalog · Hero loading",
+      "body": "Preparing a little nature…"
+    }
+  },
+  {
+    "handle": "ui-catalog-hero-unavailable",
+    "fields": {
+      "name": "Catalog · Hero unavailable",
+      "body": "The 3D display couldn’t load."
+    }
+  },
+  {
+    "handle": "ui-catalog-hero-retry",
+    "fields": {
+      "name": "Catalog · Hero retry",
+      "body": "Try again"
+    }
+  },
+  {
+    "handle": "ui-catalog-hero-drag",
+    "fields": {
+      "name": "Catalog · Hero drag hint",
+      "body": "Drag to rotate"
+    }
+  }
+]

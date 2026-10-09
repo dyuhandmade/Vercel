@@ -1,0 +1,5 @@
+/* Values are sanitized in site-appearance.ts. Unset controls preserve the design. */
+html[data-custom-buttons] .button{border-radius:var(--button-radius)}
+html[data-custom-announcement] .announcement{background:var(--announcement-background)}
+html[data-custom-sage] .category-tabs button.active{background:color-mix(in srgb,var(--sage) 22%,transparent);border-color:var(--sage)}
+html[data-custom-header] .site-header,html[data-custom-header] .site-header.is-scrolled{background:var(--header-background)}

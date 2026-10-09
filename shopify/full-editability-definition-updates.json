@@ -1,0 +1,25 @@
+[
+  {
+    "key": "body",
+    "description": "Plain text. For entries labelled UI / buttons / messages, this is the displayed wording. Blank restores the built-in default. Journal bodies support paragraphs and ## headings."
+  },
+  {
+    "key": "items",
+    "name": "List items / ordered handles",
+    "description": "Text bullets for sections. Home section-order and navigation entries use exact entry handles in display order. See the editor guide entry. Maximum20."
+  },
+  {
+    "key": "carousel_autoplay",
+    "name": "Automatically rotate slides",
+    "description": "Home hero, product gallery and related products. Turn off to stop automatic rotation; visitor controls still work."
+  },
+  {
+    "key": "carousel_interval",
+    "name": "Slide duration (milliseconds)",
+    "description": "Home hero and product gallery. 2000 =2 seconds, 5000 =5 seconds. Blank keeps that section default. Between2000 and20000."
+  },
+  {
+    "key": "display_mode",
+    "description": "Shop/collection hero and product gallery: image or3d. Uploaded section images take priority in heroes. Product gallery image hides the 3D panel. Ingredient sections also accept image."
+  }
+]

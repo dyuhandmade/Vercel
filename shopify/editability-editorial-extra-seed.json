@@ -1,0 +1,406 @@
+[
+  {
+    "handle": "navigation-header",
+    "fields": {
+      "name": "Navigation · Header links",
+      "enabled": true,
+      "items": [
+        "nav-collection",
+        "nav-story",
+        "nav-ingredients",
+        "nav-journal"
+      ]
+    }
+  },
+  {
+    "handle": "navigation-mobile-secondary",
+    "fields": {
+      "name": "Navigation · Mobile extra links",
+      "enabled": true,
+      "items": [
+        "nav-making",
+        "nav-contact"
+      ]
+    }
+  },
+  {
+    "handle": "navigation-footer-explore",
+    "fields": {
+      "name": "Navigation · Footer explore links",
+      "enabled": true,
+      "items": [
+        "nav-collection",
+        "nav-story",
+        "nav-ingredients",
+        "nav-making"
+      ]
+    }
+  },
+  {
+    "handle": "navigation-footer-guidance",
+    "fields": {
+      "name": "Navigation · Footer guidance links",
+      "enabled": true,
+      "items": [
+        "nav-faq",
+        "nav-contact",
+        "nav-shipping",
+        "nav-journal"
+      ]
+    }
+  },
+  {
+    "handle": "navigation-footer-legal",
+    "fields": {
+      "name": "Navigation · Footer policy links",
+      "enabled": true,
+      "items": [
+        "nav-privacy",
+        "nav-terms",
+        "nav-accessibility"
+      ]
+    }
+  },
+  {
+    "handle": "navigation-faq-sidebar",
+    "fields": {
+      "name": "Navigation · FAQ sidebar links",
+      "enabled": true,
+      "items": [
+        "nav-contact",
+        "nav-shipping",
+        "nav-collection"
+      ]
+    }
+  },
+  {
+    "handle": "footer-catalogue",
+    "fields": {
+      "name": "Footer · Catalogue link",
+      "enabled": true
+    }
+  },
+  {
+    "handle": "error-page",
+    "fields": {
+      "name": "System · Page loading error",
+      "eyebrow": "A MOMENT PLEASE",
+      "title": "A little interruption.",
+      "body": "We couldn’t load this page. Your bag has been kept safe.",
+      "link_label": "Try again"
+    }
+  },
+  {
+    "handle": "not-found-page",
+    "fields": {
+      "name": "System · Page not found",
+      "eyebrow": "A LITTLE DETOUR / 404",
+      "title": "Let’s find your",
+      "title_emphasis": "way back.",
+      "body": "This page is no longer here. There is plenty more to explore.",
+      "link_label": "Return to the collection",
+      "link_url": "/shop"
+    }
+  },
+  {
+    "handle": "ui-ingredients-all",
+    "fields": {
+      "name": "Interface · ingredients all",
+      "body": "All ingredients"
+    }
+  },
+  {
+    "handle": "ui-ingredients-connected",
+    "fields": {
+      "name": "Interface · ingredients connected",
+      "body": "connected"
+    }
+  },
+  {
+    "handle": "ui-ingredients-connection",
+    "fields": {
+      "name": "Interface · ingredients connection",
+      "body": "Connection"
+    }
+  },
+  {
+    "handle": "ui-ingredients-discover",
+    "fields": {
+      "name": "Interface · ingredients discover",
+      "body": "to discover"
+    }
+  },
+  {
+    "handle": "ui-ingredients-empty-body",
+    "fields": {
+      "name": "Interface · ingredients empty body",
+      "body": "There are no ingredient stories or named botanicals to show just yet. You can still explore the current collection and each product’s details."
+    }
+  },
+  {
+    "handle": "ui-ingredients-empty-title",
+    "fields": {
+      "name": "Interface · ingredients empty title",
+      "body": "The notebook is opening."
+    }
+  },
+  {
+    "handle": "ui-ingredients-entries",
+    "fields": {
+      "name": "Interface · ingredients entries",
+      "body": "entries"
+    }
+  },
+  {
+    "handle": "ui-ingredients-entry",
+    "fields": {
+      "name": "Interface · ingredients entry",
+      "body": "entry"
+    }
+  },
+  {
+    "handle": "ui-ingredients-explore",
+    "fields": {
+      "name": "Interface · ingredients explore",
+      "body": "Explore the collection"
+    }
+  },
+  {
+    "handle": "ui-ingredients-explore-prefix",
+    "fields": {
+      "name": "Interface · ingredients explore prefix",
+      "body": "Explore"
+    }
+  },
+  {
+    "handle": "ui-ingredients-explore-ritual",
+    "fields": {
+      "name": "Interface · ingredients explore ritual",
+      "body": "Explore the ritual"
+    }
+  },
+  {
+    "handle": "ui-ingredients-for",
+    "fields": {
+      "name": "Interface · ingredients for",
+      "body": "for"
+    }
+  },
+  {
+    "handle": "ui-ingredients-from-collection",
+    "fields": {
+      "name": "Interface · ingredients from collection",
+      "body": "From the collection"
+    }
+  },
+  {
+    "handle": "ui-ingredients-from-notebook",
+    "fields": {
+      "name": "Interface · ingredients from notebook",
+      "body": "From the ingredient notebook"
+    }
+  },
+  {
+    "handle": "ui-ingredients-no-match-body",
+    "fields": {
+      "name": "Interface · ingredients no match body",
+      "body": "No entries match this search. Try another name or explore every family."
+    }
+  },
+  {
+    "handle": "ui-ingredients-no-match-title",
+    "fields": {
+      "name": "Interface · ingredients no match title",
+      "body": "A different path, perhaps."
+    }
+  },
+  {
+    "handle": "ui-ingredients-product",
+    "fields": {
+      "name": "Interface · ingredients product",
+      "body": "product"
+    }
+  },
+  {
+    "handle": "ui-ingredients-product-caption",
+    "fields": {
+      "name": "Interface · ingredients product caption",
+      "body": "A product from the collection"
+    }
+  },
+  {
+    "handle": "ui-ingredients-products",
+    "fields": {
+      "name": "Interface · ingredients products",
+      "body": "products"
+    }
+  },
+  {
+    "handle": "ui-ingredients-reset",
+    "fields": {
+      "name": "Interface · ingredients reset",
+      "body": "Show all ingredients"
+    }
+  },
+  {
+    "handle": "ui-ingredients-sold-out",
+    "fields": {
+      "name": "Interface · ingredients sold out",
+      "body": "Currently sold out"
+    }
+  },
+  {
+    "handle": "ui-ingredients-sort-label",
+    "fields": {
+      "name": "Interface · ingredients sort label",
+      "body": "Arrange by"
+    }
+  },
+  {
+    "handle": "ui-ingredients-sort-name",
+    "fields": {
+      "name": "Interface · ingredients sort name",
+      "body": "Name, A–Z"
+    }
+  },
+  {
+    "handle": "ui-ingredients-sort-products",
+    "fields": {
+      "name": "Interface · ingredients sort products",
+      "body": "Most products"
+    }
+  },
+  {
+    "handle": "ui-ingredients-source-index",
+    "fields": {
+      "name": "Interface · ingredients source index",
+      "body": "Indexed from product names and published ingredient information."
+    }
+  },
+  {
+    "handle": "ui-ingredients-source-story",
+    "fields": {
+      "name": "Interface · ingredients source story",
+      "body": "Ingredient story supplied with the collection."
+    }
+  },
+  {
+    "handle": "ui-ingredients-study",
+    "fields": {
+      "name": "Interface · ingredients study",
+      "body": "Ingredient study"
+    }
+  },
+  {
+    "handle": "ui-ingredients-view-product",
+    "fields": {
+      "name": "Interface · ingredients view product",
+      "body": "View product"
+    }
+  },
+  {
+    "handle": "ui-journal-breadcrumb",
+    "fields": {
+      "name": "Interface · journal breadcrumb",
+      "body": "The journal"
+    }
+  },
+  {
+    "handle": "ui-journal-count-note",
+    "fields": {
+      "name": "Interface · journal count note",
+      "body": "to spend a little time with"
+    }
+  },
+  {
+    "handle": "ui-journal-empty-body",
+    "fields": {
+      "name": "Interface · journal empty body",
+      "body": "There are no stories here just now. Explore the collection while the next chapter takes shape."
+    }
+  },
+  {
+    "handle": "ui-journal-empty-title",
+    "fields": {
+      "name": "Interface · journal empty title",
+      "body": "A little space for what comes next."
+    }
+  },
+  {
+    "handle": "ui-journal-explore",
+    "fields": {
+      "name": "Interface · journal explore",
+      "body": "Explore the collection"
+    }
+  },
+  {
+    "handle": "ui-journal-in",
+    "fields": {
+      "name": "Interface · journal in",
+      "body": "in"
+    }
+  },
+  {
+    "handle": "ui-journal-matching",
+    "fields": {
+      "name": "Interface · journal matching",
+      "body": "matching"
+    }
+  },
+  {
+    "handle": "ui-journal-no-match-body",
+    "fields": {
+      "name": "Interface · journal no match body",
+      "body": "No stories match this combination. Try another topic or clear your search."
+    }
+  },
+  {
+    "handle": "ui-journal-no-match-title",
+    "fields": {
+      "name": "Interface · journal no match title",
+      "body": "A different word, perhaps?"
+    }
+  },
+  {
+    "handle": "ui-journal-reset",
+    "fields": {
+      "name": "Interface · journal reset",
+      "body": "Show all stories"
+    }
+  },
+  {
+    "handle": "ui-journal-stories",
+    "fields": {
+      "name": "Interface · journal stories",
+      "body": "stories"
+    }
+  },
+  {
+    "handle": "ui-journal-story",
+    "fields": {
+      "name": "Interface · journal story",
+      "body": "story"
+    }
+  },
+  {
+    "handle": "ui-navigation-account",
+    "fields": {
+      "name": "Interface · navigation account",
+      "body": "Your account"
+    }
+  },
+  {
+    "handle": "ui-policy-contact",
+    "fields": {
+      "name": "Interface · policy contact",
+      "body": "Get in touch"
+    }
+  },
+  {
+    "handle": "ui-policy-original",
+    "fields": {
+      "name": "Interface · policy original",
+      "body": "View the original"
+    }
+  }
+]

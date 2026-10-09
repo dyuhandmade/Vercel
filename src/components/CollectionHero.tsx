@@ -8,7 +8,8 @@ import {useSearchParams} from 'next/navigation';
 import {ArrowLeft,ArrowRight,ArrowUpRight,RotateCcw} from 'lucide-react';
 import {heroBotanical,heroBundleMembers,type HeroProduct,type HeroViewCommand} from '@/lib/hero-scene';
 import {configuredHeroProduct,heroArtwork,inheritHeroContent,shopHeroHandle} from '@/lib/hero-content';
-import type {ContentSection} from '@/lib/content-safety';
+import {editableText,type ContentSection} from '@/lib/content-safety';
+import {useSiteContent} from './SiteContentProvider';
 import type {PhotoModelMetadata} from '@/lib/photo-model';
 import './collection-hero.css';
 
@@ -22,7 +23,8 @@ class SceneBoundary extends Component<{children:ReactNode;onError:()=>void},{fai
 }
 
 export function CollectionHeroPlaceholder(){
- return <div className="collection-hero-loading" role="status"><span aria-hidden="true"/>Preparing a little nature…</div>;
+ const siteContent=useSiteContent();
+ return <div className="collection-hero-loading" role="status"><span aria-hidden="true"/>{editableText(siteContent,'catalog-hero-loading','Preparing a little nature…')}</div>;
 }
 
 function HeroCaption({content,product}:{content:ContentSection;product?:HeroProduct}){
@@ -33,6 +35,8 @@ function HeroCaption({content,product}:{content:ContentSection;product?:HeroProd
 }
 
 function ProductScene({product,members,content}:{product:HeroProduct;members:HeroProduct[];content:ContentSection}){
+ const siteContent=useSiteContent();
+ const t=(key:string,fallback:string)=>editableText(siteContent,key,fallback);
  const figure=useRef<HTMLElement>(null);
  const [ready,setReady]=useState(false),[failed,setFailed]=useState(false),[attempt,setAttempt]=useState(0);
  const [visible,setVisible]=useState(false),[pageVisible,setPageVisible]=useState(true),[reduced,setReduced]=useState(false);
@@ -72,10 +76,10 @@ function ProductScene({product,members,content}:{product:HeroProduct;members:Her
     <HeroCanvas product={product} members={members} botanical={botanical} moving={moving} command={command} onDragChange={setDragging} onReady={()=>setReady(true)} onUnavailable={()=>setFailed(true)} onMetadata={setMetadata}/>
    </SceneBoundary>}
    {!ready&&!failed&&<CollectionHeroPlaceholder/>}
-   {failed&&<div className="collection-hero-unavailable" role="status"><p>The 3D display couldn’t load.</p><button type="button" onClick={()=>{setReady(false);setFailed(false);setAttempt(value=>value+1);}}><RotateCcw size={15}/>Try again</button></div>}
+   {failed&&<div className="collection-hero-unavailable" role="status"><p>{t('catalog-hero-unavailable','The 3D display couldn’t load.')}</p><button type="button" onClick={()=>{setReady(false);setFailed(false);setAttempt(value=>value+1);}}><RotateCcw size={15}/>{t('catalog-hero-retry','Try again')}</button></div>}
   </div>
   {ready&&!failed&&<div className="collection-hero-controls" role="group" aria-label="3D view controls">
-   <span id={hintId}>Drag to rotate<span className="sr-only">. Use arrow keys to turn and Home to reset.</span></span>
+   <span id={hintId}>{t('catalog-hero-drag','Drag to rotate')}<span className="sr-only">. Use arrow keys to turn and Home to reset.</span></span>
    <button type="button" aria-label="Rotate scene left" title="Rotate left" onClick={()=>turn('left')}><ArrowLeft size={16}/></button>
    <button type="button" aria-label="Rotate scene right" title="Rotate right" onClick={()=>turn('right')}><ArrowRight size={16}/></button>
    <button type="button" aria-label="Reset 3D view" title="Reset view" onClick={()=>turn('reset')}><RotateCcw size={16}/></button>

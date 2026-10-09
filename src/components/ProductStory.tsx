@@ -1,3 +1,4 @@
+import {editableText} from '@/lib/content-safety';
 import {ArrowDown,Leaf,Hand,Sun,MessageCircle,ShieldCheck} from 'lucide-react';
 import type {Product} from '@/lib/types';
 import type {SiteContent} from '@/lib/site-content';
@@ -15,6 +16,7 @@ import './product-experience.css';
 import './product-continuity.css';
 
 export default function ProductStory({product:p,content}:{product:Product;content?:SiteContent}){
+ const t=(key:string,fallback:string)=>editableText(content,key,fallback);
  const hasCraft=content?.sections['product-craft']?.enabled!==false&&(p.demo||p.craft.length>0),hasIngredients=content?.sections['product-ingredients']?.enabled!==false&&(p.demo||p.ingredients.length>0),hasRitual=p.demo||p.ritual.length>0;
  const intention=productIntention(p.handle);
  const invitation=content?.sections['product-invitation'];
@@ -25,12 +27,12 @@ export default function ProductStory({product:p,content}:{product:Product;conten
    <h2>{invitation?.title||(p.demo?intention.opening:'A place in')}{' '}<em>{invitation?.titleEmphasis||(p.demo?intention.ending:'your everyday.')}</em></h2>
    <p>{p.demo?intention.note:p.story}</p>{p.sensory&&<div className="product-sensory"><span className="eyebrow">{invitation?.caption||'THE SENSORY NOTES'}</span><p style={{whiteSpace:'pre-line'}}>{p.sensory}</p></div>}</div>
    <div className="experience-path">
-    {hasCraft&&<a href="#craft"><span>01 / FOLLOW THE HANDS</span><Hand strokeWidth={1}/><strong>Meet the making</strong></a>}
-    {hasIngredients&&<a href="#ingredients"><span>02 / OPEN YOUR CURIOSITY</span><Leaf strokeWidth={1}/><strong>Look within</strong></a>}
-    {hasRitual&&<a href="#ritual"><span>03 / FIND YOUR MOMENT</span><Sun strokeWidth={1}/><strong>Make it personal</strong></a>}
-    {!hasCraft&&!hasIngredients&&!hasRitual&&<a href="#purchase"><span>THE NEXT CHAPTER</span><Leaf strokeWidth={1}/><strong>Make it yours</strong></a>}
+    {hasCraft&&<a href="#craft"><span>{t("product-path-craft-caption","01 / FOLLOW THE HANDS")}</span><Hand strokeWidth={1}/><strong>{t("product-path-craft-title","Meet the making")}</strong></a>}
+    {hasIngredients&&<a href="#ingredients"><span>{t("product-path-ingredients-caption","02 / OPEN YOUR CURIOSITY")}</span><Leaf strokeWidth={1}/><strong>{t("product-path-ingredients-title","Look within")}</strong></a>}
+    {hasRitual&&<a href="#ritual"><span>{t("product-path-ritual-caption","03 / FIND YOUR MOMENT")}</span><Sun strokeWidth={1}/><strong>{t("product-path-ritual-title","Make it personal")}</strong></a>}
+    {!hasCraft&&!hasIngredients&&!hasRitual&&<a href="#purchase"><span>{t("product-path-purchase-caption","THE NEXT CHAPTER")}</span><Leaf strokeWidth={1}/><strong>{t("product-path-purchase-title","Make it yours")}</strong></a>}
    </div>
-   {!p.demo&&(p.description||p.descriptionParagraphs?.length)&&<details className="experience-description"><summary>About {p.title}</summary><ProductDescription product={p}/></details>}
+   {!p.demo&&(p.description||p.descriptionParagraphs?.length)&&<details className="experience-description"><summary>{t("product-about-prefix","About")} {p.title}</summary><ProductDescription product={p}/></details>}
   </section>
   {hasCraft&&<section className="section experience-making" id="craft"><CraftJourney items={p.craft} product={{title:p.title,shape:p.shape,tone:p.tone}} content={content?.sections['product-craft']}/>{hasIngredients&&<div className="experience-next"><span>{content?.sections['product-craft']?.note||'Now, get to know the materials.'}</span><a href="#ingredients">{content?.sections['product-craft']?.secondaryLabel||'Explore the ingredients'} <ArrowDown size={17}/></a></div>}</section>}
   {hasIngredients&&<section className="section experience-botanicals" id="ingredients"><IngredientDiscovery items={p.ingredients} shape={p.shape} tone={p.tone} content={content?.sections['product-ingredients']}/></section>}

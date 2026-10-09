@@ -8,6 +8,8 @@ import {ArrowUpRight,BookOpen,Hand,Leaf,MessageCircle,ShoppingBag,Sprout,UserRou
 import type {Collection} from '@/lib/types';
 import type {SiteContent} from '@/lib/site-content';
 import {configuredBrandLogo} from '@/lib/brand';
+import {navigationItems} from '@/lib/navigation-content';
+import {editableText} from '@/lib/content-safety';
 import {useReducedMotionPreference} from '@/lib/use-reduced-motion';
 import styles from './MobileMenu.module.css';
 
@@ -27,7 +29,7 @@ export default function MobileMenu({open,close,nav,collections,path,content}:Pro
  const uid=useId();
  const [highlight,setHighlight]=useState<string|null>(null);
  const selected=highlight||nav.find(item=>activePath(path,item.href))?.key;
- const secondary=[{key:'making',label:'How it is made',href:'/how-its-made',icon:Hand},{key:'contact',label:'Get in touch',href:'/contact',icon:MessageCircle}].filter(item=>content?.sections[`nav-${item.key}`]?.enabled!==false).map(item=>({...item,label:content?.sections[`nav-${item.key}`]?.title||item.label,href:content?.sections[`nav-${item.key}`]?.linkUrl||item.href}));
+ const secondary=navigationItems(content,'navigation-mobile-secondary',['making','contact']).map(item=>({...item,icon:item.key==='making'?Hand:item.key==='contact'?MessageCircle:Leaf}));
  const allCollections=nav.find(item=>item.key==='collection')?.href||'/shop';
  const brand=content?.sections.brand,copy=content?.sections['mobile-menu'];
 
@@ -79,7 +81,7 @@ export default function MobileMenu({open,close,nav,collections,path,content}:Pro
      </header>
 
      <motion.div layoutScroll className={styles.body}>
-      <div className={styles.accountLinks}><Link href="/account" onClick={close} aria-current={activePath(path,'/account')?'page':undefined}><UserRound size={18} strokeWidth={1.3}/><span>Your account</span><ArrowUpRight size={15}/></Link><Link href="/account/wishlist" onClick={close} aria-label="Your wishlist"><Heart size={18} strokeWidth={1.3}/></Link></div><p className={styles.eyebrow}>{copy?.eyebrow||'EXPLORE DYU'}</p>
+      <div className={styles.accountLinks}><Link href="/account" onClick={close} aria-current={activePath(path,'/account')?'page':undefined}><UserRound size={18} strokeWidth={1.3}/><span>{editableText(content,'navigation-account','Your account')}</span><ArrowUpRight size={15}/></Link><Link href="/account/wishlist" onClick={close} aria-label="Your wishlist"><Heart size={18} strokeWidth={1.3}/></Link></div><p className={styles.eyebrow}>{copy?.eyebrow||'EXPLORE DYU'}</p>
       <nav className={styles.navigation} aria-label="Mobile navigation" onMouseLeave={()=>setHighlight(null)} onBlur={event=>{if(!event.currentTarget.contains(event.relatedTarget))setHighlight(null);}}>
        {nav.map(({key,label,href})=>{
         const Icon=icons[key as keyof typeof icons]||Leaf;

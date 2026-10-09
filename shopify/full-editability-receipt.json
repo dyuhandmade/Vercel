@@ -1,0 +1,1220 @@
+{
+  "date": "2026-10-09",
+  "store": "dyuhandmade.myshopify.com",
+  "contentDefinition": "dyu_site_content",
+  "newContentEntries": 299,
+  "totalContentEntries": 460,
+  "existingEntriesPreserved": 161,
+  "appearance": {
+    "type": "dyu_site_settings",
+    "handle": "global",
+    "definitionId": "gid://shopify/MetaobjectDefinition/25700532443",
+    "entryId": "gid://shopify/Metaobject/613894095067"
+  },
+  "verification": {
+    "storefrontRead": true,
+    "missing": 0,
+    "incomplete": 0,
+    "changedOriginal": 0,
+    "build": "passed",
+    "coreTests": "103 passed; final gallery reset added and focused 6 tests passed"
+  },
+  "createdEntries": [
+    {
+      "id": "gid://shopify/Metaobject/613898092763",
+      "handle": "account-welcome"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898125531",
+      "handle": "account-overview"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898158299",
+      "handle": "account-benefit-1"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898191067",
+      "handle": "account-benefit-2"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898223835",
+      "handle": "account-benefit-3"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898256603",
+      "handle": "ui-account-loading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898289371",
+      "handle": "ui-account-nav-overview"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898322139",
+      "handle": "ui-account-nav-orders"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898354907",
+      "handle": "ui-account-nav-wishlist"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898387675",
+      "handle": "ui-account-nav-history"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898420443",
+      "handle": "ui-account-nav-profile"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898453211",
+      "handle": "ui-account-nav-addresses"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898485979",
+      "handle": "ui-account-welcome"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898518747",
+      "handle": "ui-account-welcome-back"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898551515",
+      "handle": "ui-account-welcome-emphasis"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898617051",
+      "handle": "ui-account-navigation-label"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898649819",
+      "handle": "ui-account-masthead-eyebrow"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898682587",
+      "handle": "ui-account-masthead-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898715355",
+      "handle": "ui-account-masthead-emphasis"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898748123",
+      "handle": "ui-account-sign-out"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898780891",
+      "handle": "ui-account-sidebar-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898813659",
+      "handle": "ui-account-help-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898846427",
+      "handle": "ui-account-contact-link"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898879195",
+      "handle": "ui-account-error-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898911963",
+      "handle": "ui-account-try-again"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613898977499",
+      "handle": "ui-account-profile-eyebrow"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899010267",
+      "handle": "ui-account-profile-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899043035",
+      "handle": "ui-account-profile-emphasis"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899075803",
+      "handle": "ui-account-first-name"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899108571",
+      "handle": "ui-account-last-name"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899141339",
+      "handle": "ui-account-email"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899174107",
+      "handle": "ui-account-phone"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899206875",
+      "handle": "ui-account-profile-settings-link"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899239643",
+      "handle": "ui-account-profile-contact-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899272411",
+      "handle": "ui-account-profile-contact-link"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899305179",
+      "handle": "ui-account-orders-empty-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899337947",
+      "handle": "ui-account-orders-empty-emphasis"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899370715",
+      "handle": "ui-account-orders-empty-body"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899403483",
+      "handle": "ui-account-orders-empty-link"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899436251",
+      "handle": "ui-account-orders-eyebrow"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899534555",
+      "handle": "ui-account-orders-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899567323",
+      "handle": "ui-account-orders-emphasis"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899600091",
+      "handle": "ui-account-orders-help-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899632859",
+      "handle": "ui-account-orders-help-link"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899665627",
+      "handle": "ui-account-orders-back"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899731163",
+      "handle": "ui-account-order-delivering-to"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899763931",
+      "handle": "ui-account-order-subtotal"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899796699",
+      "handle": "ui-account-order-shipping"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899829467",
+      "handle": "ui-account-order-tax"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899862235",
+      "handle": "ui-account-order-total"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899960539",
+      "handle": "ui-account-order-refunded"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613899993307",
+      "handle": "ui-account-order-payment"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900026075",
+      "handle": "ui-account-order-delivery-eyebrow"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900058843",
+      "handle": "ui-account-order-updates-link"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900091611",
+      "handle": "ui-account-order-help-link"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900124379",
+      "handle": "ui-account-addresses-eyebrow"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900157147",
+      "handle": "ui-account-addresses-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900189915",
+      "handle": "ui-account-addresses-emphasis"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900222683",
+      "handle": "ui-account-address-add"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900255451",
+      "handle": "ui-account-addresses-empty-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900288219",
+      "handle": "ui-account-addresses-empty-emphasis"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900320987",
+      "handle": "ui-account-addresses-empty-body"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900353755",
+      "handle": "ui-account-address-add-first"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900386523",
+      "handle": "ui-account-address-remove-prompt"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900419291",
+      "handle": "ui-account-address-keep"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900452059",
+      "handle": "ui-account-address-edit"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900484827",
+      "handle": "ui-account-address-remove"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900517595",
+      "handle": "ui-account-address-country"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900550363",
+      "handle": "ui-account-address-state"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900583131",
+      "handle": "ui-account-address-state-placeholder"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900615899",
+      "handle": "ui-account-address-province"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900648667",
+      "handle": "ui-account-address-make-default"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900681435",
+      "handle": "ui-account-cancel"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900714203",
+      "handle": "ui-account-profile-email-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900746971",
+      "handle": "ui-account-masthead-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900812507",
+      "handle": "ui-account-masthead-detail-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900845275",
+      "handle": "ui-account-identity-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900878043",
+      "handle": "ui-account-identity-welcome"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900910811",
+      "handle": "ui-account-identity-guest-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613900943579",
+      "handle": "ui-account-identity-guest-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901074651",
+      "handle": "ui-account-not-provided"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901107419",
+      "handle": "ui-account-saving"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901140187",
+      "handle": "ui-account-profile-save"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901172955",
+      "handle": "ui-account-profile-saved"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901205723",
+      "handle": "ui-account-quick-orders"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901238491",
+      "handle": "ui-account-quick-wishlist"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901271259",
+      "handle": "ui-account-quick-history"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901304027",
+      "handle": "ui-account-quick-profile"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901336795",
+      "handle": "ui-account-quick-addresses"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901369563",
+      "handle": "ui-account-loading-more"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901402331",
+      "handle": "ui-account-orders-load-more"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901435099",
+      "handle": "ui-account-order-items-more"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901467867",
+      "handle": "ui-account-order-track-link"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901500635",
+      "handle": "ui-account-order-tracking-pending"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901533403",
+      "handle": "ui-account-address-deleted"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901566171",
+      "handle": "ui-account-address-default-updated"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901598939",
+      "handle": "ui-account-address-saved"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901631707",
+      "handle": "ui-account-address-default"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901664475",
+      "handle": "ui-account-address-delivery"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901697243",
+      "handle": "ui-account-address-removing"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901730011",
+      "handle": "ui-account-address-remove-confirm"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901762779",
+      "handle": "ui-account-address-updating"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901795547",
+      "handle": "ui-account-address-make-default-button"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901828315",
+      "handle": "ui-account-addresses-load-more"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901861083",
+      "handle": "ui-account-address-edit-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901893851",
+      "handle": "ui-account-address-new-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901926619",
+      "handle": "ui-account-address-save"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901959387",
+      "handle": "ui-account-orders-loading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613901992155",
+      "handle": "ui-account-order-loading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902024923",
+      "handle": "ui-account-addresses-loading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902123227",
+      "handle": "ui-account-address-cancel-label"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902155995",
+      "handle": "ui-account-address-province-placeholder"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902188763",
+      "handle": "ui-account-address-last-name"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902221531",
+      "handle": "ui-account-address-company"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902254299",
+      "handle": "ui-account-address-line-one"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902287067",
+      "handle": "ui-account-address-line-two"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902319835",
+      "handle": "ui-account-address-city"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902352603",
+      "handle": "ui-account-address-postal-code"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902385371",
+      "handle": "ui-account-address-phone"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902418139",
+      "handle": "ui-account-order-quantity"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902450907",
+      "handle": "ui-account-order-placed"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902483675",
+      "handle": "ui-account-order-heading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902516443",
+      "handle": "ui-account-order-delivery"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902549211",
+      "handle": "ui-account-order-estimated-arrival"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902581979",
+      "handle": "ui-account-sign-in-error"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902614747",
+      "handle": "ui-account-sign-in-unavailable"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902647515",
+      "handle": "ui-account-explore-collection"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902680283",
+      "handle": "ui-account-history-region-label"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902713051",
+      "handle": "ui-account-wishlist-region-label"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902745819",
+      "handle": "ui-account-history-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902778587",
+      "handle": "ui-account-wishlist-signed-in-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902811355",
+      "handle": "ui-account-wishlist-guest-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902844123",
+      "handle": "ui-account-wishlist-refresh"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902876891",
+      "handle": "ui-account-history-empty-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902909659",
+      "handle": "ui-account-wishlist-empty-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902942427",
+      "handle": "ui-account-history-empty-body"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613902975195",
+      "handle": "ui-account-wishlist-empty-body"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903007963",
+      "handle": "ui-account-history-clear"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903040731",
+      "handle": "ui-account-history-loading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903073499",
+      "handle": "ui-account-wishlist-loading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903139035",
+      "handle": "ui-account-saved-one-unavailable"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903171803",
+      "handle": "ui-account-saved-many-unavailable"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903204571",
+      "handle": "ui-account-wishlist-remove"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903237339",
+      "handle": "ui-account-wishlist-save"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903270107",
+      "handle": "ui-account-wishlist-unavailable"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903302875",
+      "handle": "ui-account-wishlist-saved"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903335643",
+      "handle": "ui-account-wishlist-remove-verb"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903368411",
+      "handle": "ui-account-wishlist-save-verb"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903401179",
+      "handle": "ui-account-wishlist-remove-destination"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903433947",
+      "handle": "ui-account-wishlist-save-destination"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903466715",
+      "handle": "ui-bag-retry"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903499483",
+      "handle": "ui-bag-empty-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903532251",
+      "handle": "ui-bag-empty-body"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903565019",
+      "handle": "ui-bag-empty-action"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903597787",
+      "handle": "ui-bag-subtotal"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613903991003",
+      "handle": "ui-bag-checkout-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904023771",
+      "handle": "ui-bag-checkout-busy"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904056539",
+      "handle": "ui-bag-checkout-action"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904089307",
+      "handle": "ui-bag-continue-action"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904122075",
+      "handle": "ui-catalog-search-placeholder"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904154843",
+      "handle": "ui-catalog-search-action"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904187611",
+      "handle": "ui-catalog-refine"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904220379",
+      "handle": "ui-catalog-available"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904253147",
+      "handle": "ui-catalog-reset"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904285915",
+      "handle": "ui-catalog-result-single"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904318683",
+      "handle": "ui-catalog-result-plural"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904351451",
+      "handle": "ui-catalog-results-suffix"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904384219",
+      "handle": "ui-catalog-sort-label"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904416987",
+      "handle": "ui-catalog-sort-featured"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904449755",
+      "handle": "ui-catalog-sort-price-asc"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904777435",
+      "handle": "ui-card-explore"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904810203",
+      "handle": "ui-card-unavailable"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904842971",
+      "handle": "ui-gallery-edition"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904875739",
+      "handle": "ui-gallery-subtitle"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904908507",
+      "handle": "ui-gallery-explore-3d"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904941275",
+      "handle": "ui-gallery-photo-caption"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613904974043",
+      "handle": "ui-gallery-video-caption"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905006811",
+      "handle": "ui-gallery-pause"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905039579",
+      "handle": "ui-gallery-play"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905072347",
+      "handle": "ui-gallery-photos"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905105115",
+      "handle": "ui-gallery-3d-view"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905137883",
+      "handle": "ui-gallery-model-heading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905170651",
+      "handle": "product-gallery"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905203419",
+      "handle": "ui-model-loading-photo"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905236187",
+      "handle": "ui-model-loading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905268955",
+      "handle": "ui-model-unavailable"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905301723",
+      "handle": "ui-model-retry"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905334491",
+      "handle": "ui-model-drag"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905367259",
+      "handle": "ui-model-opening"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905400027",
+      "handle": "ui-related-count-single"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905432795",
+      "handle": "ui-related-count-plural"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905465563",
+      "handle": "ui-guidance-ingredients-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905498331",
+      "handle": "ui-guidance-ingredients-action"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905531099",
+      "handle": "ui-guidance-ingredients-missing"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905563867",
+      "handle": "ui-guidance-ingredients-contact"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905596635",
+      "handle": "ui-guidance-care-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905629403",
+      "handle": "ui-guidance-routine-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905662171",
+      "handle": "ui-guidance-routine-body"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905694939",
+      "handle": "ui-guidance-routine-action"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905727707",
+      "handle": "ui-guidance-routine-missing"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905760475",
+      "handle": "ui-guidance-routine-contact"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905793243",
+      "handle": "ui-guidance-delivery-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905826011",
+      "handle": "ui-guidance-delivery-body"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905858779",
+      "handle": "ui-product-path-craft-caption"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905891547",
+      "handle": "ui-product-path-craft-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905924315",
+      "handle": "ui-product-path-ingredients-caption"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905957083",
+      "handle": "ui-product-path-ingredients-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613905989851",
+      "handle": "ui-product-path-ritual-caption"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906022619",
+      "handle": "ui-product-path-ritual-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906055387",
+      "handle": "ui-product-path-purchase-caption"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906088155",
+      "handle": "ui-product-path-purchase-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906120923",
+      "handle": "ui-product-about-prefix"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906153691",
+      "handle": "ui-purchase-moment-morning"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906186459",
+      "handle": "ui-purchase-moment-evening"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906219227",
+      "handle": "ui-purchase-moment-pause"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906350299",
+      "handle": "ui-catalog-sort-price-desc"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906383067",
+      "handle": "ui-catalog-sort-newest"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906415835",
+      "handle": "ui-catalog-empty-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906448603",
+      "handle": "ui-catalog-empty-body"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906481371",
+      "handle": "ui-catalog-empty-action"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906514139",
+      "handle": "ui-catalog-all-tab"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906546907",
+      "handle": "ui-purchase-choose-prefix"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906579675",
+      "handle": "ui-purchase-choose-option"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906612443",
+      "handle": "ui-purchase-heading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906645211",
+      "handle": "ui-purchase-sold-out"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906677979",
+      "handle": "ui-purchase-adding"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906710747",
+      "handle": "ui-purchase-add"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906743515",
+      "handle": "ui-purchase-unavailable"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906776283",
+      "handle": "ui-purchase-shipping"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906809051",
+      "handle": "ui-purchase-guidance"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906907355",
+      "handle": "ui-purchase-moment-heading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906940123",
+      "handle": "ui-purchase-moment-change"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613906972891",
+      "handle": "ui-product-chapter-invitation"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907038427",
+      "handle": "ui-product-chapter-craft"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907071195",
+      "handle": "ui-product-chapter-ingredients"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907103963",
+      "handle": "ui-product-chapter-ritual"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907136731",
+      "handle": "ui-product-chapter-guidance"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907169499",
+      "handle": "ui-breadcrumb-home"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907202267",
+      "handle": "ui-breadcrumb-shop"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907235035",
+      "handle": "search-page"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907267803",
+      "handle": "ui-catalog-loading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907300571",
+      "handle": "ui-catalog-hero-loading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907333339",
+      "handle": "ui-catalog-hero-unavailable"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907366107",
+      "handle": "ui-catalog-hero-retry"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907398875",
+      "handle": "ui-catalog-hero-drag"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907529947",
+      "handle": "navigation-header"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907562715",
+      "handle": "navigation-mobile-secondary"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907595483",
+      "handle": "navigation-footer-explore"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907628251",
+      "handle": "navigation-footer-guidance"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907661019",
+      "handle": "navigation-footer-legal"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907693787",
+      "handle": "navigation-faq-sidebar"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907726555",
+      "handle": "footer-catalogue"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907759323",
+      "handle": "error-page"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907792091",
+      "handle": "not-found-page"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907824859",
+      "handle": "ui-ingredients-all"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907857627",
+      "handle": "ui-ingredients-connected"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907890395",
+      "handle": "ui-ingredients-connection"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907923163",
+      "handle": "ui-ingredients-discover"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907955931",
+      "handle": "ui-ingredients-empty-body"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613907988699",
+      "handle": "ui-ingredients-empty-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908021467",
+      "handle": "ui-ingredients-entries"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908054235",
+      "handle": "ui-ingredients-entry"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908087003",
+      "handle": "ui-ingredients-explore"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908119771",
+      "handle": "ui-ingredients-explore-prefix"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908152539",
+      "handle": "ui-ingredients-explore-ritual"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908185307",
+      "handle": "ui-ingredients-for"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908218075",
+      "handle": "ui-ingredients-from-collection"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908250843",
+      "handle": "ui-ingredients-from-notebook"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908283611",
+      "handle": "ui-ingredients-no-match-body"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908316379",
+      "handle": "ui-ingredients-no-match-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908349147",
+      "handle": "ui-ingredients-product"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908381915",
+      "handle": "ui-ingredients-product-caption"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908414683",
+      "handle": "ui-ingredients-products"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908447451",
+      "handle": "ui-ingredients-reset"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908480219",
+      "handle": "ui-ingredients-sold-out"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908512987",
+      "handle": "ui-ingredients-sort-label"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908545755",
+      "handle": "ui-ingredients-sort-name"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908578523",
+      "handle": "ui-ingredients-sort-products"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908611291",
+      "handle": "ui-ingredients-source-index"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908644059",
+      "handle": "ui-ingredients-source-story"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908676827",
+      "handle": "ui-ingredients-study"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908709595",
+      "handle": "ui-ingredients-view-product"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908742363",
+      "handle": "ui-journal-breadcrumb"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908775131",
+      "handle": "ui-journal-count-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908807899",
+      "handle": "ui-journal-empty-body"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908840667",
+      "handle": "ui-journal-empty-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908873435",
+      "handle": "ui-journal-explore"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908906203",
+      "handle": "ui-journal-in"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908938971",
+      "handle": "ui-journal-matching"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613908971739",
+      "handle": "ui-journal-no-match-body"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613909004507",
+      "handle": "ui-journal-no-match-title"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613909037275",
+      "handle": "ui-journal-reset"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613909070043",
+      "handle": "ui-journal-stories"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613909102811",
+      "handle": "ui-journal-story"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613909135579",
+      "handle": "ui-navigation-account"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613909168347",
+      "handle": "ui-policy-contact"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613909201115",
+      "handle": "ui-policy-original"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613909233883",
+      "handle": "ui-skip-content"
+    },
+    {
+      "id": "gid://shopify/Metaobject/613909266651",
+      "handle": "website-editor-guide"
+    }
+  ]
+}

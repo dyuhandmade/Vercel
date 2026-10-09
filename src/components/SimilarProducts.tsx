@@ -1,4 +1,6 @@
 'use client';
+import {useSiteContent} from './SiteContentProvider';
+import {editableText} from '@/lib/content-safety';
 
 import Link from 'next/link';
 import {ChevronLeft,ChevronRight} from 'lucide-react';
@@ -9,6 +11,8 @@ import ProductCard from './ProductCard';
 import './similar-products.css';
 
 export default function SimilarProducts({recommendations,content}:{recommendations:ProductRecommendation[];content?:ContentSection}) {
+ const siteContent=useSiteContent();
+ const t=(key:string,fallback:string)=>editableText(siteContent,key,fallback);
  const viewport=useRef<HTMLDivElement>(null),group=useRef<HTMLUListElement>(null);
  const focused=useRef(false),dragging=useRef(false),visible=useRef(false);
  const gestureStart=useRef({x:0,y:0});
@@ -37,7 +41,7 @@ export default function SimilarProducts({recommendations,content}:{recommendatio
  },[count,loop]);
 
  useEffect(()=>{
-  if(!loop||reduced)return;
+  if(!loop||reduced||content?.carouselAutoplay===false)return;
   let frame=0,previous=0,fraction=0;
   const move=(now:number)=>{
    const elapsed=previous?Math.min(now-previous,50):0;previous=now;
@@ -53,7 +57,7 @@ export default function SimilarProducts({recommendations,content}:{recommendatio
   };
   frame=requestAnimationFrame(move);
   return ()=>cancelAnimationFrame(frame);
- },[loop,reduced]);
+ },[loop,reduced,content?.carouselAutoplay]);
 
  function navigate(direction:number) {
   const scroller=viewport.current;if(!scroller||!cycleWidth.current)return;
@@ -65,7 +69,7 @@ export default function SimilarProducts({recommendations,content}:{recommendatio
  if(!count||content?.enabled===false)return null;
  return <section id="similar-products" className="section similar-products" aria-labelledby="similar-products-heading" aria-roledescription="carousel" data-product-count={count}>
   <div className="section-heading"><div><p className="eyebrow">{content?.eyebrow||'KEEP A LITTLE CURIOSITY'}</p><h2 id="similar-products-heading">{content?.title||'There’s more'}{' '}<em>{content?.titleEmphasis||'to discover.'}</em></h2><p className="similar-intro">{content?.body||'Explore rituals with a little in common.'}</p></div><Link href={content?.linkUrl||'/shop'} className="text-link">{content?.linkLabel||'All rituals'}</Link></div>
-  <div className="similar-toolbar"><span>{count} {count===1?'related ritual':'related rituals'}</span>{loop&&<div className="similar-controls" role="group" aria-label="Similar product controls">
+  <div className="similar-toolbar"><span>{count} {count===1?t("related-count-single","related ritual"):t("related-count-plural","related rituals")}</span>{loop&&<div className="similar-controls" role="group" aria-label="Similar product controls">
    <button type="button" aria-controls="similar-product-stream" aria-label="Previous similar product" onClick={()=>navigate(-1)}><ChevronLeft size={20}/></button>
    <button type="button" aria-controls="similar-product-stream" aria-label="Next similar product" onClick={()=>navigate(1)}><ChevronRight size={20}/></button>
   </div>}</div>

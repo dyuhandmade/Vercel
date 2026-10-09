@@ -6,6 +6,8 @@ Audit date: 4 October 2026. This repository contains the Next.js storefront and 
 
 ## Start here
 
+**9 October editing expansion:** 299 new website controls and a separate global appearance definition are live in Shopify. The storefront reads all 460 content entries; verification found no changes to the original 161. Account, shopping, navigation and recovery copy now share Shopify content. Optional palette, font and corner settings retain the existing design when blank. The production build, 103-test core run and final six focused tests passed. Read the [website editor guide](docs/shopify-editability-guide.md); the [receipt](shopify/full-editability-receipt.json) records the additions. The updated local HTTPS preview is running this release; permanent hosting still needs its deployment configuration.
+
 | Guide | Purpose |
 | --- | --- |
 | [Provisional Project Handover Report](output/pdf/DYU-Provisional-Handover-Report.pdf) | Detailed illustrated record of delivered work, verification, editing guidance and pending final acceptance |

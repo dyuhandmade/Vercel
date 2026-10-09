@@ -1,5 +1,8 @@
 import type {Metadata} from 'next';
 import {getSiteContent} from '@/lib/site-content';
+import {getSiteAppearance} from '@/lib/site-settings';
+import {editableText} from '@/lib/content-safety';
+import {SiteContentProvider} from '@/components/SiteContentProvider';
 import {brandLogo} from '@/lib/brand';
 import {stableSiteOrigin,storefrontIndexable} from '@/lib/seo';
 import './globals.css';
@@ -8,6 +11,7 @@ import './story.css';
 import './content-editing.css';
 import './design-refinement.css';
 import './branding.css';
+import './merchant-appearance.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import {StoreProvider} from '@/components/StoreProvider';
@@ -19,4 +23,16 @@ export async function generateMetadata():Promise<Metadata>{
  const icon=brand?.image||brandLogo.src;
  return {icons:{icon,apple:icon},metadataBase:new URL(stableSiteOrigin()||'http://localhost:3000'),title:{default:seo?.title||'DYUhandmade — A slower kind of care',template:`%s | ${brand?.caption||'DYUhandmade'}`},description:seo?.body||'Discover the DYUhandmade digital atelier. Thoughtful botanical care, everyday rituals, and the stories behind them.',...(seo?.image?{openGraph:{images:[{url:seo.image,alt:seo.imageAlt||seo.title||brand?.caption||'DYUhandmade'}]}}:{}),robots:storefrontIndexable()?{index:true,follow:true}:{index:false,follow:false}};
 }
-export default async function RootLayout({children}:{children:React.ReactNode}){const demo=isDemo();const [products,collections,content]=await Promise.all([getProducts().catch(()=>[]),getCollections().catch(()=>[]),getSiteContent()]);return <html lang="en" data-scroll-behavior="smooth"><body><a href="#main" className="skip-link">Skip to content</a><StoreProvider demo={demo}><SavedProductsProvider><Header nativeCollections={collections} content={content} products={products.map(({title,handle,productType})=>({title,handle,productType}))} collections={discoveryCollections(products,collections)}/><main id="main">{children}</main><Footer content={content}/>{demo&&<div className="preview-label">DESIGN PREVIEW · Illustrative products & imagery</div>}</SavedProductsProvider></StoreProvider></body></html>;}
+export default async function RootLayout({children}:{children:React.ReactNode}){
+ const demo=isDemo();
+ const [products,collections,content,appearance]=await Promise.all([getProducts().catch(()=>[]),getCollections().catch(()=>[]),getSiteContent(),getSiteAppearance()]);
+ return <html lang="en" data-scroll-behavior="smooth" style={appearance} data-custom-sage={appearance['--sage']?'true':undefined} data-custom-buttons={appearance['--button-radius']?'true':undefined} data-custom-announcement={appearance['--announcement-background']?'true':undefined} data-custom-header={appearance['--header-background']?'true':undefined}>
+  <body><a href="#main" className="skip-link">{editableText(content,'skip-content','Skip to content')}</a>
+   <SiteContentProvider content={content}><StoreProvider demo={demo}><SavedProductsProvider>
+    <Header nativeCollections={collections} content={content} products={products.map(({title,handle,productType})=>({title,handle,productType}))} collections={discoveryCollections(products,collections)}/>
+    <main id="main">{children}</main><Footer content={content}/>
+    {demo&&<div className="preview-label">DESIGN PREVIEW · Illustrative products & imagery</div>}
+   </SavedProductsProvider></StoreProvider></SiteContentProvider>
+  </body>
+ </html>;
+}

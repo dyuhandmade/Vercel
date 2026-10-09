@@ -1,4 +1,6 @@
 'use client';
+import {useSiteContent} from './SiteContentProvider';
+import {editableText} from '@/lib/content-safety';
 
 import Image from 'next/image';
 import {useEffect,useId,useRef,useState,type KeyboardEvent} from 'react';
@@ -9,6 +11,10 @@ import './product-experience.css';
 import './product-gallery.css';
 
 export default function Gallery({product:p}:{product:Product}) {
+ const siteContent=useSiteContent();
+ const t=(key:string,fallback:string)=>editableText(siteContent,key,fallback);
+ const configured=siteContent.sections['product-gallery'];
+ const settings=configured?.enabled===false?undefined:configured;
  const [index,setIndex]=useState(0),[desktop,setDesktop]=useState(false);
  const [mobileModel,setMobileModel]=useState(false);
  const [playback,setPlayback]=useState<'auto'|'play'|'pause'>('auto');
@@ -18,7 +24,7 @@ export default function Gallery({product:p}:{product:Product}) {
  const thumbs=useRef<HTMLDivElement>(null);
  const imageGallery=useRef<HTMLDivElement>(null);
  const mobileToggle=useRef<HTMLButtonElement>(null);
- const showMobileModel=!desktop&&mobileModel;
+ const showMobileModel=!desktop&&mobileModel&&settings?.displayMode!=='image';
  useEffect(()=>{setIndex(0);setMobileModel(false);},[p.id]);
  useEffect(()=>{
   if(desktop)setMobileModel(false);
@@ -62,19 +68,20 @@ export default function Gallery({product:p}:{product:Product}) {
  const selected=gallery[index]||gallery[0];
  const imageIndexes=gallery.flatMap((media,i)=>media.type==='image'?[i]:[]);
  const imageOrder=imageIndexes.join(',');
- const playing=playback==='play'||(playback==='auto'&&!reduced);
+ const playing=playback==='play'||(playback==='auto'&&!reduced&&settings?.carouselAutoplay!==false);
+ const interval=settings?.carouselInterval||5000;
  const canAutoplay=imageIndexes.length>1&&playing&&visible&&pageActive&&!hovered&&!focused&&!showMobileModel&&selected.type==='image';
  const nextImage=gallery[imageIndexes[(imageIndexes.indexOf(index)+1)%imageIndexes.length]];
  useEffect(()=>{
   if(!canAutoplay)return;
   // Give each photo a full reading interval; skip videos so manual playback
   // cannot be interrupted. The final photograph returns to the first.
-  const timer=window.setTimeout(()=>setIndex(current=>imageIndexes[(imageIndexes.indexOf(current)+1)%imageIndexes.length]),5000);
+  const timer=window.setTimeout(()=>setIndex(current=>imageIndexes[(imageIndexes.indexOf(current)+1)%imageIndexes.length]),interval);
   return ()=>window.clearTimeout(timer);
- },[canAutoplay,index,imageOrder,p.id]);
+ },[canAutoplay,index,imageOrder,p.id,interval]);
  const nativeModel=p.media?.find(media=>media.type==='model'&&media.url);
  const model=nativeModel?.url||p.model;
- const modelAvailable=Boolean(p.demo||mainImage||model);
+ const modelAvailable=settings?.displayMode!=='image'&&Boolean(p.demo||mainImage||model);
  const externalHost=(()=>{try{const host=new URL(selected.embedUrl||'').hostname;return /(^|\.)(youtube\.com|youtube-nocookie\.com|vimeo\.com)$/.test(host);}catch{return false;}})();
 
  function navigate(event:KeyboardEvent<HTMLDivElement>) {
@@ -89,7 +96,7 @@ export default function Gallery({product:p}:{product:Product}) {
  }
 
  return <div className="exhibit-gallery" aria-label={`${p.title} gallery`}>
-  <span className="exhibit-edition">THE DYU ATELIER <i>/</i> A STUDY IN CARE</span>
+  <span className="exhibit-edition">{t("gallery-edition","THE DYU ATELIER")} <i>/</i> {t("gallery-subtitle","A STUDY IN CARE")}</span>
   <div className={`product-media-split ${modelAvailable?'':'product-media-images-only'}`}>
    <div className="product-photo-panel" data-autoplay={canAutoplay?'playing':'paused'}>
     <div ref={imageGallery} className={`product-image-gallery ${gallery.length===1?'product-image-single':''}`}
@@ -112,15 +119,15 @@ export default function Gallery({product:p}:{product:Product}) {
      </div>
     </div>
     <div className={`product-gallery-footer ${gallery.length===1?'product-gallery-footer-single':''}`}>
-     <span className="product-gallery-caption" aria-live={canAutoplay?'off':'polite'}>{showMobileModel?'Explore in 3D':<>{index+1} / {gallery.length} <i>·</i> {selected.type==='image'?'A closer look':'From the atelier, in motion'}</>}</span>
-     {imageIndexes.length>1&&<button type="button" className="gallery-autoplay-toggle" aria-controls={stageId} aria-label={playing?'Pause product images':'Play product images'} onClick={()=>setPlayback(playing?'pause':'play')}>{playing?<Pause size={13} aria-hidden="true"/>:<Play size={13} aria-hidden="true"/>}<span>{playing?'Pause':'Play'}</span></button>}
-     {modelAvailable&&<button ref={mobileToggle} type="button" className="gallery-model-toggle" aria-controls={stageId} aria-label={showMobileModel?'Show product photos':'View product in 3D'} aria-pressed={showMobileModel} onClick={()=>setMobileModel(value=>!value)}>{showMobileModel?<ImageIcon size={16} aria-hidden="true"/>:<Box size={16} aria-hidden="true"/>}<span>{showMobileModel?'Photos':'3D view'}</span></button>}
+     <span className="product-gallery-caption" aria-live={canAutoplay?'off':'polite'}>{showMobileModel?t("gallery-explore-3d","Explore in 3D"):<>{index+1} / {gallery.length} <i>·</i> {selected.type==='image'?t("gallery-photo-caption","A closer look"):t("gallery-video-caption","From the atelier, in motion")}</>}</span>
+     {imageIndexes.length>1&&<button type="button" className="gallery-autoplay-toggle" aria-controls={stageId} aria-label={playing?'Pause product images':'Play product images'} onClick={()=>setPlayback(playing?'pause':'play')}>{playing?<Pause size={13} aria-hidden="true"/>:<Play size={13} aria-hidden="true"/>}<span>{playing?t("gallery-pause","Pause"):t("gallery-play","Play")}</span></button>}
+     {modelAvailable&&<button ref={mobileToggle} type="button" className="gallery-model-toggle" aria-controls={stageId} aria-label={showMobileModel?'Show product photos':'View product in 3D'} aria-pressed={showMobileModel} onClick={()=>setMobileModel(value=>!value)}>{showMobileModel?<ImageIcon size={16} aria-hidden="true"/>:<Box size={16} aria-hidden="true"/>}<span>{showMobileModel?t("gallery-photos","Photos"):t("gallery-3d-view","3D view")}</span></button>}
     </div>
     {nextImage?.url&&playing&&visible&&!showMobileModel&&imageIndexes.length>1&&<div className="product-gallery-prefetch" aria-hidden="true"><Image src={nextImage.url} alt="" width={72} height={72} sizes="(max-width: 800px) 90vw, (pointer: coarse) and (max-width: 1024px) 720px, (max-width: 1200px) 43vw, 38vw" loading="eager"/></div>}
     <span id={hintId} className="product-gallery-hint">Use the arrow keys to browse product media. Home and End select the first and last item.</span>
    </div>
    {modelAvailable&&<section className="product-model-panel" aria-label="Interactive 3D product model">
-    <p className="eyebrow product-model-heading">THE OBJECT IN 3D</p>
+    <p className="eyebrow product-model-heading">{t("gallery-model-heading","THE OBJECT IN 3D")}</p>
     <div className="exhibit-stage product-model-stage">
      {desktop&&<ProductVisual key={`${p.id}-${model||mainImage}`} shape={p.shape} tone={p.tone} image={nativeModel?.previewImage||mainImage} sourceImage={!p.demo&&!model?mainImage:undefined} model={model} title={p.title} interactive eager/>}
     </div>
