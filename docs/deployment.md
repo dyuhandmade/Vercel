@@ -4,6 +4,18 @@ Prepared 4 October 2026. These files prepare a deployment; they have not provisi
 
 ## Supported starting point
 
+### Vercel build configuration
+
+The repository's `vercel.json` explicitly selects the Next.js integration, installs from the lockfile with `npm ci`, runs `npm run build`, and uses `.next` output. These values override framework/build/output choices in the Vercel dashboard. The project Root Directory must be the repository root (the directory containing `package.json`), not `public`, `src` or `src/app`.
+
+On 9 October, `dyu1.vercel.app` served `/images/dyu-handmade-logo.png` with HTTP 200 but returned Vercel `NOT_FOUND` for both `/` and `/api/health`. GitHub recorded a successful Vercel deployment of commit `4f9def9`. This points to static-output configuration rather than a rejected GitHub push. The explicit configuration makes Vercel build the application routes as well as the assets. A successful build status alone is insufficient: check the homepage and `/api/health` after deployment.
+
+Production Shopify/account variables must also be configured in the Vercel project's environment settings; `.env.local` is intentionally excluded from GitHub. Use the permanent origin for both site URL variables and register its callback/logout URLs in Shopify. This build configuration does not resolve the separate multi-instance account refresh limitation described below.
+
+References: [Vercel project configuration](https://vercel.com/docs/project-configuration/vercel-json), [build settings and root directory](https://vercel.com/docs/builds/configure-a-build).
+
+### Persistent Node hosting
+
 Use one persistent Node process behind a trusted HTTPS reverse proxy. Shopify remains the database for products, customers, addresses, wishlist and orders. No application database, Redis, Docker or Kubernetes is needed for this topology. The current refresh-token coordination is in-process: disable clustering, multiple replicas, overlapping rolling releases and automatic horizontal scaling until shared session/refresh coordination is implemented.
 
 Use a currently patched **Node 24 LTS** release for the new host, and run the full build and acceptance checks there. The workstation's default Node 25.2.1 is now end-of-life; the Next minimum version is not a supported-production-runtime recommendation. Node 24 is LTS in the [official release table](https://nodejs.org/en/about/previous-releases). A follow-up using the already-bundled Node **24.19.0** on Windows passed all 86 core tests, TypeScript checking and five health-probe tests without installing a runtime or starting a server. A clean Linux dependency install, production build and deployment acceptance on the chosen host remain unverified.
