@@ -1,0 +1,395 @@
+{
+  "date": "2026-10-04",
+  "store": "dyuhandmade.myshopify.com",
+  "originalEntries": 66,
+  "added": [
+    {
+      "id": "gid://shopify/Metaobject/611716432091",
+      "handle": "shop-hero-cold-processed-soap"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716464859",
+      "handle": "shop-hero-gift-set"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716497627",
+      "handle": "shop-hero-facial-ubtan"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716530395",
+      "handle": "shop-hero-facial-cleanser"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716563163",
+      "handle": "shop-hero-facial-oil"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716595931",
+      "handle": "shop-hero-body-moisturiser"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716628699",
+      "handle": "shop-hero-hair-care"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716661467",
+      "handle": "shop-hero-face-body-oil"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716694235",
+      "handle": "shop-hero-facial-cleanser-ubtan"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716727003",
+      "handle": "shop-hero-ubtan"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716759771",
+      "handle": "collection-frontpage"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716792539",
+      "handle": "ingredient-almond"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716825307",
+      "handle": "ingredient-almond-oil"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716858075",
+      "handle": "ingredient-camphor"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716890843",
+      "handle": "ingredient-charcoal"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716923611",
+      "handle": "ingredient-clay"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716956379",
+      "handle": "ingredient-coffee"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611716989147",
+      "handle": "ingredient-jasmine"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717021915",
+      "handle": "ingredient-lavender"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717054683",
+      "handle": "ingredient-mint"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717087451",
+      "handle": "ingredient-moringa"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717120219",
+      "handle": "ingredient-neem"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717152987",
+      "handle": "ingredient-olive"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717185755",
+      "handle": "ingredient-orange"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717382363",
+      "handle": "ingredient-pink-salt"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717415131",
+      "handle": "ingredient-rose"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717447899",
+      "handle": "ingredient-rosemary"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717480667",
+      "handle": "ingredient-sandalwood"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717513435",
+      "handle": "ingredient-tea-tree"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717546203",
+      "handle": "ingredient-tea-tree-oil"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717578971",
+      "handle": "ingredient-vanilla"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717611739",
+      "handle": "ingredient-vitamin-a"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717644507",
+      "handle": "ingredient-vitamin-c"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717677275",
+      "handle": "ingredient-vitamin-e"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717710043",
+      "handle": "home-hero-slide-2"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717742811",
+      "handle": "home-hero-slide-3"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717775579",
+      "handle": "home-hero-slide-4"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717808347",
+      "handle": "shop-page"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717841115",
+      "handle": "shop-hero"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717873883",
+      "handle": "collection-page"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717906651",
+      "handle": "product-page"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717939419",
+      "handle": "product-invitation"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611717972187",
+      "handle": "product-craft"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718004955",
+      "handle": "product-ingredients"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718037723",
+      "handle": "product-purchase"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718070491",
+      "handle": "product-guidance"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718103259",
+      "handle": "product-related"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718299867",
+      "handle": "story-inset"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718332635",
+      "handle": "story-beginning"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718365403",
+      "handle": "story-principles"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718398171",
+      "handle": "story-everyday"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718430939",
+      "handle": "story-invitation"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718463707",
+      "handle": "ingredients-index"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718496475",
+      "handle": "ingredients-reading"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718529243",
+      "handle": "ingredients-guide"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718562011",
+      "handle": "ingredient-detail"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718594779",
+      "handle": "ingredient-connections"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718627547",
+      "handle": "ingredient-note"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718660315",
+      "handle": "ingredient-more"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718693083",
+      "handle": "journal-featured"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718725851",
+      "handle": "journal-archive"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718758619",
+      "handle": "journal-invitation"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718791387",
+      "handle": "journal-reader"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718824155",
+      "handle": "journal-article-closing"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718856923",
+      "handle": "journal-related"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718889691",
+      "handle": "craft-journey"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718922459",
+      "handle": "craft-products"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718955227",
+      "handle": "craft-onward-ingredients"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611718987995",
+      "handle": "craft-onward-shop"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719020763",
+      "handle": "story-botanical"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719053531",
+      "handle": "story-human"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719086299",
+      "handle": "story-ritual"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719119067",
+      "handle": "story-pathway-1"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719151835",
+      "handle": "story-pathway-2"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719184603",
+      "handle": "story-pathway-3"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719217371",
+      "handle": "ingredients-faq-1"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719250139",
+      "handle": "ingredients-faq-2"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719282907",
+      "handle": "ingredients-faq-3"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719315675",
+      "handle": "journal-takeaway-making-space-for-a-ritual"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719348443",
+      "handle": "journal-takeaway-look-closer-at-your-care"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719381211",
+      "handle": "article-a-home-for-your-soap"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719413979",
+      "handle": "journal-takeaway-a-home-for-your-soap"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719446747",
+      "handle": "article-botanicals-beyond-the-name"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719479515",
+      "handle": "journal-takeaway-botanicals-beyond-the-name"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719512283",
+      "handle": "article-objects-worth-keeping"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719545051",
+      "handle": "journal-takeaway-objects-worth-keeping"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719577819",
+      "handle": "article-the-art-of-a-small-gift"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611719610587",
+      "handle": "journal-takeaway-the-art-of-a-small-gift"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611720200411",
+      "handle": "home-layout"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611720233179",
+      "handle": "site-seo"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611720265947",
+      "handle": "mobile-menu"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611720298715",
+      "handle": "header-search"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611720331483",
+      "handle": "header-bag"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611720364251",
+      "handle": "ritual-interface"
+    },
+    {
+      "id": "gid://shopify/Metaobject/611720397019",
+      "handle": "home-ingredients-interface"
+    }
+  ],
+  "totalEntries": 161,
+  "addedFields": [
+    "carousel_autoplay",
+    "carousel_interval",
+    "display_mode"
+  ],
+  "existingContentChanges": [],
+  "missingCreatedEntries": []
+}

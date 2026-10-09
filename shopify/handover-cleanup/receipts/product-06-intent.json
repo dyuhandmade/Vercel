@@ -1,0 +1,125 @@
+{
+  "at": "2026-10-04T09:25:44.771Z",
+  "operation": "CleanupProduct",
+  "productId": "gid://shopify/Product/8974634778843",
+  "handle": "tea-tree-trip-soap-bar",
+  "currentBefore": {
+    "id": "gid://shopify/Product/8974634778843",
+    "handle": "tea-tree-trip-soap-bar",
+    "title": "Tea Tree Trip Soap Bar",
+    "descriptionHtml": "<p data-start=\"204\" data-end=\"484\">Energize your skin and awaken your senses with our <em data-start=\"255\" data-end=\"280\">Tea Tree Trips Soap Bar</em>, a handcrafted cold process soap made with pure coconut oil and naturally colored with French Green Clay . Its refreshing green hue and crisp, herbal aroma make it a revitalizing addition to your daily routine.</p>\n<p data-start=\"486\" data-end=\"731\">Infused with tea tree essential oil, this natural soap deeply cleanses while leaving your skin feeling fresh, clarified, and hydrated. The coconut oil base creates a gentle, creamy lather that nourishes while balancing oily or acne-prone skin.</p>\n<p data-start=\"733\" data-end=\"1124\">✔ <strong data-start=\"735\" data-end=\"757\">Natural &amp; Handmade</strong> – Cold process soap made in small batches<br data-start=\"799\" data-end=\"802\">✔ <strong data-start=\"804\" data-end=\"837\">Moisturizing Coconut Oil Base</strong> – Gentle, nourishing, and hydrating<br data-start=\"873\" data-end=\"876\">✔ <strong data-start=\"878\" data-end=\"906\">Purifying Tea Tree Aroma</strong> – Fresh, herbal scent with antibacterial benefits<br data-start=\"956\" data-end=\"959\">✔ <strong data-start=\"961\" data-end=\"996\" data-is-only-node=\"\">Naturally Tinted with French Green Clay</strong>– Clean green tones without synthetic dyes<br data-start=\"1039\" data-end=\"1042\">✔ <strong data-start=\"1044\" data-end=\"1072\">Travel-Friendly 60g Size</strong> – Ideal for gifting, skincare kits, and daily use</p>\n<p data-start=\"1126\" data-end=\"1290\"><strong data-start=\"1126\" data-end=\"1140\">Skin Type:</strong> Suitable for all skin types, especially oily &amp; acne-prone skin.<br data-start=\"1204\" data-end=\"1207\"><strong data-start=\"1207\" data-end=\"1220\">Best For:</strong> Daily cleansing, refreshing bath rituals, gifting, and travel kits.</p>",
+    "updatedAt": "2026-10-02T12:07:56Z",
+    "status": "ACTIVE",
+    "tags": [],
+    "vendor": "My Store",
+    "productType": "",
+    "totalInventory": 0,
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/47501812072667",
+          "title": "Default Title",
+          "price": "325.00",
+          "compareAtPrice": null,
+          "inventoryQuantity": 0
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjo0NzUwMTgxMjA3MjY2NywibGFzdF92YWx1ZSI6MX0="
+      }
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/38012152119515",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:25:49Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/38012152119515",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_745d5475-fd94-4e18-8c37-710fcab926c2.png?v=1756379184",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/38012152152283",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:25:49Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/38012152152283",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_94cd04ca-6715-491c-a76b-45da4c53c387.png?v=1756379184",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/38012152185051",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:25:49Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/38012152185051",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_145f01a9-2258-430e-8904-3fced3d66960.png?v=1756379183",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/38012152217819",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:25:49Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/38012152217819",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_535d7bfb-70b7-40ed-9f01-01b43fae4fe8.png?v=1756379183",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/38012152250587",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:25:49Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/38012152250587",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_05e31c7c-9b80-428a-bbba-9a30d670b188.png?v=1756379183",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/38012152283355",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:25:49Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/38012152283355",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_d19974bf-81f4-4457-bb1b-a84c7f6d13f6.png?v=1756379184",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/38012152316123",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:25:49Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/38012152316123",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_25eb16d0-1df5-463b-ab25-e7cced5419a7.png?v=1756379184",
+            "altText": ""
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjozODAxMjE1MjMxNjEyMywibGFzdF92YWx1ZSI6IjcifQ=="
+      }
+    }
+  },
+  "variables": {
+    "product": {
+      "id": "gid://shopify/Product/8974634778843",
+      "handle": "tea-tree-trip-soap-bar",
+      "descriptionHtml": "<p data-start=\"204\" data-end=\"484\">Energize your skin and awaken your senses with our <em data-start=\"255\" data-end=\"280\">Tea Tree Trips Soap Bar</em>, a handcrafted cold process soap made with pure coconut oil and naturally colored with French Green Clay. Its refreshing green hue and crisp, herbal aroma make it a revitalizing addition to your daily routine.</p>\n<p data-start=\"486\" data-end=\"731\">Infused with tea tree essential oil, this natural soap deeply cleanses while leaving your skin feeling fresh, clarified, and hydrated. The coconut oil base creates a gentle, creamy lather that nourishes while balancing oily or acne-prone skin.</p>\n<p data-start=\"733\" data-end=\"1124\">✔ <strong data-start=\"735\" data-end=\"757\">Natural &amp; Handmade</strong> – Cold process soap made in small batches<br data-start=\"799\" data-end=\"802\">✔ <strong data-start=\"804\" data-end=\"837\">Moisturizing Coconut Oil Base</strong> – Gentle, nourishing, and hydrating<br data-start=\"873\" data-end=\"876\">✔ <strong data-start=\"878\" data-end=\"906\">Purifying Tea Tree Aroma</strong> – Fresh, herbal scent with antibacterial benefits<br data-start=\"956\" data-end=\"959\">✔ <strong data-start=\"961\" data-end=\"996\" data-is-only-node=\"\">Naturally Tinted with French Green Clay</strong> – Clean green tones without synthetic dyes<br data-start=\"1039\" data-end=\"1042\">✔ <strong data-start=\"1044\" data-end=\"1072\">Travel-Friendly 60g Size</strong> – Ideal for gifting, skincare kits, and daily use</p>\n<p data-start=\"1126\" data-end=\"1290\"><strong data-start=\"1126\" data-end=\"1140\">Skin Type:</strong> Suitable for all skin types, especially oily &amp; acne-prone skin.<br data-start=\"1204\" data-end=\"1207\"><strong data-start=\"1207\" data-end=\"1220\">Best For:</strong> Daily cleansing, refreshing bath rituals, gifting, and travel kits.</p>"
+    }
+  }
+}

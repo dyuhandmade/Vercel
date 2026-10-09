@@ -1,0 +1,97 @@
+[
+  {
+    "handle": "home-layout",
+    "fields": {
+      "name": "Home · Section order",
+      "items": ["home-hero", "home-welcome", "home-collections", "philosophy", "home-craft", "home-ingredients", "ritual", "home-favorites", "home-journal", "home-reassurance"],
+      "note": "Reorder these section handles. Hide a section using its Enabled field. Omitted sections remain at the end."
+    }
+  },
+  {
+    "handle": "brand",
+    "fields": {
+      "name": "Brand identity",
+      "image": "/images/dyu-handmade-logo.png",
+      "image_alt": "DYU Handmade",
+      "link_label": "DYUhandmade home",
+      "link_url": "/"
+    }
+  },
+  {
+    "handle": "site-seo",
+    "fields": {
+      "name": "Site · Search and sharing",
+      "title": "DYUhandmade — A slower kind of care",
+      "body": "Discover the DYUhandmade digital atelier. Thoughtful botanical care, everyday rituals, and the stories behind them.",
+      "image": "/images/atelier-hero.webp",
+      "image_alt": "DYUhandmade botanical care"
+    }
+  },
+  {
+    "handle": "mobile-menu",
+    "fields": {
+      "name": "Header · Mobile menu",
+      "eyebrow": "EXPLORE DYU",
+      "title": "SHOP BY COLLECTION",
+      "body": "A LITTLE CLOSER\nTO NATURE.",
+      "link_label": "View all",
+      "note": "A little nature. A human touch."
+    }
+  },
+  {
+    "handle": "header-search",
+    "fields": {
+      "name": "Header · Search overlay",
+      "title": "Find your ritual",
+      "body": "Search products, rituals…",
+      "eyebrow": "Discover the collection",
+      "caption": "Matching rituals",
+      "note": "No rituals found. Try another word or browse the collection.",
+      "link_label": "Browse all products",
+      "link_url": "/shop"
+    }
+  },
+  {
+    "handle": "header-bag",
+    "fields": {"name": "Header · Bag labels", "title": "Your bag", "link_label": "Bag"}
+  },
+  {
+    "handle": "philosophy",
+    "fields": {"name": "Philosophy · Introduction", "link_label": "The story behind DYU", "link_url": "/our-story", "caption": "A LITTLE CLOSER"}
+  },
+  {
+    "handle": "philosophy-nature",
+    "fields": {"name": "Philosophy · Nature", "secondary_label": "Follow your curiosity"}
+  },
+  {
+    "handle": "philosophy-human-touch",
+    "fields": {"name": "Philosophy · Human touch", "secondary_label": "Care in every detail"}
+  },
+  {
+    "handle": "philosophy-everyday",
+    "fields": {"name": "Philosophy · Your everyday", "secondary_label": "Make the moment yours"}
+  },
+  {
+    "handle": "ritual-interface",
+    "fields": {
+      "name": "Ritual · Labels and finishing message",
+      "eyebrow": "YOUR MOMENT, YOUR RHYTHM",
+      "caption": "MAKE SPACE FOR",
+      "body": "A small ritual. A beautiful ordinary day.",
+      "title": "A ritual to call your own.",
+      "title_emphasis": "Find a little everyday care in the collection.",
+      "link_label": "Take a moment",
+      "note": "NOTHING TO RUSH. A LITTLE TIME TO BE."
+    }
+  },
+  {
+    "handle": "home-ingredients-interface",
+    "fields": {
+      "name": "Home · Ingredient experience labels",
+      "eyebrow": "A NOTE ON",
+      "title": "IN THE COLLECTION",
+      "caption": "A CLOSER LOOK",
+      "note": "Nature, in the details."
+    }
+  }
+]

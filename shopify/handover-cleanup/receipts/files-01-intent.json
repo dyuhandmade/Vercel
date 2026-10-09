@@ -1,0 +1,461 @@
+{
+  "at": "2026-10-04T09:26:27.838Z",
+  "batch": 1,
+  "currentBefore": [
+    {
+      "productId": "gid://shopify/Product/8903888994523",
+      "handle": "damask-rose-cold-processed-soap",
+      "title": "Damask Rose Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/45202466668763",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-27T11:07:20Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/45202466668763",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/Damask_Rose_Soap_Amazon.png?v=1787828685",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903888994523",
+      "handle": "damask-rose-cold-processed-soap",
+      "title": "Damask Rose Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/45202474172635",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-27T11:07:20Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/45202474172635",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/Damask_Rose_-2.png?v=1787828796",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903888994523",
+      "handle": "damask-rose-cold-processed-soap",
+      "title": "Damask Rose Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36987057471707",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-27T11:07:20Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987057471707",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4.png?v=1748521038",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903888994523",
+      "handle": "damask-rose-cold-processed-soap",
+      "title": "Damask Rose Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36987057504475",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-27T11:07:20Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987057504475",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5.png?v=1748521038",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903910523099",
+      "handle": "oriental-lavendar",
+      "title": "Oriental Lavendar Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36987358675163",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-10-03T03:19:27Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987358675163",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_744bc2a0-1fb6-47df-98e1-c9d601179699.png?v=1748524265",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903910523099",
+      "handle": "oriental-lavendar",
+      "title": "Oriental Lavendar Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36987358642395",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-10-03T03:19:27Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987358642395",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_5bed7105-3566-49c4-a95c-7ecf7f55c646.png?v=1790925962",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903910523099",
+      "handle": "oriental-lavendar",
+      "title": "Oriental Lavendar Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36987358707931",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:12:55Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987358707931",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_ef3756b7-58f9-4619-b355-d48e75476b98.png?v=1748524264",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903910523099",
+      "handle": "oriental-lavendar",
+      "title": "Oriental Lavendar Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36987358740699",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:12:55Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987358740699",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_929a0d4f-baa5-4e5a-a381-e39f699a9f1c.png?v=1748524264",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903910523099",
+      "handle": "oriental-lavendar",
+      "title": "Oriental Lavendar Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36987358773467",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:12:55Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987358773467",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_bd39e75f-e3ed-493b-a4a4-1be448f7d3d7.png?v=1748524265",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903931658459",
+      "handle": "camphora-pink-salt",
+      "title": "Camphora Pink Salt Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36987433943259",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-10-02T15:26:57Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987433943259",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_a8ebd1ff-a0c2-42b7-a6b9-f5d37f27ca57.png?v=1748524927",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903931658459",
+      "handle": "camphora-pink-salt",
+      "title": "Camphora Pink Salt Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36987433910491",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-10-02T15:26:57Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987433910491",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_5815d415-f2f9-4081-8883-6a115b9eb597.png?v=1748524927",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903931658459",
+      "handle": "camphora-pink-salt",
+      "title": "Camphora Pink Salt Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36987433976027",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:12:58Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987433976027",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_92c2da1c-be91-4715-bd18-abe6686b10e6.png?v=1748524927",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903931658459",
+      "handle": "camphora-pink-salt",
+      "title": "Camphora Pink Salt Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36987434008795",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:12:58Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987434008795",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_fe98cab4-e3c5-4aea-9ca4-a410c1c5a832.png?v=1748524927",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903931658459",
+      "handle": "camphora-pink-salt",
+      "title": "Camphora Pink Salt Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36987434041563",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:12:58Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987434041563",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_e7b5e388-9179-45ee-a5be-d79c9da74126.png?v=1748524927",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903944306907",
+      "handle": "tea-tree-cold-processed-soap",
+      "title": "Tea Tree Cold processed Soap",
+      "id": "gid://shopify/MediaImage/36987575304411",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:02Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987575304411",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_f51edee3-e394-4db6-af76-9630cf17fc1f.png?v=1748526427",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903944306907",
+      "handle": "tea-tree-cold-processed-soap",
+      "title": "Tea Tree Cold processed Soap",
+      "id": "gid://shopify/MediaImage/36987575337179",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:02Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987575337179",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_19953daf-beb7-4691-98fe-c807f6ad13d7.png?v=1748526427",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903944306907",
+      "handle": "tea-tree-cold-processed-soap",
+      "title": "Tea Tree Cold processed Soap",
+      "id": "gid://shopify/MediaImage/36987575369947",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:02Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987575369947",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_beb28857-2ae4-459e-a5e8-5642a7f2e74a.png?v=1748526427",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903944306907",
+      "handle": "tea-tree-cold-processed-soap",
+      "title": "Tea Tree Cold processed Soap",
+      "id": "gid://shopify/MediaImage/36987575402715",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:02Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987575402715",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_ed455842-b13d-4f08-a6ab-6a610a35603e.png?v=1748526427",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8903944306907",
+      "handle": "tea-tree-cold-processed-soap",
+      "title": "Tea Tree Cold processed Soap",
+      "id": "gid://shopify/MediaImage/36987575435483",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:02Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36987575435483",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_f6e80a7a-3f8e-4da9-b35c-cd037c092b18.png?v=1748526427",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904052965595",
+      "handle": "orange-tangerine",
+      "title": "Orange Tangerine Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36988163391707",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:19Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988163391707",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_527a3b5c-f4b5-40b6-be44-62da754481d7.png?v=1748531992",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904052965595",
+      "handle": "orange-tangerine",
+      "title": "Orange Tangerine Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36988163424475",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:19Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988163424475",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_235f59a7-5306-40f5-b18d-fb562e34192b.png?v=1748531992",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904052965595",
+      "handle": "orange-tangerine",
+      "title": "Orange Tangerine Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36988163457243",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:19Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988163457243",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_e6c302f6-d248-4d98-a0a6-7b6bed7eec7d.png?v=1748531992",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904052965595",
+      "handle": "orange-tangerine",
+      "title": "Orange Tangerine Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36988163490011",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:19Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988163490011",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_810cc067-cb49-4d2c-80c6-a514ecefe6a8.png?v=1748531992",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904052965595",
+      "handle": "orange-tangerine",
+      "title": "Orange Tangerine Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36988163522779",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:19Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988163522779",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_5eed2fb8-e3fe-48d0-90a3-59a78a01a850.png?v=1748531992",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904061976795",
+      "handle": "coffee-vanilla",
+      "title": "Coffee Vanilla Cold Processed Soap",
+      "id": "gid://shopify/MediaImage/36988245016795",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:21Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988245016795",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_29cabfe1-b47e-4733-80a9-d2aaf70190a6.png?v=1748532495",
+        "altText": ""
+      }
+    }
+  ],
+  "variables": {
+    "files": [
+      {
+        "id": "gid://shopify/MediaImage/45202466668763",
+        "alt": "Damask Rose Cold Processed Soap — product image 1 of 4"
+      },
+      {
+        "id": "gid://shopify/MediaImage/45202474172635",
+        "alt": "Damask Rose Cold Processed Soap — product image 2 of 4"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987057471707",
+        "alt": "Damask Rose Cold Processed Soap — product image 3 of 4"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987057504475",
+        "alt": "Damask Rose Cold Processed Soap — product image 4 of 4"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987358675163",
+        "alt": "Oriental Lavendar Cold Processed Soap — product image 1 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987358642395",
+        "alt": "Oriental Lavendar Cold Processed Soap — product image 2 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987358707931",
+        "alt": "Oriental Lavendar Cold Processed Soap — product image 3 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987358740699",
+        "alt": "Oriental Lavendar Cold Processed Soap — product image 4 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987358773467",
+        "alt": "Oriental Lavendar Cold Processed Soap — product image 5 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987433943259",
+        "alt": "Camphora Pink Salt Cold Processed Soap — product image 1 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987433910491",
+        "alt": "Camphora Pink Salt Cold Processed Soap — product image 2 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987433976027",
+        "alt": "Camphora Pink Salt Cold Processed Soap — product image 3 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987434008795",
+        "alt": "Camphora Pink Salt Cold Processed Soap — product image 4 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987434041563",
+        "alt": "Camphora Pink Salt Cold Processed Soap — product image 5 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987575304411",
+        "alt": "Tea Tree Cold processed Soap — product image 1 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987575337179",
+        "alt": "Tea Tree Cold processed Soap — product image 2 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987575369947",
+        "alt": "Tea Tree Cold processed Soap — product image 3 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987575402715",
+        "alt": "Tea Tree Cold processed Soap — product image 4 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36987575435483",
+        "alt": "Tea Tree Cold processed Soap — product image 5 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988163391707",
+        "alt": "Orange Tangerine Cold Processed Soap — product image 1 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988163424475",
+        "alt": "Orange Tangerine Cold Processed Soap — product image 2 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988163457243",
+        "alt": "Orange Tangerine Cold Processed Soap — product image 3 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988163490011",
+        "alt": "Orange Tangerine Cold Processed Soap — product image 4 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988163522779",
+        "alt": "Orange Tangerine Cold Processed Soap — product image 5 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988245016795",
+        "alt": "Coffee Vanilla Cold Processed Soap — product image 1 of 5"
+      }
+    ]
+  },
+  "skipped": []
+}

@@ -1,0 +1,2603 @@
+{
+  "store": "dyuhandmade.myshopify.com",
+  "baselineCount": 66,
+  "operations": [
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "shop-hero-cold-processed-soap"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collection hero · Cold processed Soap"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "shop-hero-gift-set"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collection hero · Gift Set"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "shop-hero-facial-ubtan"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collection hero · Facial Ubtan"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "shop-hero-facial-cleanser"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collection hero · Facial Cleanser"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "shop-hero-facial-oil"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collection hero · Facial Oil"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "shop-hero-body-moisturiser"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collection hero · Body Moisturiser"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "shop-hero-hair-care"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collection hero · Hair Care"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "shop-hero-face-body-oil"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collection hero · Face & Body Oil"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "shop-hero-facial-cleanser-ubtan"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collection hero · Facial Cleanser/ Ubtan"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "shop-hero-ubtan"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collection hero · Ubtan"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "collection-frontpage"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collection page · Home page"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-almond"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Almond"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-almond-oil"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Almond oil"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-camphor"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Camphor"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-charcoal"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Charcoal"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-clay"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Clay"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-coffee"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Coffee"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-jasmine"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Jasmine"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-lavender"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Lavender"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-mint"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Mint"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-moringa"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Moringa"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-neem"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Neem"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-olive"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Olive"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-orange"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · orange"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-pink-salt"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Pink salt"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-rose"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Rose"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-rosemary"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Rosemary"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-sandalwood"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Sandalwood"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-tea-tree"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Tea tree"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-tea-tree-oil"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Tea tree oil"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-vanilla"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Vanilla"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-vitamin-a"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Vitamin A"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-vitamin-c"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Vitamin C"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-vitamin-e"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient page · Vitamin E"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "story-inset"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Our story · Small inset image"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "image",
+            "value": "gid://shopify/MediaImage/46365287842011"
+          },
+          {
+            "key": "image_alt",
+            "value": "Botanical textures and flowers"
+          },
+          {
+            "key": "image_position",
+            "value": "center"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "story-beginning"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Our story · A starting point"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "01 / A STARTING POINT"
+          },
+          {
+            "key": "title",
+            "value": "The ordinary can hold"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "something beautiful."
+          },
+          {
+            "key": "body",
+            "value": "A bar of soap by the basin. A few drops of oil. A familiar texture in your hands. Small things can change how a moment feels."
+          },
+          {
+            "key": "note",
+            "value": "DYUhandmade brings together soaps, oils, ubtans and body care in a collection made to be explored. Our world begins with nature and continues in the everyday moments you make your own."
+          },
+          {
+            "key": "caption",
+            "value": "A starting point"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "story-principles"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Our story · Principles heading"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "02 / WHAT WE COME BACK TO"
+          },
+          {
+            "key": "title",
+            "value": "A way of seeing."
+          },
+          {
+            "key": "title_emphasis",
+            "value": "A way of caring."
+          },
+          {
+            "key": "caption",
+            "value": "What we come back to"
+          },
+          {
+            "key": "note",
+            "value": "NATURE / CRAFT / EVERYDAY"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "story-everyday"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Our story · Pathways heading"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "03 / THE STORY MEETS YOUR DAY"
+          },
+          {
+            "key": "title",
+            "value": "From our world,"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "into your everyday."
+          },
+          {
+            "key": "body",
+            "value": "There is more than one place to begin.\nFollow what makes you curious."
+          },
+          {
+            "key": "caption",
+            "value": "The story meets your day"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "story-invitation"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Our story · Closing invitation"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE NEXT CHAPTER IS YOURS"
+          },
+          {
+            "key": "title",
+            "value": "A little nature."
+          },
+          {
+            "key": "title_emphasis",
+            "value": "A moment of your own."
+          },
+          {
+            "key": "body",
+            "value": "Meet the collection, find what speaks to you, and make room for a little everyday care."
+          },
+          {
+            "key": "image",
+            "value": "gid://shopify/MediaImage/46365321199835"
+          },
+          {
+            "key": "image_alt",
+            "value": "Illustrative botanical care objects in warm everyday light"
+          },
+          {
+            "key": "link_url",
+            "value": "/shop"
+          },
+          {
+            "key": "link_label",
+            "value": "Discover your ritual"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredients-index"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredients · Index heading and search"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "A LIVING INDEX"
+          },
+          {
+            "key": "title",
+            "value": "Find what"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "draws you in."
+          },
+          {
+            "key": "body",
+            "value": "Browse by name or follow a family.\nEvery entry leads back to its products."
+          },
+          {
+            "key": "caption",
+            "value": "Search rose, almond, a product…"
+          },
+          {
+            "key": "note",
+            "value": "Take your curiosity somewhere."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredients-reading"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredients · Reading note"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE SMALL PRINT, MADE SIMPLE"
+          },
+          {
+            "key": "title",
+            "value": "A name is"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "the beginning."
+          },
+          {
+            "key": "body",
+            "value": "This atlas brings together ingredient stories, ingredient lists and botanical names used in our product names. A name alone is not a complete formula. Open a product to read the details provided for that particular ritual."
+          },
+          {
+            "key": "link_url",
+            "value": "/shop"
+          },
+          {
+            "key": "link_label",
+            "value": "Meet the collection"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredients-guide"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredients · FAQ heading"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "A LITTLE GUIDANCE"
+          },
+          {
+            "key": "title",
+            "value": "Good things"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "to know."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-detail"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient detail · Shared heading and navigation"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE INGREDIENT ATLAS"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "A closer look."
+          },
+          {
+            "key": "secondary_label",
+            "value": "Back to the atlas"
+          },
+          {
+            "key": "secondary_url",
+            "value": "/ingredients#ingredient-index"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-connections"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient detail · Product heading"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE CONNECTIONS"
+          },
+          {
+            "key": "title",
+            "value": "Find it in"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "your everyday."
+          },
+          {
+            "key": "body",
+            "value": "Read the details.\nChoose what feels like you."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-note"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient detail · Reading note"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "body",
+            "value": "A botanical name is a starting point for discovery. For the complete formula and use instructions, read the individual product details and packaging."
+          },
+          {
+            "key": "link_url",
+            "value": "/contact"
+          },
+          {
+            "key": "link_label",
+            "value": "Ask us a question"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredient-more"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredient detail · Related ingredients"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "KEEP YOUR CURIOSITY GOING"
+          },
+          {
+            "key": "title",
+            "value": "More from"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "journal-featured"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal · Featured article"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE EDITOR’S PICK"
+          },
+          {
+            "key": "link_label",
+            "value": "Settle into the story"
+          },
+          {
+            "key": "note",
+            "value": "A few quiet minutes, just for you."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "journal-archive"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal · Reading room heading and search"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE READING ROOM"
+          },
+          {
+            "key": "title",
+            "value": "Follow your"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "curiosity."
+          },
+          {
+            "key": "body",
+            "value": "Everyday observations.\nIdeas to come back to."
+          },
+          {
+            "key": "secondary_label",
+            "value": "All stories"
+          },
+          {
+            "key": "caption",
+            "value": "Find a story"
+          },
+          {
+            "key": "link_label",
+            "value": "Read the story"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "journal-invitation"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal · Closing invitation"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "FROM READING TO LIVING"
+          },
+          {
+            "key": "title",
+            "value": "Make it part of"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "your everyday."
+          },
+          {
+            "key": "body",
+            "value": "The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection."
+          },
+          {
+            "key": "link_url",
+            "value": "/shop"
+          },
+          {
+            "key": "link_label",
+            "value": "Explore the collection"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "journal-reader"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal article · Reader labels"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "NOTES FROM THE ATELIER"
+          },
+          {
+            "key": "title",
+            "value": "IN THIS STORY"
+          },
+          {
+            "key": "caption",
+            "value": "A place to begin"
+          },
+          {
+            "key": "note",
+            "value": "A small invitation"
+          },
+          {
+            "key": "link_url",
+            "value": "/journal"
+          },
+          {
+            "key": "link_label",
+            "value": "Back to the journal"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "journal-article-closing"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal article · Closing invitation"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "body",
+            "value": "A little nature. A human touch.\nThank you for spending a moment here."
+          },
+          {
+            "key": "link_url",
+            "value": "/shop"
+          },
+          {
+            "key": "link_label",
+            "value": "Find your everyday ritual"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "journal-related"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal article · Related stories"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "KEEP THE CURIOSITY GOING"
+          },
+          {
+            "key": "title",
+            "value": "Another little"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "discovery."
+          },
+          {
+            "key": "link_url",
+            "value": "/journal"
+          },
+          {
+            "key": "link_label",
+            "value": "All stories"
+          },
+          {
+            "key": "secondary_label",
+            "value": "Read the story"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "craft-journey"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Making · Process heading and labels"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE ART OF MAKING"
+          },
+          {
+            "key": "title",
+            "value": "How it’s made."
+          },
+          {
+            "key": "title_emphasis",
+            "value": "One step at a time."
+          },
+          {
+            "key": "items",
+            "value": "[\"WE BEGIN WITH\",\"IT BECOMES\"]"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "craft-products"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Making · Products and featured process"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "craft-onward-ingredients"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Making · Ingredient invitation"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "KEEP A LITTLE CURIOSITY"
+          },
+          {
+            "key": "title",
+            "value": "Meet the botanicals"
+          },
+          {
+            "key": "link_url",
+            "value": "/ingredients"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "craft-onward-shop"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Making · Collection invitation"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE NEXT CHAPTER IS YOURS"
+          },
+          {
+            "key": "title",
+            "value": "Find your everyday ritual"
+          },
+          {
+            "key": "link_url",
+            "value": "/shop"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "story-botanical"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Our story · A curiosity for nature"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "caption",
+            "value": "A curiosity for nature"
+          },
+          {
+            "key": "title",
+            "value": "Begin with the ingredient."
+          },
+          {
+            "key": "body",
+            "value": "A name on a label can open up a whole world: a flower, a seed, a leaf. We invite you to meet the botanicals behind the collection and follow them into the products you choose."
+          },
+          {
+            "key": "note",
+            "value": "Explore the ingredient directory, then look at the full ingredient list on each product. The details belong to the individual formula."
+          },
+          {
+            "key": "image",
+            "value": "gid://shopify/MediaImage/46365287842011"
+          },
+          {
+            "key": "image_alt",
+            "value": "Illustrative arrangement of flowers, leaves and botanical textures"
+          },
+          {
+            "key": "link_url",
+            "value": "/ingredients"
+          },
+          {
+            "key": "link_label",
+            "value": "Explore the ingredients"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "story-human"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Our story · Room for the human touch"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "caption",
+            "value": "Room for the human touch"
+          },
+          {
+            "key": "title",
+            "value": "Look a little closer."
+          },
+          {
+            "key": "body",
+            "value": "The everyday objects we live with deserve our attention. Their texture, their form and the way we use them all become part of the experience of care."
+          },
+          {
+            "key": "note",
+            "value": "Our atelier lets you turn an object in 3D, explore its photographs and follow the making information available for each product. Take your time with the details."
+          },
+          {
+            "key": "image",
+            "value": "gid://shopify/MediaImage/46365293871323"
+          },
+          {
+            "key": "image_alt",
+            "value": "Illustrative close-up of hands working with botanical care ingredients"
+          },
+          {
+            "key": "link_url",
+            "value": "/how-its-made"
+          },
+          {
+            "key": "link_label",
+            "value": "Inside the making"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "story-ritual"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Our story · A place in your everyday"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "caption",
+            "value": "A place in your everyday"
+          },
+          {
+            "key": "title",
+            "value": "Make the moment yours."
+          },
+          {
+            "key": "body",
+            "value": "A fresh beginning. A quiet evening. A small pause between one thing and the next. Care can belong to the life you already have."
+          },
+          {
+            "key": "note",
+            "value": "Start with a form you enjoy, read its directions and let it find a place in your day. There is no single way to make a moment feel like your own."
+          },
+          {
+            "key": "image",
+            "value": "gid://shopify/MediaImage/46365321199835"
+          },
+          {
+            "key": "image_alt",
+            "value": "Illustrative scene of a quiet everyday care ritual"
+          },
+          {
+            "key": "link_url",
+            "value": "/shop"
+          },
+          {
+            "key": "link_label",
+            "value": "Find your everyday care"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "story-pathway-1"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Our story · Pathway 1"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "title",
+            "value": "Know what draws you in."
+          },
+          {
+            "key": "body",
+            "value": "Start with a botanical, a scent or a texture. Our ingredient directory connects the natural world to the collection."
+          },
+          {
+            "key": "link_url",
+            "value": "/ingredients"
+          },
+          {
+            "key": "link_label",
+            "value": "Meet the botanicals"
+          },
+          {
+            "key": "sort_order",
+            "value": "0"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "story-pathway-2"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Our story · Pathway 2"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "title",
+            "value": "Get to know the object."
+          },
+          {
+            "key": "body",
+            "value": "Explore the photographs, turn the product in 3D, and read its ingredients and directions before making it yours."
+          },
+          {
+            "key": "link_url",
+            "value": "/shop"
+          },
+          {
+            "key": "link_label",
+            "value": "Visit the collection"
+          },
+          {
+            "key": "sort_order",
+            "value": "1"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "story-pathway-3"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Our story · Pathway 3"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "title",
+            "value": "Keep a little curiosity."
+          },
+          {
+            "key": "body",
+            "value": "The journal is a place for practical notes, closer looks and ideas to carry into your own everyday moments."
+          },
+          {
+            "key": "link_url",
+            "value": "/journal"
+          },
+          {
+            "key": "link_label",
+            "value": "Read the journal"
+          },
+          {
+            "key": "sort_order",
+            "value": "2"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredients-faq-1"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredients · Question 1"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "title",
+            "value": "Where do these ingredient names come from?"
+          },
+          {
+            "key": "body",
+            "value": "The atlas uses the ingredient stories and ingredient lists supplied with our products. It also includes botanical names that appear in product names. Each detail page shows the source beside the associated product."
+          },
+          {
+            "key": "sort_order",
+            "value": "0"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredients-faq-2"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredients · Question 2"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "title",
+            "value": "Is this a complete ingredient list?"
+          },
+          {
+            "key": "body",
+            "value": "No. The atlas is a way to explore the collection. For a complete formulation, consult the ingredient information on the individual product page and the product packaging."
+          },
+          {
+            "key": "sort_order",
+            "value": "1"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ingredients-faq-3"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ingredients · Question 3"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "title",
+            "value": "Where can I ask about a particular product?"
+          },
+          {
+            "key": "body",
+            "value": "Visit the product page for its published details, or get in touch with DYU with the product name and your question."
+          },
+          {
+            "key": "link_url",
+            "value": "/contact"
+          },
+          {
+            "key": "link_label",
+            "value": "Get in touch with DYU"
+          },
+          {
+            "key": "sort_order",
+            "value": "2"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "journal-takeaway-making-space-for-a-ritual"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal invitation · The quiet art of making time for yourself."
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "body",
+            "value": "Choose one familiar moment today. Give it your attention before adding anything new."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "journal-takeaway-look-closer-at-your-care"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal invitation · A little curiosity goes a long way."
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "body",
+            "value": "Before choosing your next product, read its full details and note the one question you still want answered."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "article-a-home-for-your-soap"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal · A good place for your daily soap."
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "title",
+            "value": "A good place for your daily soap."
+          },
+          {
+            "key": "category",
+            "value": "Thoughtful care"
+          },
+          {
+            "key": "note",
+            "value": "A few considered details can make the space around your sink easier to use and more pleasant to return to."
+          },
+          {
+            "key": "image_alt",
+            "value": "An illustrative soap still life in a warm, natural setting"
+          },
+          {
+            "key": "sort_order",
+            "value": "2"
+          },
+          {
+            "key": "body",
+            "value": "A bar of soap is a small object with a very familiar place in the day. Its surroundings matter too: the dish beneath it, the towel within reach, and the room it has between uses.\n\nThe most useful arrangement is often the simplest. Begin by looking at how water moves around the sink and where you naturally reach when washing.\n\n## Let the dish do its job\n\nChoose a dish that allows water to drain away, and place it where the bar is not sitting in the direct splash of a tap or shower. A raised surface or open ridges can help keep the bar out of pooled water.\n\nGive the dish a regular rinse and let it dry. Keep the space around it easy to wipe down. Follow any storage instructions supplied with your particular soap, especially when opening a new bar.\n\n## Keep the everyday within reach\n\nArrange the things you use in the order you reach for them. A towel that is easy to pick up and a dish that sits comfortably beside the basin can make the routine feel considered without adding more objects.\n\nWhen travelling, follow the same principle: let the bar drain before packing it, and use a suitable container. At your destination, open the container and give the soap a place of its own."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "journal-takeaway-a-home-for-your-soap"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal invitation · A good place for your daily soap."
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "body",
+            "value": "Look at your soap dish after washing. If water is collecting beneath the bar, a small change in placement may be all it needs."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "article-botanicals-beyond-the-name"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal · Behind a botanical name."
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "title",
+            "value": "Behind a botanical name."
+          },
+          {
+            "key": "category",
+            "value": "Ingredient notes"
+          },
+          {
+            "key": "note",
+            "value": "From a plant to a finished formula, there is more to discover than a single familiar ingredient."
+          },
+          {
+            "key": "image",
+            "value": "gid://shopify/MediaImage/46365287842011"
+          },
+          {
+            "key": "image_alt",
+            "value": "An illustrative botanical study with leaves, flowers and a bowl"
+          },
+          {
+            "key": "sort_order",
+            "value": "3"
+          },
+          {
+            "key": "body",
+            "value": "Rose, lavender, almond, olive. Botanical names can bring a whole landscape to mind before we have even opened a product. They are also an invitation to look a little closer.\n\nThe name of a plant and the name of an ingredient are not always the same thing. The part used and the way it is prepared are useful details to notice.\n\n## Ask which part, and in what form\n\nA label may describe an oil, a powder, an extract or another preparation. Rather than treating those words as interchangeable, read them alongside the complete ingredient list and the directions for the finished product.\n\nOur ingredient pages offer a way into this vocabulary. Use them to explore what draws your attention, then return to the individual product page for the information that applies to that particular formula.\n\n## Keep the product in view\n\nA beautiful ingredient photograph tells a visual story. It cannot show the whole formula or explain how to use it. That is why product details and the label deserve their own moment of attention.\n\nLet curiosity lead to a clearer question: Is this a wash-off product? What amount do the directions suggest? How should it be stored? Specific questions make it easier to find the information you need."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "journal-takeaway-botanicals-beyond-the-name"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal invitation · Behind a botanical name."
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "body",
+            "value": "Find one botanical on a label you already own. Notice both its name and the form in which it appears."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "article-objects-worth-keeping"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal · The things we choose to keep."
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "title",
+            "value": "The things we choose to keep."
+          },
+          {
+            "key": "category",
+            "value": "Considered living"
+          },
+          {
+            "key": "note",
+            "value": "An empty container, a useful tray, a familiar towel. A quieter way to think about the objects around us."
+          },
+          {
+            "key": "image",
+            "value": "gid://shopify/MediaImage/46365293871323"
+          },
+          {
+            "key": "image_alt",
+            "value": "An illustrative hands-on arrangement of care products and natural materials"
+          },
+          {
+            "key": "sort_order",
+            "value": "4"
+          },
+          {
+            "key": "body",
+            "value": "Some objects settle into a home so naturally that we stop noticing them. The little tray by the door. The jar that holds spare buttons. The towel that always finds its way back to the same hook.\n\nTaking care of an object starts with noticing how it is used. Before adding something new, it can be worth asking what is already there.\n\n## Use first, decide later\n\nFinish and care for a product according to its label. When a container is empty, check its material and any disposal guidance before deciding what comes next. Different components may need to be separated.\n\nIf a clean, dry container has a useful place in your home, give it a new task suited to its condition and material. Holding small non-food items is one possibility. Reuse is most helpful when it solves a real need.\n\n## Leave some space empty\n\nNot every empty container needs a second life on your shelf. Local collection rules and the condition of an item can guide your next step. Keeping everything can simply move the clutter from one place to another.\n\nA considered space does not have to look minimal or perfectly arranged. It can be a collection of well-used things, with enough room around them to make the day a little easier."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "journal-takeaway-objects-worth-keeping"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal invitation · The things we choose to keep."
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "body",
+            "value": "Choose one shelf or small surface. Keep what serves the way you actually use it, and give the rest a considered next step."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "article-the-art-of-a-small-gift"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal · A small gift, thoughtfully chosen."
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "title",
+            "value": "A small gift, thoughtfully chosen."
+          },
+          {
+            "key": "category",
+            "value": "Considered living"
+          },
+          {
+            "key": "note",
+            "value": "Start with the person, then the occasion. The most thoughtful part of a gift can be the attention behind it."
+          },
+          {
+            "key": "image",
+            "value": "gid://shopify/MediaImage/46365272408283"
+          },
+          {
+            "key": "image_alt",
+            "value": "An illustrative still life of care products, botanicals and natural textures"
+          },
+          {
+            "key": "sort_order",
+            "value": "5"
+          },
+          {
+            "key": "body",
+            "value": "A thoughtful gift begins long before it is wrapped. It begins with remembering a preference, noticing a habit, or listening when someone mentions the things they enjoy.\n\nFor everyday care, a familiar routine can be a helpful starting point. Does the person enjoy a quiet bath, prefer simple practical objects, or like choosing things for themselves?\n\n## Choose with the person in mind\n\nIf you know their preferences, let those details guide you. If you do not, leave room to ask. Scent, texture and product format are personal choices, and a little information is more useful than an assumption.\n\nRead the complete product description, ingredients and directions before choosing. Keep that information with the gift so the recipient has the same opportunity to make an informed choice.\n\n## Make the gesture your own\n\nA short note can explain why you thought of them: a shared memory, an everyday pleasure, or simply a wish for a little time to themselves. It does not need to sound polished to feel personal.\n\nLet the wrapping be simple enough to open and the message easy to understand. The object is one part of the gift; the attention you bring to choosing it is another."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "journal-takeaway-the-art-of-a-small-gift"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Journal invitation · A small gift, thoughtfully chosen."
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "body",
+            "value": "Before looking for a gift, write down one thing you know the person enjoys. Begin there."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "home-hero-slide-2"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Home · Hero slide 2"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "sort_order",
+            "value": "2"
+          },
+          {
+            "key": "image",
+            "value": "gid://shopify/MediaImage/46365321199835"
+          },
+          {
+            "key": "image_alt",
+            "value": "A quiet botanical care ritual"
+          },
+          {
+            "key": "image_position",
+            "value": "center"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "home-hero-slide-3"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Home · Hero slide 3"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "sort_order",
+            "value": "3"
+          },
+          {
+            "key": "image",
+            "value": "gid://shopify/MediaImage/46365287842011"
+          },
+          {
+            "key": "image_alt",
+            "value": "Botanical forms and natural textures"
+          },
+          {
+            "key": "image_position",
+            "value": "center"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "home-hero-slide-4"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Home · Hero slide 4"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "sort_order",
+            "value": "4"
+          },
+          {
+            "key": "image",
+            "value": "gid://shopify/MediaImage/46365293871323"
+          },
+          {
+            "key": "image_alt",
+            "value": "Thoughtful handmade care in the atelier"
+          },
+          {
+            "key": "image_position",
+            "value": "center"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "shop-page"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Shop · Introduction"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE DYU COLLECTION"
+          },
+          {
+            "key": "title",
+            "value": "A ritual for"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "every kind of day."
+          },
+          {
+            "key": "body",
+            "value": "For the morning light. For the quiet evening.\nFor a small moment that belongs to you."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "shop-hero"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Shop · Default hero artwork or 3D product"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "caption",
+            "value": "A STUDY IN NATURE"
+          },
+          {
+            "key": "display_mode",
+            "value": "3d"
+          },
+          {
+            "key": "image_position",
+            "value": "center"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "collection-page"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collections · Default introduction and hero"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE COLLECTION"
+          },
+          {
+            "key": "image_position",
+            "value": "center"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "home-layout"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Home · Section order"
+          },
+          {
+            "key": "items",
+            "value": "[\"home-hero\",\"home-welcome\",\"home-collections\",\"philosophy\",\"home-craft\",\"home-ingredients\",\"ritual\",\"home-favorites\",\"home-journal\",\"home-reassurance\"]"
+          },
+          {
+            "key": "note",
+            "value": "Reorder these section handles. Hide a section using its Enabled field. Omitted sections remain at the end."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "site-seo"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Site · Search and sharing"
+          },
+          {
+            "key": "title",
+            "value": "DYUhandmade — A slower kind of care"
+          },
+          {
+            "key": "body",
+            "value": "Discover the DYUhandmade digital atelier. Thoughtful botanical care, everyday rituals, and the stories behind them."
+          },
+          {
+            "key": "image",
+            "value": "gid://shopify/MediaImage/46365272408283"
+          },
+          {
+            "key": "image_alt",
+            "value": "DYUhandmade botanical care"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "mobile-menu"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Header · Mobile menu"
+          },
+          {
+            "key": "eyebrow",
+            "value": "EXPLORE DYU"
+          },
+          {
+            "key": "title",
+            "value": "SHOP BY COLLECTION"
+          },
+          {
+            "key": "body",
+            "value": "A LITTLE CLOSER\nTO NATURE."
+          },
+          {
+            "key": "link_label",
+            "value": "View all"
+          },
+          {
+            "key": "note",
+            "value": "A little nature. A human touch."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "header-search"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Header · Search overlay"
+          },
+          {
+            "key": "title",
+            "value": "Find your ritual"
+          },
+          {
+            "key": "body",
+            "value": "Search products, rituals…"
+          },
+          {
+            "key": "eyebrow",
+            "value": "Discover the collection"
+          },
+          {
+            "key": "caption",
+            "value": "Matching rituals"
+          },
+          {
+            "key": "note",
+            "value": "No rituals found. Try another word or browse the collection."
+          },
+          {
+            "key": "link_label",
+            "value": "Browse all products"
+          },
+          {
+            "key": "link_url",
+            "value": "/shop"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "header-bag"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Header · Bag labels"
+          },
+          {
+            "key": "title",
+            "value": "Your bag"
+          },
+          {
+            "key": "link_label",
+            "value": "Bag"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "ritual-interface"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Ritual · Labels and finishing message"
+          },
+          {
+            "key": "eyebrow",
+            "value": "YOUR MOMENT, YOUR RHYTHM"
+          },
+          {
+            "key": "caption",
+            "value": "MAKE SPACE FOR"
+          },
+          {
+            "key": "body",
+            "value": "A small ritual. A beautiful ordinary day."
+          },
+          {
+            "key": "title",
+            "value": "A ritual to call your own."
+          },
+          {
+            "key": "title_emphasis",
+            "value": "Find a little everyday care in the collection."
+          },
+          {
+            "key": "link_label",
+            "value": "Take a moment"
+          },
+          {
+            "key": "note",
+            "value": "NOTHING TO RUSH. A LITTLE TIME TO BE."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "home-ingredients-interface"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Home · Ingredient experience labels"
+          },
+          {
+            "key": "eyebrow",
+            "value": "A NOTE ON"
+          },
+          {
+            "key": "title",
+            "value": "IN THE COLLECTION"
+          },
+          {
+            "key": "caption",
+            "value": "A CLOSER LOOK"
+          },
+          {
+            "key": "note",
+            "value": "Nature, in the details."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "product-page"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Products · Introduction and buttons"
+          },
+          {
+            "key": "eyebrow",
+            "value": "AN EVERYDAY OBJECT, RECONSIDERED"
+          },
+          {
+            "key": "link_label",
+            "value": "Enter the experience"
+          },
+          {
+            "key": "link_url",
+            "value": "#origin"
+          },
+          {
+            "key": "secondary_label",
+            "value": "Make it yours"
+          },
+          {
+            "key": "secondary_url",
+            "value": "#purchase"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "product-invitation"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Products · Invitation heading"
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE INTENTION"
+          },
+          {
+            "key": "title",
+            "value": "A place in"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "your everyday."
+          },
+          {
+            "key": "caption",
+            "value": "THE SENSORY NOTES"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "product-craft"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Products · Making section"
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE ART OF MAKING"
+          },
+          {
+            "key": "title",
+            "value": "How it’s made."
+          },
+          {
+            "key": "title_emphasis",
+            "value": "One step at a time."
+          },
+          {
+            "key": "note",
+            "value": "Now, get to know the materials."
+          },
+          {
+            "key": "secondary_label",
+            "value": "Explore the ingredients"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "product-ingredients"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Products · Ingredient section"
+          },
+          {
+            "key": "eyebrow",
+            "value": "LOOK WITHIN / THE INGREDIENT STORY"
+          },
+          {
+            "key": "title",
+            "value": "Every detail."
+          },
+          {
+            "key": "title_emphasis",
+            "value": "Worth knowing."
+          },
+          {
+            "key": "body",
+            "value": "Choose an ingredient to discover its story."
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "product-purchase"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Products · Purchase section"
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE NEXT CHAPTER IS YOURS"
+          },
+          {
+            "key": "title",
+            "value": "Make room"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "for your ritual."
+          },
+          {
+            "key": "note",
+            "value": "From our world, to your everyday."
+          },
+          {
+            "key": "caption",
+            "value": "Checkout securely with Shopify"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "product-guidance"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Products · Guidance heading"
+          },
+          {
+            "key": "eyebrow",
+            "value": "BEFORE IT BECOMES YOURS"
+          },
+          {
+            "key": "title",
+            "value": "A little clarity."
+          },
+          {
+            "key": "title_emphasis",
+            "value": "A considered choice."
+          },
+          {
+            "key": "link_label",
+            "value": "Ask DYU a question"
+          },
+          {
+            "key": "link_url",
+            "value": "/contact"
+          }
+        ]
+      }
+    },
+    {
+      "handle": {
+        "type": "dyu_site_content",
+        "handle": "product-related"
+      },
+      "metaobject": {
+        "fields": [
+          {
+            "key": "name",
+            "value": "Products · Related products carousel"
+          },
+          {
+            "key": "enabled",
+            "value": "true"
+          },
+          {
+            "key": "eyebrow",
+            "value": "KEEP A LITTLE CURIOSITY"
+          },
+          {
+            "key": "title",
+            "value": "There’s more"
+          },
+          {
+            "key": "title_emphasis",
+            "value": "to discover."
+          },
+          {
+            "key": "body",
+            "value": "Explore rituals with a little in common."
+          },
+          {
+            "key": "link_label",
+            "value": "All rituals"
+          },
+          {
+            "key": "link_url",
+            "value": "/shop"
+          }
+        ]
+      }
+    }
+  ],
+  "skipped": [
+    "home-hero",
+    "brand",
+    "philosophy",
+    "philosophy-nature",
+    "philosophy-human-touch",
+    "philosophy-everyday"
+  ],
+  "unseededImages": [
+    {
+      "handle": "article-a-home-for-your-soap",
+      "key": "image",
+      "localDefault": "/images/soap-atelier.png"
+    }
+  ]
+}

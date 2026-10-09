@@ -1,0 +1,957 @@
+{
+  "collection": {
+    "capturedAt": "2026-10-04T09:48:55.423Z",
+    "data": {
+      "shop": {
+        "id": "gid://shopify/Shop/76637307099",
+        "name": "DYUhandmade",
+        "myshopifyDomain": "fgm0vn-7t.myshopify.com"
+      },
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/513925775579",
+            "handle": "frontpage",
+            "title": "Home page",
+            "descriptionHtml": "",
+            "updatedAt": "2026-10-02T03:29:39Z",
+            "image": null,
+            "products": {
+              "nodes": [
+                {
+                  "id": "gid://shopify/Product/8903888994523",
+                  "handle": "damask-rose-cold-processed-soap",
+                  "title": "Damask Rose Cold Processed Soap",
+                  "descriptionHtml": "<h2 class=\"a-size-base-plus a-text-bold\"></h2>\n<ul class=\"a-unordered-list a-vertical a-spacing-mini\">\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Infused with saponified extra Virgin- coconut oil, this handmade soap deeply cleanses while maintaining natural skin moisture, making it suitable for all skin types including sensitive skin. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">French pink clay gently detoxifies and exfoliates, removing dead skin cells and impurities while leaving your skin soft, radiant, and visibly smoother after regular use. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Enriched with Rose Centifolia absolute oil, known for its calming fragrance and skin-conditioning properties, offering a spa-like floral experience during every bath or shower. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Vitamin E supports skin repair and reduces signs of aging by providing antioxidant protection and aiding skin elasticity, helping you maintain youthful, nourished skin. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">The inclusion of Aqua and Damask Rose provides hydration and a luxurious feel, creating a lather that refreshes and uplifts, leaving a subtle rose scent on your skin all day.</span></li>\n</ul>",
+                  "vendor": "My Store",
+                  "productType": "Cold processed Soap",
+                  "updatedAt": "2026-10-04T09:26:36Z",
+                  "featuredMedia": {
+                    "id": "gid://shopify/MediaImage/45202466668763",
+                    "alt": "Damask Rose Cold Processed Soap — product image 1 of 4",
+                    "image": {
+                      "id": "gid://shopify/ImageSource/45202466668763",
+                      "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/Damask_Rose_Soap_Amazon.png?v=1787828685",
+                      "altText": "Damask Rose Cold Processed Soap — product image 1 of 4"
+                    }
+                  },
+                  "variants": {
+                    "nodes": [
+                      {
+                        "id": "gid://shopify/ProductVariant/46836219969755",
+                        "title": "All skin types / Rose",
+                        "selectedOptions": [
+                          {
+                            "name": "Suitable for skin type",
+                            "value": "All skin types"
+                          },
+                          {
+                            "name": "Scent",
+                            "value": "Rose"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "pageInfo": {
+                "hasNextPage": false,
+                "endCursor": "eyJsYXN0X2lkIjo4OTAzODg4OTk0NTIzLCJsYXN0X3ZhbHVlIjoiMCJ9"
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1MTM5MjU3NzU1NzksImxhc3RfdmFsdWUiOiI1MTM5MjU3NzU1NzkifQ=="
+        }
+      }
+    }
+  },
+  "product": {
+    "capturedAt": "2026-10-04T09:49:33.338Z",
+    "data": {
+      "shop": {
+        "id": "gid://shopify/Shop/76637307099",
+        "myshopifyDomain": "fgm0vn-7t.myshopify.com"
+      },
+      "product": {
+        "id": "gid://shopify/Product/8906849222875",
+        "handle": "moringa-facial-oil",
+        "title": "Moringa Facial Oil",
+        "descriptionHtml": "",
+        "vendor": "My Store",
+        "productType": "Facial Oil",
+        "updatedAt": "2026-10-04T09:27:22Z",
+        "metafield": null,
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/46844296167643",
+              "title": "Default Title",
+              "selectedOptions": [
+                {
+                  "name": "Title",
+                  "value": "Default Title"
+                }
+              ]
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "eyJsYXN0X2lkIjo0Njg0NDI5NjE2NzY0MywibGFzdF92YWx1ZSI6MX0="
+          }
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/37014564864219",
+              "alt": "Moringa Facial Oil — product image 1 of 7",
+              "image": {
+                "id": "gid://shopify/ImageSource/37014564864219",
+                "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_8449d4f3-caf5-4998-a6ba-b1f1cd2c5fe3.png?v=1748867272",
+                "altText": "Moringa Facial Oil — product image 1 of 7",
+                "width": 1080,
+                "height": 1080
+              }
+            },
+            {
+              "id": "gid://shopify/MediaImage/37014564896987",
+              "alt": "Moringa Facial Oil — product image 2 of 7",
+              "image": {
+                "id": "gid://shopify/ImageSource/37014564896987",
+                "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_b1c92315-6b8e-4112-ac44-41045b605cb6.png?v=1748867272",
+                "altText": "Moringa Facial Oil — product image 2 of 7",
+                "width": 1080,
+                "height": 1080
+              }
+            },
+            {
+              "id": "gid://shopify/MediaImage/37014564929755",
+              "alt": "Moringa Facial Oil — product image 3 of 7",
+              "image": {
+                "id": "gid://shopify/ImageSource/37014564929755",
+                "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_a64cee59-6731-45e1-bc30-bd0dc75b6d2c.png?v=1748867272",
+                "altText": "Moringa Facial Oil — product image 3 of 7",
+                "width": 1000,
+                "height": 1000
+              }
+            },
+            {
+              "id": "gid://shopify/MediaImage/37014564962523",
+              "alt": "Moringa Facial Oil — product image 4 of 7",
+              "image": {
+                "id": "gid://shopify/ImageSource/37014564962523",
+                "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_79be88b9-80a7-4bb8-8809-f0afe468822a.png?v=1748867272",
+                "altText": "Moringa Facial Oil — product image 4 of 7",
+                "width": 1000,
+                "height": 1000
+              }
+            },
+            {
+              "id": "gid://shopify/MediaImage/37014564995291",
+              "alt": "Moringa Facial Oil — product image 5 of 7",
+              "image": {
+                "id": "gid://shopify/ImageSource/37014564995291",
+                "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_b6a135b3-ea90-4ba8-85d5-0ceaa37636ea.png?v=1748867272",
+                "altText": "Moringa Facial Oil — product image 5 of 7",
+                "width": 1000,
+                "height": 1000
+              }
+            },
+            {
+              "id": "gid://shopify/MediaImage/37014565028059",
+              "alt": "Moringa Facial Oil — product image 6 of 7",
+              "image": {
+                "id": "gid://shopify/ImageSource/37014565028059",
+                "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_df8a94c1-2e3c-4ffd-b186-faf9cef5d27f.png?v=1748867272",
+                "altText": "Moringa Facial Oil — product image 6 of 7",
+                "width": 1000,
+                "height": 1000
+              }
+            },
+            {
+              "id": "gid://shopify/MediaImage/37014565060827",
+              "alt": "Moringa Facial Oil — product image 7 of 7",
+              "image": {
+                "id": "gid://shopify/ImageSource/37014565060827",
+                "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_182b807f-903e-4ed9-a266-9ed1f5867109.png?v=1748867272",
+                "altText": "Moringa Facial Oil — product image 7 of 7",
+                "width": 1000,
+                "height": 1000
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "eyJsYXN0X2lkIjozNzAxNDU2NTA2MDgyNywibGFzdF92YWx1ZSI6IjcifQ=="
+          }
+        }
+      }
+    }
+  },
+  "editor": {
+    "capturedAt": "2026-10-04T09:51:05.677Z",
+    "data": {
+      "shared": {
+        "id": "gid://shopify/Metaobject/611717873883",
+        "handle": "collection-page",
+        "updatedAt": "2026-10-04T06:01:56Z",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collections · Default introduction and hero",
+            "reference": null
+          },
+          {
+            "key": "eyebrow",
+            "value": "THE COLLECTION",
+            "reference": null
+          },
+          {
+            "key": "title",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "title_emphasis",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "body",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "image",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "mobile_image",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "image_alt",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "image_position",
+            "value": "center",
+            "reference": null
+          },
+          {
+            "key": "link_label",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "link_url",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "secondary_label",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "secondary_url",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "enabled",
+            "value": "true",
+            "reference": null
+          },
+          {
+            "key": "sort_order",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "products",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "collections",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "items",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "note",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "caption",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "category",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "read_time",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "carousel_autoplay",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "carousel_interval",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "display_mode",
+            "value": null,
+            "reference": null
+          }
+        ]
+      },
+      "specific": {
+        "id": "gid://shopify/Metaobject/611716759771",
+        "handle": "collection-frontpage",
+        "updatedAt": "2026-10-04T06:01:38Z",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Collection page · Home page",
+            "reference": null
+          },
+          {
+            "key": "eyebrow",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "title",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "title_emphasis",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "body",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "image",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "mobile_image",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "image_alt",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "image_position",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "link_label",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "link_url",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "secondary_label",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "secondary_url",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "enabled",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "sort_order",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "products",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "collections",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "items",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "note",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "caption",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "category",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "read_time",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "carousel_autoplay",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "carousel_interval",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "display_mode",
+            "value": null,
+            "reference": null
+          }
+        ]
+      },
+      "brand": {
+        "id": "gid://shopify/Metaobject/611151708379",
+        "handle": "brand",
+        "updatedAt": "2026-10-02T12:13:27Z",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Brand identity",
+            "reference": null
+          },
+          {
+            "key": "eyebrow",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "title",
+            "value": "dyu",
+            "reference": null
+          },
+          {
+            "key": "title_emphasis",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "body",
+            "value": "H A N D M A D E",
+            "reference": null
+          },
+          {
+            "key": "image",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "mobile_image",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "image_alt",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "image_position",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "link_label",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "link_url",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "secondary_label",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "secondary_url",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "enabled",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "sort_order",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "products",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "collections",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "items",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "note",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "caption",
+            "value": "DYUhandmade",
+            "reference": null
+          },
+          {
+            "key": "category",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "read_time",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "carousel_autoplay",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "carousel_interval",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "display_mode",
+            "value": null,
+            "reference": null
+          }
+        ]
+      },
+      "seo": {
+        "id": "gid://shopify/Metaobject/611720233179",
+        "handle": "site-seo",
+        "updatedAt": "2026-10-04T06:07:56Z",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Site · Search and sharing",
+            "reference": null
+          },
+          {
+            "key": "eyebrow",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "title",
+            "value": "DYUhandmade — A slower kind of care",
+            "reference": null
+          },
+          {
+            "key": "title_emphasis",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "body",
+            "value": "Discover the DYUhandmade digital atelier. Thoughtful botanical care, everyday rituals, and the stories behind them.",
+            "reference": null
+          },
+          {
+            "key": "image",
+            "value": "gid://shopify/MediaImage/46365272408283",
+            "reference": {
+              "id": "gid://shopify/MediaImage/46365272408283",
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/dyu-website-hero.webp?v=1790942714",
+                "altText": "Illustrative DYUhandmade care products with botanicals, linen and sunlit stone"
+              }
+            }
+          },
+          {
+            "key": "mobile_image",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "image_alt",
+            "value": "DYUhandmade botanical care",
+            "reference": null
+          },
+          {
+            "key": "image_position",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "link_label",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "link_url",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "secondary_label",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "secondary_url",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "enabled",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "sort_order",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "products",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "collections",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "items",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "note",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "caption",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "category",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "read_time",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "carousel_autoplay",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "carousel_interval",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "display_mode",
+            "value": null,
+            "reference": null
+          }
+        ]
+      },
+      "footer": {
+        "id": "gid://shopify/Metaobject/611152199899",
+        "handle": "footer",
+        "updatedAt": "2026-10-02T12:13:37Z",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Footer · Main copy",
+            "reference": null
+          },
+          {
+            "key": "eyebrow",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "title",
+            "value": "Explore",
+            "reference": null
+          },
+          {
+            "key": "title_emphasis",
+            "value": "A little guidance",
+            "reference": null
+          },
+          {
+            "key": "body",
+            "value": "Room for nature.\nTime for yourself.",
+            "reference": null
+          },
+          {
+            "key": "image",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "mobile_image",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "image_alt",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "image_position",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "link_label",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "link_url",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "secondary_label",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "secondary_url",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "enabled",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "sort_order",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "products",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "collections",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "items",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "note",
+            "value": "Made with intention.",
+            "reference": null
+          },
+          {
+            "key": "caption",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "category",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "read_time",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "carousel_autoplay",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "carousel_interval",
+            "value": null,
+            "reference": null
+          },
+          {
+            "key": "display_mode",
+            "value": null,
+            "reference": null
+          }
+        ]
+      },
+      "files": {
+        "nodes": [],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      }
+    }
+  },
+  "dedicated": {
+    "collection": {
+      "id": "gid://shopify/Collection/513925775579",
+      "title": "Home page",
+      "handle": "frontpage",
+      "descriptionHtml": "",
+      "imageUrl": null,
+      "imageAltText": null,
+      "sortOrder": "BEST_SELLING",
+      "collectionType": "manual",
+      "productsCount": 1,
+      "products": [
+        {
+          "title": "Damask Rose Cold Processed Soap",
+          "variantTitle": "All skin types / Rose",
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/Damask_Rose_Soap_Amazon.png?v=1787828685",
+          "price": "449.00",
+          "currencyCode": "INR",
+          "status": "ACTIVE"
+        }
+      ],
+      "rules": null,
+      "updatedAt": "2026-10-02T03:29:39Z",
+      "currencyCode": "INR"
+    },
+    "product": {
+      "id": "gid://shopify/Product/8906849222875",
+      "title": "Moringa Facial Oil",
+      "vendor": "My Store",
+      "status": "ACTIVE",
+      "productType": "Facial Oil",
+      "descriptionHtml": "",
+      "tags": [],
+      "totalInventory": 0,
+      "featuredImageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_8449d4f3-caf5-4998-a6ba-b1f1cd2c5fe3.png?v=1748867272",
+      "images": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_8449d4f3-caf5-4998-a6ba-b1f1cd2c5fe3.png?v=1748867272",
+          "altText": "Moringa Facial Oil — product image 1 of 7",
+          "mediaId": "gid://shopify/MediaImage/37014564864219"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_b1c92315-6b8e-4112-ac44-41045b605cb6.png?v=1748867272",
+          "altText": "Moringa Facial Oil — product image 2 of 7",
+          "mediaId": "gid://shopify/MediaImage/37014564896987"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_a64cee59-6731-45e1-bc30-bd0dc75b6d2c.png?v=1748867272",
+          "altText": "Moringa Facial Oil — product image 3 of 7",
+          "mediaId": "gid://shopify/MediaImage/37014564929755"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_79be88b9-80a7-4bb8-8809-f0afe468822a.png?v=1748867272",
+          "altText": "Moringa Facial Oil — product image 4 of 7",
+          "mediaId": "gid://shopify/MediaImage/37014564962523"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_b6a135b3-ea90-4ba8-85d5-0ceaa37636ea.png?v=1748867272",
+          "altText": "Moringa Facial Oil — product image 5 of 7",
+          "mediaId": "gid://shopify/MediaImage/37014564995291"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_df8a94c1-2e3c-4ffd-b186-faf9cef5d27f.png?v=1748867272",
+          "altText": "Moringa Facial Oil — product image 6 of 7",
+          "mediaId": "gid://shopify/MediaImage/37014565028059"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_182b807f-903e-4ed9-a266-9ed1f5867109.png?v=1748867272",
+          "altText": "Moringa Facial Oil — product image 7 of 7",
+          "mediaId": "gid://shopify/MediaImage/37014565060827"
+        }
+      ],
+      "totalVariants": 1,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/46844296167643",
+          "title": "Default Title",
+          "sku": "FOMO100",
+          "price": "1699.00",
+          "inventoryQuantity": 0
+        }
+      ],
+      "currencyCode": "INR"
+    }
+  }
+}

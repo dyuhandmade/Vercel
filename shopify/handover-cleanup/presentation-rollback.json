@@ -1,0 +1,12 @@
+{
+  "status": "prepared_not_executed",
+  "requires": "Fresh read must still match presentation-after.json before restoring; do not replay after merchant changes.",
+  "input": {
+    "id": "gid://shopify/Collection/513925775579",
+    "handle": "frontpage",
+    "title": "Home page",
+    "descriptionHtml": "",
+    "image": null
+  },
+  "imageRemoval": "Verify native image is null after applying; use native collection image removal UI if API null input does not remove it. Never delete the source product file."
+}

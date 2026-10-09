@@ -1,0 +1,174 @@
+{
+  "results": [
+    {
+      "path": "/collections/frontpage",
+      "status": 200,
+      "description": "Explore Home page from DYUhandmade. Discover the products, photographs, and available options in this collection.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/almond",
+      "status": 200,
+      "description": "Explore Almond in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/almond-oil",
+      "status": 200,
+      "description": "Explore Almond oil in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/camphor",
+      "status": 200,
+      "description": "Explore Camphor in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/charcoal",
+      "status": 200,
+      "description": "Explore Charcoal in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/clay",
+      "status": 200,
+      "description": "Explore Clay in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/coffee",
+      "status": 200,
+      "description": "Explore Coffee in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/jasmine",
+      "status": 200,
+      "description": "Explore Jasmine in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/lavender",
+      "status": 200,
+      "description": "Explore Lavender in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/mint",
+      "status": 200,
+      "description": "Explore Mint in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/moringa",
+      "status": 200,
+      "description": "Explore Moringa in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/neem",
+      "status": 200,
+      "description": "Explore Neem in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/olive",
+      "status": 200,
+      "description": "Explore Olive in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/orange",
+      "status": 200,
+      "description": "Explore orange in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/pink-salt",
+      "status": 200,
+      "description": "Explore Pink salt in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/rose",
+      "status": 200,
+      "description": "Explore Rose in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/rosemary",
+      "status": 200,
+      "description": "Explore Rosemary in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/sandalwood",
+      "status": 200,
+      "description": "Explore Sandalwood in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/tea-tree",
+      "status": 200,
+      "description": "Explore Tea tree in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/tea-tree-oil",
+      "status": 200,
+      "description": "Explore Tea tree oil in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/vanilla",
+      "status": 200,
+      "description": "Explore Vanilla in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/vitamin-a",
+      "status": 200,
+      "description": "Explore Vitamin A in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/vitamin-c",
+      "status": 200,
+      "description": "Explore Vitamin C in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/ingredients/vitamin-e",
+      "status": 200,
+      "description": "Explore Vitamin E in the DYUhandmade ingredient atlas. Find connected products and published ingredient information.",
+      "canonical": "",
+      "robots": "noindex, nofollow"
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

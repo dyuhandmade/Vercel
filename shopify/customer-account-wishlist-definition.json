@@ -1,0 +1,12 @@
+{
+  "definition": {
+    "name": "DYU wishlist",
+    "description": "Product handles saved by this customer. Used by the DYU storefront and available to merchant tools. Never exposed through the public Storefront API.",
+    "namespace": "dyu",
+    "key": "wishlist",
+    "type": "list.single_line_text_field",
+    "ownerType": "CUSTOMER",
+    "access": {"customerAccount": "READ_WRITE", "storefront": "NONE"},
+    "validations": [{"name": "list.max", "value": "100"}]
+  }
+}

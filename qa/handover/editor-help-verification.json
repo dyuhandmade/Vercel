@@ -1,0 +1,18 @@
+{
+  "verifiedAt": "2026-10-04T09:28:39.172Z",
+  "definition": "gid://shopify/MetaobjectDefinition/25469288667",
+  "remoteMutationPerformed": false,
+  "fields": [
+    {
+      "key": "enabled",
+      "name": "Show this section",
+      "description": "Show or hide this optional section without deleting its saved content. A hidden home hero is removed completely. Some required commerce controls stay visible."
+    },
+    {
+      "key": "sort_order",
+      "name": "Display order",
+      "description": "Display order for carousel slides, navigation, FAQ, journal and repeatable entries. Homepage section order is set in Home · Section order."
+    }
+  ],
+  "localChange": "Aligned sort_order help with already-correct live definition."
+}

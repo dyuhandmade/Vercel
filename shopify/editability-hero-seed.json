@@ -1,0 +1,30 @@
+[
+  {
+    "handle": "home-hero",
+    "fields": {"carousel_autoplay": true, "carousel_interval": 2000, "sort_order": 1}
+  },
+  {
+    "handle": "home-hero-slide-2",
+    "fields": {"name": "Home · Hero slide 2", "enabled": true, "sort_order": 2, "image": "/images/atelier-ritual-v2.webp", "image_alt": "A quiet botanical care ritual", "image_position": "center"}
+  },
+  {
+    "handle": "home-hero-slide-3",
+    "fields": {"name": "Home · Hero slide 3", "enabled": true, "sort_order": 3, "image": "/images/botanical-study.webp", "image_alt": "Botanical forms and natural textures", "image_position": "center"}
+  },
+  {
+    "handle": "home-hero-slide-4",
+    "fields": {"name": "Home · Hero slide 4", "enabled": true, "sort_order": 4, "image": "/images/atelier-craft-v2.webp", "image_alt": "Thoughtful handmade care in the atelier", "image_position": "center"}
+  },
+  {
+    "handle": "shop-page",
+    "fields": {"name": "Shop · Introduction", "enabled": true, "eyebrow": "THE DYU COLLECTION", "title": "A ritual for", "title_emphasis": "every kind of day.", "body": "For the morning light. For the quiet evening.\nFor a small moment that belongs to you."}
+  },
+  {
+    "handle": "shop-hero",
+    "fields": {"name": "Shop · Default hero artwork or 3D product", "enabled": true, "caption": "A STUDY IN NATURE", "display_mode": "3d", "image_position": "center"}
+  },
+  {
+    "handle": "collection-page",
+    "fields": {"name": "Collections · Default introduction and hero", "enabled": true, "eyebrow": "THE COLLECTION", "image_position": "center"}
+  }
+]

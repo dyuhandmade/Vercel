@@ -1,0 +1,206 @@
+[
+  {
+    "handle": "shop-hero-cold-processed-soap",
+    "fields": {
+      "name": "Collection hero · Cold processed Soap"
+    }
+  },
+  {
+    "handle": "shop-hero-gift-set",
+    "fields": {
+      "name": "Collection hero · Gift Set"
+    }
+  },
+  {
+    "handle": "shop-hero-facial-ubtan",
+    "fields": {
+      "name": "Collection hero · Facial Ubtan"
+    }
+  },
+  {
+    "handle": "shop-hero-facial-cleanser",
+    "fields": {
+      "name": "Collection hero · Facial Cleanser"
+    }
+  },
+  {
+    "handle": "shop-hero-facial-oil",
+    "fields": {
+      "name": "Collection hero · Facial Oil"
+    }
+  },
+  {
+    "handle": "shop-hero-body-moisturiser",
+    "fields": {
+      "name": "Collection hero · Body Moisturiser"
+    }
+  },
+  {
+    "handle": "shop-hero-hair-care",
+    "fields": {
+      "name": "Collection hero · Hair Care"
+    }
+  },
+  {
+    "handle": "shop-hero-face-body-oil",
+    "fields": {
+      "name": "Collection hero · Face & Body Oil"
+    }
+  },
+  {
+    "handle": "shop-hero-facial-cleanser-ubtan",
+    "fields": {
+      "name": "Collection hero · Facial Cleanser/ Ubtan"
+    }
+  },
+  {
+    "handle": "shop-hero-ubtan",
+    "fields": {
+      "name": "Collection hero · Ubtan"
+    }
+  },
+  {
+    "handle": "collection-frontpage",
+    "fields": {
+      "name": "Collection page · Home page"
+    }
+  },
+  {
+    "handle": "ingredient-almond",
+    "fields": {
+      "name": "Ingredient page · Almond"
+    }
+  },
+  {
+    "handle": "ingredient-almond-oil",
+    "fields": {
+      "name": "Ingredient page · Almond oil"
+    }
+  },
+  {
+    "handle": "ingredient-camphor",
+    "fields": {
+      "name": "Ingredient page · Camphor"
+    }
+  },
+  {
+    "handle": "ingredient-charcoal",
+    "fields": {
+      "name": "Ingredient page · Charcoal"
+    }
+  },
+  {
+    "handle": "ingredient-clay",
+    "fields": {
+      "name": "Ingredient page · Clay"
+    }
+  },
+  {
+    "handle": "ingredient-coffee",
+    "fields": {
+      "name": "Ingredient page · Coffee"
+    }
+  },
+  {
+    "handle": "ingredient-jasmine",
+    "fields": {
+      "name": "Ingredient page · Jasmine"
+    }
+  },
+  {
+    "handle": "ingredient-lavender",
+    "fields": {
+      "name": "Ingredient page · Lavender"
+    }
+  },
+  {
+    "handle": "ingredient-mint",
+    "fields": {
+      "name": "Ingredient page · Mint"
+    }
+  },
+  {
+    "handle": "ingredient-moringa",
+    "fields": {
+      "name": "Ingredient page · Moringa"
+    }
+  },
+  {
+    "handle": "ingredient-neem",
+    "fields": {
+      "name": "Ingredient page · Neem"
+    }
+  },
+  {
+    "handle": "ingredient-olive",
+    "fields": {
+      "name": "Ingredient page · Olive"
+    }
+  },
+  {
+    "handle": "ingredient-orange",
+    "fields": {
+      "name": "Ingredient page · orange"
+    }
+  },
+  {
+    "handle": "ingredient-pink-salt",
+    "fields": {
+      "name": "Ingredient page · Pink salt"
+    }
+  },
+  {
+    "handle": "ingredient-rose",
+    "fields": {
+      "name": "Ingredient page · Rose"
+    }
+  },
+  {
+    "handle": "ingredient-rosemary",
+    "fields": {
+      "name": "Ingredient page · Rosemary"
+    }
+  },
+  {
+    "handle": "ingredient-sandalwood",
+    "fields": {
+      "name": "Ingredient page · Sandalwood"
+    }
+  },
+  {
+    "handle": "ingredient-tea-tree",
+    "fields": {
+      "name": "Ingredient page · Tea tree"
+    }
+  },
+  {
+    "handle": "ingredient-tea-tree-oil",
+    "fields": {
+      "name": "Ingredient page · Tea tree oil"
+    }
+  },
+  {
+    "handle": "ingredient-vanilla",
+    "fields": {
+      "name": "Ingredient page · Vanilla"
+    }
+  },
+  {
+    "handle": "ingredient-vitamin-a",
+    "fields": {
+      "name": "Ingredient page · Vitamin A"
+    }
+  },
+  {
+    "handle": "ingredient-vitamin-c",
+    "fields": {
+      "name": "Ingredient page · Vitamin C"
+    }
+  },
+  {
+    "handle": "ingredient-vitamin-e",
+    "fields": {
+      "name": "Ingredient page · Vitamin E"
+    }
+  }
+]

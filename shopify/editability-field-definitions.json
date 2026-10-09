@@ -1,0 +1,36 @@
+[
+  {
+    "key": "carousel_autoplay",
+    "name": "Automatically rotate hero slides",
+    "type": "boolean",
+    "description": "Home hero only. Turn off to keep the first enabled slide until a visitor chooses another."
+  },
+  {
+    "key": "carousel_interval",
+    "name": "Hero slide duration (milliseconds)",
+    "type": "number_integer",
+    "description": "Home hero only. 2000 = 2 seconds, 5000 = 5 seconds. Defaults to 2000.",
+    "validations": [
+      {
+        "name": "min",
+        "value": "2000"
+      },
+      {
+        "name": "max",
+        "value": "20000"
+      }
+    ]
+  },
+  {
+    "key": "display_mode",
+    "name": "Image or 3D display",
+    "type": "single_line_text_field",
+    "description": "Shop/collection hero: 3d uses the selected product photograph as a 3D study; image displays its photograph. Uploaded section images take priority. Ingredient sections also accept image.",
+    "validations": [
+      {
+        "name": "choices",
+        "value": "[\"image\",\"3d\"]"
+      }
+    ]
+  }
+]

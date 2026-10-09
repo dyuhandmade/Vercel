@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-10-04T09:33:53.536Z",
+  "origin": "http://127.0.0.1:3001",
+  "scope": "Anonymous read-only checks against the built preview; does not place an order or verify a payment.",
+  "checks": [
+    {
+      "path": "/.env.local",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/.git/config",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/src/lib/customer-auth.ts",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/qa/accounts/preview/processes.json",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/shopify/backups/2026-10-04-before-editability.json",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/api/account/orders",
+      "status": 401,
+      "privateNoStore": true
+    },
+    {
+      "path": "/api/account/addresses",
+      "status": 401,
+      "privateNoStore": true
+    },
+    {
+      "path": "/api/account/wishlist",
+      "status": 401,
+      "privateNoStore": true
+    },
+    {
+      "path": "/api/account",
+      "status": 200,
+      "anonymous": true,
+      "noCustomerData": true,
+      "privateNoStore": true
+    },
+    {
+      "path": "/api/account/profile",
+      "method": "GET",
+      "status": 405
+    },
+    {
+      "path": "/api/health",
+      "status": 200,
+      "ready": true,
+      "productCount": 27
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "previewNoIndex": true,
+      "robotsDisallowAll": true,
+      "emptyPreviewSitemap": true,
+      "securityHeaders": true
+    }
+  ]
+}

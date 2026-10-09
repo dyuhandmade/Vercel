@@ -5,15 +5,15 @@ import {Component,useCallback,useEffect,useId,useRef,useState,type KeyboardEvent
 import {motion,useInView,useMotionValue,useMotionValueEvent,useScroll} from 'motion/react';
 import {useReducedMotionPreference} from '@/lib/use-reduced-motion';
 import {ArrowDown,Leaf,RotateCcw} from 'lucide-react';
-import type {StoryItem} from '@/lib/types';
+import type {Product} from '@/lib/types';
 import type {ContentSection} from '@/lib/site-content';
 import {botanicalStudies} from '@/lib/atelier';
-import IngredientAtlas from './IngredientAtlas';
+import HomepageIngredients,{type HomepageIngredient} from './HomepageIngredients';
 import './ingredient-discovery.css';
 
 const AssemblyCanvas=dynamic(()=>import('./IngredientAssemblyCanvas'),{ssr:false});
 class AssemblyBoundary extends Component<{children:ReactNode;onError:()=>void},{failed:boolean}>{state={failed:false};static getDerivedStateFromError(){return {failed:true};}componentDidCatch(){this.props.onError();}render(){return this.state.failed?null:this.props.children;}}
-type Props={items?:StoryItem[];shape?:string;tone?:string;content?:ContentSection};
+type Props={items?:HomepageIngredient[];products?:Product[];shape?:string;tone?:string;content?:ContentSection;labels?:ContentSection};
 
 function BotanicalDiscovery({shape='jar',tone='#95602f',content}:Props){
  const container=useRef<HTMLDivElement>(null),stage=useRef<HTMLDivElement>(null),sticky=useRef<HTMLDivElement>(null);
@@ -49,7 +49,7 @@ function BotanicalDiscovery({shape='jar',tone='#95602f',content}:Props){
   stage.current?.scrollIntoView({block:'center',behavior:reduced?'instant':'smooth'});
  }
  const botanical=botanicalStudies[selected];
- const showCanvas=inView&&!failed&&(!reduced||controlled);
+ const showCanvas=content?.displayMode!=='image'&&(content?.displayMode==='3d'||(!content?.image&&!content?.mobileImage))&&inView&&!failed&&(!reduced||controlled);
  const visible3d=showCanvas&&ready;
  useEffect(()=>{if(!showCanvas)setReady(false);},[showCanvas]);
  useEffect(()=>{
@@ -68,7 +68,7 @@ function BotanicalDiscovery({shape='jar',tone='#95602f',content}:Props){
    <div className="botanical-heading"><div><span className="eyebrow">{content?.eyebrow||'LOOK WITHIN / A BOTANICAL STUDY'}</span><h2>{content?.title||'A little world.'}<br/><em>{content?.titleEmphasis||'Waiting to unfold.'}</em></h2></div><p>{content?.body||<>{reduced?'Open the object. Choose a botanical.':'Scroll to open. Touch a detail.'}<br/>A closer look changes everything.</>}</p></div>
    <div className="botanical-stage" ref={stage}>
     <div className="botanical-orbit" aria-hidden="true"/>
-    <div className={`botanical-poster ${visible3d?'botanical-poster-hidden':''}`} aria-hidden="true"><Image src={`/images/${shape}-atelier.png`} alt="" fill sizes="(max-width:600px) 38vw, 30vw"/></div>
+    <div className={`botanical-poster ${visible3d?'botanical-poster-hidden':''}`}><picture>{content?.mobileImage&&<source media="(max-width: 760px)" srcSet={content.mobileImage}/>}<Image src={content?.image||`/images/${shape}-atelier.png`} alt={content?.imageAlt||''} fill sizes="(max-width:600px) 38vw, 30vw" style={{objectPosition:content?.imagePosition}}/></picture></div>
     {showCanvas&&<div className="botanical-webgl"><AssemblyBoundary key={attempt} onError={markFailed}><AssemblyCanvas progress={progress} shape={shape} tone={tone} selected={selected} reduced={!!reduced} onReady={markReady} onError={markFailed}/></AssemblyBoundary></div>}
     <div className="botanical-nodes" role="group" aria-label="Explore botanical forms" aria-describedby={`${id}-keys`}>{botanicalStudies.map((item,index)=><button type="button" className={`botanical-node botanical-node-${index}`} key={item.name} ref={node=>{choices.current[index]=node;}} aria-label={`Explore ${item.name}`} aria-pressed={selected===index} aria-controls={`${id}-detail`} onClick={()=>selectBotanical(index)} onKeyDown={event=>navigateBotanicals(event,index)}><span className="botanical-node-ring"><span className="botanical-node-number">0{index+1}</span>{!visible3d&&<Leaf size={25} strokeWidth={1}/>}</span><span className="botanical-node-label">{item.name}</span></button>)}</div>
     <span id={`${id}-keys`} className="botanical-keyboard-help">Use the arrow keys to explore the botanical forms. Home chooses the first and End the last.</span>
@@ -83,8 +83,9 @@ function BotanicalDiscovery({shape='jar',tone='#95602f',content}:Props){
  </div>;
 }
 
-export default function IngredientDiscovery({items=[],...props}:Props){
+export default function IngredientDiscovery({items=[],products=[],...props}:Props){
  // Approved catalogue ingredients keep their own images and descriptions.
- if(items.length)return <div className="ingredient-catalogue-discovery"><div className="botanical-heading"><div><span className="eyebrow">{props.content?.eyebrow||'LOOK WITHIN / THE INGREDIENT STORY'}</span><h2>{props.content?.title||'Every detail.'}<br/><em>{props.content?.titleEmphasis||'Worth knowing.'}</em></h2></div><p>{props.content?.body||'Choose an ingredient to discover its story.'}</p></div><IngredientAtlas items={items}/></div>;
+ if(props.content?.enabled===false)return null;
+ if(items.length)return <HomepageIngredients items={items} products={products} content={props.content} labels={props.labels}/>;
  return <BotanicalDiscovery {...props}/>;
 }

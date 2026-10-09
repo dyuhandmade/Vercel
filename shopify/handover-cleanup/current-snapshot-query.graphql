@@ -1,0 +1,14 @@
+query CleanupCurrentSnapshot($after: String) {
+ shop { id myshopifyDomain }
+ products(first: 50, after: $after) {
+  nodes {
+   id handle title descriptionHtml updatedAt status tags vendor productType totalInventory
+   variants(first: 100) { nodes { id title price compareAtPrice inventoryQuantity } pageInfo { hasNextPage endCursor } }
+   media(first: 50) {
+    nodes { ... on MediaImage { id alt fileStatus updatedAt image { id url altText } } }
+    pageInfo { hasNextPage endCursor }
+   }
+  }
+  pageInfo { hasNextPage endCursor }
+ }
+}

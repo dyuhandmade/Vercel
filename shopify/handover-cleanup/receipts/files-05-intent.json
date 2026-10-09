@@ -1,0 +1,461 @@
+{
+  "at": "2026-10-04T09:27:40.691Z",
+  "batch": 5,
+  "currentBefore": [
+    {
+      "productId": "gid://shopify/Product/8971085185243",
+      "handle": "lavendar-haze-soap-bar-60-gm",
+      "title": "Lavendar Haze Soap Bar - 60 gm",
+      "id": "gid://shopify/MediaImage/37932472238299",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:15:12Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37932472238299",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_86aced20-1985-44fe-a45b-ade009dccaca.png?v=1755942863",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8971085185243",
+      "handle": "lavendar-haze-soap-bar-60-gm",
+      "title": "Lavendar Haze Soap Bar - 60 gm",
+      "id": "gid://shopify/MediaImage/37932472205531",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:15:12Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37932472205531",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_bedc75c6-6e5c-40b0-9a4b-3ad94d9d6fca.png?v=1755942862",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8971085185243",
+      "handle": "lavendar-haze-soap-bar-60-gm",
+      "title": "Lavendar Haze Soap Bar - 60 gm",
+      "id": "gid://shopify/MediaImage/37932472434907",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:15:12Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37932472434907",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_31c59989-36a8-4d8c-84f9-bf5b120ec42f.png?v=1755942863",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8971085185243",
+      "handle": "lavendar-haze-soap-bar-60-gm",
+      "title": "Lavendar Haze Soap Bar - 60 gm",
+      "id": "gid://shopify/MediaImage/37932472697051",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:15:12Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37932472697051",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_a2139c84-9928-4e81-8008-1f32b9bac65d.png?v=1755942864",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8971085185243",
+      "handle": "lavendar-haze-soap-bar-60-gm",
+      "title": "Lavendar Haze Soap Bar - 60 gm",
+      "id": "gid://shopify/MediaImage/37932472271067",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:15:12Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37932472271067",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/8.png?v=1755942863",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974567407835",
+      "handle": "rose-reset-cold-process-soap",
+      "title": "Rose Reset Soap Bar",
+      "id": "gid://shopify/MediaImage/38011647394011",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:25:46Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38011647394011",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_220818c3-38a8-4d2f-95a5-fa727f3ce614.png?v=1756376578",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974567407835",
+      "handle": "rose-reset-cold-process-soap",
+      "title": "Rose Reset Soap Bar",
+      "id": "gid://shopify/MediaImage/38011647426779",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:25:46Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38011647426779",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_074718ba-f0ba-4f68-8abf-33c09eb3a704.png?v=1756376578",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974567407835",
+      "handle": "rose-reset-cold-process-soap",
+      "title": "Rose Reset Soap Bar",
+      "id": "gid://shopify/MediaImage/38011647459547",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:25:46Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38011647459547",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_8b3ebbf4-e499-40ea-ad19-ff508709cbd8.png?v=1756376578",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974567407835",
+      "handle": "rose-reset-cold-process-soap",
+      "title": "Rose Reset Soap Bar",
+      "id": "gid://shopify/MediaImage/38011647492315",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:25:46Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38011647492315",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_5b9793c1-dc96-4180-8ecc-b7281924c79e.png?v=1756376578",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974567407835",
+      "handle": "rose-reset-cold-process-soap",
+      "title": "Rose Reset Soap Bar",
+      "id": "gid://shopify/MediaImage/38011647525083",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:25:46Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38011647525083",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_02281caa-4335-460b-99a8-35f8302e11af.png?v=1756376578",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974634778843",
+      "handle": "tea-tree-trip-soap-bar",
+      "title": "Tea Tree Trip Soap Bar",
+      "id": "gid://shopify/MediaImage/38012152119515",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:25:49Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38012152119515",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_745d5475-fd94-4e18-8c37-710fcab926c2.png?v=1756379184",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974634778843",
+      "handle": "tea-tree-trip-soap-bar",
+      "title": "Tea Tree Trip Soap Bar",
+      "id": "gid://shopify/MediaImage/38012152152283",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:25:49Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38012152152283",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_94cd04ca-6715-491c-a76b-45da4c53c387.png?v=1756379184",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974634778843",
+      "handle": "tea-tree-trip-soap-bar",
+      "title": "Tea Tree Trip Soap Bar",
+      "id": "gid://shopify/MediaImage/38012152185051",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:25:49Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38012152185051",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_145f01a9-2258-430e-8904-3fced3d66960.png?v=1756379183",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974634778843",
+      "handle": "tea-tree-trip-soap-bar",
+      "title": "Tea Tree Trip Soap Bar",
+      "id": "gid://shopify/MediaImage/38012152217819",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:25:49Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38012152217819",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_535d7bfb-70b7-40ed-9f01-01b43fae4fe8.png?v=1756379183",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974634778843",
+      "handle": "tea-tree-trip-soap-bar",
+      "title": "Tea Tree Trip Soap Bar",
+      "id": "gid://shopify/MediaImage/38012152250587",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:25:49Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38012152250587",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_05e31c7c-9b80-428a-bbba-9a30d670b188.png?v=1756379183",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974634778843",
+      "handle": "tea-tree-trip-soap-bar",
+      "title": "Tea Tree Trip Soap Bar",
+      "id": "gid://shopify/MediaImage/38012152283355",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:25:49Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38012152283355",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_d19974bf-81f4-4457-bb1b-a84c7f6d13f6.png?v=1756379184",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974634778843",
+      "handle": "tea-tree-trip-soap-bar",
+      "title": "Tea Tree Trip Soap Bar",
+      "id": "gid://shopify/MediaImage/38012152316123",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:25:49Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38012152316123",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_25eb16d0-1df5-463b-ab25-e7cced5419a7.png?v=1756379184",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994673295579",
+      "handle": "mud-face-wash",
+      "title": "Mud Face Wash",
+      "id": "gid://shopify/MediaImage/38365789290715",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T10:53:57Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38365789290715",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/MudFaceWash.jpg?v=1758192288",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994674114779",
+      "handle": "rosemary-olive-hair-oil",
+      "title": "Rosemary Olive Hair Oil",
+      "id": "gid://shopify/MediaImage/38365991862491",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T10:53:58Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38365991862491",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_8260560c-a9a6-4df2-88d2-d25ea23b8b42.png?v=1758194270",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994674114779",
+      "handle": "rosemary-olive-hair-oil",
+      "title": "Rosemary Olive Hair Oil",
+      "id": "gid://shopify/MediaImage/38365991895259",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T10:53:58Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38365991895259",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_bf54f428-7d9c-4b2a-8177-e2fe2ce98361.png?v=1758194270",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994674114779",
+      "handle": "rosemary-olive-hair-oil",
+      "title": "Rosemary Olive Hair Oil",
+      "id": "gid://shopify/MediaImage/38365991928027",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T10:53:58Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38365991928027",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_94d96f92-4c5d-4668-a17f-69514d3be14e.png?v=1758194270",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994674114779",
+      "handle": "rosemary-olive-hair-oil",
+      "title": "Rosemary Olive Hair Oil",
+      "id": "gid://shopify/MediaImage/38365991960795",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T10:53:58Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38365991960795",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_eed128ac-2844-4d73-9ed8-1ee8578321a7.png?v=1758194270",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994674114779",
+      "handle": "rosemary-olive-hair-oil",
+      "title": "Rosemary Olive Hair Oil",
+      "id": "gid://shopify/MediaImage/38365991993563",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T10:53:58Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38365991993563",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_cc21fe13-9286-40c6-9312-8866c432b3af.png?v=1758194270",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994674114779",
+      "handle": "rosemary-olive-hair-oil",
+      "title": "Rosemary Olive Hair Oil",
+      "id": "gid://shopify/MediaImage/38365992026331",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T10:53:58Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38365992026331",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_f91a861a-6b70-46de-a75d-20fbd99bd154.png?v=1758194270",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994674114779",
+      "handle": "rosemary-olive-hair-oil",
+      "title": "Rosemary Olive Hair Oil",
+      "id": "gid://shopify/MediaImage/38365992059099",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T10:53:58Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38365992059099",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_684376bb-0a6c-450d-97f1-3a2b337911c8.png?v=1758194270",
+        "altText": ""
+      }
+    }
+  ],
+  "variables": {
+    "files": [
+      {
+        "id": "gid://shopify/MediaImage/37932472238299",
+        "alt": "Lavendar Haze Soap Bar - 60 gm — product image 3 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37932472205531",
+        "alt": "Lavendar Haze Soap Bar - 60 gm — product image 4 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37932472434907",
+        "alt": "Lavendar Haze Soap Bar - 60 gm — product image 5 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37932472697051",
+        "alt": "Lavendar Haze Soap Bar - 60 gm — product image 6 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37932472271067",
+        "alt": "Lavendar Haze Soap Bar - 60 gm — product image 7 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38011647394011",
+        "alt": "Rose Reset Soap Bar — product image 1 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38011647426779",
+        "alt": "Rose Reset Soap Bar — product image 2 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38011647459547",
+        "alt": "Rose Reset Soap Bar — product image 3 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38011647492315",
+        "alt": "Rose Reset Soap Bar — product image 4 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38011647525083",
+        "alt": "Rose Reset Soap Bar — product image 5 of 5"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38012152119515",
+        "alt": "Tea Tree Trip Soap Bar — product image 1 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38012152152283",
+        "alt": "Tea Tree Trip Soap Bar — product image 2 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38012152185051",
+        "alt": "Tea Tree Trip Soap Bar — product image 3 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38012152217819",
+        "alt": "Tea Tree Trip Soap Bar — product image 4 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38012152250587",
+        "alt": "Tea Tree Trip Soap Bar — product image 5 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38012152283355",
+        "alt": "Tea Tree Trip Soap Bar — product image 6 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38012152316123",
+        "alt": "Tea Tree Trip Soap Bar — product image 7 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38365789290715",
+        "alt": "Mud Face Wash — product image 1 of 1"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38365991862491",
+        "alt": "Rosemary Olive Hair Oil — product image 1 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38365991895259",
+        "alt": "Rosemary Olive Hair Oil — product image 2 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38365991928027",
+        "alt": "Rosemary Olive Hair Oil — product image 3 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38365991960795",
+        "alt": "Rosemary Olive Hair Oil — product image 4 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38365991993563",
+        "alt": "Rosemary Olive Hair Oil — product image 5 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38365992026331",
+        "alt": "Rosemary Olive Hair Oil — product image 6 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38365992059099",
+        "alt": "Rosemary Olive Hair Oil — product image 7 of 9"
+      }
+    ]
+  },
+  "skipped": []
+}

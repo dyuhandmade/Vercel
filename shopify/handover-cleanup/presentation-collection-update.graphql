@@ -1,0 +1,1 @@
+mutation CompleteExistingCollectionPresentation($input:CollectionInput!) { collectionUpdate(input:$input) { collection { id handle title descriptionHtml updatedAt image { id url altText } } userErrors { field message } } }

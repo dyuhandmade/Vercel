@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 3\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** brand-image-editable-baseline\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL query against schema.\nRequired scopes: read_metaobject_definitions, read_metaobjects, read_products, read_files, read_themes, read_orders, read_draft_orders, read_images, read_quick_sale\n\n### Code Block 2\n**Artifact ID:** brand-image-editable-update\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\nRequired scopes: write_metaobjects, read_metaobjects\n\n### Code Block 3\n**Artifact ID:** brand-logo-alt-update\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\nRequired scopes: write_files, write_themes, read_products, read_files, read_themes, read_orders, read_draft_orders, read_images, read_quick_sale\n\n"
+    }
+  ],
+  "isError": false
+}

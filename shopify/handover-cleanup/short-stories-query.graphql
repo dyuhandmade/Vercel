@@ -1,0 +1,9 @@
+query CleanupShortStories($ids: [ID!]!) {
+ shop { id }
+ nodes(ids: $ids) {
+  ... on Product {
+   id handle title descriptionHtml
+   metafield(namespace: "dyu", key: "short_story") { id namespace key type value compareDigest }
+  }
+ }
+}

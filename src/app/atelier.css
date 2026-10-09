@@ -35,3 +35,36 @@ body{background:var(--paper)}h1,h2,h3{color:var(--forest)}em{color:var(--olive-t
 .ritual-manifesto{isolation:isolate}.atlas-pager{flex-wrap:wrap}.atlas-pager button{flex-shrink:0;min-width:44px;min-height:44px}.craft-tab-panel:focus-visible{outline:2px solid #c3cdb7;outline-offset:6px}.craft-stage>img{animation:none;transition:object-position .6s ease}.atlas-material-placeholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;padding:90px 30px;background:linear-gradient(135deg,#dce1d3,#e7dfd0);color:var(--forest);text-align:center}.atlas-material-placeholder>span{font:2.8rem/1.1 var(--serif);overflow-wrap:anywhere}.atlas-material-placeholder small{font-size:.8rem;color:var(--muted)}.atlas-catalogue .atlas-scene:has(.atlas-material-placeholder) .atlas-topline,.atlas-catalogue .atlas-scene:has(.atlas-material-placeholder) .eyebrow,.atlas-catalogue .atlas-scene:has(.atlas-material-placeholder) .atlas-caption{color:var(--forest)}
 @media(prefers-reduced-motion:reduce){.craft-stage>img{transition:none}}
 .mega-menu{max-height:calc(100dvh - 155px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}.atlas-detail h3{overflow-wrap:anywhere}
+
+/* Keep the complete desktop home hero, including its lower labels, within one viewport. */
+@media(min-width:1351px){
+ .atelier-home .atelier-hero{
+  height:calc(100vh - 17px);
+  height:calc(100svh - 17px);
+  min-height:0;
+  padding-top:clamp(118px,15svh,168px);
+  padding-bottom:78px;
+ }
+ .atelier-home .atelier-hero h1{
+  font-size:clamp(3rem,min(6vw,10.5svh),7.5rem);
+  line-height:.96;
+  margin-bottom:clamp(16px,2.2svh,25px);
+ }
+ .atelier-home .atelier-hero-copy>.eyebrow{margin-bottom:clamp(16px,2.4svh,26px)}
+ .atelier-home .atelier-hero-copy>p:not(.eyebrow){line-height:1.62;margin-bottom:clamp(16px,2.1svh,24px)}
+ .atelier-home .hero-principles{margin-top:clamp(18px,3.1svh,34px)}
+ .atelier-home .hero-explore{bottom:clamp(70px,9svh,96px)}
+ .atelier-home .atelier-hero-bottom{bottom:clamp(18px,2.6svh,27px)}
+}
+
+/* Give the 3D dialog a balanced ten-percent breathing space above and below. */
+@media(min-width:541px){
+ .overlay.immersive-overlay{
+  height:80dvh;
+  max-height:80dvh;
+  overflow-y:auto;
+ }
+ .overlay.immersive-overlay.atelier-preview-overlay .atelier-preview-stage .product-visual{
+  height:clamp(280px,40dvh,380px);
+ }
+}

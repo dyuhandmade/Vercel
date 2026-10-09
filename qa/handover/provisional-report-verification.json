@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-04T10:22:13.499728+00:00",
+  "report": "output/pdf/DYU-Provisional-Handover-Report.pdf",
+  "status": "Provisional - pending final acceptance",
+  "pages": 17,
+  "bookmarks": 17,
+  "screenshotSources": 9,
+  "wordCount": 3569,
+  "fileBytes": 6445297,
+  "pageRendering": "All 17 pages rendered and visually reviewed; affected pages rechecked after layout and wording repairs.",
+  "textChecks": "Passed: expected metrics/sections, readable text, no replacement glyphs or credential parameter strings.",
+  "evidenceReview": "Independent content/admin, frontend/visual and backend/test review completed.",
+  "excluded": "Credentials and live customer records; account screenshot uses explicitly labelled fixtures.",
+  "authoringSource": "docs/report-source/build_provisional_handover.py"
+}

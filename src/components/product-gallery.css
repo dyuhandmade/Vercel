@@ -19,6 +19,8 @@
 .product-gallery-footer-single{padding-left:0;justify-content:center}
 .gallery-autoplay-toggle{display:flex;align-items:center;justify-content:center;gap:7px;min-height:36px;min-width:72px;padding:5px 12px;border:1px solid var(--line);border-radius:20px;font-size:.64rem;color:var(--forest);flex-shrink:0}
 .gallery-autoplay-toggle:hover{background:var(--cream);border-color:var(--muted)}
+.gallery-model-toggle{display:none;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 15px;border:1px solid var(--line);border-radius:24px;font-size:.68rem;color:var(--forest);flex-shrink:0}
+.gallery-model-toggle:hover{background:var(--cream);border-color:var(--muted)}
 .product-gallery-prefetch{position:absolute;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none}
 @media(max-width:1100px){.product-gallery-footer{padding-left:72px}.product-gallery-footer-single{padding-left:0}}
 @media(max-width:800px),(pointer:coarse) and (max-width:1024px){.product-gallery-footer{padding-left:78px}.product-gallery-footer-single{padding-left:0}}
@@ -42,3 +44,23 @@
 @media(max-width:1100px){.product-image-gallery{grid-template-columns:58px minmax(0,1fr);gap:14px}.product-image-single{grid-template-columns:minmax(0,1fr)}.product-media-split{gap:24px}.product-model-panel{padding-inline:7px}.product-model-stage .viewer-controls .drag-hint{font-size:.6rem}.product-model-stage .viewer-controls button{min-width:40px}}
 @media(max-width:800px),(pointer:coarse) and (max-width:1024px){.product-media-split{grid-template-columns:minmax(0,1fr);max-width:720px;margin:18px auto 0}.product-model-panel{display:none}.product-image-gallery{grid-template-columns:60px minmax(0,1fr);gap:18px}.product-image-single{grid-template-columns:minmax(0,1fr)}.product-gallery-caption{margin-left:78px}}
 @media(max-width:540px){.product-media-split{margin-top:17px}.product-image-gallery{grid-template-columns:48px minmax(0,1fr);gap:12px}.product-image-single{grid-template-columns:minmax(0,1fr)}.exhibit-gallery .product-thumbnail-rail .gallery-thumbs{gap:9px;padding:1px}.exhibit-gallery .product-thumbnail-rail .gallery-thumbs button{padding:2px}.product-gallery-caption{font-size:.6rem;margin-left:60px;margin-top:14px}.product-image-single+.product-gallery-caption{margin-left:0}}
+
+/* Phones share one stage: photographs first, with 3D loaded only on request. */
+@media(max-width:800px),(pointer:coarse) and (max-width:1024px){
+ .product-image-gallery{grid-template-columns:minmax(0,1fr);gap:14px}
+ .product-image-stage{grid-row:1}
+ .product-thumbnail-rail{grid-row:2;min-width:0}
+ .exhibit-gallery .product-thumbnail-rail .gallery-thumbs{position:relative;inset:auto;flex-direction:row;justify-content:safe center;gap:8px;padding:2px 0 5px;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;overscroll-behavior-y:auto;scrollbar-width:none}
+ .exhibit-gallery .product-thumbnail-rail .gallery-thumbs button{flex:0 0 calc((100% - 32px)/5);width:auto;max-width:72px;min-width:44px;min-height:44px;transform:none}
+ .product-gallery-footer,.product-gallery-footer-single{padding-left:0;justify-content:space-between;gap:12px;margin-top:10px}
+ .product-gallery-footer .product-gallery-caption{margin:0}
+ .gallery-autoplay-toggle{display:none}
+ .gallery-model-toggle{display:inline-flex}
+ .product-mobile-model-stage>.product-visual{width:100%;height:100%;overflow:hidden}
+ .product-mobile-model-stage .visual-photo,.product-mobile-model-stage .visual-model{object-fit:contain;padding:12px 5% 84px;mix-blend-mode:multiply}
+ .product-mobile-model-stage .viewer-controls{left:50%;right:auto;bottom:8px;transform:translateX(-50%);max-width:calc(100% - 12px);gap:2px;padding:4px;white-space:nowrap}
+ .product-mobile-model-stage .viewer-controls button{min-width:40px;min-height:40px}
+ .product-mobile-model-stage .drag-hint{font-size:.6rem}
+ .product-mobile-model-stage .photo-model-caption{bottom:62px;font-size:.5rem;line-height:1.4}
+ .product-mobile-model-stage .model-loading,.product-mobile-model-stage .model-note{left:5%;right:5%;bottom:64px;width:auto;white-space:normal;text-align:center;font-size:.62rem;line-height:1.4;padding:10px}
+}

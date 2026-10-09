@@ -1,0 +1,6728 @@
+{
+  "definition": {
+    "id": "gid://shopify/MetaobjectDefinition/25469288667",
+    "name": "DYU • Website content",
+    "type": "dyu_site_content",
+    "access": {
+      "admin": "PUBLIC_READ_WRITE",
+      "storefront": "PUBLIC_READ"
+    },
+    "fieldDefinitions": [
+      {
+        "key": "name",
+        "name": "Editor label",
+        "description": "Name shown in Shopify. Keep the entry handle unchanged; it identifies the site section.",
+        "type": {
+          "name": "single_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "100"
+          }
+        ]
+      },
+      {
+        "key": "eyebrow",
+        "name": "Eyebrow / small heading",
+        "description": "Short line above the heading.",
+        "type": {
+          "name": "single_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "100"
+          }
+        ]
+      },
+      {
+        "key": "title",
+        "name": "Heading",
+        "description": "Main heading. Line breaks are supported; layout stays managed by the site.",
+        "type": {
+          "name": "multi_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "160"
+          }
+        ]
+      },
+      {
+        "key": "title_emphasis",
+        "name": "Emphasized heading",
+        "description": "Optional italic part of the heading.",
+        "type": {
+          "name": "multi_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "160"
+          }
+        ]
+      },
+      {
+        "key": "body",
+        "name": "Body text",
+        "description": "Plain text only. Leave blank to keep the site default. Use short copy for home sections; longer paragraphs for journal or information pages.",
+        "type": {
+          "name": "multi_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "20000"
+          }
+        ]
+      },
+      {
+        "key": "image",
+        "name": "Desktop / section image",
+        "description": "Choose a Shopify image. Leaving this blank uses the existing site artwork.",
+        "type": {
+          "name": "file_reference"
+        },
+        "validations": [
+          {
+            "name": "file_type_options",
+            "value": "[\"Image\"]"
+          }
+        ]
+      },
+      {
+        "key": "mobile_image",
+        "name": "Mobile image",
+        "description": "Choose a Shopify image. Leaving this blank uses the existing site artwork.",
+        "type": {
+          "name": "file_reference"
+        },
+        "validations": [
+          {
+            "name": "file_type_options",
+            "value": "[\"Image\"]"
+          }
+        ]
+      },
+      {
+        "key": "image_alt",
+        "name": "Image description",
+        "description": "Describe the image for accessibility.",
+        "type": {
+          "name": "single_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "240"
+          }
+        ]
+      },
+      {
+        "key": "image_position",
+        "name": "Image focal position",
+        "description": "Safe crop position.",
+        "type": {
+          "name": "single_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "choices",
+            "value": "[\"left\",\"center\",\"right\",\"top\",\"bottom\"]"
+          }
+        ]
+      },
+      {
+        "key": "link_label",
+        "name": "Primary button text",
+        "description": "Keep labels short.",
+        "type": {
+          "name": "single_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "80"
+          }
+        ]
+      },
+      {
+        "key": "link_url",
+        "name": "Primary destination",
+        "description": "Use a local route (/shop), https URL, mailto: or tel:. Unsafe links are ignored by the site.",
+        "type": {
+          "name": "single_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "500"
+          }
+        ]
+      },
+      {
+        "key": "secondary_label",
+        "name": "Secondary button text",
+        "description": "Optional second button.",
+        "type": {
+          "name": "single_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "80"
+          }
+        ]
+      },
+      {
+        "key": "secondary_url",
+        "name": "Secondary destination",
+        "description": "Use a local route or https URL.",
+        "type": {
+          "name": "single_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "500"
+          }
+        ]
+      },
+      {
+        "key": "enabled",
+        "name": "Show this section",
+        "description": "Turn optional sections off without removing their content. Main hero always remains visible.",
+        "type": {
+          "name": "boolean"
+        },
+        "validations": []
+      },
+      {
+        "key": "sort_order",
+        "name": "Display order",
+        "description": "Orders repeatable FAQ/navigation/journal entries; fixed page composition remains protected.",
+        "type": {
+          "name": "number_integer"
+        },
+        "validations": [
+          {
+            "name": "min",
+            "value": "0"
+          },
+          {
+            "name": "max",
+            "value": "1000"
+          }
+        ]
+      },
+      {
+        "key": "products",
+        "name": "Selected products",
+        "description": "Choose products in display order. Native product data stays in Products.",
+        "type": {
+          "name": "list.product_reference"
+        },
+        "validations": [
+          {
+            "name": "list.max",
+            "value": "12"
+          }
+        ]
+      },
+      {
+        "key": "collections",
+        "name": "Selected collections",
+        "description": "Choose collections in display order.",
+        "type": {
+          "name": "list.collection_reference"
+        },
+        "validations": [
+          {
+            "name": "list.max",
+            "value": "12"
+          }
+        ]
+      },
+      {
+        "key": "items",
+        "name": "Short list items",
+        "description": "For bullet lists, captions, or navigation labels used by this section.",
+        "type": {
+          "name": "list.single_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "240"
+          },
+          {
+            "name": "list.max",
+            "value": "20"
+          }
+        ]
+      },
+      {
+        "key": "note",
+        "name": "Supporting note",
+        "description": "Short supporting line.",
+        "type": {
+          "name": "single_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "240"
+          }
+        ]
+      },
+      {
+        "key": "caption",
+        "name": "Caption",
+        "description": "Short caption beneath the content.",
+        "type": {
+          "name": "single_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "240"
+          }
+        ]
+      },
+      {
+        "key": "category",
+        "name": "Category",
+        "description": "Journal or information category.",
+        "type": {
+          "name": "single_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "100"
+          }
+        ]
+      },
+      {
+        "key": "read_time",
+        "name": "Reading time",
+        "description": "Example: 3 MIN READ.",
+        "type": {
+          "name": "single_line_text_field"
+        },
+        "validations": [
+          {
+            "name": "max",
+            "value": "40"
+          }
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "id": "gid://shopify/Metaobject/611150594267",
+      "handle": "home-hero",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Hero"
+        },
+        {
+          "key": "eyebrow",
+          "value": "WELCOME TO THE DIGITAL ATELIER"
+        },
+        {
+          "key": "title",
+          "value": "Rooted in nature.\nMade for"
+        },
+        {
+          "key": "title_emphasis",
+          "value": "slower moments."
+        },
+        {
+          "key": "body",
+          "value": "A little nature. A human touch.\nEveryday care, with a story worth knowing."
+        },
+        {
+          "key": "image",
+          "value": "gid://shopify/MediaImage/46365272408283"
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": "Illustrative DYUhandmade care products with botanicals, linen and sunlit stone"
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Discover your ritual"
+        },
+        {
+          "key": "link_url",
+          "value": "/shop"
+        },
+        {
+          "key": "secondary_label",
+          "value": "The story of DYU"
+        },
+        {
+          "key": "secondary_url",
+          "value": "/our-story"
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": "[\"Botanical inspiration\",\"The human touch\"]"
+        },
+        {
+          "key": "note",
+          "value": "TAKE YOUR TIME. THERE’S MORE TO DISCOVER."
+        },
+        {
+          "key": "caption",
+          "value": "NATURE / CRAFT / RITUAL"
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611150627035",
+      "handle": "home-hero-preview",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Hero 3D product preview"
+        },
+        {
+          "key": "eyebrow",
+          "value": "THE ATELIER, IN YOUR HANDS"
+        },
+        {
+          "key": "title",
+          "value": "Get a little closer."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Explore the collection in 3D"
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Meet the product"
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": "Choose an object. Turn it in your hands."
+        },
+        {
+          "key": "caption",
+          "value": "A closer look"
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611150659803",
+      "handle": "home-welcome",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Welcome note"
+        },
+        {
+          "key": "eyebrow",
+          "value": "NATURE. HANDS. YOUR EVERYDAY."
+        },
+        {
+          "key": "title",
+          "value": "Some things ask you to hurry."
+        },
+        {
+          "key": "title_emphasis",
+          "value": "This is a place to take your time."
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Discover the collections"
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611150692571",
+      "handle": "home-collections",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Featured collections"
+        },
+        {
+          "key": "eyebrow",
+          "value": "A PLACE TO BEGIN"
+        },
+        {
+          "key": "title",
+          "value": "What does your"
+        },
+        {
+          "key": "title_emphasis",
+          "value": "day need?"
+        },
+        {
+          "key": "body",
+          "value": "A fresh beginning. A quiet evening.\nA little something, just for someone."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Enter the collection"
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611150725339",
+      "handle": "home-craft",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Making story"
+        },
+        {
+          "key": "eyebrow",
+          "value": "THE ART OF MAKING"
+        },
+        {
+          "key": "title",
+          "value": "How it’s made."
+        },
+        {
+          "key": "title_emphasis",
+          "value": "One step at a time."
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Follow the making"
+        },
+        {
+          "key": "link_url",
+          "value": "/how-its-made"
+        },
+        {
+          "key": "secondary_label",
+          "value": "And in every detail, a reason to look closer."
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": "From an idea, to an object."
+        },
+        {
+          "key": "caption",
+          "value": "01 / THE HUMAN TOUCH"
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611150758107",
+      "handle": "home-ingredients",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Ingredient story"
+        },
+        {
+          "key": "eyebrow",
+          "value": "LOOK WITHIN / THE INGREDIENT STORY"
+        },
+        {
+          "key": "title",
+          "value": "Every detail."
+        },
+        {
+          "key": "title_emphasis",
+          "value": "Worth knowing."
+        },
+        {
+          "key": "body",
+          "value": "Choose an ingredient to discover its story."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Open the ingredient library"
+        },
+        {
+          "key": "link_url",
+          "value": "/ingredients"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611150790875",
+      "handle": "home-favorites",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Featured products"
+        },
+        {
+          "key": "eyebrow",
+          "value": "BRING A LITTLE OF THAT FEELING HOME"
+        },
+        {
+          "key": "title",
+          "value": "Find your"
+        },
+        {
+          "key": "title_emphasis",
+          "value": "everyday companion."
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Explore all rituals"
+        },
+        {
+          "key": "link_url",
+          "value": "/shop"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611150823643",
+      "handle": "home-journal",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Journal previews"
+        },
+        {
+          "key": "eyebrow",
+          "value": "KEEP A LITTLE CURIOSITY"
+        },
+        {
+          "key": "title",
+          "value": "Notes for"
+        },
+        {
+          "key": "title_emphasis",
+          "value": "slower days."
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "From the journal"
+        },
+        {
+          "key": "link_url",
+          "value": "/journal"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611150856411",
+      "handle": "home-journal-1",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Journal card 1"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "The quiet art of making\ntime for yourself."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": "gid://shopify/MediaImage/46365321199835"
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": "Illustrative quiet moment with linen and care vessels"
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": "/journal/making-space-for-a-ritual"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": "EVERYDAY RITUALS"
+        },
+        {
+          "key": "read_time",
+          "value": "3 MIN READ"
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611150889179",
+      "handle": "home-journal-2",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Journal card 2"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "A little curiosity\ngoes a long way."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": "gid://shopify/MediaImage/46365287842011"
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": "A study of botanical forms and textures"
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": "/journal/look-closer-at-your-care"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": "THOUGHTFUL CARE"
+        },
+        {
+          "key": "read_time",
+          "value": "3 MIN READ"
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611150921947",
+      "handle": "home-reassurance",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Discovery links"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": null
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611150954715",
+      "handle": "home-reassurance-1",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Ingredient discovery link"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": null
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Explore the ingredients"
+        },
+        {
+          "key": "link_url",
+          "value": "/ingredients"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611150987483",
+      "handle": "home-reassurance-2",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Making discovery link"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": null
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Discover the making"
+        },
+        {
+          "key": "link_url",
+          "value": "/how-its-made"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611151020251",
+      "handle": "home-reassurance-3",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · Shop discovery link"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": null
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Find your everyday ritual"
+        },
+        {
+          "key": "link_url",
+          "value": "/shop"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611151053019",
+      "handle": "home-reassurance-4",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Home · WhatsApp catalogue link"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": null
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Browse our WhatsApp catalogue"
+        },
+        {
+          "key": "link_url",
+          "value": "https://wa.me/c/919945945750"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611151708379",
+      "handle": "brand",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Brand identity"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "dyu"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "H A N D M A D E"
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": "DYUhandmade"
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611151741147",
+      "handle": "announcement",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Header · Announcement"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": null
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "A slower kind of care. A little closer to nature."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611151773915",
+      "handle": "header-menu",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Header · Collection menu"
+        },
+        {
+          "key": "eyebrow",
+          "value": "FIND YOUR EVERYDAY"
+        },
+        {
+          "key": "title",
+          "value": "A ritual.\nA little pause."
+        },
+        {
+          "key": "title_emphasis",
+          "value": "Just for you."
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Shop the whole collection"
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611151806683",
+      "handle": "nav-collection",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Navigation · The collection"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "The collection"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": "/shop"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611151839451",
+      "handle": "nav-story",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Navigation · Our story"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Our story"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": "/our-story"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611151872219",
+      "handle": "nav-ingredients",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Navigation · The ingredients"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "The ingredients"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": "/ingredients"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611151904987",
+      "handle": "nav-journal",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Navigation · The journal"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "The journal"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": "/journal"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611151937755",
+      "handle": "nav-making",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Navigation · How it is made"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "How it is made"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": "/how-its-made"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611151970523",
+      "handle": "nav-contact",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Navigation · Get in touch"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Get in touch"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": "/contact"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152003291",
+      "handle": "nav-faq",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Navigation · Frequently asked questions"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Frequently asked questions"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": "/faq"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152068827",
+      "handle": "nav-shipping",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Navigation · Shipping & returns"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Shipping & returns"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": "/policies/shipping"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152101595",
+      "handle": "nav-privacy",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Navigation · Privacy"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Privacy"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": "/policies/privacy"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152134363",
+      "handle": "nav-terms",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Navigation · Terms"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Terms"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": "/policies/terms"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152167131",
+      "handle": "nav-accessibility",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Navigation · Accessibility"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Accessibility"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": "/policies/accessibility"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152199899",
+      "handle": "footer",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Footer · Main copy"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Explore"
+        },
+        {
+          "key": "title_emphasis",
+          "value": "A little guidance"
+        },
+        {
+          "key": "body",
+          "value": "Room for nature.\nTime for yourself."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": "Made with intention."
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152232667",
+      "handle": "footer-philosophy",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Footer · Philosophy"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "The DYU philosophy"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Thoughtful care.\nEveryday rituals.\nA slower way of being."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152265435",
+      "handle": "contact-page",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Contact · Page introduction"
+        },
+        {
+          "key": "eyebrow",
+          "value": "A LITTLE CONVERSATION"
+        },
+        {
+          "key": "title",
+          "value": "Care begins"
+        },
+        {
+          "key": "title_emphasis",
+          "value": "with listening."
+        },
+        {
+          "key": "body",
+          "value": "A question about the collection, a thoughtful gift,\nor finding a ritual that feels right for you?"
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Read our frequently asked questions"
+        },
+        {
+          "key": "link_url",
+          "value": "/faq"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": "A question about the website?"
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152298203",
+      "handle": "contact",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Contact · Details"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Say hello to DYU."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Explore our current catalogue on WhatsApp, or open a conversation with the team. Take your time. We’re happy to hear from you."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": "Chat on WhatsApp"
+        },
+        {
+          "key": "link_url",
+          "value": "https://wa.me/919945945750"
+        },
+        {
+          "key": "secondary_label",
+          "value": "Browse the catalogue"
+        },
+        {
+          "key": "secondary_url",
+          "value": "https://wa.me/c/919945945750"
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": "Email: dyuhandmadesoaps@gmail.com"
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152330971",
+      "handle": "story-page",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Our story · Page introduction"
+        },
+        {
+          "key": "eyebrow",
+          "value": "THE WORLD OF DYUHANDMADE"
+        },
+        {
+          "key": "title",
+          "value": "A little closer to nature."
+        },
+        {
+          "key": "title_emphasis",
+          "value": "A little closer to yourself."
+        },
+        {
+          "key": "body",
+          "value": "Three ways to see an everyday moment differently."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152363739",
+      "handle": "philosophy",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Philosophy · Introduction"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Our philosophy"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Choose what draws you in"
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": "Illustrative scenes · The world of DYUhandmade"
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152494811",
+      "handle": "philosophy-nature",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Philosophy · Nature"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Nature."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "There is a whole world in the smallest detail."
+        },
+        {
+          "key": "image",
+          "value": "gid://shopify/MediaImage/46365287842011"
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": "Illustrative botanical study with flowers, leaves, and natural textures"
+        },
+        {
+          "key": "image_position",
+          "value": "center"
+        },
+        {
+          "key": "link_label",
+          "value": "Meet the botanicals"
+        },
+        {
+          "key": "link_url",
+          "value": "/ingredients"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": "A world worth looking closer at"
+        },
+        {
+          "key": "caption",
+          "value": "Nature"
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152527579",
+      "handle": "philosophy-human-touch",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Philosophy · Human touch"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Human touch."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "The things we choose can invite us to notice the hands behind them."
+        },
+        {
+          "key": "image",
+          "value": "gid://shopify/MediaImage/46365293871323"
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": "Illustrative atelier scene exploring the care and detail of making"
+        },
+        {
+          "key": "image_position",
+          "value": "center"
+        },
+        {
+          "key": "link_label",
+          "value": "Follow the making"
+        },
+        {
+          "key": "link_url",
+          "value": "/how-its-made"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": "The beauty is in the attention"
+        },
+        {
+          "key": "caption",
+          "value": "Human touch"
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152560347",
+      "handle": "philosophy-everyday",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Philosophy · Your everyday"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Your everyday."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "A familiar moment can become a little time that belongs to you."
+        },
+        {
+          "key": "image",
+          "value": "gid://shopify/MediaImage/46365321199835"
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": "Illustrative everyday ritual with warm light and botanical care objects"
+        },
+        {
+          "key": "image_position",
+          "value": "center"
+        },
+        {
+          "key": "link_label",
+          "value": "Find your ritual"
+        },
+        {
+          "key": "link_url",
+          "value": "/shop"
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": "The story continues with you"
+        },
+        {
+          "key": "caption",
+          "value": "Your everyday"
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152593115",
+      "handle": "ritual",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ritual · Introduction"
+        },
+        {
+          "key": "eyebrow",
+          "value": "THE NEXT CHAPTER / YOU"
+        },
+        {
+          "key": "title",
+          "value": "A little time."
+        },
+        {
+          "key": "title_emphasis",
+          "value": "Entirely yours."
+        },
+        {
+          "key": "body",
+          "value": "Choose the moment. Find your own rhythm."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": "true"
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152625883",
+      "handle": "ritual-morning",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ritual · Morning"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Morning"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Before the world asks anything of you."
+        },
+        {
+          "key": "image",
+          "value": "gid://shopify/MediaImage/46365321199835"
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": "Illustrative atelier scene with natural textures and objects of everyday care"
+        },
+        {
+          "key": "image_position",
+          "value": "center"
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152658651",
+      "handle": "ritual-morning-step-1",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ritual · Morning · Step 1"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Let the day arrive."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "A little daylight. A moment before the rush. Choose a place to begin."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152691419",
+      "handle": "ritual-morning-step-2",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ritual · Morning · Step 2"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Notice the little things."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "The light on the table. The texture of linen. The familiar objects close to hand."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152724187",
+      "handle": "ritual-morning-step-3",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ritual · Morning · Step 3"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Make this moment yours."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "One small pause, before everything else. Carry that intention into your day."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152756955",
+      "handle": "ritual-evening",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ritual · Evening"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Evening"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "A soft landing at the end of the day."
+        },
+        {
+          "key": "image",
+          "value": "gid://shopify/MediaImage/46365293871323"
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": "Illustrative atelier scene with natural textures and objects of everyday care"
+        },
+        {
+          "key": "image_position",
+          "value": "center"
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152789723",
+      "handle": "ritual-evening-step-1",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ritual · Evening · Step 1"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Set the day down."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Find your favourite corner. Let the next thing wait a little."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152822491",
+      "handle": "ritual-evening-step-2",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ritual · Evening · Step 2"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Return to the familiar."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "A quiet room. Warm light. A small collection of things that feel like you."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152855259",
+      "handle": "ritual-evening-step-3",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ritual · Evening · Step 3"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Leave a little space."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Nothing elaborate. Just a moment you might look forward to returning to."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152888027",
+      "handle": "ritual-pause",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ritual · A quiet pause"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "A quiet pause"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "No occasion needed. Just a little time."
+        },
+        {
+          "key": "image",
+          "value": "gid://shopify/MediaImage/46365287842011"
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": "Illustrative atelier scene with natural textures and objects of everyday care"
+        },
+        {
+          "key": "image_position",
+          "value": "center"
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152920795",
+      "handle": "ritual-pause-step-1",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ritual · A quiet pause · Step 1"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Step out of the rush."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "There does not have to be a perfect time. Begin with the moment you have."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152953563",
+      "handle": "ritual-pause-step-2",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ritual · A quiet pause · Step 2"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Look a little closer."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "A leaf. A shadow. An everyday object. Give one small detail your attention."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611152986331",
+      "handle": "ritual-pause-step-3",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ritual · A quiet pause · Step 3"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Keep a moment for you."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "A pause can be a ritual, too. Let yours be as simple as you like."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153019099",
+      "handle": "craft-page",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Making · Page introduction"
+        },
+        {
+          "key": "eyebrow",
+          "value": "INSIDE THE ATELIER"
+        },
+        {
+          "key": "title",
+          "value": "From raw ingredients."
+        },
+        {
+          "key": "title_emphasis",
+          "value": "To everyday care."
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153051867",
+      "handle": "ingredients-page",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Ingredients · Page introduction"
+        },
+        {
+          "key": "eyebrow",
+          "value": "THE INGREDIENT ATLAS"
+        },
+        {
+          "key": "title",
+          "value": "Nature has"
+        },
+        {
+          "key": "title_emphasis",
+          "value": "a story to tell."
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153084635",
+      "handle": "faq-page",
+      "fields": [
+        {
+          "key": "name",
+          "value": "FAQ · Page introduction"
+        },
+        {
+          "key": "eyebrow",
+          "value": "A LITTLE GUIDANCE"
+        },
+        {
+          "key": "title",
+          "value": "Good questions."
+        },
+        {
+          "key": "title_emphasis",
+          "value": "Thoughtful answers."
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153117403",
+      "handle": "faq-find-a-ritual",
+      "fields": [
+        {
+          "key": "name",
+          "value": "FAQ · How do I find the right ritual?"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "How do I find the right ritual?"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Start with the collection and choose a product category. Each product page brings together its story, available options, and product information so you can explore at your own pace."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153182939",
+      "handle": "faq-ingredients",
+      "fields": [
+        {
+          "key": "name",
+          "value": "FAQ · Where can I read the ingredient list?"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Where can I read the ingredient list?"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Read the product description and ingredient story on each product page. If you need the complete formulation or further details, contact DYU before choosing a product."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153215707",
+      "handle": "faq-3d",
+      "fields": [
+        {
+          "key": "name",
+          "value": "FAQ · Can I look at products in 3D?"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "Can I look at products in 3D?"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Where available, the product viewer lets you rotate a study based on the main product photograph. Unseen surfaces are approximations. The original product photos remain available in the gallery."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153248475",
+      "handle": "faq-orders",
+      "fields": [
+        {
+          "key": "name",
+          "value": "FAQ · How do I place an order?"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "How do I place an order?"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Select an available product option and add it to your bag. Checkout continues securely with Shopify. If an item is unavailable, contact DYU for more information."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153281243",
+      "handle": "faq-delivery",
+      "fields": [
+        {
+          "key": "name",
+          "value": "FAQ · What are the shipping and return options?"
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "What are the shipping and return options?"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Visit Shipping & returns for the information currently available, or contact DYU about your delivery location and return questions before placing an order."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153314011",
+      "handle": "journal-page",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Journal · Page introduction"
+        },
+        {
+          "key": "eyebrow",
+          "value": "NOTES FROM THE ATELIER"
+        },
+        {
+          "key": "title",
+          "value": "A pause for"
+        },
+        {
+          "key": "title_emphasis",
+          "value": "perspective."
+        },
+        {
+          "key": "body",
+          "value": "On everyday rituals, curiosity, and a slower way of being."
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153346779",
+      "handle": "article-making-space-for-a-ritual",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Journal · The quiet art of making time for yourself."
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "The quiet art of making time for yourself."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Some days move faster than we do. We arrive at the evening with a long list behind us and very little space left for ourselves. A ritual can be a way of finding that space again.\n\nStart small. A quiet minute before opening your phone. A warm shower without rushing. A familiar routine that asks you to pay attention to what you are doing, rather than what comes next.\n\nYou do not need a perfect setting or an elaborate sequence. Choose a moment that already exists in your day and let it be a little slower. Notice the water, the light, the sound of the room.\n\nA ritual is something you return to. Let yours be simple enough to repeat, and personal enough to feel like your own."
+        },
+        {
+          "key": "image",
+          "value": "gid://shopify/MediaImage/46365272408283"
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": "A sunlit still life of everyday care"
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": "A small pause can change the shape of an ordinary day."
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": "Everyday rituals"
+        },
+        {
+          "key": "read_time",
+          "value": "3 MIN READ"
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153379547",
+      "handle": "article-look-closer-at-your-care",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Journal · A little curiosity goes a long way."
+        },
+        {
+          "key": "eyebrow",
+          "value": null
+        },
+        {
+          "key": "title",
+          "value": "A little curiosity goes a long way."
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": "Every product has details worth understanding. What is in it? How should it be used? Where can you find the full ingredient list?\n\nTake a moment to read a product’s directions and ingredient information. A pleasing texture or beautiful package is only one part of the story.\n\nWhen you have a question, ask it. Thoughtful care starts with clear information and the room to make your own decision."
+        },
+        {
+          "key": "image",
+          "value": "gid://shopify/MediaImage/46365287842011"
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": "An illustrative study of botanical forms"
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": "Getting to know the things we bring into our everyday."
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": "Thoughtful care"
+        },
+        {
+          "key": "read_time",
+          "value": "3 MIN READ"
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153412315",
+      "handle": "policy-shipping",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Policy · Shipping & returns"
+        },
+        {
+          "key": "eyebrow",
+          "value": "THE DETAILS"
+        },
+        {
+          "key": "title",
+          "value": "Shipping & returns"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153445083",
+      "handle": "policy-privacy",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Policy · Privacy"
+        },
+        {
+          "key": "eyebrow",
+          "value": "THE DETAILS"
+        },
+        {
+          "key": "title",
+          "value": "Privacy"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153477851",
+      "handle": "policy-terms",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Policy · Terms of use"
+        },
+        {
+          "key": "eyebrow",
+          "value": "THE DETAILS"
+        },
+        {
+          "key": "title",
+          "value": "Terms of use"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/611153510619",
+      "handle": "policy-accessibility",
+      "fields": [
+        {
+          "key": "name",
+          "value": "Policy · Accessibility"
+        },
+        {
+          "key": "eyebrow",
+          "value": "THE DETAILS"
+        },
+        {
+          "key": "title",
+          "value": "Accessibility"
+        },
+        {
+          "key": "title_emphasis",
+          "value": null
+        },
+        {
+          "key": "body",
+          "value": null
+        },
+        {
+          "key": "image",
+          "value": null
+        },
+        {
+          "key": "mobile_image",
+          "value": null
+        },
+        {
+          "key": "image_alt",
+          "value": null
+        },
+        {
+          "key": "image_position",
+          "value": null
+        },
+        {
+          "key": "link_label",
+          "value": null
+        },
+        {
+          "key": "link_url",
+          "value": null
+        },
+        {
+          "key": "secondary_label",
+          "value": null
+        },
+        {
+          "key": "secondary_url",
+          "value": null
+        },
+        {
+          "key": "enabled",
+          "value": null
+        },
+        {
+          "key": "sort_order",
+          "value": null
+        },
+        {
+          "key": "products",
+          "value": null
+        },
+        {
+          "key": "collections",
+          "value": null
+        },
+        {
+          "key": "items",
+          "value": null
+        },
+        {
+          "key": "note",
+          "value": null
+        },
+        {
+          "key": "caption",
+          "value": null
+        },
+        {
+          "key": "category",
+          "value": null
+        },
+        {
+          "key": "read_time",
+          "value": null
+        }
+      ],
+      "capabilities": {
+        "publishable": null
+      }
+    }
+  ]
+}

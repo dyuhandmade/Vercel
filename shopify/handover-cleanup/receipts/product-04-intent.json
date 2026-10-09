@@ -1,0 +1,125 @@
+{
+  "at": "2026-10-04T09:25:27.039Z",
+  "operation": "CleanupProduct",
+  "productId": "gid://shopify/Product/8971085185243",
+  "handle": "lavendar-haze-soap-bar-60-gm",
+  "currentBefore": {
+    "id": "gid://shopify/Product/8971085185243",
+    "handle": "lavendar-haze-soap-bar-60-gm",
+    "title": "Lavendar Haze Soap Bar -60 gm",
+    "descriptionHtml": "<p data-start=\"250\" data-end=\"514\">Calm your senses and indulge your skin with our <strong data-start=\"298\" data-end=\"325\">Lavender Honeycomb Soap</strong>, a handcrafted cold process soap bar made with <strong data-start=\"373\" data-end=\"393\">pure coconut oil</strong> and naturally colored with <strong data-start=\"421\" data-end=\"437\">alkanet root</strong>. Its signature honeycomb design makes it as beautiful as it is nourishing.</p>\n<p data-start=\"516\" data-end=\"826\">Infused with <strong data-start=\"529\" data-end=\"555\">lavender essential oil</strong>, this natural soap gently cleanses while leaving your skin soft, hydrated, and lightly scented with calming floral notes. The coconut oil base creates a rich, creamy lather that locks in moisture, making it an ideal daily soap for <strong data-start=\"787\" data-end=\"823\">dry, sensitive, or delicate skin</strong>.</p>\n<p data-start=\"828\" data-end=\"1189\">✔ <strong data-start=\"830\" data-end=\"852\">Natural &amp; Handmade</strong> – Cold process soap made in small batches<br data-start=\"894\" data-end=\"897\">✔ <strong data-start=\"899\" data-end=\"932\">Moisturizing Coconut Oil Base</strong> – Gentle on dry and sensitive skin<br data-start=\"967\" data-end=\"970\">✔ <strong data-start=\"972\" data-end=\"999\">Soothing Lavender Aroma</strong> – Perfect for relaxation and stress relief<br data-start=\"1042\" data-end=\"1045\">✔ <strong data-start=\"1047\" data-end=\"1080\">Naturally Tinted with Alkanet</strong> – Earthy tones without synthetic dyes<br data-start=\"1118\" data-end=\"1121\">✔ <strong data-start=\"1123\" data-end=\"1151\">Travel-Friendly 60g Size</strong> – Great for gifting or everyday use</p>\n<p data-start=\"1191\" data-end=\"1345\"><strong data-start=\"1191\" data-end=\"1205\">Skin Type:</strong> Suitable for all skin types, especially dry &amp; sensitive skin.<br data-start=\"1267\" data-end=\"1270\"><strong data-start=\"1270\" data-end=\"1283\">Best For:</strong> Daily bathing, gifting, travel kits, and self-care rituals.</p>",
+    "updatedAt": "2026-10-02T12:07:56Z",
+    "status": "ACTIVE",
+    "tags": [],
+    "vendor": "My Store",
+    "productType": "Cold processed Soap",
+    "totalInventory": 0,
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/47487413092571",
+          "title": "Lavendar",
+          "price": "325.00",
+          "compareAtPrice": null,
+          "inventoryQuantity": 0
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjo0NzQ4NzQxMzA5MjU3MSwibGFzdF92YWx1ZSI6MX0="
+      }
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/37932472336603",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:15:12Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37932472336603",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_45570032-b7db-4cef-b9db-e9ce3b246083.png?v=1755942863",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/37932472303835",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:15:12Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37932472303835",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_f7bf3bd2-7715-4531-beae-854fed7b801d.png?v=1755942863",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/37932472238299",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:15:12Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37932472238299",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_86aced20-1985-44fe-a45b-ade009dccaca.png?v=1755942863",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/37932472205531",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:15:12Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37932472205531",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_bedc75c6-6e5c-40b0-9a4b-3ad94d9d6fca.png?v=1755942862",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/37932472434907",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:15:12Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37932472434907",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_31c59989-36a8-4d8c-84f9-bf5b120ec42f.png?v=1755942863",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/37932472697051",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:15:12Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37932472697051",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_a2139c84-9928-4e81-8008-1f32b9bac65d.png?v=1755942864",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/37932472271067",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:15:12Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37932472271067",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/8.png?v=1755942863",
+            "altText": ""
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjozNzkzMjQ3MjI3MTA2NywibGFzdF92YWx1ZSI6IjcifQ=="
+      }
+    }
+  },
+  "variables": {
+    "product": {
+      "id": "gid://shopify/Product/8971085185243",
+      "handle": "lavendar-haze-soap-bar-60-gm",
+      "title": "Lavendar Haze Soap Bar - 60 gm"
+    }
+  }
+}

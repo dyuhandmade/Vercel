@@ -1,0 +1,80 @@
+[
+  {
+    "handle": "product-page",
+    "fields": {
+      "name": "Products · Introduction and buttons",
+      "eyebrow": "AN EVERYDAY OBJECT, RECONSIDERED",
+      "link_label": "Enter the experience",
+      "link_url": "#origin",
+      "secondary_label": "Make it yours",
+      "secondary_url": "#purchase"
+    }
+  },
+  {
+    "handle": "product-invitation",
+    "fields": {
+      "name": "Products · Invitation heading",
+      "eyebrow": "THE INTENTION",
+      "title": "A place in",
+      "title_emphasis": "your everyday.",
+      "caption": "THE SENSORY NOTES"
+    }
+  },
+  {
+    "handle": "product-craft",
+    "fields": {
+      "name": "Products · Making section",
+      "eyebrow": "THE ART OF MAKING",
+      "title": "How it’s made.",
+      "title_emphasis": "One step at a time.",
+      "note": "Now, get to know the materials.",
+      "secondary_label": "Explore the ingredients"
+    }
+  },
+  {
+    "handle": "product-ingredients",
+    "fields": {
+      "name": "Products · Ingredient section",
+      "eyebrow": "LOOK WITHIN / THE INGREDIENT STORY",
+      "title": "Every detail.",
+      "title_emphasis": "Worth knowing.",
+      "body": "Choose an ingredient to discover its story."
+    }
+  },
+  {
+    "handle": "product-purchase",
+    "fields": {
+      "name": "Products · Purchase section",
+      "eyebrow": "THE NEXT CHAPTER IS YOURS",
+      "title": "Make room",
+      "title_emphasis": "for your ritual.",
+      "note": "From our world, to your everyday.",
+      "caption": "Checkout securely with Shopify"
+    }
+  },
+  {
+    "handle": "product-guidance",
+    "fields": {
+      "name": "Products · Guidance heading",
+      "eyebrow": "BEFORE IT BECOMES YOURS",
+      "title": "A little clarity.",
+      "title_emphasis": "A considered choice.",
+      "link_label": "Ask DYU a question",
+      "link_url": "/contact"
+    }
+  },
+  {
+    "handle": "product-related",
+    "fields": {
+      "name": "Products · Related products carousel",
+      "enabled": true,
+      "eyebrow": "KEEP A LITTLE CURIOSITY",
+      "title": "There’s more",
+      "title_emphasis": "to discover.",
+      "body": "Explore rituals with a little in common.",
+      "link_label": "All rituals",
+      "link_url": "/shop"
+    }
+  }
+]
+

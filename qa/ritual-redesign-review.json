@@ -1,0 +1,82 @@
+[
+  {
+    "width": 320,
+    "metrics": {
+      "root": {
+        "width": 292,
+        "height": 1239.359375,
+        "left": 14
+      },
+      "panel": {
+        "width": 228,
+        "height": 215
+      },
+      "overflow": 0
+    },
+    "issues": []
+  },
+  {
+    "width": 390,
+    "metrics": {
+      "root": {
+        "width": 362,
+        "height": 1212.890625,
+        "left": 14
+      },
+      "panel": {
+        "width": 298,
+        "height": 215
+      },
+      "overflow": 0
+    },
+    "issues": []
+  },
+  {
+    "width": 768,
+    "metrics": {
+      "root": {
+        "width": 706.546875,
+        "height": 1009.421875,
+        "left": 30.71875
+      },
+      "panel": {
+        "width": 345.78125,
+        "height": 225
+      },
+      "overflow": 0
+    },
+    "issues": []
+  },
+  {
+    "width": 1440,
+    "metrics": {
+      "root": {
+        "width": 1324.796875,
+        "height": 1089.828125,
+        "left": 57.59375
+      },
+      "panel": {
+        "width": 625.125,
+        "height": 225
+      },
+      "overflow": 0
+    },
+    "issues": []
+  },
+  {
+    "width": 2560,
+    "metrics": {
+      "root": {
+        "width": 1540,
+        "height": 1143.984375,
+        "left": 510
+      },
+      "panel": {
+        "width": 717.484375,
+        "height": 225
+      },
+      "overflow": 0
+    },
+    "issues": []
+  }
+]

@@ -7,12 +7,12 @@ import type {PhotoModelMetadata} from '@/lib/photo-model';
 import './product-visual.css';
 const ModelCanvas=dynamic(()=>import('./ModelCanvas'),{ssr:false});
 class ModelBoundary extends Component<{children:ReactNode;fallback:ReactNode;onError:()=>void},{failed:boolean}>{state={failed:false};static getDerivedStateFromError(){return {failed:true};}componentDidCatch(){this.props.onError();}render(){return this.state.failed?this.props.fallback:this.props.children;}}
-export default function ProductVisual({shape='jar',tone=shape==='soap'?'#9b9c74':'#95602f',image,sourceImage,model,title='DYUhandmade illustrative product',interactive=false,ensemble=false,eager=false}:{shape?:string;tone?:string;image?:string;sourceImage?:string;model?:string;title?:string;interactive?:boolean;ensemble?:boolean;eager?:boolean}){
+export default function ProductVisual({shape='jar',tone=shape==='soap'?'#9b9c74':'#95602f',image,sourceImage,model,title='DYUhandmade illustrative product',interactive=false,ensemble=false,eager=false,onClose}:{shape?:string;tone?:string;image?:string;sourceImage?:string;model?:string;title?:string;interactive?:boolean;ensemble?:boolean;eager?:boolean;onClose?:()=>void}){
  const [active,setActive]=useState(eager);const [rotation,setRotation]=useState(sourceImage&&!model?.14:0);const [failed,setFailed]=useState(false);const [attempt,setAttempt]=useState(0);const [ready,setReady]=useState(false);
  const [photoMetadata,setPhotoMetadata]=useState<PhotoModelMetadata>();
  const primary=useRef<HTMLButtonElement>(null),focusControls=useRef(false),restoreFocus=useRef(false);
  const open=()=>{focusControls.current=true;setReady(false);setFailed(false);setPhotoMetadata(undefined);setRotation(sourceImage&&!model?.14:0);setAttempt(a=>a+1);setActive(true);};
- const close=()=>{restoreFocus.current=true;setActive(false);setReady(false);setFailed(false);};
+ const close=()=>{restoreFocus.current=true;setActive(false);setReady(false);setFailed(false);onClose?.();};
  useEffect(()=>{
   if(active&&(ready||failed)&&focusControls.current){primary.current?.focus({preventScroll:true});focusControls.current=false;}
   if(!active&&restoreFocus.current){primary.current?.focus({preventScroll:true});restoreFocus.current=false;}

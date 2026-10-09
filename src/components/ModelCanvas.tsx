@@ -1,13 +1,15 @@
 'use client';
 import { Suspense, useCallback, useEffect, useMemo, useRef, useState, type Ref } from 'react';
-import { Canvas, useFrame, useThree } from '@react-three/fiber';
+import { Canvas, useFrame, useThree, useLoader } from '@react-three/fiber';
 import { OrbitControls, RoundedBox, useGLTF, Center, Environment, Lightformer } from '@react-three/drei';
 import * as THREE from 'three';
 import PhotoProductModel from './PhotoProductModel';
 import type {PhotoModelMetadata} from '@/lib/photo-model';
+import {brandLogo} from '@/lib/brand';
 
 function Label({bottle=false}:{bottle?:boolean}){
- const texture=useMemo(()=>{const c=document.createElement('canvas');c.width=512;c.height=512;const x=c.getContext('2d')!;x.fillStyle='#eee8d8';x.fillRect(0,0,512,512);x.fillStyle='#314333';x.textAlign='center';x.font='110px Georgia';x.fillText('dyu',256,195);x.font='22px sans-serif';x.fillText('H A N D M A D E',256,242);x.fillRect(193,278,126,1);x.font='24px Georgia';x.fillText(bottle?'Botanical oil':'Botanical balm',256,329);x.font='15px sans-serif';x.fillText('ILLUSTRATIVE DESIGN',256,411);const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;return t;},[bottle]);
+ const logo=useLoader(THREE.TextureLoader,brandLogo.src);
+ const texture=useMemo(()=>{const c=document.createElement('canvas');c.width=512;c.height=512;const x=c.getContext('2d')!;x.fillStyle='#eee8d8';x.fillRect(0,0,512,512);x.drawImage(logo.image,84,40,344,344*brandLogo.height/brandLogo.width);x.fillStyle='#314333';x.textAlign='center';x.fillRect(193,278,126,1);x.font='24px Georgia';x.fillText(bottle?'Botanical oil':'Botanical balm',256,329);x.font='15px sans-serif';x.fillText('ILLUSTRATIVE DESIGN',256,411);const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;return t;},[bottle,logo]);
  useEffect(()=>()=>texture.dispose(),[texture]);
  return <mesh position={[0,bottle?-.05:-.08,0]} rotation={[0,-.60,0]}><cylinderGeometry args={[bottle?.418:.745,bottle?.418:.745,bottle?1.02:.69,64,1,true,0,1.56]}/><meshStandardMaterial map={texture} roughness={.9} side={THREE.DoubleSide}/></mesh>;
 }

@@ -1,0 +1,2320 @@
+{
+  "preparedAt": "2026-10-04T09:09:54.514Z",
+  "status": "prepared_not_applied",
+  "shop": {
+    "id": "gid://shopify/Shop/76637307099",
+    "myshopifyDomain": "fgm0vn-7t.myshopify.com"
+  },
+  "scope": "Restore only fields successfully changed by this cleanup, in reverse execution order.",
+  "guard": "Use the execution receipt. Re-read and require current target values to equal this plan's after values; never overwrite a subsequent merchant edit. Empty-string alt restores the original absent-alt state; original raw null/string values remain preserved in before.json and expectedOriginal.",
+  "fileBatches": [
+    {
+      "batch": 7,
+      "operation": "CleanupImageAlt",
+      "variables": {
+        "files": [
+          {
+            "id": "gid://shopify/MediaImage/38450938839259",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450938872027",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450938904795",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450938937563",
+            "alt": ""
+          }
+        ]
+      }
+    },
+    {
+      "batch": 6,
+      "operation": "CleanupImageAlt",
+      "variables": {
+        "files": [
+          {
+            "id": "gid://shopify/MediaImage/38365992091867",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38365992124635",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38366438031579",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38366438064347",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38366438097115",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38451078037723",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38451078004955",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38451078201563",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38451078168795",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38451078070491",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38451078136027",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38451078103259",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450757435611",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450757468379",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450757501147",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450757533915",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450757566683",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450757599451",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450757632219",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450757664987",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450757697755",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450938708187",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450938740955",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450938773723",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38450938806491",
+            "alt": ""
+          }
+        ]
+      }
+    },
+    {
+      "batch": 5,
+      "operation": "CleanupImageAlt",
+      "variables": {
+        "files": [
+          {
+            "id": "gid://shopify/MediaImage/37932472238299",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37932472205531",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37932472434907",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37932472697051",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37932472271067",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38011647394011",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38011647426779",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38011647459547",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38011647492315",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38011647525083",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38012152119515",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38012152152283",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38012152185051",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38012152217819",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38012152250587",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38012152283355",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38012152316123",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38365789290715",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38365991862491",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38365991895259",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38365991928027",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38365991960795",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38365991993563",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38365992026331",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/38365992059099",
+            "alt": ""
+          }
+        ]
+      }
+    },
+    {
+      "batch": 4,
+      "operation": "CleanupImageAlt",
+      "variables": {
+        "files": [
+          {
+            "id": "gid://shopify/MediaImage/36988647112923",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988647145691",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014564864219",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014564896987",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014564929755",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014564962523",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014564995291",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014565028059",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014565060827",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014587506907",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014587539675",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014587572443",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014587605211",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014587637979",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014587670747",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37014587703515",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37091808903387",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37091808837851",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37091808936155",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37108875821275",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37091699982555",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37091862970587",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37091857367259",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37932472336603",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/37932472303835",
+            "alt": ""
+          }
+        ]
+      }
+    },
+    {
+      "batch": 3,
+      "operation": "CleanupImageAlt",
+      "variables": {
+        "files": [
+          {
+            "id": "gid://shopify/MediaImage/36988578300123",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988578332891",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988578365659",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988578398427",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988578431195",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988578463963",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988603662555",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988603695323",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988603728091",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988603760859",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988603793627",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988603826395",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988603859163",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988624896219",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988624928987",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988624961755",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988624994523",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988625027291",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988625060059",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988625092827",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988646949083",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988646981851",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988647014619",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988647047387",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988647080155",
+            "alt": ""
+          }
+        ]
+      }
+    },
+    {
+      "batch": 2,
+      "operation": "CleanupImageAlt",
+      "variables": {
+        "files": [
+          {
+            "id": "gid://shopify/MediaImage/36988245049563",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988245082331",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988245115099",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988245147867",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988296560859",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988296593627",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988296626395",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988296659163",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988296691931",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988464562395",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988464595163",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988464627931",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988464660699",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988464693467",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988524495067",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988524527835",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988524560603",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988524593371",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988524626139",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988543795419",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988543828187",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988543860955",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988543893723",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988543926491",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988578267355",
+            "alt": ""
+          }
+        ]
+      }
+    },
+    {
+      "batch": 1,
+      "operation": "CleanupImageAlt",
+      "variables": {
+        "files": [
+          {
+            "id": "gid://shopify/MediaImage/45202466668763",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/45202474172635",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987057471707",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987057504475",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987358675163",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987358642395",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987358707931",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987358740699",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987358773467",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987433943259",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987433910491",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987433976027",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987434008795",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987434041563",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987575304411",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987575337179",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987575369947",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987575402715",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36987575435483",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988163391707",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988163424475",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988163457243",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988163490011",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988163522779",
+            "alt": ""
+          },
+          {
+            "id": "gid://shopify/MediaImage/36988245016795",
+            "alt": ""
+          }
+        ]
+      }
+    }
+  ],
+  "imageOriginalValues": [
+    {
+      "id": "gid://shopify/MediaImage/45202466668763",
+      "expectedCurrentAlt": "Damask Rose Cold Processed Soap — product image 1 of 4",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/Damask_Rose_Soap_Amazon.png?v=1787828685"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/45202474172635",
+      "expectedCurrentAlt": "Damask Rose Cold Processed Soap — product image 2 of 4",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/Damask_Rose_-2.png?v=1787828796"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987057471707",
+      "expectedCurrentAlt": "Damask Rose Cold Processed Soap — product image 3 of 4",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4.png?v=1748521038"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987057504475",
+      "expectedCurrentAlt": "Damask Rose Cold Processed Soap — product image 4 of 4",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5.png?v=1748521038"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987358675163",
+      "expectedCurrentAlt": "Oriental Lavendar Cold Processed Soap — product image 1 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_744bc2a0-1fb6-47df-98e1-c9d601179699.png?v=1748524265"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987358642395",
+      "expectedCurrentAlt": "Oriental Lavendar Cold Processed Soap — product image 2 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_5bed7105-3566-49c4-a95c-7ecf7f55c646.png?v=1790925962"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987358707931",
+      "expectedCurrentAlt": "Oriental Lavendar Cold Processed Soap — product image 3 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_ef3756b7-58f9-4619-b355-d48e75476b98.png?v=1748524264"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987358740699",
+      "expectedCurrentAlt": "Oriental Lavendar Cold Processed Soap — product image 4 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_929a0d4f-baa5-4e5a-a381-e39f699a9f1c.png?v=1748524264"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987358773467",
+      "expectedCurrentAlt": "Oriental Lavendar Cold Processed Soap — product image 5 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_bd39e75f-e3ed-493b-a4a4-1be448f7d3d7.png?v=1748524265"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987433943259",
+      "expectedCurrentAlt": "Camphora Pink Salt Cold Processed Soap — product image 1 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_a8ebd1ff-a0c2-42b7-a6b9-f5d37f27ca57.png?v=1748524927"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987433910491",
+      "expectedCurrentAlt": "Camphora Pink Salt Cold Processed Soap — product image 2 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_5815d415-f2f9-4081-8883-6a115b9eb597.png?v=1748524927"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987433976027",
+      "expectedCurrentAlt": "Camphora Pink Salt Cold Processed Soap — product image 3 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_92c2da1c-be91-4715-bd18-abe6686b10e6.png?v=1748524927"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987434008795",
+      "expectedCurrentAlt": "Camphora Pink Salt Cold Processed Soap — product image 4 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_fe98cab4-e3c5-4aea-9ca4-a410c1c5a832.png?v=1748524927"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987434041563",
+      "expectedCurrentAlt": "Camphora Pink Salt Cold Processed Soap — product image 5 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_e7b5e388-9179-45ee-a5be-d79c9da74126.png?v=1748524927"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987575304411",
+      "expectedCurrentAlt": "Tea Tree Cold processed Soap — product image 1 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_f51edee3-e394-4db6-af76-9630cf17fc1f.png?v=1748526427"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987575337179",
+      "expectedCurrentAlt": "Tea Tree Cold processed Soap — product image 2 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_19953daf-beb7-4691-98fe-c807f6ad13d7.png?v=1748526427"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987575369947",
+      "expectedCurrentAlt": "Tea Tree Cold processed Soap — product image 3 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_beb28857-2ae4-459e-a5e8-5642a7f2e74a.png?v=1748526427"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987575402715",
+      "expectedCurrentAlt": "Tea Tree Cold processed Soap — product image 4 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_ed455842-b13d-4f08-a6ab-6a610a35603e.png?v=1748526427"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36987575435483",
+      "expectedCurrentAlt": "Tea Tree Cold processed Soap — product image 5 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_f6e80a7a-3f8e-4da9-b35c-cd037c092b18.png?v=1748526427"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988163391707",
+      "expectedCurrentAlt": "Orange Tangerine Cold Processed Soap — product image 1 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_527a3b5c-f4b5-40b6-be44-62da754481d7.png?v=1748531992"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988163424475",
+      "expectedCurrentAlt": "Orange Tangerine Cold Processed Soap — product image 2 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_235f59a7-5306-40f5-b18d-fb562e34192b.png?v=1748531992"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988163457243",
+      "expectedCurrentAlt": "Orange Tangerine Cold Processed Soap — product image 3 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_e6c302f6-d248-4d98-a0a6-7b6bed7eec7d.png?v=1748531992"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988163490011",
+      "expectedCurrentAlt": "Orange Tangerine Cold Processed Soap — product image 4 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_810cc067-cb49-4d2c-80c6-a514ecefe6a8.png?v=1748531992"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988163522779",
+      "expectedCurrentAlt": "Orange Tangerine Cold Processed Soap — product image 5 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_5eed2fb8-e3fe-48d0-90a3-59a78a01a850.png?v=1748531992"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988245016795",
+      "expectedCurrentAlt": "Coffee Vanilla Cold Processed Soap — product image 1 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_29cabfe1-b47e-4733-80a9-d2aaf70190a6.png?v=1748532495"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988245049563",
+      "expectedCurrentAlt": "Coffee Vanilla Cold Processed Soap — product image 2 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_5f929842-fe8d-4fab-a7e7-17977589b7ad.png?v=1748532495"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988245082331",
+      "expectedCurrentAlt": "Coffee Vanilla Cold Processed Soap — product image 3 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_c096ae19-9b27-47ef-81bc-d011d9755a4a.png?v=1748532495"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988245115099",
+      "expectedCurrentAlt": "Coffee Vanilla Cold Processed Soap — product image 4 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_a6d7dc5f-2f28-40ff-8c4d-fcdc1d01e228.png?v=1748532495"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988245147867",
+      "expectedCurrentAlt": "Coffee Vanilla Cold Processed Soap — product image 5 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_956894b6-495b-4eee-b5d4-72e384d79e00.png?v=1748532495"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988296560859",
+      "expectedCurrentAlt": "Himalayan Jasmine Cold Processed Soap — product image 1 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_e8cb89ad-bf95-4094-9780-1a5c583922f1.png?v=1748532897"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988296593627",
+      "expectedCurrentAlt": "Himalayan Jasmine Cold Processed Soap — product image 2 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_730fdfaf-aded-4e64-92f2-c9b97d13b788.png?v=1748532897"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988296626395",
+      "expectedCurrentAlt": "Himalayan Jasmine Cold Processed Soap — product image 3 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_efbfeda9-aa86-4a05-ab49-ef81c9ab4551.png?v=1748532897"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988296659163",
+      "expectedCurrentAlt": "Himalayan Jasmine Cold Processed Soap — product image 4 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_47a0149b-968c-4608-85ba-7792edb8e56f.png?v=1748532897"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988296691931",
+      "expectedCurrentAlt": "Himalayan Jasmine Cold Processed Soap — product image 5 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_fc176ee4-88d6-4616-9565-625f5ab252a0.png?v=1748532897"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988464562395",
+      "expectedCurrentAlt": "Charcoal Mint Cold Processed Soap — product image 1 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_28d26563-2dfc-43ec-830c-625a9a649d5f.png?v=1748534228"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988464595163",
+      "expectedCurrentAlt": "Charcoal Mint Cold Processed Soap — product image 2 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_b1e9f7cc-c603-4a29-b345-4e250828ead7.png?v=1748534228"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988464627931",
+      "expectedCurrentAlt": "Charcoal Mint Cold Processed Soap — product image 3 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_1b4ec974-5365-411d-ab05-1a08c41d551b.png?v=1748534228"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988464660699",
+      "expectedCurrentAlt": "Charcoal Mint Cold Processed Soap — product image 4 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_fa79c6bc-99d5-446f-95a8-5374215be306.png?v=1748534228"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988464693467",
+      "expectedCurrentAlt": "Charcoal Mint Cold Processed Soap — product image 5 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_6ceb4e5a-c2d2-43f5-8a07-acbe37d85323.png?v=1748534228"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988524495067",
+      "expectedCurrentAlt": "Red Sandalwood Cold Processed Soap — product image 1 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_11d51518-382f-4da6-a7c6-1a9fa813464b.png?v=1748535007"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988524527835",
+      "expectedCurrentAlt": "Red Sandalwood Cold Processed Soap — product image 2 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_265c8e19-7f18-46eb-8b7e-68ca046bfe99.png?v=1748535007"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988524560603",
+      "expectedCurrentAlt": "Red Sandalwood Cold Processed Soap — product image 3 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_58d3adfb-9b34-42a4-8e99-f166cdc5c1e3.png?v=1748535007"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988524593371",
+      "expectedCurrentAlt": "Red Sandalwood Cold Processed Soap — product image 4 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_a70d77e3-5b90-41be-bd18-e5b401434c19.png?v=1748535007"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988524626139",
+      "expectedCurrentAlt": "Red Sandalwood Cold Processed Soap — product image 5 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_d2f6dd29-3c21-4100-9da3-639bf77924ff.png?v=1748535007"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988543795419",
+      "expectedCurrentAlt": "Neem Basil Cold Processed Soap — product image 1 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_835cf629-0b7e-40d0-b4ee-7de8db44aeaa.png?v=1748535202"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988543828187",
+      "expectedCurrentAlt": "Neem Basil Cold Processed Soap — product image 2 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_03c2ead2-4962-4cae-a1e0-0ce0d585f331.png?v=1748535203"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988543860955",
+      "expectedCurrentAlt": "Neem Basil Cold Processed Soap — product image 3 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_4f6f397a-bb71-4dac-80d6-3c75eabaf19d.png?v=1748535203"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988543893723",
+      "expectedCurrentAlt": "Neem Basil Cold Processed Soap — product image 4 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_9a766235-5575-4235-80cd-bc9d26fd800a.png?v=1748535203"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988543926491",
+      "expectedCurrentAlt": "Neem Basil Cold Processed Soap — product image 5 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_78577484-f21c-4da4-9af8-c66834300726.png?v=1748535203"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988578267355",
+      "expectedCurrentAlt": "Floral Soap Gift Set — product image 1 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_acda69ed-9c88-4a99-9a58-ceffedca02b7.png?v=1748535514"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988578300123",
+      "expectedCurrentAlt": "Floral Soap Gift Set — product image 2 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_3d21bf77-52ab-4ddc-82cd-dcb3f4ee8d61.png?v=1748535514"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988578332891",
+      "expectedCurrentAlt": "Floral Soap Gift Set — product image 3 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_838604fc-e07d-4b44-a0d2-effb3e7e5bb7.png?v=1748535514"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988578365659",
+      "expectedCurrentAlt": "Floral Soap Gift Set — product image 4 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_496ccdcb-5145-4539-a74e-a56b03a47507.png?v=1748535514"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988578398427",
+      "expectedCurrentAlt": "Floral Soap Gift Set — product image 5 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_d2a3a079-61bb-496a-9c13-ee2d5f3d7faa.png?v=1748535514"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988578431195",
+      "expectedCurrentAlt": "Floral Soap Gift Set — product image 6 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6.png?v=1748535514"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988578463963",
+      "expectedCurrentAlt": "Floral Soap Gift Set — product image 7 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7.png?v=1748535514"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988603662555",
+      "expectedCurrentAlt": "Wellness Trio Soap Bundle — product image 1 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_1acd5629-8a9a-4d2a-9034-0d12902aaea8.png?v=1748535762"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988603695323",
+      "expectedCurrentAlt": "Wellness Trio Soap Bundle — product image 2 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_5093ee0a-9f44-49ef-bdb7-3b63b41e66d5.png?v=1748535762"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988603728091",
+      "expectedCurrentAlt": "Wellness Trio Soap Bundle — product image 3 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_9f1a2a38-00cf-4872-9227-8cfe260cfa29.png?v=1748535762"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988603760859",
+      "expectedCurrentAlt": "Wellness Trio Soap Bundle — product image 4 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_bccbd501-24ad-461e-8d52-5c32b9e1c5ed.png?v=1748535762"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988603793627",
+      "expectedCurrentAlt": "Wellness Trio Soap Bundle — product image 5 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_6fb5dd89-56aa-4f20-b15c-d32b413e3b57.png?v=1748535762"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988603826395",
+      "expectedCurrentAlt": "Wellness Trio Soap Bundle — product image 6 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_64339390-c0aa-4a26-a785-11f6f7253775.png?v=1748535762"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988603859163",
+      "expectedCurrentAlt": "Wellness Trio Soap Bundle — product image 7 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_cba3c5c2-7f05-41ce-a033-9e2f0645d1c0.png?v=1748535762"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988624896219",
+      "expectedCurrentAlt": "Facial Ubtan - Orange Almond — product image 1 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_cc41f68a-cd7c-420c-af9a-dfcd7a085b13.png?v=1748535974"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988624928987",
+      "expectedCurrentAlt": "Facial Ubtan - Orange Almond — product image 2 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_4b8896f5-cad7-44a0-80f8-05a262eead16.png?v=1748535974"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988624961755",
+      "expectedCurrentAlt": "Facial Ubtan - Orange Almond — product image 3 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_11dd3271-fbf5-44e7-bc17-4f96a340c021.png?v=1748535974"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988624994523",
+      "expectedCurrentAlt": "Facial Ubtan - Orange Almond — product image 4 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_78709e98-80ef-459f-af2e-1deb15e27849.png?v=1748535974"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988625027291",
+      "expectedCurrentAlt": "Facial Ubtan - Orange Almond — product image 5 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_d32c57ba-ef29-4151-8c20-45965491ebc5.png?v=1748535974"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988625060059",
+      "expectedCurrentAlt": "Facial Ubtan - Orange Almond — product image 6 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_7fcce39a-50c0-4320-84c7-a5071d7ced6d.png?v=1748535974"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988625092827",
+      "expectedCurrentAlt": "Facial Ubtan - Orange Almond — product image 7 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_b5353daf-a1f2-45e7-826c-8a313503a256.png?v=1748535975"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988646949083",
+      "expectedCurrentAlt": "Body Ubtan - Tea Tree — product image 1 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_42ae658a-c91b-4ca8-b5ad-d9df26a70b00.png?v=1748536216"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988646981851",
+      "expectedCurrentAlt": "Body Ubtan - Tea Tree — product image 2 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_76fb9bb6-1d15-40a5-a387-9aed629cc327.png?v=1748536216"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988647014619",
+      "expectedCurrentAlt": "Body Ubtan - Tea Tree — product image 3 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_0714b212-651c-41b6-adec-f94479a51f5d.png?v=1748536216"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988647047387",
+      "expectedCurrentAlt": "Body Ubtan - Tea Tree — product image 4 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_c217a64e-82d4-4bdd-806b-57c43f1cb893.png?v=1748536216"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988647080155",
+      "expectedCurrentAlt": "Body Ubtan - Tea Tree — product image 5 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_ee2ff3f3-3528-4f59-b8b3-c60c6b1cb3ba.png?v=1748536216"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988647112923",
+      "expectedCurrentAlt": "Body Ubtan - Tea Tree — product image 6 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_660905b9-9592-4013-a089-f68c90b1d918.png?v=1748536216"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/36988647145691",
+      "expectedCurrentAlt": "Body Ubtan - Tea Tree — product image 7 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_333ebc69-26b6-4e55-aa98-776a1d0251d7.png?v=1748536216"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014564864219",
+      "expectedCurrentAlt": "Moringa Facial Oil — product image 1 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_8449d4f3-caf5-4998-a6ba-b1f1cd2c5fe3.png?v=1748867272"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014564896987",
+      "expectedCurrentAlt": "Moringa Facial Oil — product image 2 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_b1c92315-6b8e-4112-ac44-41045b605cb6.png?v=1748867272"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014564929755",
+      "expectedCurrentAlt": "Moringa Facial Oil — product image 3 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_a64cee59-6731-45e1-bc30-bd0dc75b6d2c.png?v=1748867272"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014564962523",
+      "expectedCurrentAlt": "Moringa Facial Oil — product image 4 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_79be88b9-80a7-4bb8-8809-f0afe468822a.png?v=1748867272"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014564995291",
+      "expectedCurrentAlt": "Moringa Facial Oil — product image 5 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_b6a135b3-ea90-4ba8-85d5-0ceaa37636ea.png?v=1748867272"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014565028059",
+      "expectedCurrentAlt": "Moringa Facial Oil — product image 6 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_df8a94c1-2e3c-4ffd-b186-faf9cef5d27f.png?v=1748867272"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014565060827",
+      "expectedCurrentAlt": "Moringa Facial Oil — product image 7 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_182b807f-903e-4ed9-a266-9ed1f5867109.png?v=1748867272"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014587506907",
+      "expectedCurrentAlt": "Almond Facial Oil — product image 1 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_f906ce8b-0299-41b5-a149-736839561145.png?v=1748867665"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014587539675",
+      "expectedCurrentAlt": "Almond Facial Oil — product image 2 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_4a8184ff-ece3-4dde-b3b6-41e03f80090c.png?v=1748867665"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014587572443",
+      "expectedCurrentAlt": "Almond Facial Oil — product image 3 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_ea9d06bb-ba14-4e17-a7cf-ffd9d2e0f793.png?v=1748867665"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014587605211",
+      "expectedCurrentAlt": "Almond Facial Oil — product image 4 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_9def0338-0c42-4e75-9930-1c8cdbf8267f.png?v=1748867665"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014587637979",
+      "expectedCurrentAlt": "Almond Facial Oil — product image 5 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_8bd2a8ab-8a03-4ffa-a3d3-2017757ed52f.png?v=1748867665"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014587670747",
+      "expectedCurrentAlt": "Almond Facial Oil — product image 6 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_df34cc42-2c07-448e-a5b6-dacc42dde57c.png?v=1748867665"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37014587703515",
+      "expectedCurrentAlt": "Almond Facial Oil — product image 7 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_2cf061f9-ea96-4add-bc8c-c36d912a9f09.png?v=1748867665"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37091808903387",
+      "expectedCurrentAlt": "Triple Body Butter - Rose — product image 1 of 4",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/55.jpg?v=1749473211"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37091808837851",
+      "expectedCurrentAlt": "Triple Body Butter - Rose — product image 2 of 4",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/16.jpg?v=1749473211"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37091808936155",
+      "expectedCurrentAlt": "Triple Body Butter - Rose — product image 3 of 4",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/14.jpg?v=1749473202"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37108875821275",
+      "expectedCurrentAlt": "Triple Body Butter - Rose — product image 4 of 4",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7.jpg?v=1749653505"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37091699982555",
+      "expectedCurrentAlt": "Triple Body Butter - Lavendar — product image 1 of 2",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/DamaskRoseBodyButter.jpg?v=1749474416"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37091862970587",
+      "expectedCurrentAlt": "Triple Body Butter - Lavendar — product image 2 of 2",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/DamaskRoseBodyButter_760e5b26-0bef-4c64-aa13-ed37bf698f33.jpg?v=1749473921"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37091857367259",
+      "expectedCurrentAlt": "Triple Body Butter - Sandalwood — product image 1 of 1",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/16_c965d560-7b56-40ed-b66c-5f3f700c7233.jpg?v=1749473859"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37932472336603",
+      "expectedCurrentAlt": "Lavendar Haze Soap Bar - 60 gm — product image 1 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_45570032-b7db-4cef-b9db-e9ce3b246083.png?v=1755942863"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37932472303835",
+      "expectedCurrentAlt": "Lavendar Haze Soap Bar - 60 gm — product image 2 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_f7bf3bd2-7715-4531-beae-854fed7b801d.png?v=1755942863"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37932472238299",
+      "expectedCurrentAlt": "Lavendar Haze Soap Bar - 60 gm — product image 3 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_86aced20-1985-44fe-a45b-ade009dccaca.png?v=1755942863"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37932472205531",
+      "expectedCurrentAlt": "Lavendar Haze Soap Bar - 60 gm — product image 4 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_bedc75c6-6e5c-40b0-9a4b-3ad94d9d6fca.png?v=1755942862"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37932472434907",
+      "expectedCurrentAlt": "Lavendar Haze Soap Bar - 60 gm — product image 5 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_31c59989-36a8-4d8c-84f9-bf5b120ec42f.png?v=1755942863"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37932472697051",
+      "expectedCurrentAlt": "Lavendar Haze Soap Bar - 60 gm — product image 6 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_a2139c84-9928-4e81-8008-1f32b9bac65d.png?v=1755942864"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/37932472271067",
+      "expectedCurrentAlt": "Lavendar Haze Soap Bar - 60 gm — product image 7 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/8.png?v=1755942863"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38011647394011",
+      "expectedCurrentAlt": "Rose Reset Soap Bar — product image 1 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_220818c3-38a8-4d2f-95a5-fa727f3ce614.png?v=1756376578"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38011647426779",
+      "expectedCurrentAlt": "Rose Reset Soap Bar — product image 2 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_074718ba-f0ba-4f68-8abf-33c09eb3a704.png?v=1756376578"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38011647459547",
+      "expectedCurrentAlt": "Rose Reset Soap Bar — product image 3 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_8b3ebbf4-e499-40ea-ad19-ff508709cbd8.png?v=1756376578"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38011647492315",
+      "expectedCurrentAlt": "Rose Reset Soap Bar — product image 4 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_5b9793c1-dc96-4180-8ecc-b7281924c79e.png?v=1756376578"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38011647525083",
+      "expectedCurrentAlt": "Rose Reset Soap Bar — product image 5 of 5",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_02281caa-4335-460b-99a8-35f8302e11af.png?v=1756376578"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38012152119515",
+      "expectedCurrentAlt": "Tea Tree Trip Soap Bar — product image 1 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_745d5475-fd94-4e18-8c37-710fcab926c2.png?v=1756379184"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38012152152283",
+      "expectedCurrentAlt": "Tea Tree Trip Soap Bar — product image 2 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_94cd04ca-6715-491c-a76b-45da4c53c387.png?v=1756379184"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38012152185051",
+      "expectedCurrentAlt": "Tea Tree Trip Soap Bar — product image 3 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_145f01a9-2258-430e-8904-3fced3d66960.png?v=1756379183"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38012152217819",
+      "expectedCurrentAlt": "Tea Tree Trip Soap Bar — product image 4 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_535d7bfb-70b7-40ed-9f01-01b43fae4fe8.png?v=1756379183"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38012152250587",
+      "expectedCurrentAlt": "Tea Tree Trip Soap Bar — product image 5 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_05e31c7c-9b80-428a-bbba-9a30d670b188.png?v=1756379183"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38012152283355",
+      "expectedCurrentAlt": "Tea Tree Trip Soap Bar — product image 6 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_d19974bf-81f4-4457-bb1b-a84c7f6d13f6.png?v=1756379184"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38012152316123",
+      "expectedCurrentAlt": "Tea Tree Trip Soap Bar — product image 7 of 7",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_25eb16d0-1df5-463b-ab25-e7cced5419a7.png?v=1756379184"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38365789290715",
+      "expectedCurrentAlt": "Mud Face Wash — product image 1 of 1",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/MudFaceWash.jpg?v=1758192288"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38365991862491",
+      "expectedCurrentAlt": "Rosemary Olive Hair Oil — product image 1 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_8260560c-a9a6-4df2-88d2-d25ea23b8b42.png?v=1758194270"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38365991895259",
+      "expectedCurrentAlt": "Rosemary Olive Hair Oil — product image 2 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_bf54f428-7d9c-4b2a-8177-e2fe2ce98361.png?v=1758194270"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38365991928027",
+      "expectedCurrentAlt": "Rosemary Olive Hair Oil — product image 3 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_94d96f92-4c5d-4668-a17f-69514d3be14e.png?v=1758194270"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38365991960795",
+      "expectedCurrentAlt": "Rosemary Olive Hair Oil — product image 4 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_eed128ac-2844-4d73-9ed8-1ee8578321a7.png?v=1758194270"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38365991993563",
+      "expectedCurrentAlt": "Rosemary Olive Hair Oil — product image 5 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_cc21fe13-9286-40c6-9312-8866c432b3af.png?v=1758194270"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38365992026331",
+      "expectedCurrentAlt": "Rosemary Olive Hair Oil — product image 6 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_f91a861a-6b70-46de-a75d-20fbd99bd154.png?v=1758194270"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38365992059099",
+      "expectedCurrentAlt": "Rosemary Olive Hair Oil — product image 7 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_684376bb-0a6c-450d-97f1-3a2b337911c8.png?v=1758194270"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38365992091867",
+      "expectedCurrentAlt": "Rosemary Olive Hair Oil — product image 8 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/8_10b3aee2-bae7-48f0-b237-55ffaaffa293.png?v=1758194270"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38365992124635",
+      "expectedCurrentAlt": "Rosemary Olive Hair Oil — product image 9 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/9.png?v=1758194270"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38366438031579",
+      "expectedCurrentAlt": "Cold Pressed Sweet Almond Oil — product image 1 of 10",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_ee33fd0c-0ff2-4d8a-8913-39bc93c832b0.png?v=1758199888"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38366438064347",
+      "expectedCurrentAlt": "Cold Pressed Sweet Almond Oil — product image 2 of 10",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_357ecc9f-cb41-43be-8dd8-18c8a2a956e0.png?v=1758199888"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38366438097115",
+      "expectedCurrentAlt": "Cold Pressed Sweet Almond Oil — product image 3 of 10",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_5049a296-104a-406c-b407-1a2123dc46e9.png?v=1758199888"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38451078037723",
+      "expectedCurrentAlt": "Cold Pressed Sweet Almond Oil — product image 4 of 10",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_6c0753ec-ac6e-4459-b3a9-75d687ce0f4c.png?v=1758705735"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38451078004955",
+      "expectedCurrentAlt": "Cold Pressed Sweet Almond Oil — product image 5 of 10",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_7fcc2fc6-e0cb-47ea-bee2-2b3aee0c0715.png?v=1758705735"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38451078201563",
+      "expectedCurrentAlt": "Cold Pressed Sweet Almond Oil — product image 6 of 10",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/10.png?v=1758705736"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38451078168795",
+      "expectedCurrentAlt": "Cold Pressed Sweet Almond Oil — product image 7 of 10",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_120e2d3e-b3ec-4527-bb36-01b4448e9b5d.png?v=1758705736"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38451078070491",
+      "expectedCurrentAlt": "Cold Pressed Sweet Almond Oil — product image 8 of 10",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_33c01c23-e152-460b-b219-175062d49801.png?v=1758705736"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38451078136027",
+      "expectedCurrentAlt": "Cold Pressed Sweet Almond Oil — product image 9 of 10",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/8_4551c4a6-8325-42fc-a8a8-81265041b3e0.png?v=1758705736"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38451078103259",
+      "expectedCurrentAlt": "Cold Pressed Sweet Almond Oil — product image 10 of 10",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/9_4e291d63-6b4c-4537-9c8b-39cdbb41acef.png?v=1758705736"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450757435611",
+      "expectedCurrentAlt": "Facial Ubtan Orange Almond — product image 1 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1.jpg?v=1758703135"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450757468379",
+      "expectedCurrentAlt": "Facial Ubtan Orange Almond — product image 2 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2.jpg?v=1758703134"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450757501147",
+      "expectedCurrentAlt": "Facial Ubtan Orange Almond — product image 3 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3.jpg?v=1758703134"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450757533915",
+      "expectedCurrentAlt": "Facial Ubtan Orange Almond — product image 4 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4.jpg?v=1758703135"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450757566683",
+      "expectedCurrentAlt": "Facial Ubtan Orange Almond — product image 5 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5.jpg?v=1758703135"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450757599451",
+      "expectedCurrentAlt": "Facial Ubtan Orange Almond — product image 6 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6.jpg?v=1758703135"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450757632219",
+      "expectedCurrentAlt": "Facial Ubtan Orange Almond — product image 7 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_12a8df7f-334c-4455-835b-1c8a0bb3d5d1.jpg?v=1758703135"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450757664987",
+      "expectedCurrentAlt": "Facial Ubtan Orange Almond — product image 8 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/8.jpg?v=1758703135"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450757697755",
+      "expectedCurrentAlt": "Facial Ubtan Orange Almond — product image 9 of 9",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/9.jpg?v=1758703135"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450938708187",
+      "expectedCurrentAlt": "Body Ubtan Tea Tree Neem — product image 1 of 8",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_33ae4182-eb40-455d-b2f2-72dd3da330aa.jpg?v=1758704160"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450938740955",
+      "expectedCurrentAlt": "Body Ubtan Tea Tree Neem — product image 2 of 8",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_88e5d7dc-f7e0-49d1-b86e-b9fa0515482d.jpg?v=1758704160"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450938773723",
+      "expectedCurrentAlt": "Body Ubtan Tea Tree Neem — product image 3 of 8",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_53a4f47c-470b-4cc3-beac-c45b0b04c6c0.jpg?v=1758704160"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450938806491",
+      "expectedCurrentAlt": "Body Ubtan Tea Tree Neem — product image 4 of 8",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_fbdac7d3-5a09-4bd0-ae27-2e57981ee5a6.jpg?v=1758704160"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450938839259",
+      "expectedCurrentAlt": "Body Ubtan Tea Tree Neem — product image 5 of 8",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_aebde1c8-201d-4d2a-8a89-3bca0e5fbc9b.jpg?v=1758704160"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450938872027",
+      "expectedCurrentAlt": "Body Ubtan Tea Tree Neem — product image 6 of 8",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_79a1f17e-b449-47e9-b2da-16faf047bc94.jpg?v=1758704160"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450938904795",
+      "expectedCurrentAlt": "Body Ubtan Tea Tree Neem — product image 7 of 8",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_e57a0996-9d65-4a54-8967-d67945bd0deb.jpg?v=1758704160"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/38450938937563",
+      "expectedCurrentAlt": "Body Ubtan Tea Tree Neem — product image 8 of 8",
+      "expectedOriginal": {
+        "alt": "",
+        "imageAltText": "",
+        "fileStatus": "READY",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/8_b5ff3c0a-129e-4d48-8cc1-d46ff90260c9.jpg?v=1758704160"
+      }
+    }
+  ],
+  "productChanges": [
+    {
+      "productId": "gid://shopify/Product/8974634778843",
+      "handle": "tea-tree-trip-soap-bar",
+      "expectedCurrent": {
+        "handle": "tea-tree-trip-soap-bar",
+        "descriptionHtml": "<p data-start=\"204\" data-end=\"484\">Energize your skin and awaken your senses with our <em data-start=\"255\" data-end=\"280\">Tea Tree Trips Soap Bar</em>, a handcrafted cold process soap made with pure coconut oil and naturally colored with French Green Clay. Its refreshing green hue and crisp, herbal aroma make it a revitalizing addition to your daily routine.</p>\n<p data-start=\"486\" data-end=\"731\">Infused with tea tree essential oil, this natural soap deeply cleanses while leaving your skin feeling fresh, clarified, and hydrated. The coconut oil base creates a gentle, creamy lather that nourishes while balancing oily or acne-prone skin.</p>\n<p data-start=\"733\" data-end=\"1124\">✔ <strong data-start=\"735\" data-end=\"757\">Natural &amp; Handmade</strong> – Cold process soap made in small batches<br data-start=\"799\" data-end=\"802\">✔ <strong data-start=\"804\" data-end=\"837\">Moisturizing Coconut Oil Base</strong> – Gentle, nourishing, and hydrating<br data-start=\"873\" data-end=\"876\">✔ <strong data-start=\"878\" data-end=\"906\">Purifying Tea Tree Aroma</strong> – Fresh, herbal scent with antibacterial benefits<br data-start=\"956\" data-end=\"959\">✔ <strong data-start=\"961\" data-end=\"996\" data-is-only-node=\"\">Naturally Tinted with French Green Clay</strong> – Clean green tones without synthetic dyes<br data-start=\"1039\" data-end=\"1042\">✔ <strong data-start=\"1044\" data-end=\"1072\">Travel-Friendly 60g Size</strong> – Ideal for gifting, skincare kits, and daily use</p>\n<p data-start=\"1126\" data-end=\"1290\"><strong data-start=\"1126\" data-end=\"1140\">Skin Type:</strong> Suitable for all skin types, especially oily &amp; acne-prone skin.<br data-start=\"1204\" data-end=\"1207\"><strong data-start=\"1207\" data-end=\"1220\">Best For:</strong> Daily cleansing, refreshing bath rituals, gifting, and travel kits.</p>"
+      },
+      "variables": {
+        "product": {
+          "id": "gid://shopify/Product/8974634778843",
+          "handle": "tea-tree-trip-soap-bar",
+          "descriptionHtml": "<p data-start=\"204\" data-end=\"484\">Energize your skin and awaken your senses with our <em data-start=\"255\" data-end=\"280\">Tea Tree Trips Soap Bar</em>, a handcrafted cold process soap made with pure coconut oil and naturally colored with French Green Clay . Its refreshing green hue and crisp, herbal aroma make it a revitalizing addition to your daily routine.</p>\n<p data-start=\"486\" data-end=\"731\">Infused with tea tree essential oil, this natural soap deeply cleanses while leaving your skin feeling fresh, clarified, and hydrated. The coconut oil base creates a gentle, creamy lather that nourishes while balancing oily or acne-prone skin.</p>\n<p data-start=\"733\" data-end=\"1124\">✔ <strong data-start=\"735\" data-end=\"757\">Natural &amp; Handmade</strong> – Cold process soap made in small batches<br data-start=\"799\" data-end=\"802\">✔ <strong data-start=\"804\" data-end=\"837\">Moisturizing Coconut Oil Base</strong> – Gentle, nourishing, and hydrating<br data-start=\"873\" data-end=\"876\">✔ <strong data-start=\"878\" data-end=\"906\">Purifying Tea Tree Aroma</strong> – Fresh, herbal scent with antibacterial benefits<br data-start=\"956\" data-end=\"959\">✔ <strong data-start=\"961\" data-end=\"996\" data-is-only-node=\"\">Naturally Tinted with French Green Clay</strong>– Clean green tones without synthetic dyes<br data-start=\"1039\" data-end=\"1042\">✔ <strong data-start=\"1044\" data-end=\"1072\">Travel-Friendly 60g Size</strong> – Ideal for gifting, skincare kits, and daily use</p>\n<p data-start=\"1126\" data-end=\"1290\"><strong data-start=\"1126\" data-end=\"1140\">Skin Type:</strong> Suitable for all skin types, especially oily &amp; acne-prone skin.<br data-start=\"1204\" data-end=\"1207\"><strong data-start=\"1207\" data-end=\"1220\">Best For:</strong> Daily cleansing, refreshing bath rituals, gifting, and travel kits.</p>"
+        }
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974567407835",
+      "handle": "rose-reset-cold-process-soap",
+      "expectedCurrent": {
+        "handle": "rose-reset-cold-process-soap",
+        "descriptionHtml": "<p data-start=\"230\" data-end=\"486\">Revive your skin and uplift your senses with our <em data-start=\"279\" data-end=\"300\">Rose Reset Soap Bar</em>, a handcrafted cold process soap made with pure coconut oil and naturally tinted with rose clay. Its soft blush tone and creamy lather make it a daily luxury for both skin and spirit.</p>\n<p data-start=\"488\" data-end=\"748\">Infused with rose essential oil, this natural soap gently cleanses while leaving your skin hydrated, refreshed, and delicately scented with floral notes of rose. The coconut oil base provides rich moisture, making it especially kind to dry or sensitive skin.</p>\n<p data-start=\"750\" data-end=\"1111\">✔ <strong data-start=\"752\" data-end=\"774\">Natural &amp; Handmade</strong> – Cold process soap crafted in small batches<br data-start=\"819\" data-end=\"822\">✔ <strong data-start=\"824\" data-end=\"857\">Moisturizing Coconut Oil Base</strong> – Gentle on dry and sensitive skin<br data-start=\"892\" data-end=\"895\">✔ <strong data-start=\"897\" data-end=\"921\">Uplifting Rose Aroma</strong> – Restores balance and refreshes mood<br data-start=\"959\" data-end=\"962\">✔ <strong data-start=\"964\" data-end=\"1000\" data-is-only-node=\"\">Naturally Colored with Rose Clay</strong> – No synthetic dyes or chemicals<br data-start=\"1033\" data-end=\"1036\">✔ <strong data-start=\"1038\" data-end=\"1059\">Elegant ~60 g Bar</strong> – Perfect for gifting, self-care, or travel.</p>\n<p data-start=\"1113\" data-end=\"1267\"><strong data-start=\"1113\" data-end=\"1127\">Skin Type:</strong> Suitable for all skin types, especially dry &amp; sensitive skin.<br data-start=\"1189\" data-end=\"1192\"><strong data-start=\"1192\" data-end=\"1205\">Best For:</strong> Daily bathing, gifting, pampering rituals, and travel kits.</p>"
+      },
+      "variables": {
+        "product": {
+          "id": "gid://shopify/Product/8974567407835",
+          "handle": "rose-reset-cold-process-soap",
+          "descriptionHtml": "<p data-start=\"230\" data-end=\"486\">Revive your skin and uplift your senses with our <em data-start=\"279\" data-end=\"300\">Rose Reset Soap Bar</em>, a handcrafted cold process soap made with pure coconut oil and naturally tinted with rose clay. Its soft blush tone and creamy lather make it a daily luxury for both skin and spirit.</p>\n<p data-start=\"488\" data-end=\"748\">Infused with rose essential oil, this natural soap gently cleanses while leaving your skin hydrated, refreshed, and delicately scented with floral notes of rose. The coconut oil base provides rich moisture, making it especially kind to dry or sensitive skin.</p>\n<p data-start=\"750\" data-end=\"1111\">✔ <strong data-start=\"752\" data-end=\"774\">Natural &amp; Handmade</strong> – Cold process soap crafted in small batches<br data-start=\"819\" data-end=\"822\">✔ <strong data-start=\"824\" data-end=\"857\">Moisturizing Coconut Oil Base</strong> – Gentle on dry and sensitive skin<br data-start=\"892\" data-end=\"895\">✔ <strong data-start=\"897\" data-end=\"921\">Uplifting Rose Aroma</strong> – Restores balance and refreshes mood<br data-start=\"959\" data-end=\"962\">✔ <strong data-start=\"964\" data-end=\"1000\" data-is-only-node=\"\">Naturally Colored with Rose Clay</strong> – No synthetic dyes or chemicals<br data-start=\"1033\" data-end=\"1036\">✔ <strong data-start=\"1038\" data-end=\"1059\">Elegant ~60 g Bar</strong> – Perfect for gifting, self-care, or travel .</p>\n<p data-start=\"1113\" data-end=\"1267\"><strong data-start=\"1113\" data-end=\"1127\">Skin Type:</strong> Suitable for all skin types, especially dry &amp; sensitive skin.<br data-start=\"1189\" data-end=\"1192\"><strong data-start=\"1192\" data-end=\"1205\">Best For:</strong> Daily bathing, gifting, pampering rituals, and travel kits.</p>"
+        }
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8971085185243",
+      "handle": "lavendar-haze-soap-bar-60-gm",
+      "expectedCurrent": {
+        "handle": "lavendar-haze-soap-bar-60-gm",
+        "title": "Lavendar Haze Soap Bar - 60 gm"
+      },
+      "variables": {
+        "product": {
+          "id": "gid://shopify/Product/8971085185243",
+          "handle": "lavendar-haze-soap-bar-60-gm",
+          "title": "Lavendar Haze Soap Bar -60 gm"
+        }
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906854957275",
+      "handle": "triple-body-butter-sandalwood",
+      "expectedCurrent": {
+        "handle": "triple-body-butter-sandalwood",
+        "title": "Triple Body Butter - Sandalwood",
+        "descriptionHtml": "<ul class=\"a-unordered-list a-vertical a-spacing-mini\">\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">DYU Triple Body Butter - Sandalwood offers intense hydration with cocoa, mango, and shea butters blended with coconut oil and sandalwood for deeply nourished, soft, and supple skin. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Infused with Santalum album L (pure sandalwood), this body butter calms the skin and uplifts the senses with a warm, woody aroma that lingers and comforts without overpowering. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">The rich formula melts on contact and absorbs quickly, locking in moisture while healing dryness, rough patches, and improving overall skin tone and texture with daily application. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Coconut oil and shea butter work together to restore the skin barrier, soothe irritation, and shield the skin from pollutants, making this ideal for sensitive and mature skin types. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">With added vitamin E for antioxidant support, this non-toxic, paraben-free body butter promotes cell regeneration and keeps your skin radiant, firm, and silky smooth all day long. </span></li>\n</ul>\n<p> </p>"
+      },
+      "variables": {
+        "product": {
+          "id": "gid://shopify/Product/8906854957275",
+          "handle": "triple-body-butter-sandalwood",
+          "title": "Triple Body Butter -Sandalwood",
+          "descriptionHtml": "<ul class=\"a-unordered-list a-vertical a-spacing-mini\">\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">DYU Triple Body Butter ? Sandalwood offers intense hydration with cocoa, mango, and shea butters blended with coconut oil and sandalwood for deeply nourished, soft, and supple skin. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Infused with Santalum album L (pure sandalwood), this body butter calms the skin and uplifts the senses with a warm, woody aroma that lingers and comforts without overpowering. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">The rich formula melts on contact and absorbs quickly, locking in moisture while healing dryness, rough patches, and improving overall skin tone and texture with daily application. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Coconut oil and shea butter work together to restore the skin barrier, soothe irritation, and shield the skin from pollutants, making this ideal for sensitive and mature skin types. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">With added vitamin E for antioxidant support, this non-toxic, paraben-free body butter promotes cell regeneration and keeps your skin radiant, firm, and silky smooth all day long. </span></li>\n</ul>\n<p> </p>"
+        }
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906853449947",
+      "handle": "triple-body-butter-lavendar",
+      "expectedCurrent": {
+        "handle": "triple-body-butter-lavendar",
+        "title": "Triple Body Butter - Lavendar"
+      },
+      "variables": {
+        "product": {
+          "id": "gid://shopify/Product/8906853449947",
+          "handle": "triple-body-butter-lavendar",
+          "title": "Triple Body Butter -Lavendar"
+        }
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906853089499",
+      "handle": "triple-body-butter-rose",
+      "expectedCurrent": {
+        "handle": "triple-body-butter-rose",
+        "title": "Triple Body Butter - Rose"
+      },
+      "variables": {
+        "product": {
+          "id": "gid://shopify/Product/8906853089499",
+          "handle": "triple-body-butter-rose",
+          "title": "Triple Body Butter -Rose"
+        }
+      }
+    }
+  ]
+}

@@ -12,3 +12,5 @@
 .announcement{overflow-wrap:anywhere}
 .footer-top .wordmark{overflow-wrap:anywhere}
 @media(max-width:600px){.site-header>.wordmark{max-width:120px}}
+/* A merchant can move the hero below another section in Home · Section order. */
+.atelier-home>.atelier-hero:not(:first-child){margin-top:0}

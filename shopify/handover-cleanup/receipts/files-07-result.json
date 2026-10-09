@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-04T09:28:00.114Z",
+  "data": {
+    "fileUpdate": {
+      "files": [
+        {
+          "id": "gid://shopify/MediaImage/38450938839259",
+          "alt": "Body Ubtan Tea Tree Neem — product image 5 of 8",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/38450938872027",
+          "alt": "Body Ubtan Tea Tree Neem — product image 6 of 8",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/38450938904795",
+          "alt": "Body Ubtan Tea Tree Neem — product image 7 of 8",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/38450938937563",
+          "alt": "Body Ubtan Tea Tree Neem — product image 8 of 8",
+          "fileStatus": "READY"
+        }
+      ],
+      "userErrors": []
+    }
+  }
+}

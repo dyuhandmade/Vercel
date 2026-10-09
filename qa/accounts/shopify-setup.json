@@ -1,0 +1,26 @@
+{
+  "shopId": "76637307099",
+  "storeDomain": "dyuhandmade.myshopify.com",
+  "customerAccounts": "NEW_CUSTOMER_ACCOUNTS",
+  "guestCheckout": true,
+  "wishlistDefinition": {
+    "id": "gid://shopify/MetafieldDefinition/299595268315",
+    "namespace": "dyu",
+    "key": "wishlist",
+    "customerAccount": "READ_WRITE",
+    "storefront": "NONE"
+  },
+  "clientIdConfigured": true,
+  "previewOrigin": "https://rare-today-comparing-midi.trycloudflare.com",
+  "merchantConfirmedCallbackUrlsSaved": true,
+  "liveAuthorizationScreenVerified": true,
+  "localLoginRedirectsToHttpsPreviewVerified": true,
+  "liveCustomerLoginVerified": true,
+  "liveReadOnlyPagesVerified": ["overview", "orders", "profile", "addresses", "wishlist"],
+  "numericSignedCustomerSubjectSupported": true,
+  "liveCustomerDataMutationsTested": ["wishlist add", "wishlist remove"],
+  "liveWishlistPersistenceVerified": true,
+  "liveWishlistRestoredToOriginalState": true,
+  "liveProfileAndAddressMutationsTested": false,
+  "livePurchaseSubmitted": false
+}

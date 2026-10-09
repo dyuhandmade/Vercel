@@ -72,7 +72,7 @@ async function openProduct(page:import('@playwright/test').Page) {
  return {carousel,handle};
 }
 
-test('real product carousel moves, pauses, wraps after its ranked stream, and opens a recommendation',async({page})=>{
+test('real product carousel starts under the pointer, wraps automatically, and opens a recommendation',async({page})=>{
  const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message));
  const {carousel,handle}=await openProduct(page);
  const items=carousel.locator('.similar-group').first().locator('.similar-item');
@@ -82,19 +82,13 @@ test('real product carousel moves, pauses, wraps after its ranked stream, and op
  await expect(carousel.locator('.similar-copy .similar-item')).toHaveCount(handles.length);
  expect(await carousel.locator('.similar-copy a').evaluateAll(elements=>elements.every(element=>element.getAttribute('tabindex')==='-1'))).toBe(true);
  const viewport=carousel.locator('.similar-viewport');
+ await expect(carousel.getByRole('button',{name:/^(Play|Pause) similar products$/})).toHaveCount(0);
+ await viewport.hover();
+ await viewport.dispatchEvent('wheel',{deltaX:0,deltaY:120});
  const initial=await viewport.evaluate(element=>element.scrollLeft);
- await expect.poll(()=>viewport.evaluate(element=>element.scrollLeft)).toBeGreaterThan(initial+4);
- await carousel.getByRole('button',{name:'Pause similar products'}).click();
- const stopped=await viewport.evaluate(element=>element.scrollLeft);
- await page.waitForTimeout(350);
- expect(await viewport.evaluate(element=>element.scrollLeft)).toBeCloseTo(stopped,0);
+ await expect.poll(()=>viewport.evaluate(element=>element.scrollLeft),{timeout:2000}).toBeGreaterThan(initial+4);
  await viewport.evaluate(element=>{const width=element.querySelector('.similar-group')!.getBoundingClientRect().width;element.scrollLeft=width-2;});
- await carousel.getByRole('button',{name:'Next similar product',exact:true}).click();
- expect(await viewport.evaluate(element=>element.scrollLeft)).toBeLessThan(await items.first().evaluate(element=>element.getBoundingClientRect().width+35));
- await carousel.getByRole('button',{name:'Play similar products'}).click();
- await viewport.hover();const hovered=await viewport.evaluate(element=>element.scrollLeft);await page.waitForTimeout(350);
- expect(await viewport.evaluate(element=>element.scrollLeft)).toBeCloseTo(hovered,0);
- await carousel.getByRole('button',{name:'Pause similar products'}).click();
+ await expect.poll(()=>viewport.evaluate(element=>element.scrollLeft)).toBeLessThan(100);
  await items.last().locator('a').first().focus();
  const focused=await viewport.evaluate(element=>element.scrollLeft);await page.waitForTimeout(350);
  expect(await viewport.evaluate(element=>element.scrollLeft)).toBeCloseTo(focused,0);
@@ -105,6 +99,22 @@ test('real product carousel moves, pauses, wraps after its ranked stream, and op
  await expect(page).toHaveURL(new RegExp(`/products/${handles[0]}$`),{timeout:15000});
  await expect(page.locator('.similar-group').first().locator(`[data-product-handle="${handles[0]}"]`)).toHaveCount(0);
  expect(errors).toEqual([]);
+});
+
+test('mobile carousel begins moving without a playback control and resumes after navigation',async({page})=>{
+ await page.setViewportSize({width:375,height:812});
+ const {carousel}=await openProduct(page),viewport=carousel.locator('.similar-viewport');
+ await expect(carousel.getByRole('button',{name:/^(Play|Pause) similar products$/})).toHaveCount(0);
+ await viewport.dispatchEvent('pointerdown',{pointerType:'touch',clientX:180,clientY:500});
+ await viewport.dispatchEvent('pointermove',{pointerType:'touch',clientX:180,clientY:450});
+ await viewport.dispatchEvent('pointercancel',{pointerType:'touch',clientX:180,clientY:450});
+ const initial=await viewport.evaluate(element=>element.scrollLeft);
+ await expect.poll(()=>viewport.evaluate(element=>element.scrollLeft),{timeout:2000}).toBeGreaterThan(initial+4);
+ await carousel.getByRole('button',{name:'Next similar product',exact:true}).click();
+ const navigated=await viewport.evaluate(element=>element.scrollLeft);
+ expect(navigated).toBeGreaterThan(initial+100);
+ await expect.poll(()=>viewport.evaluate(element=>element.scrollLeft),{timeout:7000}).toBeGreaterThan(navigated+4);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(375);
 });
 
 test('mobile reduced-motion carousel remains still, supports navigation, and fits the screen',async({page})=>{

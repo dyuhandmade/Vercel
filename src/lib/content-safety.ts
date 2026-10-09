@@ -5,6 +5,7 @@ export type ContentSection = {
  linkLabel?:string; linkUrl?:string; secondaryLabel?:string; secondaryUrl?:string;
  enabled?:boolean; sortOrder?:number; productHandles?:string[]; collectionHandles?:string[];
  items?:string[]; note?:string; caption?:string; category?:string; readTime?:string;
+ carouselAutoplay?:boolean; carouselInterval?:number; displayMode?:'image'|'3d';
 };
 export type SiteContent = {sections:Record<string,ContentSection>};
 export type ContentField = {key:string;value?:string|null;type?:string;reference?:{image?:{url?:string;altText?:string|null}}|null;references?:{nodes:{__typename?:string;handle?:string}[]}|null};
@@ -68,6 +69,9 @@ export function normalizeContentSection(raw:RawContentSection):ContentSection|nu
  const enabled=field('enabled')?.value;
  const order=field('sort_order')?.value?.trim();
  const imageField=field('image');
+ const autoplay=field('carousel_autoplay')?.value;
+ const interval=field('carousel_interval')?.value?.trim();
+ const displayMode=field('display_mode')?.value;
  return {
   handle,name:value('name',100),eyebrow:value('eyebrow',100),title:value('title',160),titleEmphasis:value('title_emphasis',160),body:value('body',20000),
   image:safeImage(imageField?.reference?.image?.url||imageField?.value),mobileImage:safeImage(field('mobile_image')?.reference?.image?.url||field('mobile_image')?.value),
@@ -75,5 +79,8 @@ export function normalizeContentSection(raw:RawContentSection):ContentSection|nu
   linkLabel:value('link_label',80),linkUrl:safeLink(field('link_url')?.value,true),secondaryLabel:value('secondary_label',80),secondaryUrl:safeLink(field('secondary_url')?.value,true),
   enabled:enabled==='true'?true:enabled==='false'?false:undefined,sortOrder:order&&/^-?\d+$/.test(order)?Math.max(-10000,Math.min(10000,Number(order))):undefined,
   productHandles:handles('products','Product'),collectionHandles:handles('collections','Collection'),items:textList(field('items')?.value),note:value('note',240),caption:value('caption',240),category:value('category',100),readTime:value('read_time',80),
+  carouselAutoplay:autoplay==='true'?true:autoplay==='false'?false:undefined,
+  carouselInterval:interval&&/^\d+$/.test(interval)?Math.max(2000,Math.min(20000,Number(interval))):undefined,
+  displayMode:displayMode==='image'||displayMode==='3d'?displayMode:undefined,
  };
 }

@@ -1,0 +1,26 @@
+{
+  "privacyPolicy": {
+    "present": true,
+    "title": "Privacy Policy",
+    "bodyCharacters": 16997,
+    "url": "https://checkout.shopify.com/76637307099/policies/37201674459.html?locale=en"
+  },
+  "shippingPolicy": {
+    "present": false,
+    "title": null,
+    "bodyCharacters": 0,
+    "url": null
+  },
+  "refundPolicy": {
+    "present": false,
+    "title": null,
+    "bodyCharacters": 0,
+    "url": null
+  },
+  "termsOfService": {
+    "present": false,
+    "title": null,
+    "bodyCharacters": 0,
+    "url": null
+  }
+}

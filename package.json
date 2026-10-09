@@ -7,32 +7,37 @@
     "build": "next build",
     "start": "next start --hostname 0.0.0.0",
     "typecheck": "tsc --noEmit",
+    "check:launch": "node scripts/check-launch-readiness.mjs",
     "check:photo-model": "node scripts/check-photo-model.mjs",
     "check:photo-solids": "node scripts/check-photo-solids.mjs",
     "check:photo-materials": "node scripts/check-photo-materials.mjs",
     "check:held-container": "node scripts/check-held-container.mjs",
     "check:held-tin-normals": "node scripts/check-held-tin-normals.mjs",
-    "test": "playwright test"
+    "test": "playwright test",
+    "test:core": "node scripts/run-core-tests.mjs",
+    "test:ci-browser": "node scripts/run-core-tests.mjs --browser",
+    "test:acceptance": "playwright test --config playwright.config.ts"
   },
   "dependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.1",
+    "jose": "^6.2.12",
+    "lucide-react": "1.49.0",
+    "motion": "13.4.6",
     "next": "16.3.8",
     "react": "19.3.0",
     "react-dom": "19.3.0",
-    "three": "0.186.1",
-    "@react-three/fiber": "9.8.1",
-    "@react-three/drei": "10.7.9",
-    "lucide-react": "1.49.0",
-    "motion": "13.4.6",
-    "server-only": "0.0.1"
+    "server-only": "0.0.1",
+    "three": "0.186.1"
   },
   "devDependencies": {
-    "typescript": "7.0.2",
+    "@playwright/test": "1.63.0",
+    "@tailwindcss/postcss": "4.3.3",
     "@types/node": "26.6.3",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "@types/three": "0.186.0",
     "tailwindcss": "4.3.3",
-    "@tailwindcss/postcss": "4.3.3",
-    "@playwright/test": "1.63.0"
+    "typescript": "7.0.2"
   }
 }

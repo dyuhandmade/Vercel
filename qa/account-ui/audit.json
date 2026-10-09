@@ -1,0 +1,226 @@
+[
+  {
+    "authenticated": false,
+    "path": "/account",
+    "width": 320,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": false,
+    "path": "/account",
+    "width": 390,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": false,
+    "path": "/account",
+    "width": 768,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": false,
+    "path": "/account",
+    "width": 1440,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account",
+    "width": 320,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/orders",
+    "width": 320,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/orders/gid%3A%2F%2Fshopify%2FOrder%2F123",
+    "width": 320,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/profile",
+    "width": 320,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/addresses",
+    "width": 320,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/wishlist",
+    "width": 320,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/history",
+    "width": 320,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account",
+    "width": 390,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/orders",
+    "width": 390,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/orders/gid%3A%2F%2Fshopify%2FOrder%2F123",
+    "width": 390,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/profile",
+    "width": 390,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/addresses",
+    "width": 390,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/wishlist",
+    "width": 390,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/history",
+    "width": 390,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account",
+    "width": 768,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/orders",
+    "width": 768,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/orders/gid%3A%2F%2Fshopify%2FOrder%2F123",
+    "width": 768,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/profile",
+    "width": 768,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/addresses",
+    "width": 768,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/wishlist",
+    "width": 768,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/history",
+    "width": 768,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account",
+    "width": 1440,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/orders",
+    "width": 1440,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/orders/gid%3A%2F%2Fshopify%2FOrder%2F123",
+    "width": 1440,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/profile",
+    "width": 1440,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/addresses",
+    "width": 1440,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/wishlist",
+    "width": 1440,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "authenticated": true,
+    "path": "/account/history",
+    "width": 1440,
+    "overflow": 0,
+    "errors": []
+  }
+]

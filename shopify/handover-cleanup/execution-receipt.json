@@ -1,0 +1,299 @@
+{
+  "verifiedAt": "2026-10-04T09:28:40.296Z",
+  "shop": {
+    "id": "gid://shopify/Shop/76637307099",
+    "myshopifyDomain": "fgm0vn-7t.myshopify.com"
+  },
+  "status": "verified",
+  "productUpdates": 6,
+  "titleFields": 4,
+  "descriptionFields": 3,
+  "imageAltUpdates": 154,
+  "skipped": [],
+  "issues": [],
+  "preservedFields": [
+    "All 27 product IDs and handles",
+    "All 27 product status, tags, vendor, product type and total inventory",
+    "All variant IDs, titles, prices, compare-at prices and inventory quantities",
+    "All 154 media file/image IDs, URLs, order and READY status",
+    "All non-target product titles and description HTML"
+  ],
+  "scopeExclusions": [
+    "Branded spelling/names",
+    "New claims, formulation, ingredients, stock, prices, product status",
+    "Policies, shipping, legal entity and Razorpay"
+  ],
+  "receipts": [
+    {
+      "kind": "product",
+      "id": "gid://shopify/Product/8906853089499",
+      "handle": "triple-body-butter-rose",
+      "status": "verified_mutation_response",
+      "fields": [
+        "title"
+      ],
+      "receipt": "receipts/product-01-result.json"
+    },
+    {
+      "kind": "product",
+      "id": "gid://shopify/Product/8906853449947",
+      "handle": "triple-body-butter-lavendar",
+      "status": "verified_mutation_response",
+      "fields": [
+        "title"
+      ],
+      "receipt": "receipts/product-02-result.json"
+    },
+    {
+      "kind": "product",
+      "id": "gid://shopify/Product/8906854957275",
+      "handle": "triple-body-butter-sandalwood",
+      "status": "verified_mutation_response",
+      "fields": [
+        "title",
+        "descriptionHtml"
+      ],
+      "receipt": "receipts/product-03-result.json"
+    },
+    {
+      "kind": "product",
+      "id": "gid://shopify/Product/8971085185243",
+      "handle": "lavendar-haze-soap-bar-60-gm",
+      "status": "verified_mutation_response",
+      "fields": [
+        "title"
+      ],
+      "receipt": "receipts/product-04-result.json"
+    },
+    {
+      "kind": "product",
+      "id": "gid://shopify/Product/8974567407835",
+      "handle": "rose-reset-cold-process-soap",
+      "status": "verified_mutation_response",
+      "fields": [
+        "descriptionHtml"
+      ],
+      "receipt": "receipts/product-05-result.json"
+    },
+    {
+      "kind": "product",
+      "id": "gid://shopify/Product/8974634778843",
+      "handle": "tea-tree-trip-soap-bar",
+      "status": "verified_mutation_response",
+      "fields": [
+        "descriptionHtml"
+      ],
+      "receipt": "receipts/product-06-result.json"
+    },
+    {
+      "kind": "files",
+      "batch": 1,
+      "ids": [
+        "gid://shopify/MediaImage/45202466668763",
+        "gid://shopify/MediaImage/45202474172635",
+        "gid://shopify/MediaImage/36987057471707",
+        "gid://shopify/MediaImage/36987057504475",
+        "gid://shopify/MediaImage/36987358675163",
+        "gid://shopify/MediaImage/36987358642395",
+        "gid://shopify/MediaImage/36987358707931",
+        "gid://shopify/MediaImage/36987358740699",
+        "gid://shopify/MediaImage/36987358773467",
+        "gid://shopify/MediaImage/36987433943259",
+        "gid://shopify/MediaImage/36987433910491",
+        "gid://shopify/MediaImage/36987433976027",
+        "gid://shopify/MediaImage/36987434008795",
+        "gid://shopify/MediaImage/36987434041563",
+        "gid://shopify/MediaImage/36987575304411",
+        "gid://shopify/MediaImage/36987575337179",
+        "gid://shopify/MediaImage/36987575369947",
+        "gid://shopify/MediaImage/36987575402715",
+        "gid://shopify/MediaImage/36987575435483",
+        "gid://shopify/MediaImage/36988163391707",
+        "gid://shopify/MediaImage/36988163424475",
+        "gid://shopify/MediaImage/36988163457243",
+        "gid://shopify/MediaImage/36988163490011",
+        "gid://shopify/MediaImage/36988163522779",
+        "gid://shopify/MediaImage/36988245016795"
+      ],
+      "status": "verified_mutation_response",
+      "receipt": "receipts/files-01-result.json"
+    },
+    {
+      "kind": "files",
+      "batch": 2,
+      "ids": [
+        "gid://shopify/MediaImage/36988245049563",
+        "gid://shopify/MediaImage/36988245082331",
+        "gid://shopify/MediaImage/36988245115099",
+        "gid://shopify/MediaImage/36988245147867",
+        "gid://shopify/MediaImage/36988296560859",
+        "gid://shopify/MediaImage/36988296593627",
+        "gid://shopify/MediaImage/36988296626395",
+        "gid://shopify/MediaImage/36988296659163",
+        "gid://shopify/MediaImage/36988296691931",
+        "gid://shopify/MediaImage/36988464562395",
+        "gid://shopify/MediaImage/36988464595163",
+        "gid://shopify/MediaImage/36988464627931",
+        "gid://shopify/MediaImage/36988464660699",
+        "gid://shopify/MediaImage/36988464693467",
+        "gid://shopify/MediaImage/36988524495067",
+        "gid://shopify/MediaImage/36988524527835",
+        "gid://shopify/MediaImage/36988524560603",
+        "gid://shopify/MediaImage/36988524593371",
+        "gid://shopify/MediaImage/36988524626139",
+        "gid://shopify/MediaImage/36988543795419",
+        "gid://shopify/MediaImage/36988543828187",
+        "gid://shopify/MediaImage/36988543860955",
+        "gid://shopify/MediaImage/36988543893723",
+        "gid://shopify/MediaImage/36988543926491",
+        "gid://shopify/MediaImage/36988578267355"
+      ],
+      "status": "verified_mutation_response",
+      "receipt": "receipts/files-02-result.json"
+    },
+    {
+      "kind": "files",
+      "batch": 3,
+      "ids": [
+        "gid://shopify/MediaImage/36988578300123",
+        "gid://shopify/MediaImage/36988578332891",
+        "gid://shopify/MediaImage/36988578365659",
+        "gid://shopify/MediaImage/36988578398427",
+        "gid://shopify/MediaImage/36988578431195",
+        "gid://shopify/MediaImage/36988578463963",
+        "gid://shopify/MediaImage/36988603662555",
+        "gid://shopify/MediaImage/36988603695323",
+        "gid://shopify/MediaImage/36988603728091",
+        "gid://shopify/MediaImage/36988603760859",
+        "gid://shopify/MediaImage/36988603793627",
+        "gid://shopify/MediaImage/36988603826395",
+        "gid://shopify/MediaImage/36988603859163",
+        "gid://shopify/MediaImage/36988624896219",
+        "gid://shopify/MediaImage/36988624928987",
+        "gid://shopify/MediaImage/36988624961755",
+        "gid://shopify/MediaImage/36988624994523",
+        "gid://shopify/MediaImage/36988625027291",
+        "gid://shopify/MediaImage/36988625060059",
+        "gid://shopify/MediaImage/36988625092827",
+        "gid://shopify/MediaImage/36988646949083",
+        "gid://shopify/MediaImage/36988646981851",
+        "gid://shopify/MediaImage/36988647014619",
+        "gid://shopify/MediaImage/36988647047387",
+        "gid://shopify/MediaImage/36988647080155"
+      ],
+      "status": "verified_mutation_response",
+      "receipt": "receipts/files-03-result.json"
+    },
+    {
+      "kind": "files",
+      "batch": 4,
+      "ids": [
+        "gid://shopify/MediaImage/36988647112923",
+        "gid://shopify/MediaImage/36988647145691",
+        "gid://shopify/MediaImage/37014564864219",
+        "gid://shopify/MediaImage/37014564896987",
+        "gid://shopify/MediaImage/37014564929755",
+        "gid://shopify/MediaImage/37014564962523",
+        "gid://shopify/MediaImage/37014564995291",
+        "gid://shopify/MediaImage/37014565028059",
+        "gid://shopify/MediaImage/37014565060827",
+        "gid://shopify/MediaImage/37014587506907",
+        "gid://shopify/MediaImage/37014587539675",
+        "gid://shopify/MediaImage/37014587572443",
+        "gid://shopify/MediaImage/37014587605211",
+        "gid://shopify/MediaImage/37014587637979",
+        "gid://shopify/MediaImage/37014587670747",
+        "gid://shopify/MediaImage/37014587703515",
+        "gid://shopify/MediaImage/37091808903387",
+        "gid://shopify/MediaImage/37091808837851",
+        "gid://shopify/MediaImage/37091808936155",
+        "gid://shopify/MediaImage/37108875821275",
+        "gid://shopify/MediaImage/37091699982555",
+        "gid://shopify/MediaImage/37091862970587",
+        "gid://shopify/MediaImage/37091857367259",
+        "gid://shopify/MediaImage/37932472336603",
+        "gid://shopify/MediaImage/37932472303835"
+      ],
+      "status": "verified_mutation_response",
+      "receipt": "receipts/files-04-result.json"
+    },
+    {
+      "kind": "files",
+      "batch": 5,
+      "ids": [
+        "gid://shopify/MediaImage/37932472238299",
+        "gid://shopify/MediaImage/37932472205531",
+        "gid://shopify/MediaImage/37932472434907",
+        "gid://shopify/MediaImage/37932472697051",
+        "gid://shopify/MediaImage/37932472271067",
+        "gid://shopify/MediaImage/38011647394011",
+        "gid://shopify/MediaImage/38011647426779",
+        "gid://shopify/MediaImage/38011647459547",
+        "gid://shopify/MediaImage/38011647492315",
+        "gid://shopify/MediaImage/38011647525083",
+        "gid://shopify/MediaImage/38012152119515",
+        "gid://shopify/MediaImage/38012152152283",
+        "gid://shopify/MediaImage/38012152185051",
+        "gid://shopify/MediaImage/38012152217819",
+        "gid://shopify/MediaImage/38012152250587",
+        "gid://shopify/MediaImage/38012152283355",
+        "gid://shopify/MediaImage/38012152316123",
+        "gid://shopify/MediaImage/38365789290715",
+        "gid://shopify/MediaImage/38365991862491",
+        "gid://shopify/MediaImage/38365991895259",
+        "gid://shopify/MediaImage/38365991928027",
+        "gid://shopify/MediaImage/38365991960795",
+        "gid://shopify/MediaImage/38365991993563",
+        "gid://shopify/MediaImage/38365992026331",
+        "gid://shopify/MediaImage/38365992059099"
+      ],
+      "status": "verified_mutation_response",
+      "receipt": "receipts/files-05-result.json"
+    },
+    {
+      "kind": "files",
+      "batch": 6,
+      "ids": [
+        "gid://shopify/MediaImage/38365992091867",
+        "gid://shopify/MediaImage/38365992124635",
+        "gid://shopify/MediaImage/38366438031579",
+        "gid://shopify/MediaImage/38366438064347",
+        "gid://shopify/MediaImage/38366438097115",
+        "gid://shopify/MediaImage/38451078037723",
+        "gid://shopify/MediaImage/38451078004955",
+        "gid://shopify/MediaImage/38451078201563",
+        "gid://shopify/MediaImage/38451078168795",
+        "gid://shopify/MediaImage/38451078070491",
+        "gid://shopify/MediaImage/38451078136027",
+        "gid://shopify/MediaImage/38451078103259",
+        "gid://shopify/MediaImage/38450757435611",
+        "gid://shopify/MediaImage/38450757468379",
+        "gid://shopify/MediaImage/38450757501147",
+        "gid://shopify/MediaImage/38450757533915",
+        "gid://shopify/MediaImage/38450757566683",
+        "gid://shopify/MediaImage/38450757599451",
+        "gid://shopify/MediaImage/38450757632219",
+        "gid://shopify/MediaImage/38450757664987",
+        "gid://shopify/MediaImage/38450757697755",
+        "gid://shopify/MediaImage/38450938708187",
+        "gid://shopify/MediaImage/38450938740955",
+        "gid://shopify/MediaImage/38450938773723",
+        "gid://shopify/MediaImage/38450938806491"
+      ],
+      "status": "verified_mutation_response",
+      "receipt": "receipts/files-06-result.json"
+    },
+    {
+      "kind": "files",
+      "batch": 7,
+      "ids": [
+        "gid://shopify/MediaImage/38450938839259",
+        "gid://shopify/MediaImage/38450938872027",
+        "gid://shopify/MediaImage/38450938904795",
+        "gid://shopify/MediaImage/38450938937563"
+      ],
+      "status": "verified_mutation_response",
+      "receipt": "receipts/files-07-result.json"
+    }
+  ]
+}

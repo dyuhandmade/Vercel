@@ -1,0 +1,12 @@
+{
+  "verifiedAt": "2026-10-04T09:23:33.907Z",
+  "method": "Signed-in Shopify admin UI",
+  "before": null,
+  "after": {
+    "type": "CONTACT_INFORMATION",
+    "body": "<p><strong>DYUhandmade</strong></p>\n<p>Email: <a href=\"mailto:dyuhandmadesoaps@gmail.com\">dyuhandmadesoaps@gmail.com</a></p>\n<p>Phone: <a href=\"tel:+919945945750\">+91 9945 945 750</a></p>\n<p>Store address: 3 6th Main Road Ibbaluru Bellandur, 560103 Bengaluru, Karnataka, India.</p>"
+  },
+  "sources": "Existing public store contact settings and automated privacy-policy contact section",
+  "verified": "Admin Published badge and independent Admin GraphQL read",
+  "otherPolicyTermsChanged": false
+}

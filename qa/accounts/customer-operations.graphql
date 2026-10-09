@@ -1,0 +1,19 @@
+query AccountProfile{customer{id firstName lastName displayName emailAddress{emailAddress} phoneNumber{phoneNumber}}}
+
+mutation AccountProfileUpdate($input:CustomerUpdateInput!){customerUpdate(input:$input){customer{id firstName lastName displayName emailAddress{emailAddress} phoneNumber{phoneNumber}} userErrors{field message}}}
+
+query AccountOrders($after:String){customer{orders(first:12,after:$after,sortKey:PROCESSED_AT,reverse:true){nodes{id name processedAt financialStatus fulfillmentStatus totalPrice{amount currencyCode} statusPageUrl cancelledAt} pageInfo{hasNextPage endCursor}}}}
+
+query AccountOrder($id:ID!,$after:String){order(id:$id){id name processedAt financialStatus fulfillmentStatus totalPrice{amount currencyCode} statusPageUrl cancelledAt subtotal{amount currencyCode} totalShipping{amount currencyCode} totalTax{amount currencyCode} totalRefunded{amount currencyCode} shippingAddress{id firstName lastName company address1 address2 city zoneCode province territoryCode country zip phoneNumber formatted} lineItems(first:50,after:$after){nodes{id name variantTitle quantity image{url altText} price{amount currencyCode} totalPrice{amount currencyCode} productId variantId} pageInfo{hasNextPage endCursor}} fulfillments(first:20){nodes{id status estimatedDeliveryAt trackingInformation{company number url}} pageInfo{hasNextPage endCursor}}}}
+
+query AccountAddresses($after:String){customer{defaultAddress{id} addresses(first:20,after:$after){nodes{id firstName lastName company address1 address2 city zoneCode province territoryCode country zip phoneNumber formatted} pageInfo{hasNextPage endCursor}}}}
+
+mutation AccountAddressCreate($address:CustomerAddressInput!,$default:Boolean){customerAddressCreate(address:$address,defaultAddress:$default){customerAddress{id} userErrors{field message}}}
+
+mutation AccountAddressUpdate($id:ID!,$address:CustomerAddressInput,$default:Boolean){customerAddressUpdate(addressId:$id,address:$address,defaultAddress:$default){customerAddress{id} userErrors{field message}}}
+
+mutation AccountAddressDelete($id:ID!){customerAddressDelete(addressId:$id){deletedAddressId userErrors{field message}}}
+
+query AccountWishlist{customer{id wishlist:metafield(namespace:"dyu",key:"wishlist"){value compareDigest}}}
+
+mutation AccountWishlistSave($metafields:[MetafieldsSetInput!]!){metafieldsSet(metafields:$metafields){metafields{key value} userErrors{code field message}}}

@@ -1,0 +1,222 @@
+[
+  {
+    "width": 320,
+    "before": {
+      "x": 14,
+      "y": 96.921875,
+      "width": 292,
+      "height": 915.921875
+    },
+    "after": {
+      "x": 14,
+      "y": 96.921875,
+      "width": 292,
+      "height": 915.921875
+    },
+    "diagnostics": {
+      "width": 290,
+      "height": 914,
+      "overflow": 0,
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2Fdyu-website-botanical-study.webp%3Fv%3D1790942797&w=384&q=75"
+        }
+      ],
+      "tabs": [
+        {
+          "text": "Nature.Follow your curiosity01",
+          "width": 79,
+          "height": 109
+        },
+        {
+          "text": "Human touch.Care in every detail02",
+          "width": 79,
+          "height": 109
+        },
+        {
+          "text": "Your everyday.Make the moment yours03",
+          "width": 79,
+          "height": 109
+        }
+      ]
+    },
+    "errors": []
+  },
+  {
+    "width": 390,
+    "before": {
+      "x": 14,
+      "y": 53.75,
+      "width": 362,
+      "height": 1003.390625
+    },
+    "after": {
+      "x": 14,
+      "y": 53.75,
+      "width": 362,
+      "height": 1003.390625
+    },
+    "diagnostics": {
+      "width": 360,
+      "height": 1001,
+      "overflow": 0,
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2Fdyu-website-botanical-study.webp%3Fv%3D1790942797&w=384&q=75"
+        }
+      ],
+      "tabs": [
+        {
+          "text": "Nature.Follow your curiosity01",
+          "width": 99,
+          "height": 110
+        },
+        {
+          "text": "Human touch.Care in every detail02",
+          "width": 99,
+          "height": 110
+        },
+        {
+          "text": "Your everyday.Make the moment yours03",
+          "width": 99,
+          "height": 110
+        }
+      ]
+    },
+    "errors": []
+  },
+  {
+    "width": 768,
+    "before": {
+      "x": 30.71875,
+      "y": 188.796875,
+      "width": 706.546875,
+      "height": 732.203125
+    },
+    "after": {
+      "x": 30.71875,
+      "y": 188.796875,
+      "width": 706.546875,
+      "height": 732.203125
+    },
+    "diagnostics": {
+      "width": 705,
+      "height": 730,
+      "overflow": 0,
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2Fdyu-website-botanical-study.webp%3Fv%3D1790942797&w=384&q=75"
+        }
+      ],
+      "tabs": [
+        {
+          "text": "Nature.Follow your curiosity01",
+          "width": 289,
+          "height": 91
+        },
+        {
+          "text": "Human touch.Care in every detail02",
+          "width": 289,
+          "height": 91
+        },
+        {
+          "text": "Your everyday.Make the moment yours03",
+          "width": 289,
+          "height": 91
+        }
+      ]
+    },
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "before": {
+      "x": 57.59375,
+      "y": 158.03125,
+      "width": 1324.796875,
+      "height": 793.03125
+    },
+    "after": {
+      "x": 57.59375,
+      "y": 158.03125,
+      "width": 1324.796875,
+      "height": 793.03125
+    },
+    "diagnostics": {
+      "width": 1323,
+      "height": 791,
+      "overflow": 0,
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2Fdyu-website-botanical-study.webp%3Fv%3D1790942797&w=750&q=75"
+        }
+      ],
+      "tabs": [
+        {
+          "text": "Nature.Follow your curiosity01",
+          "width": 489,
+          "height": 91
+        },
+        {
+          "text": "Human touch.Care in every detail02",
+          "width": 489,
+          "height": 91
+        },
+        {
+          "text": "Your everyday.Make the moment yours03",
+          "width": 489,
+          "height": 91
+        }
+      ]
+    },
+    "errors": []
+  },
+  {
+    "width": 2560,
+    "before": {
+      "x": 510,
+      "y": 116.71875,
+      "width": 1540,
+      "height": 876.109375
+    },
+    "after": {
+      "x": 510,
+      "y": 116.71875,
+      "width": 1540,
+      "height": 876.109375
+    },
+    "diagnostics": {
+      "width": 1538,
+      "height": 874,
+      "overflow": 0,
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3000/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0766%2F3730%2F7099%2Ffiles%2Fdyu-website-botanical-study.webp%3Fv%3D1790942797&w=750&q=75"
+        }
+      ],
+      "tabs": [
+        {
+          "text": "Nature.Follow your curiosity01",
+          "width": 571,
+          "height": 93
+        },
+        {
+          "text": "Human touch.Care in every detail02",
+          "width": 571,
+          "height": 93
+        },
+        {
+          "text": "Your everyday.Make the moment yours03",
+          "width": 571,
+          "height": 93
+        }
+      ]
+    },
+    "errors": []
+  }
+]

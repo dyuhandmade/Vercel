@@ -1,0 +1,82 @@
+{
+  "capturedAt": "2026-10-04T09:53:25.248Z",
+  "data": {
+    "shop": {
+      "id": "gid://shopify/Shop/76637307099",
+      "myshopifyDomain": "fgm0vn-7t.myshopify.com"
+    },
+    "collection": {
+      "id": "gid://shopify/Collection/513925775579",
+      "handle": "frontpage",
+      "title": "Home page",
+      "descriptionHtml": "",
+      "updatedAt": "2026-10-02T03:29:39Z",
+      "image": null,
+      "sortOrder": "BEST_SELLING",
+      "templateSuffix": null,
+      "seo": {
+        "title": null,
+        "description": null
+      },
+      "ruleSet": null,
+      "resourcePublications": {
+        "nodes": [
+          {
+            "isPublished": true,
+            "publishDate": "2025-05-27T05:36:20Z",
+            "publication": {
+              "id": "gid://shopify/Publication/166168658139"
+            }
+          },
+          {
+            "isPublished": true,
+            "publishDate": "2025-05-27T05:36:27Z",
+            "publication": {
+              "id": "gid://shopify/Publication/166168690907"
+            }
+          },
+          {
+            "isPublished": true,
+            "publishDate": "2026-10-02T03:29:10Z",
+            "publication": {
+              "id": "gid://shopify/Publication/224513720539"
+            }
+          },
+          {
+            "isPublished": true,
+            "publishDate": "2026-10-02T03:29:39Z",
+            "publication": {
+              "id": "gid://shopify/Publication/224513917147"
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjoxMDU4ODQzNDU5ODAzLCJsYXN0X3ZhbHVlIjoxMDU4ODQzNDU5ODAzfQ=="
+        }
+      },
+      "products": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Product/8903888994523",
+            "handle": "damask-rose-cold-processed-soap",
+            "title": "Damask Rose Cold Processed Soap",
+            "featuredMedia": {
+              "id": "gid://shopify/MediaImage/45202466668763",
+              "alt": "Damask Rose Cold Processed Soap — product image 1 of 4",
+              "image": {
+                "id": "gid://shopify/ImageSource/45202466668763",
+                "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/Damask_Rose_Soap_Amazon.png?v=1787828685",
+                "altText": "Damask Rose Cold Processed Soap — product image 1 of 4"
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo4OTAzODg4OTk0NTIzLCJsYXN0X3ZhbHVlIjoiMCJ9"
+        }
+      }
+    }
+  }
+}

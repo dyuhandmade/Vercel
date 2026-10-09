@@ -2,6 +2,14 @@ import {test,expect} from '@playwright/test';
 import {normalizeContentSection,plainText,safeImage,safeLink,textList} from '../src/lib/content-safety';
 import {productPresentation,productStoryItems,productText,type ProductMetafield} from '../src/lib/product-content';
 
+test('carousel and hero controls preserve explicit false and reject unsupported values',()=>{
+ const parse=(values:Record<string,string>)=>normalizeContentSection({handle:'home-hero',fields:Object.entries(values).map(([key,value])=>({key,value}))})!;
+ expect(parse({carousel_autoplay:'false',carousel_interval:'5000',display_mode:'image'})).toMatchObject({carouselAutoplay:false,carouselInterval:5000,displayMode:'image'});
+ expect(parse({carousel_interval:'1'}).carouselInterval).toBe(2000);
+ expect(parse({carousel_interval:'90000'}).carouselInterval).toBe(20000);
+ expect(parse({carousel_interval:'NaN',carousel_autoplay:'yes',display_mode:'html'})).toMatchObject({carouselInterval:undefined,carouselAutoplay:undefined,displayMode:undefined});
+});
+
 test('editor URLs cannot inject protocols, credentials, controls, or unsupported images',()=>{
  for(const url of ['javascript:alert(1)','data:text/html,test','//example.com','/\\example.com','https://user:password@example.com','https://example.com\n/path','mailto:a@b.com','http://example.com','/%0aevil'])expect(safeLink(url),url).toBeUndefined();
  expect(safeLink('/shop?type=Hair%20Care#products')).toBe('/shop?type=Hair%20Care#products');

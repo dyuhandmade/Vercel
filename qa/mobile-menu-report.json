@@ -1,0 +1,286 @@
+[
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "geometry": {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "top": 0,
+        "right": 390,
+        "bottom": 844,
+        "left": 0
+      },
+      "overflow": 0,
+      "links": [
+        {
+          "label": "",
+          "href": "/"
+        },
+        {
+          "label": "The collection",
+          "href": "/shop"
+        },
+        {
+          "label": "Our story",
+          "href": "/our-story"
+        },
+        {
+          "label": "The ingredients",
+          "href": "/ingredients"
+        },
+        {
+          "label": "The journal",
+          "href": "/journal"
+        },
+        {
+          "label": "View all",
+          "href": "/shop"
+        },
+        {
+          "label": "Cold processed Soap",
+          "href": "/shop?type=Cold%20processed%20Soap"
+        },
+        {
+          "label": "Facial Oil",
+          "href": "/shop?type=Facial%20Oil"
+        },
+        {
+          "label": "Hair Care",
+          "href": "/shop?type=Hair%20Care"
+        },
+        {
+          "label": "Gift Set",
+          "href": "/shop?type=Gift%20Set"
+        },
+        {
+          "label": "How it is made",
+          "href": "/how-its-made"
+        },
+        {
+          "label": "Get in touch",
+          "href": "/contact"
+        }
+      ],
+      "focusInside": true
+    },
+    "errors": []
+  },
+  {
+    "viewport": {
+      "width": 320,
+      "height": 740
+    },
+    "geometry": {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 740,
+        "top": 0,
+        "right": 320,
+        "bottom": 740,
+        "left": 0
+      },
+      "overflow": 0,
+      "links": [
+        {
+          "label": "",
+          "href": "/"
+        },
+        {
+          "label": "The collection",
+          "href": "/shop"
+        },
+        {
+          "label": "Our story",
+          "href": "/our-story"
+        },
+        {
+          "label": "The ingredients",
+          "href": "/ingredients"
+        },
+        {
+          "label": "The journal",
+          "href": "/journal"
+        },
+        {
+          "label": "View all",
+          "href": "/shop"
+        },
+        {
+          "label": "Cold processed Soap",
+          "href": "/shop?type=Cold%20processed%20Soap"
+        },
+        {
+          "label": "Facial Oil",
+          "href": "/shop?type=Facial%20Oil"
+        },
+        {
+          "label": "Hair Care",
+          "href": "/shop?type=Hair%20Care"
+        },
+        {
+          "label": "Gift Set",
+          "href": "/shop?type=Gift%20Set"
+        },
+        {
+          "label": "How it is made",
+          "href": "/how-its-made"
+        },
+        {
+          "label": "Get in touch",
+          "href": "/contact"
+        }
+      ],
+      "focusInside": true
+    },
+    "errors": []
+  },
+  {
+    "viewport": {
+      "width": 768,
+      "height": 390
+    },
+    "geometry": {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 390,
+        "top": 0,
+        "right": 768,
+        "bottom": 390,
+        "left": 0
+      },
+      "overflow": 0,
+      "links": [
+        {
+          "label": "",
+          "href": "/"
+        },
+        {
+          "label": "The collection",
+          "href": "/shop"
+        },
+        {
+          "label": "Our story",
+          "href": "/our-story"
+        },
+        {
+          "label": "The ingredients",
+          "href": "/ingredients"
+        },
+        {
+          "label": "The journal",
+          "href": "/journal"
+        },
+        {
+          "label": "View all",
+          "href": "/shop"
+        },
+        {
+          "label": "Cold processed Soap",
+          "href": "/shop?type=Cold%20processed%20Soap"
+        },
+        {
+          "label": "Facial Oil",
+          "href": "/shop?type=Facial%20Oil"
+        },
+        {
+          "label": "Hair Care",
+          "href": "/shop?type=Hair%20Care"
+        },
+        {
+          "label": "Gift Set",
+          "href": "/shop?type=Gift%20Set"
+        },
+        {
+          "label": "How it is made",
+          "href": "/how-its-made"
+        },
+        {
+          "label": "Get in touch",
+          "href": "/contact"
+        }
+      ],
+      "focusInside": true
+    },
+    "errors": []
+  },
+  {
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "geometry": {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 1024,
+        "top": 0,
+        "right": 768,
+        "bottom": 1024,
+        "left": 0
+      },
+      "overflow": 0,
+      "links": [
+        {
+          "label": "",
+          "href": "/"
+        },
+        {
+          "label": "The collection",
+          "href": "/shop"
+        },
+        {
+          "label": "Our story",
+          "href": "/our-story"
+        },
+        {
+          "label": "The ingredients",
+          "href": "/ingredients"
+        },
+        {
+          "label": "The journal",
+          "href": "/journal"
+        },
+        {
+          "label": "View all",
+          "href": "/shop"
+        },
+        {
+          "label": "Cold processed Soap",
+          "href": "/shop?type=Cold%20processed%20Soap"
+        },
+        {
+          "label": "Facial Oil",
+          "href": "/shop?type=Facial%20Oil"
+        },
+        {
+          "label": "Hair Care",
+          "href": "/shop?type=Hair%20Care"
+        },
+        {
+          "label": "Gift Set",
+          "href": "/shop?type=Gift%20Set"
+        },
+        {
+          "label": "How it is made",
+          "href": "/how-its-made"
+        },
+        {
+          "label": "Get in touch",
+          "href": "/contact"
+        }
+      ],
+      "focusInside": true
+    },
+    "errors": []
+  }
+]

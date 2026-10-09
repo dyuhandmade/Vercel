@@ -2,46 +2,18 @@
 
 import {useEffect, useId, useRef, useState, type KeyboardEvent} from 'react';
 import Image from 'next/image';
-import {ArrowLeft, ArrowRight, ChevronDown, Moon, Sparkles, Sunrise} from 'lucide-react';
+import {ArrowLeft, ArrowRight, ChevronDown} from 'lucide-react';
 import type {StoryItem} from '@/lib/types';
 import type {SiteContent} from '@/lib/site-content';
 import {useRitualSelection} from './RitualSelection';
 import './ritual-experience.css';
-
-const defaultMoments = [
-  {
-    id: 'morning', label: 'Morning', icon: Sunrise, note: 'Before the world asks anything of you.',
-    image: '/images/atelier-ritual-v2.webp', position: '62% center',
-    steps: [
-      {title: 'Let the day arrive.', text: 'A little daylight. A moment before the rush. Choose a place to begin.'},
-      {title: 'Notice the little things.', text: 'The light on the table. The texture of linen. The familiar objects close to hand.'},
-      {title: 'Make this moment yours.', text: 'One small pause, before everything else. Carry that intention into your day.'},
-    ],
-  },
-  {
-    id: 'evening', label: 'Evening', icon: Moon, note: 'A soft landing at the end of the day.',
-    image: '/images/atelier-craft-v2.webp', position: 'center',
-    steps: [
-      {title: 'Set the day down.', text: 'Find your favourite corner. Let the next thing wait a little.'},
-      {title: 'Return to the familiar.', text: 'A quiet room. Warm light. A small collection of things that feel like you.'},
-      {title: 'Leave a little space.', text: 'Nothing elaborate. Just a moment you might look forward to returning to.'},
-    ],
-  },
-  {
-    id: 'pause', label: 'A quiet pause', icon: Sparkles, note: 'No occasion needed. Just a little time.',
-    image: '/images/botanical-study.webp', position: 'center',
-    steps: [
-      {title: 'Step out of the rush.', text: 'There does not have to be a perfect time. Begin with the moment you have.'},
-      {title: 'Look a little closer.', text: 'A leaf. A shadow. An everyday object. Give one small detail your attention.'},
-      {title: 'Keep a moment for you.', text: 'A pause can be a ritual, too. Let yours be as simple as you like.'},
-    ],
-  },
-] as const;
+import {defaultMoments} from './ritual-moments';
+import RitualMomentExperience from './RitualMomentExperience';
 
 type RitualExperienceProps = {items?: StoryItem[]; preview?: boolean; title?: string; destinationHref?: string; destinationLabel?: string;content?:SiteContent};
 type RitualStep = {title: string; text: string; image?: string;imageAlt?:string};
 
-export default function RitualExperience({items = [], preview = false, title, destinationHref = '#purchase', destinationLabel = 'Make room for a ritual',content}: RitualExperienceProps) {
+function ProductRitualExperience({items = [], preview = false, title, destinationHref = '#purchase', destinationLabel = 'Make room for a ritual',content}: RitualExperienceProps) {
   const introduction=content?.sections['ritual'];
   const editorialDestination=preview&&destinationHref!=='#purchase';
   const finalHref=editorialDestination?introduction?.linkUrl||destinationHref:destinationHref;
@@ -137,4 +109,9 @@ export default function RitualExperience({items = [], preview = false, title, de
       </div>
     </div>
   );
+}
+
+export default function RitualExperience(props: RitualExperienceProps) {
+  if (props.preview && !props.title && !props.items?.length) return <RitualMomentExperience content={props.content} destinationHref={props.destinationHref} destinationLabel={props.destinationLabel}/>;
+  return <ProductRitualExperience {...props}/>;
 }

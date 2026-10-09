@@ -12,6 +12,10 @@ import IngredientDiscovery from '@/components/IngredientDiscovery';
 import CraftJourney from '@/components/CraftJourney';
 import PhilosophyExperience from '@/components/PhilosophyExperience';
 import RitualExperience from '@/components/RitualExperience';
+import experienceStyles from './HomeExperienceSections.module.css';
+import {homeChildHandles,homeSectionGroups,type HomeSectionHandle} from '@/lib/home-layout';
+import {Fragment,type ReactNode} from 'react';
+import {buildIngredientIndex} from './ingredients/ingredient-data';
 
 const copy=(value:string|undefined,fallback:string,max=160)=>(value?.trim()||fallback).slice(0,max);
 // Removed or unpublished references fall back to the current catalogue.
@@ -32,7 +36,7 @@ export default async function Home(){
  const distinctPreviews=previewCandidates.filter(p=>{const category=p.productType||p.shape;if(previewCategories.has(category))return false;previewCategories.add(category);return true;});
  const defaultPreviews=[...distinctPreviews,...previewCandidates.filter(p=>!distinctPreviews.some(item=>item.id===p.id))];
  const previewProducts=choose(defaultPreviews,heroPreview.productHandles?.length?heroPreview.productHandles:hero.productHandles).slice(0,3).map(p=>({id:p.id,handle:p.handle,title:p.title,productType:p.productType,shape:p.shape,tone:p.tone,image:(p.image||p.images[0]?.url)!}));
- const ingredients=[...new Map(choose(products,botanicals.productHandles).flatMap(p=>p.ingredients).map(i=>[i.name,i])).values()];
+ const ingredients=buildIngredientIndex(choose(products,botanicals.productHandles),content).filter(item=>item.hasStory).map(item=>({...item,relatedProductHandles:item.references.map(reference=>reference.handle)}));
  const configuredCollections=choose(collections,collectionEdit.collectionHandles);
  const discovery=collectionEdit.collectionHandles?.some(handle=>collections.some(c=>c.handle===handle))?configuredCollections:discoveryCollections(products,collections);
  const featuredCraft=choose(products,craft.productHandles).find(p=>p.craft.length>0)||products.find(p=>p.craft.length>0);
@@ -40,50 +44,51 @@ export default async function Home(){
  const collectionImages=['atelier-ritual-v2.webp','botanical-study.webp','atelier-hero.webp','atelier-craft-v2.webp'];
  const discoveryHref=collectionEdit.enabled!==false&&discovery.length?'#collections':'/shop';
  const articleSlugs=new Set(getArticles(content).map(article=>article.slug));
- const journalCards=[
+ const journalDefaults=[
   {handle:'home-journal-1',title:'The quiet art of making\ntime for yourself.',image:'/images/atelier-ritual-v2.webp',alt:'Illustrative quiet moment with linen and care vessels',category:'EVERYDAY RITUALS',href:'/journal/making-space-for-a-ritual'},
   {handle:'home-journal-2',title:'A little curiosity\ngoes a long way.',image:'/images/botanical-study.webp',alt:'A study of botanical forms and textures',category:'THOUGHTFUL CARE',href:'/journal/look-closer-at-your-care'}
- ].map(fallback=>({fallback,value:section(content,fallback.handle)})).filter(({value,fallback})=>{
+ ];
+ const journalCards=homeChildHandles(content,'home-journal',journalDefaults.map(item=>item.handle)).map(handle=>({fallback:journalDefaults.find(item=>item.handle===handle)||{...journalDefaults[0],handle},value:section(content,handle)})).filter(({value,fallback})=>{
   if(value.enabled===false)return false;
   const internalArticle=(value.linkUrl||fallback.href).match(/^\/journal\/([a-z0-9-]+)\/?(?:[?#].*)?$/);
   return !internalArticle||articleSlugs.has(internalArticle[1]);
  });
- const reassurance=[
+ const reassuranceDefaults=[
   {label:'Explore the ingredients',href:'/ingredients',Icon:Leaf},
   {label:'Discover the making',href:'/how-its-made',Icon:Hand},
   {label:'Find your everyday ritual',href:'/shop',Icon:Sun},
   {label:'Browse our WhatsApp catalogue',href:catalogueUrl,Icon:MessageCircle}
- ].map((fallback,index)=>({fallback,value:section(content,`home-reassurance-${index+1}`)})).filter(({value})=>value.enabled!==false);
- return <div className="atelier-home">
-  <AtelierHero products={previewProducts} demo={demo} content={hero} preview={heroPreview} discoveryHref={discoveryHref}/>
-  {welcome.enabled!==false&&<section className="welcome-note">
+ ];
+ const reassurance=homeChildHandles(content,'home-reassurance',reassuranceDefaults.map((_,index)=>`home-reassurance-${index+1}`)).map(handle=>({fallback:reassuranceDefaults[Number(handle.split('-').at(-1))-1]||reassuranceDefaults[0],value:section(content,handle)}));
+ const sections:Record<HomeSectionHandle,ReactNode>={
+  'home-hero':<AtelierHero products={previewProducts} demo={demo} content={hero} slides={[2,3,4].map(index=>section(content,`home-hero-slide-${index}`))} preview={heroPreview} discoveryHref={discoveryHref}/>,
+  'home-welcome':welcome.enabled!==false&&<section className="welcome-note">
    <span className="eyebrow">{copy(welcome.eyebrow,'NATURE. HANDS. YOUR EVERYDAY.',100)}</span>
    <p className="content-lines">{copy(welcome.title,'Some things ask you to hurry.')}<br/><em>{copy(welcome.titleEmphasis,'This is a place to take your time.')}</em></p>
    <a href={welcome.linkUrl||discoveryHref} className="quiet-scroll" aria-label={copy(welcome.linkLabel,'Discover the collections',80)}>↓</a>
-  </section>}
-  {collectionEdit.enabled!==false&&discovery.length>0&&<section className="section collection-edit collection-editorial" id="collections">
-   <Reveal className="section-heading"><div><p className="eyebrow">{copy(collectionEdit.eyebrow,'A PLACE TO BEGIN',100)}</p><h2 className="content-lines">{copy(collectionEdit.title,'What does your')}<br/><em>{copy(collectionEdit.titleEmphasis,'day need?')}</em></h2></div><p className="section-aside content-lines">{copy(collectionEdit.body,'A fresh beginning. A quiet evening.\nA little something, just for someone.',500)}</p></Reveal>
+  </section>,
+  'home-collections':collectionEdit.enabled!==false&&discovery.length>0&&<section className="section collection-edit collection-editorial" id="collections">
+   <Reveal className="section-heading"><div><p className="eyebrow">{copy(collectionEdit.eyebrow,'A PLACE TO BEGIN',100)}</p><h2 className="content-lines">{copy(collectionEdit.title,'What does your')}{' '}<em>{copy(collectionEdit.titleEmphasis,'day need?')}</em></h2></div><p className="section-aside content-lines">{copy(collectionEdit.body,'A fresh beginning. A quiet evening.\nA little something, just for someone.',500)}</p></Reveal>
    <div className="collection-grid">{discovery.slice(0,4).map((c,i)=><Link key={c.handle} href={c.href||`/collections/${c.handle}`} className={`collection-tile collection-${i}`}>
-    <div className="collection-image"><Image src={c.image?.url||`/images/${collectionImages[i]}`} alt={c.image?.altText||`Illustrative still life for ${c.title}`} fill sizes="(max-width: 850px) 44vw, 22vw"/><span className="collection-number">0{i+1}</span><span className="collection-view">{copy(collectionEdit.linkLabel,'Enter the collection',80)} <ArrowUpRight size={17}/></span></div>
+    <div className="collection-image" data-media-kind={c.image?.url?'product':'editorial'}><Image src={c.image?.url||`/images/${collectionImages[i]}`} alt={c.image?.altText||`Illustrative still life for ${c.title}`} fill sizes="(max-width: 850px) 44vw, 22vw"/><span className="collection-number">0{i+1}</span><span className="collection-view">{copy(collectionEdit.linkLabel,'Enter the collection',80)} <ArrowUpRight size={17}/></span></div>
     <div className="collection-caption"><h3>{c.title}</h3><p>{c.description}</p></div>
    </Link>)}</div>
-  </section>}
-  <div className="home-story-flow">
-   {section(content,'philosophy').enabled!==false&&<div id="philosophy"><PhilosophyExperience content={content}/></div>}
-   {craft.enabled!==false&&(featuredCraft||demo)&&<section className="section craft-home flowing-craft" id="making" style={{paddingTop:'clamp(65px,7vw,110px)'}}>
+  </section>,
+  'philosophy':section(content,'philosophy').enabled!==false&&<div id="philosophy"><PhilosophyExperience content={content}/></div>,
+  'home-craft':craft.enabled!==false&&(featuredCraft||craft.image||craft.mobileImage||demo)&&<section className="section craft-home flowing-craft" id="making" style={{paddingTop:'clamp(65px,7vw,110px)'}}>
     <div className="chapter-kicker"><span>{copy(craft.caption,'01 / THE HUMAN TOUCH',100)}</span><span>{copy(craft.note,'From an idea, to an object.',160)}</span></div>
     <CraftJourney items={featuredCraft?.craft} product={featuredCraft} content={craft}/>
     <div className="chapter-outro"><p>{copy(craft.secondaryLabel,'And in every detail, a reason to look closer.',160)}</p><Link href={craft.linkUrl||'/how-its-made'} className="text-link">{copy(craft.linkLabel,'Follow the making',80)} <ArrowUpRight size={15}/></Link></div>
-   </section>}
-   {botanicals.enabled!==false&&(ingredients.length>0||demo)&&<section className="section atlas-home flowing-atlas" id="botanicals">
-    <IngredientDiscovery items={ingredients} content={botanicals}/>
+   </section>,
+  'home-ingredients':botanicals.enabled!==false&&(ingredients.length>0||botanicals.image||botanicals.mobileImage||demo)&&<section className={experienceStyles.ingredients} id="botanicals">
+    <IngredientDiscovery items={ingredients} products={choose(products,botanicals.productHandles)} content={botanicals} labels={section(content,'home-ingredients-interface')}/>
     <Link href={botanicals.linkUrl||'/ingredients'} className="text-link atlas-follow">{copy(botanicals.linkLabel,'Open the ingredient library',80)} <ArrowUpRight size={16}/></Link>
-   </section>}
-   {section(content,'ritual').enabled!==false&&<section id="everyday"><RitualExperience content={content} preview destinationHref="/shop" destinationLabel="Find your ritual"/></section>}
-  </div>
-  {favorites.enabled!==false&&featuredProducts.length>0&&<section className="section favorites considered-edit"><Reveal className="section-heading"><div><p className="eyebrow">{copy(favorites.eyebrow,'BRING A LITTLE OF THAT FEELING HOME',100)}</p><h2 className="content-lines">{copy(favorites.title,'Find your')}<br/><em>{copy(favorites.titleEmphasis,'everyday companion.')}</em></h2></div><Link href={favorites.linkUrl||'/shop'} className="text-link">{copy(favorites.linkLabel,'Explore all rituals',80)} <ArrowUpRight size={16}/></Link></Reveal><div className="product-grid">{featuredProducts.map((p,i)=><Reveal key={p.id} delay={i*.06}><ProductCard product={p} index={i}/></Reveal>)}</div></section>}
-  {journal.enabled!==false&&journalCards.length>0&&<section className="journal-preview section journal-editorial"><div className="section-heading"><div><p className="eyebrow">{copy(journal.eyebrow,'KEEP A LITTLE CURIOSITY',100)}</p><h2 className="content-lines">{copy(journal.title,'Notes for')} <em>{copy(journal.titleEmphasis,'slower days.')}</em></h2></div><Link className="text-link" href={journal.linkUrl||'/journal'}>{copy(journal.linkLabel,'From the journal',80)} <ArrowUpRight size={16}/></Link></div><div className="editorial-cards">{journalCards.map(({fallback,value})=><Link key={fallback.handle} href={value.linkUrl||fallback.href} className="editorial-card"><div className="editorial-photo"><Image src={value.image||fallback.image} alt={copy(value.imageAlt,fallback.alt,250)} fill sizes="(max-width:540px) 90vw, 45vw" style={value.imagePosition?{objectPosition:value.imagePosition}:undefined}/></div><span className="eyebrow">{copy(value.category,fallback.category,100)} / {copy(value.readTime,'3 MIN READ',50)}</span><h3 className="content-lines">{copy(value.title,fallback.title)}</h3></Link>)}</div></section>}
-  {section(content,'home-reassurance').enabled!==false&&reassurance.length>0&&<section className="reassurance-strip">{reassurance.map(({fallback,value},index)=>{const href=value.linkUrl||fallback.href;return <Link key={index} href={href} {...(href.startsWith('https://')?{target:'_blank',rel:'noopener noreferrer'}:{})}><fallback.Icon/><span>{copy(value.linkLabel,fallback.label,80)}</span></Link>;})}</section>}
- </div>;
+   </section>,
+  'ritual':section(content,'ritual').enabled!==false&&<section id="everyday"><RitualExperience content={content} preview destinationHref="/shop" destinationLabel="Find your ritual"/></section>,
+  'home-favorites':favorites.enabled!==false&&featuredProducts.length>0&&<section className="section favorites considered-edit"><Reveal className="section-heading"><div><p className="eyebrow">{copy(favorites.eyebrow,'BRING A LITTLE OF THAT FEELING HOME',100)}</p><h2 className="content-lines">{copy(favorites.title,'Find your')}{' '}<em>{copy(favorites.titleEmphasis,'everyday companion.')}</em></h2></div><Link href={favorites.linkUrl||'/shop'} className="text-link">{copy(favorites.linkLabel,'Explore all rituals',80)} <ArrowUpRight size={16}/></Link></Reveal><div className="product-grid">{featuredProducts.map((p,i)=><Reveal key={p.id} delay={i*.06}><ProductCard product={p} index={i}/></Reveal>)}</div></section>,
+  'home-journal':journal.enabled!==false&&journalCards.length>0&&<section className="journal-preview section journal-editorial"><div className="section-heading"><div><p className="eyebrow">{copy(journal.eyebrow,'KEEP A LITTLE CURIOSITY',100)}</p><h2 className="content-lines">{copy(journal.title,'Notes for')} <em>{copy(journal.titleEmphasis,'slower days.')}</em></h2></div><Link className="text-link" href={journal.linkUrl||'/journal'}>{copy(journal.linkLabel,'From the journal',80)} <ArrowUpRight size={16}/></Link></div><div className="editorial-cards">{journalCards.map(({fallback,value})=><Link key={fallback.handle} href={value.linkUrl||fallback.href} className="editorial-card"><div className="editorial-photo"><Image src={value.image||fallback.image} alt={copy(value.imageAlt,fallback.alt,250)} fill sizes="(max-width:540px) 90vw, 45vw" style={value.imagePosition?{objectPosition:value.imagePosition}:undefined}/></div><span className="eyebrow">{copy(value.category,fallback.category,100)} / {copy(value.readTime,'3 MIN READ',50)}</span><h3 className="content-lines">{copy(value.title,fallback.title)}</h3></Link>)}</div></section>,
+  'home-reassurance':section(content,'home-reassurance').enabled!==false&&reassurance.length>0&&<section className="reassurance-strip">{reassurance.map(({fallback,value},index)=>{const href=value.linkUrl||fallback.href;return <Link key={index} href={href} {...(href.startsWith('https://')?{target:'_blank',rel:'noopener noreferrer'}:{})}><fallback.Icon/><span>{copy(value.linkLabel,fallback.label,80)}</span></Link>;})}</section>
+ };
+ return <div className="atelier-home">{homeSectionGroups(content).map(group=>group.story?<div className="home-story-flow" key={group.handles.join('-')}>{group.handles.map(handle=><Fragment key={handle}>{sections[handle]}</Fragment>)}</div>:<Fragment key={group.handles[0]}>{sections[group.handles[0]]}</Fragment>)}</div>;
 }
 

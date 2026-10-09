@@ -1,0 +1,461 @@
+{
+  "at": "2026-10-04T09:27:09.562Z",
+  "batch": 3,
+  "currentBefore": [
+    {
+      "productId": "gid://shopify/Product/8904101724379",
+      "handle": "floral-soap-gift-set",
+      "title": "Floral Soap Gift Set",
+      "id": "gid://shopify/MediaImage/36988578300123",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:30Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988578300123",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_3d21bf77-52ab-4ddc-82cd-dcb3f4ee8d61.png?v=1748535514",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904101724379",
+      "handle": "floral-soap-gift-set",
+      "title": "Floral Soap Gift Set",
+      "id": "gid://shopify/MediaImage/36988578332891",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:30Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988578332891",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_838604fc-e07d-4b44-a0d2-effb3e7e5bb7.png?v=1748535514",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904101724379",
+      "handle": "floral-soap-gift-set",
+      "title": "Floral Soap Gift Set",
+      "id": "gid://shopify/MediaImage/36988578365659",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:30Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988578365659",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_496ccdcb-5145-4539-a74e-a56b03a47507.png?v=1748535514",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904101724379",
+      "handle": "floral-soap-gift-set",
+      "title": "Floral Soap Gift Set",
+      "id": "gid://shopify/MediaImage/36988578398427",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:30Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988578398427",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_d2a3a079-61bb-496a-9c13-ee2d5f3d7faa.png?v=1748535514",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904101724379",
+      "handle": "floral-soap-gift-set",
+      "title": "Floral Soap Gift Set",
+      "id": "gid://shopify/MediaImage/36988578431195",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:30Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988578431195",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6.png?v=1748535514",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904101724379",
+      "handle": "floral-soap-gift-set",
+      "title": "Floral Soap Gift Set",
+      "id": "gid://shopify/MediaImage/36988578463963",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:30Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988578463963",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7.png?v=1748535514",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904103035099",
+      "handle": "wellness-trio-soap-bundle",
+      "title": "Wellness Trio Soap Bundle",
+      "id": "gid://shopify/MediaImage/36988603662555",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:30Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988603662555",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_1acd5629-8a9a-4d2a-9034-0d12902aaea8.png?v=1748535762",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904103035099",
+      "handle": "wellness-trio-soap-bundle",
+      "title": "Wellness Trio Soap Bundle",
+      "id": "gid://shopify/MediaImage/36988603695323",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:30Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988603695323",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_5093ee0a-9f44-49ef-bdb7-3b63b41e66d5.png?v=1748535762",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904103035099",
+      "handle": "wellness-trio-soap-bundle",
+      "title": "Wellness Trio Soap Bundle",
+      "id": "gid://shopify/MediaImage/36988603728091",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:30Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988603728091",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_9f1a2a38-00cf-4872-9227-8cfe260cfa29.png?v=1748535762",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904103035099",
+      "handle": "wellness-trio-soap-bundle",
+      "title": "Wellness Trio Soap Bundle",
+      "id": "gid://shopify/MediaImage/36988603760859",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:30Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988603760859",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_bccbd501-24ad-461e-8d52-5c32b9e1c5ed.png?v=1748535762",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904103035099",
+      "handle": "wellness-trio-soap-bundle",
+      "title": "Wellness Trio Soap Bundle",
+      "id": "gid://shopify/MediaImage/36988603793627",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:30Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988603793627",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_6fb5dd89-56aa-4f20-b15c-d32b413e3b57.png?v=1748535762",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904103035099",
+      "handle": "wellness-trio-soap-bundle",
+      "title": "Wellness Trio Soap Bundle",
+      "id": "gid://shopify/MediaImage/36988603826395",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:30Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988603826395",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_64339390-c0aa-4a26-a785-11f6f7253775.png?v=1748535762",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904103035099",
+      "handle": "wellness-trio-soap-bundle",
+      "title": "Wellness Trio Soap Bundle",
+      "id": "gid://shopify/MediaImage/36988603859163",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:30Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988603859163",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_cba3c5c2-7f05-41ce-a033-9e2f0645d1c0.png?v=1748535762",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904106082523",
+      "handle": "facial-ubtan-orange-almond",
+      "title": "Facial Ubtan - Orange Almond",
+      "id": "gid://shopify/MediaImage/36988624896219",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988624896219",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_cc41f68a-cd7c-420c-af9a-dfcd7a085b13.png?v=1748535974",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904106082523",
+      "handle": "facial-ubtan-orange-almond",
+      "title": "Facial Ubtan - Orange Almond",
+      "id": "gid://shopify/MediaImage/36988624928987",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988624928987",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_4b8896f5-cad7-44a0-80f8-05a262eead16.png?v=1748535974",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904106082523",
+      "handle": "facial-ubtan-orange-almond",
+      "title": "Facial Ubtan - Orange Almond",
+      "id": "gid://shopify/MediaImage/36988624961755",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988624961755",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_11dd3271-fbf5-44e7-bc17-4f96a340c021.png?v=1748535974",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904106082523",
+      "handle": "facial-ubtan-orange-almond",
+      "title": "Facial Ubtan - Orange Almond",
+      "id": "gid://shopify/MediaImage/36988624994523",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988624994523",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_78709e98-80ef-459f-af2e-1deb15e27849.png?v=1748535974",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904106082523",
+      "handle": "facial-ubtan-orange-almond",
+      "title": "Facial Ubtan - Orange Almond",
+      "id": "gid://shopify/MediaImage/36988625027291",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988625027291",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_d32c57ba-ef29-4151-8c20-45965491ebc5.png?v=1748535974",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904106082523",
+      "handle": "facial-ubtan-orange-almond",
+      "title": "Facial Ubtan - Orange Almond",
+      "id": "gid://shopify/MediaImage/36988625060059",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988625060059",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_7fcce39a-50c0-4320-84c7-a5071d7ced6d.png?v=1748535974",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904106082523",
+      "handle": "facial-ubtan-orange-almond",
+      "title": "Facial Ubtan - Orange Almond",
+      "id": "gid://shopify/MediaImage/36988625092827",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988625092827",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_b5353daf-a1f2-45e7-826c-8a313503a256.png?v=1748535975",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904108048603",
+      "handle": "body-ubtan-tea-tree",
+      "title": "Body Ubtan - Tea Tree",
+      "id": "gid://shopify/MediaImage/36988646949083",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988646949083",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_42ae658a-c91b-4ca8-b5ad-d9df26a70b00.png?v=1748536216",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904108048603",
+      "handle": "body-ubtan-tea-tree",
+      "title": "Body Ubtan - Tea Tree",
+      "id": "gid://shopify/MediaImage/36988646981851",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988646981851",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_76fb9bb6-1d15-40a5-a387-9aed629cc327.png?v=1748536216",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904108048603",
+      "handle": "body-ubtan-tea-tree",
+      "title": "Body Ubtan - Tea Tree",
+      "id": "gid://shopify/MediaImage/36988647014619",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988647014619",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_0714b212-651c-41b6-adec-f94479a51f5d.png?v=1748536216",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904108048603",
+      "handle": "body-ubtan-tea-tree",
+      "title": "Body Ubtan - Tea Tree",
+      "id": "gid://shopify/MediaImage/36988647047387",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988647047387",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_c217a64e-82d4-4bdd-806b-57c43f1cb893.png?v=1748536216",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904108048603",
+      "handle": "body-ubtan-tea-tree",
+      "title": "Body Ubtan - Tea Tree",
+      "id": "gid://shopify/MediaImage/36988647080155",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988647080155",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_ee2ff3f3-3528-4f59-b8b3-c60c6b1cb3ba.png?v=1748536216",
+        "altText": ""
+      }
+    }
+  ],
+  "variables": {
+    "files": [
+      {
+        "id": "gid://shopify/MediaImage/36988578300123",
+        "alt": "Floral Soap Gift Set — product image 2 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988578332891",
+        "alt": "Floral Soap Gift Set — product image 3 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988578365659",
+        "alt": "Floral Soap Gift Set — product image 4 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988578398427",
+        "alt": "Floral Soap Gift Set — product image 5 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988578431195",
+        "alt": "Floral Soap Gift Set — product image 6 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988578463963",
+        "alt": "Floral Soap Gift Set — product image 7 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988603662555",
+        "alt": "Wellness Trio Soap Bundle — product image 1 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988603695323",
+        "alt": "Wellness Trio Soap Bundle — product image 2 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988603728091",
+        "alt": "Wellness Trio Soap Bundle — product image 3 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988603760859",
+        "alt": "Wellness Trio Soap Bundle — product image 4 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988603793627",
+        "alt": "Wellness Trio Soap Bundle — product image 5 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988603826395",
+        "alt": "Wellness Trio Soap Bundle — product image 6 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988603859163",
+        "alt": "Wellness Trio Soap Bundle — product image 7 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988624896219",
+        "alt": "Facial Ubtan - Orange Almond — product image 1 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988624928987",
+        "alt": "Facial Ubtan - Orange Almond — product image 2 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988624961755",
+        "alt": "Facial Ubtan - Orange Almond — product image 3 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988624994523",
+        "alt": "Facial Ubtan - Orange Almond — product image 4 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988625027291",
+        "alt": "Facial Ubtan - Orange Almond — product image 5 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988625060059",
+        "alt": "Facial Ubtan - Orange Almond — product image 6 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988625092827",
+        "alt": "Facial Ubtan - Orange Almond — product image 7 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988646949083",
+        "alt": "Body Ubtan - Tea Tree — product image 1 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988646981851",
+        "alt": "Body Ubtan - Tea Tree — product image 2 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988647014619",
+        "alt": "Body Ubtan - Tea Tree — product image 3 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988647047387",
+        "alt": "Body Ubtan - Tea Tree — product image 4 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988647080155",
+        "alt": "Body Ubtan - Tea Tree — product image 5 of 7"
+      }
+    ]
+  },
+  "skipped": []
+}

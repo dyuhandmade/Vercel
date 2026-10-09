@@ -1,0 +1,70 @@
+{
+  "at": "2026-10-04T09:24:53.081Z",
+  "operation": "CleanupProduct",
+  "productId": "gid://shopify/Product/8906853449947",
+  "handle": "triple-body-butter-lavendar",
+  "currentBefore": {
+    "id": "gid://shopify/Product/8906853449947",
+    "handle": "triple-body-butter-lavendar",
+    "title": "Triple Body Butter -Lavendar",
+    "descriptionHtml": "<ul class=\"a-unordered-list a-vertical a-spacing-mini\">\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">DYU Triple Body Butter - Lavender blends rich cocoa, mango, and shea butters with coconut oil and lavender essential oil to intensely moisturize and soothe dry, tired, or irritated skin. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Calming Lavandula Angustifolia essential oil provides a gentle floral scent that promotes relaxation, relieves skin redness, and helps restore balance to sensitive or inflamed skin. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">The creamy blend of mango and cocoa butter delivers long-lasting hydration and skin-softening benefits, perfect for daily use to heal dry patches and promote silky-smooth texture. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Shea butter and coconut oil protect against environmental stress while deeply nourishing the skin barrier, making this body butter ideal for dry climates or post-shower skin repair. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Fortified with antioxidant-rich vitamin E, this chemical-free, fast-absorbing formula enhances skin elasticity, reduces flakiness, and leaves a soft, radiant glow without greasiness.</span></li>\n</ul>",
+    "updatedAt": "2026-10-02T12:07:55Z",
+    "status": "ACTIVE",
+    "tags": [],
+    "vendor": "My Store",
+    "productType": "Body Moisturiser",
+    "totalInventory": 0,
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/46844326510811",
+          "title": "Default Title",
+          "price": "599.00",
+          "compareAtPrice": null,
+          "inventoryQuantity": 0
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjo0Njg0NDMyNjUxMDgxMSwibGFzdF92YWx1ZSI6MX0="
+      }
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/37091699982555",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T06:57:06Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37091699982555",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/DamaskRoseBodyButter.jpg?v=1749474416",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/37091862970587",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T06:57:07Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37091862970587",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/DamaskRoseBodyButter_760e5b26-0bef-4c64-aa13-ed37bf698f33.jpg?v=1749473921",
+            "altText": ""
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjozNzA5MTg2Mjk3MDU4NywibGFzdF92YWx1ZSI6IjIifQ=="
+      }
+    }
+  },
+  "variables": {
+    "product": {
+      "id": "gid://shopify/Product/8906853449947",
+      "handle": "triple-body-butter-lavendar",
+      "title": "Triple Body Butter - Lavendar"
+    }
+  }
+}

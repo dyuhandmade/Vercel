@@ -1,0 +1,472 @@
+[
+  {
+    "handle": "story-inset",
+    "fields": {
+      "name": "Our story · Small inset image",
+      "enabled": true,
+      "image": "/images/botanical-study.webp",
+      "image_alt": "Botanical textures and flowers",
+      "image_position": "center"
+    }
+  },
+  {
+    "handle": "story-beginning",
+    "fields": {
+      "name": "Our story · A starting point",
+      "enabled": true,
+      "eyebrow": "01 / A STARTING POINT",
+      "title": "The ordinary can hold",
+      "title_emphasis": "something beautiful.",
+      "body": "A bar of soap by the basin. A few drops of oil. A familiar texture in your hands. Small things can change how a moment feels.",
+      "note": "DYUhandmade brings together soaps, oils, ubtans and body care in a collection made to be explored. Our world begins with nature and continues in the everyday moments you make your own.",
+      "caption": "A starting point"
+    }
+  },
+  {
+    "handle": "story-principles",
+    "fields": {
+      "name": "Our story · Principles heading",
+      "enabled": true,
+      "eyebrow": "02 / WHAT WE COME BACK TO",
+      "title": "A way of seeing.",
+      "title_emphasis": "A way of caring.",
+      "caption": "What we come back to",
+      "note": "NATURE / CRAFT / EVERYDAY"
+    }
+  },
+  {
+    "handle": "story-everyday",
+    "fields": {
+      "name": "Our story · Pathways heading",
+      "enabled": true,
+      "eyebrow": "03 / THE STORY MEETS YOUR DAY",
+      "title": "From our world,",
+      "title_emphasis": "into your everyday.",
+      "body": "There is more than one place to begin.\nFollow what makes you curious.",
+      "caption": "The story meets your day"
+    }
+  },
+  {
+    "handle": "story-invitation",
+    "fields": {
+      "name": "Our story · Closing invitation",
+      "enabled": true,
+      "eyebrow": "THE NEXT CHAPTER IS YOURS",
+      "title": "A little nature.",
+      "title_emphasis": "A moment of your own.",
+      "body": "Meet the collection, find what speaks to you, and make room for a little everyday care.",
+      "image": "/images/atelier-ritual-v2.webp",
+      "image_alt": "Illustrative botanical care objects in warm everyday light",
+      "link_url": "/shop",
+      "link_label": "Discover your ritual"
+    }
+  },
+  {
+    "handle": "ingredients-index",
+    "fields": {
+      "name": "Ingredients · Index heading and search",
+      "enabled": true,
+      "eyebrow": "A LIVING INDEX",
+      "title": "Find what",
+      "title_emphasis": "draws you in.",
+      "body": "Browse by name or follow a family.\nEvery entry leads back to its products.",
+      "caption": "Search rose, almond, a product…",
+      "note": "Take your curiosity somewhere."
+    }
+  },
+  {
+    "handle": "ingredients-reading",
+    "fields": {
+      "name": "Ingredients · Reading note",
+      "enabled": true,
+      "eyebrow": "THE SMALL PRINT, MADE SIMPLE",
+      "title": "A name is",
+      "title_emphasis": "the beginning.",
+      "body": "This atlas brings together ingredient stories, ingredient lists and botanical names used in our product names. A name alone is not a complete formula. Open a product to read the details provided for that particular ritual.",
+      "link_url": "/shop",
+      "link_label": "Meet the collection"
+    }
+  },
+  {
+    "handle": "ingredients-guide",
+    "fields": {
+      "name": "Ingredients · FAQ heading",
+      "enabled": true,
+      "eyebrow": "A LITTLE GUIDANCE",
+      "title": "Good things",
+      "title_emphasis": "to know."
+    }
+  },
+  {
+    "handle": "ingredient-detail",
+    "fields": {
+      "name": "Ingredient detail · Shared heading and navigation",
+      "enabled": true,
+      "eyebrow": "THE INGREDIENT ATLAS",
+      "title_emphasis": "A closer look.",
+      "secondary_label": "Back to the atlas",
+      "secondary_url": "/ingredients#ingredient-index"
+    }
+  },
+  {
+    "handle": "ingredient-connections",
+    "fields": {
+      "name": "Ingredient detail · Product heading",
+      "enabled": true,
+      "eyebrow": "THE CONNECTIONS",
+      "title": "Find it in",
+      "title_emphasis": "your everyday.",
+      "body": "Read the details.\nChoose what feels like you."
+    }
+  },
+  {
+    "handle": "ingredient-note",
+    "fields": {
+      "name": "Ingredient detail · Reading note",
+      "enabled": true,
+      "body": "A botanical name is a starting point for discovery. For the complete formula and use instructions, read the individual product details and packaging.",
+      "link_url": "/contact",
+      "link_label": "Ask us a question"
+    }
+  },
+  {
+    "handle": "ingredient-more",
+    "fields": {
+      "name": "Ingredient detail · Related ingredients",
+      "enabled": true,
+      "eyebrow": "KEEP YOUR CURIOSITY GOING",
+      "title": "More from"
+    }
+  },
+  {
+    "handle": "journal-featured",
+    "fields": {
+      "name": "Journal · Featured article",
+      "enabled": true,
+      "eyebrow": "THE EDITOR’S PICK",
+      "link_label": "Settle into the story",
+      "note": "A few quiet minutes, just for you."
+    }
+  },
+  {
+    "handle": "journal-archive",
+    "fields": {
+      "name": "Journal · Reading room heading and search",
+      "enabled": true,
+      "eyebrow": "THE READING ROOM",
+      "title": "Follow your",
+      "title_emphasis": "curiosity.",
+      "body": "Everyday observations.\nIdeas to come back to.",
+      "secondary_label": "All stories",
+      "caption": "Find a story",
+      "link_label": "Read the story"
+    }
+  },
+  {
+    "handle": "journal-invitation",
+    "fields": {
+      "name": "Journal · Closing invitation",
+      "enabled": true,
+      "eyebrow": "FROM READING TO LIVING",
+      "title": "Make it part of",
+      "title_emphasis": "your everyday.",
+      "body": "The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.",
+      "link_url": "/shop",
+      "link_label": "Explore the collection"
+    }
+  },
+  {
+    "handle": "journal-reader",
+    "fields": {
+      "name": "Journal article · Reader labels",
+      "enabled": true,
+      "eyebrow": "NOTES FROM THE ATELIER",
+      "title": "IN THIS STORY",
+      "caption": "A place to begin",
+      "note": "A small invitation",
+      "link_url": "/journal",
+      "link_label": "Back to the journal"
+    }
+  },
+  {
+    "handle": "journal-article-closing",
+    "fields": {
+      "name": "Journal article · Closing invitation",
+      "enabled": true,
+      "body": "A little nature. A human touch.\nThank you for spending a moment here.",
+      "link_url": "/shop",
+      "link_label": "Find your everyday ritual"
+    }
+  },
+  {
+    "handle": "journal-related",
+    "fields": {
+      "name": "Journal article · Related stories",
+      "enabled": true,
+      "eyebrow": "KEEP THE CURIOSITY GOING",
+      "title": "Another little",
+      "title_emphasis": "discovery.",
+      "link_url": "/journal",
+      "link_label": "All stories",
+      "secondary_label": "Read the story"
+    }
+  },
+  {
+    "handle": "craft-journey",
+    "fields": {
+      "name": "Making · Process heading and labels",
+      "enabled": true,
+      "eyebrow": "THE ART OF MAKING",
+      "title": "How it’s made.",
+      "title_emphasis": "One step at a time.",
+      "items": [
+        "WE BEGIN WITH",
+        "IT BECOMES"
+      ]
+    }
+  },
+  {
+    "handle": "craft-products",
+    "fields": {
+      "name": "Making · Products and featured process",
+      "enabled": true
+    }
+  },
+  {
+    "handle": "craft-onward-ingredients",
+    "fields": {
+      "name": "Making · Ingredient invitation",
+      "enabled": true,
+      "eyebrow": "KEEP A LITTLE CURIOSITY",
+      "title": "Meet the botanicals",
+      "link_url": "/ingredients"
+    }
+  },
+  {
+    "handle": "craft-onward-shop",
+    "fields": {
+      "name": "Making · Collection invitation",
+      "enabled": true,
+      "eyebrow": "THE NEXT CHAPTER IS YOURS",
+      "title": "Find your everyday ritual",
+      "link_url": "/shop"
+    }
+  },
+  {
+    "handle": "story-botanical",
+    "fields": {
+      "name": "Our story · A curiosity for nature",
+      "enabled": true,
+      "caption": "A curiosity for nature",
+      "title": "Begin with the ingredient.",
+      "body": "A name on a label can open up a whole world: a flower, a seed, a leaf. We invite you to meet the botanicals behind the collection and follow them into the products you choose.",
+      "note": "Explore the ingredient directory, then look at the full ingredient list on each product. The details belong to the individual formula.",
+      "image": "/images/botanical-study.webp",
+      "image_alt": "Illustrative arrangement of flowers, leaves and botanical textures",
+      "link_url": "/ingredients",
+      "link_label": "Explore the ingredients"
+    }
+  },
+  {
+    "handle": "story-human",
+    "fields": {
+      "name": "Our story · Room for the human touch",
+      "enabled": true,
+      "caption": "Room for the human touch",
+      "title": "Look a little closer.",
+      "body": "The everyday objects we live with deserve our attention. Their texture, their form and the way we use them all become part of the experience of care.",
+      "note": "Our atelier lets you turn an object in 3D, explore its photographs and follow the making information available for each product. Take your time with the details.",
+      "image": "/images/atelier-craft-v2.webp",
+      "image_alt": "Illustrative close-up of hands working with botanical care ingredients",
+      "link_url": "/how-its-made",
+      "link_label": "Inside the making"
+    }
+  },
+  {
+    "handle": "story-ritual",
+    "fields": {
+      "name": "Our story · A place in your everyday",
+      "enabled": true,
+      "caption": "A place in your everyday",
+      "title": "Make the moment yours.",
+      "body": "A fresh beginning. A quiet evening. A small pause between one thing and the next. Care can belong to the life you already have.",
+      "note": "Start with a form you enjoy, read its directions and let it find a place in your day. There is no single way to make a moment feel like your own.",
+      "image": "/images/atelier-ritual-v2.webp",
+      "image_alt": "Illustrative scene of a quiet everyday care ritual",
+      "link_url": "/shop",
+      "link_label": "Find your everyday care"
+    }
+  },
+  {
+    "handle": "story-pathway-1",
+    "fields": {
+      "name": "Our story · Pathway 1",
+      "enabled": true,
+      "title": "Know what draws you in.",
+      "body": "Start with a botanical, a scent or a texture. Our ingredient directory connects the natural world to the collection.",
+      "link_url": "/ingredients",
+      "link_label": "Meet the botanicals",
+      "sort_order": 0
+    }
+  },
+  {
+    "handle": "story-pathway-2",
+    "fields": {
+      "name": "Our story · Pathway 2",
+      "enabled": true,
+      "title": "Get to know the object.",
+      "body": "Explore the photographs, turn the product in 3D, and read its ingredients and directions before making it yours.",
+      "link_url": "/shop",
+      "link_label": "Visit the collection",
+      "sort_order": 1
+    }
+  },
+  {
+    "handle": "story-pathway-3",
+    "fields": {
+      "name": "Our story · Pathway 3",
+      "enabled": true,
+      "title": "Keep a little curiosity.",
+      "body": "The journal is a place for practical notes, closer looks and ideas to carry into your own everyday moments.",
+      "link_url": "/journal",
+      "link_label": "Read the journal",
+      "sort_order": 2
+    }
+  },
+  {
+    "handle": "ingredients-faq-1",
+    "fields": {
+      "name": "Ingredients · Question 1",
+      "enabled": true,
+      "title": "Where do these ingredient names come from?",
+      "body": "The atlas uses the ingredient stories and ingredient lists supplied with our products. It also includes botanical names that appear in product names. Each detail page shows the source beside the associated product.",
+      "sort_order": 0
+    }
+  },
+  {
+    "handle": "ingredients-faq-2",
+    "fields": {
+      "name": "Ingredients · Question 2",
+      "enabled": true,
+      "title": "Is this a complete ingredient list?",
+      "body": "No. The atlas is a way to explore the collection. For a complete formulation, consult the ingredient information on the individual product page and the product packaging.",
+      "sort_order": 1
+    }
+  },
+  {
+    "handle": "ingredients-faq-3",
+    "fields": {
+      "name": "Ingredients · Question 3",
+      "enabled": true,
+      "title": "Where can I ask about a particular product?",
+      "body": "Visit the product page for its published details, or get in touch with DYU with the product name and your question.",
+      "link_url": "/contact",
+      "link_label": "Get in touch with DYU",
+      "sort_order": 2
+    }
+  },
+  {
+    "handle": "journal-takeaway-making-space-for-a-ritual",
+    "fields": {
+      "name": "Journal invitation · The quiet art of making time for yourself.",
+      "enabled": true,
+      "body": "Choose one familiar moment today. Give it your attention before adding anything new."
+    }
+  },
+  {
+    "handle": "journal-takeaway-look-closer-at-your-care",
+    "fields": {
+      "name": "Journal invitation · A little curiosity goes a long way.",
+      "enabled": true,
+      "body": "Before choosing your next product, read its full details and note the one question you still want answered."
+    }
+  },
+  {
+    "handle": "article-a-home-for-your-soap",
+    "fields": {
+      "name": "Journal · A good place for your daily soap.",
+      "enabled": true,
+      "title": "A good place for your daily soap.",
+      "category": "Thoughtful care",
+      "note": "A few considered details can make the space around your sink easier to use and more pleasant to return to.",
+      "image": "/images/soap-atelier.png",
+      "image_alt": "An illustrative soap still life in a warm, natural setting",
+      "sort_order": 2,
+      "body": "A bar of soap is a small object with a very familiar place in the day. Its surroundings matter too: the dish beneath it, the towel within reach, and the room it has between uses.\n\nThe most useful arrangement is often the simplest. Begin by looking at how water moves around the sink and where you naturally reach when washing.\n\n## Let the dish do its job\n\nChoose a dish that allows water to drain away, and place it where the bar is not sitting in the direct splash of a tap or shower. A raised surface or open ridges can help keep the bar out of pooled water.\n\nGive the dish a regular rinse and let it dry. Keep the space around it easy to wipe down. Follow any storage instructions supplied with your particular soap, especially when opening a new bar.\n\n## Keep the everyday within reach\n\nArrange the things you use in the order you reach for them. A towel that is easy to pick up and a dish that sits comfortably beside the basin can make the routine feel considered without adding more objects.\n\nWhen travelling, follow the same principle: let the bar drain before packing it, and use a suitable container. At your destination, open the container and give the soap a place of its own."
+    }
+  },
+  {
+    "handle": "journal-takeaway-a-home-for-your-soap",
+    "fields": {
+      "name": "Journal invitation · A good place for your daily soap.",
+      "enabled": true,
+      "body": "Look at your soap dish after washing. If water is collecting beneath the bar, a small change in placement may be all it needs."
+    }
+  },
+  {
+    "handle": "article-botanicals-beyond-the-name",
+    "fields": {
+      "name": "Journal · Behind a botanical name.",
+      "enabled": true,
+      "title": "Behind a botanical name.",
+      "category": "Ingredient notes",
+      "note": "From a plant to a finished formula, there is more to discover than a single familiar ingredient.",
+      "image": "/images/botanical-study.webp",
+      "image_alt": "An illustrative botanical study with leaves, flowers and a bowl",
+      "sort_order": 3,
+      "body": "Rose, lavender, almond, olive. Botanical names can bring a whole landscape to mind before we have even opened a product. They are also an invitation to look a little closer.\n\nThe name of a plant and the name of an ingredient are not always the same thing. The part used and the way it is prepared are useful details to notice.\n\n## Ask which part, and in what form\n\nA label may describe an oil, a powder, an extract or another preparation. Rather than treating those words as interchangeable, read them alongside the complete ingredient list and the directions for the finished product.\n\nOur ingredient pages offer a way into this vocabulary. Use them to explore what draws your attention, then return to the individual product page for the information that applies to that particular formula.\n\n## Keep the product in view\n\nA beautiful ingredient photograph tells a visual story. It cannot show the whole formula or explain how to use it. That is why product details and the label deserve their own moment of attention.\n\nLet curiosity lead to a clearer question: Is this a wash-off product? What amount do the directions suggest? How should it be stored? Specific questions make it easier to find the information you need."
+    }
+  },
+  {
+    "handle": "journal-takeaway-botanicals-beyond-the-name",
+    "fields": {
+      "name": "Journal invitation · Behind a botanical name.",
+      "enabled": true,
+      "body": "Find one botanical on a label you already own. Notice both its name and the form in which it appears."
+    }
+  },
+  {
+    "handle": "article-objects-worth-keeping",
+    "fields": {
+      "name": "Journal · The things we choose to keep.",
+      "enabled": true,
+      "title": "The things we choose to keep.",
+      "category": "Considered living",
+      "note": "An empty container, a useful tray, a familiar towel. A quieter way to think about the objects around us.",
+      "image": "/images/atelier-craft-v2.webp",
+      "image_alt": "An illustrative hands-on arrangement of care products and natural materials",
+      "sort_order": 4,
+      "body": "Some objects settle into a home so naturally that we stop noticing them. The little tray by the door. The jar that holds spare buttons. The towel that always finds its way back to the same hook.\n\nTaking care of an object starts with noticing how it is used. Before adding something new, it can be worth asking what is already there.\n\n## Use first, decide later\n\nFinish and care for a product according to its label. When a container is empty, check its material and any disposal guidance before deciding what comes next. Different components may need to be separated.\n\nIf a clean, dry container has a useful place in your home, give it a new task suited to its condition and material. Holding small non-food items is one possibility. Reuse is most helpful when it solves a real need.\n\n## Leave some space empty\n\nNot every empty container needs a second life on your shelf. Local collection rules and the condition of an item can guide your next step. Keeping everything can simply move the clutter from one place to another.\n\nA considered space does not have to look minimal or perfectly arranged. It can be a collection of well-used things, with enough room around them to make the day a little easier."
+    }
+  },
+  {
+    "handle": "journal-takeaway-objects-worth-keeping",
+    "fields": {
+      "name": "Journal invitation · The things we choose to keep.",
+      "enabled": true,
+      "body": "Choose one shelf or small surface. Keep what serves the way you actually use it, and give the rest a considered next step."
+    }
+  },
+  {
+    "handle": "article-the-art-of-a-small-gift",
+    "fields": {
+      "name": "Journal · A small gift, thoughtfully chosen.",
+      "enabled": true,
+      "title": "A small gift, thoughtfully chosen.",
+      "category": "Considered living",
+      "note": "Start with the person, then the occasion. The most thoughtful part of a gift can be the attention behind it.",
+      "image": "/images/atelier-hero.webp",
+      "image_alt": "An illustrative still life of care products, botanicals and natural textures",
+      "sort_order": 5,
+      "body": "A thoughtful gift begins long before it is wrapped. It begins with remembering a preference, noticing a habit, or listening when someone mentions the things they enjoy.\n\nFor everyday care, a familiar routine can be a helpful starting point. Does the person enjoy a quiet bath, prefer simple practical objects, or like choosing things for themselves?\n\n## Choose with the person in mind\n\nIf you know their preferences, let those details guide you. If you do not, leave room to ask. Scent, texture and product format are personal choices, and a little information is more useful than an assumption.\n\nRead the complete product description, ingredients and directions before choosing. Keep that information with the gift so the recipient has the same opportunity to make an informed choice.\n\n## Make the gesture your own\n\nA short note can explain why you thought of them: a shared memory, an everyday pleasure, or simply a wish for a little time to themselves. It does not need to sound polished to feel personal.\n\nLet the wrapping be simple enough to open and the message easy to understand. The object is one part of the gift; the attention you bring to choosing it is another."
+    }
+  },
+  {
+    "handle": "journal-takeaway-the-art-of-a-small-gift",
+    "fields": {
+      "name": "Journal invitation · A small gift, thoughtfully chosen.",
+      "enabled": true,
+      "body": "Before looking for a gift, write down one thing you know the person enjoys. Begin there."
+    }
+  }
+]

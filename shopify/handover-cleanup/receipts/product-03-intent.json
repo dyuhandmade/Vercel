@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-04T09:25:06.594Z",
+  "operation": "CleanupProduct",
+  "productId": "gid://shopify/Product/8906854957275",
+  "handle": "triple-body-butter-sandalwood",
+  "currentBefore": {
+    "id": "gid://shopify/Product/8906854957275",
+    "handle": "triple-body-butter-sandalwood",
+    "title": "Triple Body Butter -Sandalwood",
+    "descriptionHtml": "<ul class=\"a-unordered-list a-vertical a-spacing-mini\">\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">DYU Triple Body Butter ? Sandalwood offers intense hydration with cocoa, mango, and shea butters blended with coconut oil and sandalwood for deeply nourished, soft, and supple skin. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Infused with Santalum album L (pure sandalwood), this body butter calms the skin and uplifts the senses with a warm, woody aroma that lingers and comforts without overpowering. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">The rich formula melts on contact and absorbs quickly, locking in moisture while healing dryness, rough patches, and improving overall skin tone and texture with daily application. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Coconut oil and shea butter work together to restore the skin barrier, soothe irritation, and shield the skin from pollutants, making this ideal for sensitive and mature skin types. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">With added vitamin E for antioxidant support, this non-toxic, paraben-free body butter promotes cell regeneration and keeps your skin radiant, firm, and silky smooth all day long. </span></li>\n</ul>\n<p> </p>",
+    "updatedAt": "2026-10-02T12:07:56Z",
+    "status": "ACTIVE",
+    "tags": [],
+    "vendor": "My Store",
+    "productType": "Body Moisturiser",
+    "totalInventory": 0,
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/46844332343515",
+          "title": "Default Title",
+          "price": "699.00",
+          "compareAtPrice": null,
+          "inventoryQuantity": 0
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjo0Njg0NDMzMjM0MzUxNSwibGFzdF92YWx1ZSI6MX0="
+      }
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/37091857367259",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T06:57:07Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37091857367259",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/16_c965d560-7b56-40ed-b66c-5f3f700c7233.jpg?v=1749473859",
+            "altText": ""
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjozNzA5MTg1NzM2NzI1OSwibGFzdF92YWx1ZSI6IjEifQ=="
+      }
+    }
+  },
+  "variables": {
+    "product": {
+      "id": "gid://shopify/Product/8906854957275",
+      "handle": "triple-body-butter-sandalwood",
+      "title": "Triple Body Butter - Sandalwood",
+      "descriptionHtml": "<ul class=\"a-unordered-list a-vertical a-spacing-mini\">\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">DYU Triple Body Butter - Sandalwood offers intense hydration with cocoa, mango, and shea butters blended with coconut oil and sandalwood for deeply nourished, soft, and supple skin. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Infused with Santalum album L (pure sandalwood), this body butter calms the skin and uplifts the senses with a warm, woody aroma that lingers and comforts without overpowering. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">The rich formula melts on contact and absorbs quickly, locking in moisture while healing dryness, rough patches, and improving overall skin tone and texture with daily application. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Coconut oil and shea butter work together to restore the skin barrier, soothe irritation, and shield the skin from pollutants, making this ideal for sensitive and mature skin types. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">With added vitamin E for antioxidant support, this non-toxic, paraben-free body butter promotes cell regeneration and keeps your skin radiant, firm, and silky smooth all day long. </span></li>\n</ul>\n<p> </p>"
+    }
+  }
+}

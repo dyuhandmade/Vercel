@@ -1,0 +1,23 @@
+.art{position:relative}
+.quickAdd{position:absolute;z-index:4;bottom:20px;right:20px;display:grid;place-items:center;width:44px;height:44px;padding:0;border:1px solid #ffffffcf;border-radius:50%;background:#f9f7f1e6;color:var(--forest);box-shadow:var(--shadow-clay);backdrop-filter:blur(12px);transition:transform .25s,background .25s}
+.quickAdd:hover:not(:disabled){transform:translateY(-2px);background:#fffdf6}
+.quickAdd:disabled{opacity:.6}
+.quickAdd:focus-visible{outline:2px solid var(--forest);outline-offset:4px}
+.spinner{animation:spin .85s linear infinite}
+.options{position:relative;margin-top:20px;padding:20px;border:1px solid #fffdf7;border-radius:22px;background:linear-gradient(135deg,#faf8f0,#e9ecdf);box-shadow:0 12px 28px -24px #263d2d55}
+.options fieldset{border:0;margin:0;padding:0;min-width:0}
+.options legend{padding:0 30px 15px 0;font-size:.8rem;color:var(--forest)}
+.closeOptions{position:absolute;top:7px;right:7px;display:grid;place-items:center;width:36px;height:36px;border-radius:50%}
+.variants{display:grid;gap:8px;max-height:220px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;padding:2px}
+.variant{position:relative;display:flex;align-items:center;gap:10px;min-height:46px;padding:10px 12px;border:1px solid #c7d0bc99;border-radius:12px;background:#ffffff61;cursor:pointer;font:400 .75rem/1.4 var(--sans)}
+.variant:has(input:checked){border-color:var(--forest);background:#dfe6d8}
+.variant:has(input:disabled){opacity:.5;cursor:not-allowed}
+.variant input{margin:0;accent-color:var(--forest);flex:none}
+.variant>span{display:flex;flex:1;gap:10px;align-items:center;justify-content:space-between;min-width:0}
+.variant strong{font-weight:400;overflow-wrap:anywhere}
+.variant small{font-size:.72rem;white-space:nowrap;color:var(--muted)}
+.confirm{margin-top:14px;min-height:46px;padding:12px 18px;font-size:.75rem}
+.error{margin:14px 0 0;color:#85472e;font-size:.8rem;line-height:1.6}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:540px){.quickAdd{bottom:16px;right:16px}.options{padding:17px}}
+@media(prefers-reduced-motion:reduce){.quickAdd{transition:none}.spinner{animation:none}}

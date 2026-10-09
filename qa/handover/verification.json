@@ -1,0 +1,148 @@
+{
+  "auditedAt": "2026-10-04",
+  "source": "Current DYU workspace; initial audit and final verified follow-up",
+  "build": {
+    "command": "npm run build",
+    "passed": true
+  },
+  "typecheck": {
+    "command": "npm run typecheck",
+    "passed": true
+  },
+  "diffCheck": {
+    "passed": true,
+    "note": "Windows CRLF treated as line endings."
+  },
+  "browserRegression": {
+    "discovered": 211,
+    "applicable": 196,
+    "demoOnlySkipped": 15,
+    "latestRelevantResults": "Passed across the split suite and focused rechecks; not an uninterrupted green full-suite run.",
+    "firstRun": {
+      "executed": 58,
+      "passed": 57,
+      "failed": 1,
+      "stoppedBeforeLegacyDemoFixtures": true
+    },
+    "remainingRun": {
+      "executed": 152,
+      "passed": 112,
+      "failed": 25,
+      "skipped": 15
+    },
+    "resolvedFailureRechecks": {
+      "collectionSourceRetry": 1,
+      "homepage": 14,
+      "ritual": 12,
+      "journalLayout": 7,
+      "editorialSeoAndPointer": 6
+    },
+    "newlyAddedMetadataFallbackTest": "Passed in final editorial/SEO focused recheck; increases discovered total from 210 to 211.",
+    "independentProductionPointer": {
+      "passed": 2,
+      "failed": 0,
+      "cartWrites": "mocked"
+    },
+    "residualObservation": "One Next router initialization error occurred in a development-server run. Its original caller remains unconfirmed; repeated development tests and two production pointer tests passed. Stack capture added for recurrence.",
+    "scope": "Initial full-suite audit before nine additional description tests; see finalFollowup for the new checks."
+  },
+  "visualAudit": {
+    "routes": 77,
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "layouts": 308,
+    "notFoundRecoveryCases": 5,
+    "overflow": 0,
+    "brokenImages": 0,
+    "brokenInternalLinks": 0,
+    "runtimeErrorsInStableCrawl": 0,
+    "metadataFollowupsPassed": 24
+  },
+  "modelRegression": {
+    "photoModel": 29,
+    "photoSolids": 14,
+    "photoMaterials": 19,
+    "heldContainer": 13,
+    "heldTinNormals": 1,
+    "passed": true
+  },
+  "dependencies": {
+    "knownVulnerabilities": 0,
+    "verifiedRegistrySignatures": 118,
+    "verifiedAttestations": 38,
+    "pointInTime": true
+  },
+  "liveChecks": {
+    "customerLogin": true,
+    "accountReadViews": true,
+    "wishlistAddPersistRemove": true,
+    "cartAddUpdateRemove": true,
+    "checkoutHandoff": true,
+    "anonymousPreviewChecks": 12,
+    "orderSubmitted": false,
+    "chargeMade": false,
+    "testBagAndWishlistRestored": true
+  },
+  "launchCheck": {
+    "configurationReady": false,
+    "expectedPreviewFailures": [
+      "Permanent HTTPS storefront origin",
+      "Matching permanent account origin",
+      "Deliberate indexing activation"
+    ],
+    "externalBlockers": [
+      "Paused Shopify plan",
+      "Razorpay connection and payment test",
+      "Approved stock, shipping, tax and policies",
+      "Permanent deployment and OAuth registration"
+    ]
+  },
+  "coverageLimits": [
+    "No completed Shopify/Razorpay order, settlement, refund, fulfillment or account order creation",
+    "No live profile/address edits or two-customer isolation trial",
+    "No distributed session/refresh deployment",
+    "No physical-device Safari/Firefox or formal assistive-technology certification",
+    "15 demo-only legacy cases not exercised in live mode"
+  ],
+  "finalFollowup": {
+    "productionPreviewRestarted": true,
+    "storeName": "DYUhandmade",
+    "healthProbeTests": 5,
+    "privacyAutomationPreserved": true,
+    "catalogue": {
+      "descriptionFields": 3,
+      "pricesInventoryHandlesAndMediaPreserved": true,
+      "imageAltFields": 154,
+      "shortStoryFields": 2,
+      "adminAndStorefrontVerified": true,
+      "titleFields": 4,
+      "productsUpdated": 6
+    },
+    "orderPlaced": false,
+    "mockedAccountApiChecks": 9,
+    "verifiedAt": "2026-10-04T09:35:57.2946646Z",
+    "hostedNode24CiExecuted": false,
+    "productionChecks": {
+      "failed": 0,
+      "cartWrites": "mocked",
+      "receipt": "qa/handover/rechecks/final-production/.last-run.json",
+      "scope": "Original/loop carousel pointer and 320px/1440px description layout",
+      "passed": 4
+    },
+    "charged": false,
+    "permanentDeployment": false,
+    "anonymousPreviewChecks": 12,
+    "contactInformationPublished": true,
+    "coreTests": {
+      "failed": 0,
+      "skipped": 0,
+      "passed": 86
+    },
+    "productionBuildPassed": true,
+    "razorpayChanged": false
+  }
+}

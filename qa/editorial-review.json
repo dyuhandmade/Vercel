@@ -1,0 +1,60 @@
+[
+  {
+    "route": "/our-story",
+    "width": 1440,
+    "status": 200,
+    "heading": "A little closer to nature.A little closer to yourself.",
+    "overflow": false,
+    "missingImages": []
+  },
+  {
+    "route": "/journal",
+    "width": 1440,
+    "status": 200,
+    "heading": "A pause forperspective.",
+    "overflow": false,
+    "missingImages": []
+  },
+  {
+    "route": "/ingredients",
+    "width": 1440,
+    "status": 200,
+    "heading": "Nature hasa story to tell.",
+    "overflow": false,
+    "missingImages": []
+  },
+  {
+    "route": "/#philosophy",
+    "width": 1440,
+    "errors": []
+  },
+  {
+    "route": "/our-story",
+    "width": 390,
+    "status": 200,
+    "heading": "A little closer to nature.A little closer to yourself.",
+    "overflow": false,
+    "missingImages": []
+  },
+  {
+    "route": "/journal",
+    "width": 390,
+    "status": 200,
+    "heading": "A pause forperspective.",
+    "overflow": false,
+    "missingImages": []
+  },
+  {
+    "route": "/ingredients",
+    "width": 390,
+    "status": 200,
+    "heading": "Nature hasa story to tell.",
+    "overflow": false,
+    "missingImages": []
+  },
+  {
+    "route": "/#philosophy",
+    "width": 390,
+    "errors": []
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-04",
+  "host": "Windows; initial Node.js 25.2.1 pass and bundled Node.js 24.19.0 follow-up",
+  "core": {
+    "command": "npm run test:core",
+    "passed": 86,
+    "failed": 0,
+    "skipped": 0,
+    "nextServerUsed": false,
+    "dotenvLoaded": false,
+    "inheritedShopifyAndAccountConfigurationRemoved": true,
+    "browserOffline": true,
+    "includesProductDescriptionFormattingAndEscapingChecks": 7
+  },
+  "ciBrowserSelection": {
+    "command": "DYU_CI_REUSE_SERVER=true npm run test:ci-browser",
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0,
+    "validationMode": "Existing local server; mode-independent selected cases",
+    "accountWrites": "Mocked in isolated browser contexts",
+    "apiRequests": "Anonymous reads and rejected writes only"
+  },
+  "deploymentHealthProbe": {"passed": 5, "failed": 0},
+  "typecheck": "passed",
+  "node24FollowUp": {
+    "runtime": "Node.js 24.19.0",
+    "platform": "Windows",
+    "runtimeSource": "Already installed bundled desktop runtime; invoked explicitly",
+    "core": {
+      "command": "Node 24 executable: scripts/run-core-tests.mjs --output qa/handover/rechecks/node24-core/artifacts --reporter list,json",
+      "startedAt": "2026-10-04T09:45:17.996Z",
+      "durationMs": 6212.343,
+      "passed": 86,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "result": "qa/handover/rechecks/node24-core/results.json",
+      "childRuntimeUsesProcessExecPath": true,
+      "nextServerUsed": false,
+      "dotenvLoaded": false,
+      "inheritedShopifyAndAccountConfigurationRemoved": true,
+      "browserOffline": true
+    },
+    "typecheck": {
+      "command": "Node 24 executable: node_modules/typescript/bin/tsc --noEmit --incremental false",
+      "status": "passed"
+    },
+    "deploymentHealthProbe": {
+      "command": "Node 24 executable: --test deploy/healthcheck.test.mjs",
+      "passed": 5,
+      "failed": 0,
+      "skipped": 0
+    },
+    "ciBrowserSelectionRerun": false,
+    "dependencyInstallPerformed": false,
+    "applicationEditsPerformed": false,
+    "serverBuildOrRestartPerformed": false,
+    "shopifyAccessPerformed": false
+  },
+  "workflowTarget": "Ubuntu, Node.js 24",
+  "notVerifiedHere": [
+    "Clean Linux Node.js 24 npm ci and production build",
+    "Hosted GitHub Actions execution on Node.js 24/Ubuntu",
+    "Fresh CI demo build/server execution after workflow change",
+    "Live Shopify, OAuth or payment acceptance from these CI groups",
+    "Target-host Nginx/systemd syntax, TLS, reverse-proxy behavior and permanent deployment acceptance"
+  ],
+  "serverBuildOrRestartPerformed": false,
+  "shopifyWritesPerformed": false
+}

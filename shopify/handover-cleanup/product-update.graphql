@@ -1,0 +1,6 @@
+mutation CleanupProduct($product: ProductUpdateInput!) {
+ productUpdate(product: $product) {
+  product { id handle title descriptionHtml }
+  userErrors { field message }
+ }
+}

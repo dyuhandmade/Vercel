@@ -1,0 +1,6 @@
+mutation CleanupImageAlt($files: [FileUpdateInput!]!) {
+ fileUpdate(files: $files) {
+  files { id alt fileStatus }
+  userErrors { field message code }
+ }
+}

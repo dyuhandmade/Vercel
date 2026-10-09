@@ -1,0 +1,104 @@
+{
+  "auditedAt": "2026-10-04",
+  "store": {
+    "name": "My Store",
+    "canonicalDomain": "fgm0vn-7t.myshopify.com",
+    "domain": "dyuhandmade.myshopify.com",
+    "ssl": true,
+    "currency": "INR",
+    "plan": "Paused",
+    "testStore": false,
+    "taxesIncluded": false,
+    "customerAccounts": {
+      "customerAccountsVersion": "NEW_CUSTOMER_ACCOUNTS",
+      "loginLinksVisibleOnStorefrontAndCheckout": true,
+      "loginRequiredAtCheckout": false
+    }
+  },
+  "shipping": {
+    "countries": {
+      "countryCodes": [
+        "AE",
+        "AT",
+        "AU",
+        "BE",
+        "CA",
+        "CH",
+        "CZ",
+        "DE",
+        "DK",
+        "ES",
+        "FI",
+        "FR",
+        "GB",
+        "HK",
+        "IE",
+        "IL",
+        "IN",
+        "IT",
+        "JP",
+        "KR",
+        "MY",
+        "NL",
+        "NO",
+        "NZ",
+        "PL",
+        "PT",
+        "SE",
+        "SG",
+        "US"
+      ],
+      "includeRestOfWorld": false
+    },
+    "profiles": [
+      {
+        "name": "General profile",
+        "default": true,
+        "activeMethodDefinitionsCount": 2,
+        "locationsWithoutRatesCount": 0,
+        "originLocationCount": 1,
+        "zoneCountryCount": 29
+      }
+    ]
+  },
+  "policies": [
+    {
+      "type": "PRIVACY_POLICY",
+      "title": "Privacy policy",
+      "characters": 16997,
+      "defaultStoreNamePresent": true
+    }
+  ],
+  "paymentProviderAudit": "Not exposed by Admin API paymentSettings; owner must inspect Settings > Payments.",
+  "testOrder": {
+    "authorized": "test only, no real charge",
+    "productHandle": "oriental-lavendar",
+    "quantity": 1,
+    "subtotal": {
+      "amount": "449",
+      "currency": "INR"
+    },
+    "cartCreated": true,
+    "checkoutHandoff": true,
+    "checkoutScreen": "This store isn’t set up to receive orders yet.",
+    "submitted": false,
+    "charged": false,
+    "reason": "Paused Shopify selling plan. No payment entry or order submission was attempted.",
+    "testItemRemoved": true
+  },
+  "productionCartRecheck": {
+    "add": true,
+    "quantityUpdate": {"from": 1, "to": 2, "subtotal": "898.00", "currency": "INR"},
+    "checkoutHandoff": true,
+    "orderBlockedByPausedPlan": true,
+    "remove": true,
+    "finalQuantity": 0,
+    "charged": false
+  },
+  "liveWishlist": {
+    "add": true,
+    "persistedAcrossNavigation": true,
+    "remove": true,
+    "restoredOriginalEmptyWishlist": true
+  }
+}

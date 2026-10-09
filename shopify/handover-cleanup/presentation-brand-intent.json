@@ -1,0 +1,540 @@
+{
+  "preparedAt": "2026-10-04T09:55:44.543Z",
+  "baseline": {
+    "capturedAt": "2026-10-04T09:55:44.541Z",
+    "data": {
+      "shop": {
+        "id": "gid://shopify/Shop/76637307099",
+        "myshopifyDomain": "fgm0vn-7t.myshopify.com"
+      },
+      "definition": {
+        "id": "gid://shopify/MetaobjectDefinition/25469288667",
+        "type": "dyu_site_content",
+        "access": {
+          "storefront": "PUBLIC_READ"
+        },
+        "fieldDefinitions": [
+          {
+            "key": "name",
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "key": "eyebrow",
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "key": "title",
+            "type": {
+              "name": "multi_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "160"
+              }
+            ]
+          },
+          {
+            "key": "title_emphasis",
+            "type": {
+              "name": "multi_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "160"
+              }
+            ]
+          },
+          {
+            "key": "body",
+            "type": {
+              "name": "multi_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "20000"
+              }
+            ]
+          },
+          {
+            "key": "image",
+            "type": {
+              "name": "file_reference"
+            },
+            "validations": [
+              {
+                "name": "file_type_options",
+                "value": "[\"Image\"]"
+              }
+            ]
+          },
+          {
+            "key": "mobile_image",
+            "type": {
+              "name": "file_reference"
+            },
+            "validations": [
+              {
+                "name": "file_type_options",
+                "value": "[\"Image\"]"
+              }
+            ]
+          },
+          {
+            "key": "image_alt",
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "240"
+              }
+            ]
+          },
+          {
+            "key": "image_position",
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "choices",
+                "value": "[\"left\",\"center\",\"right\",\"top\",\"bottom\"]"
+              }
+            ]
+          },
+          {
+            "key": "link_label",
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "80"
+              }
+            ]
+          },
+          {
+            "key": "link_url",
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "500"
+              }
+            ]
+          },
+          {
+            "key": "secondary_label",
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "80"
+              }
+            ]
+          },
+          {
+            "key": "secondary_url",
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "500"
+              }
+            ]
+          },
+          {
+            "key": "enabled",
+            "type": {
+              "name": "boolean"
+            },
+            "validations": []
+          },
+          {
+            "key": "sort_order",
+            "type": {
+              "name": "number_integer"
+            },
+            "validations": [
+              {
+                "name": "min",
+                "value": "0"
+              },
+              {
+                "name": "max",
+                "value": "1000"
+              }
+            ]
+          },
+          {
+            "key": "products",
+            "type": {
+              "name": "list.product_reference"
+            },
+            "validations": [
+              {
+                "name": "list.max",
+                "value": "12"
+              }
+            ]
+          },
+          {
+            "key": "collections",
+            "type": {
+              "name": "list.collection_reference"
+            },
+            "validations": [
+              {
+                "name": "list.max",
+                "value": "12"
+              }
+            ]
+          },
+          {
+            "key": "items",
+            "type": {
+              "name": "list.single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "240"
+              },
+              {
+                "name": "list.max",
+                "value": "20"
+              }
+            ]
+          },
+          {
+            "key": "note",
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "240"
+              }
+            ]
+          },
+          {
+            "key": "caption",
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "240"
+              }
+            ]
+          },
+          {
+            "key": "category",
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "key": "read_time",
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "max",
+                "value": "40"
+              }
+            ]
+          },
+          {
+            "key": "carousel_autoplay",
+            "type": {
+              "name": "boolean"
+            },
+            "validations": []
+          },
+          {
+            "key": "carousel_interval",
+            "type": {
+              "name": "number_integer"
+            },
+            "validations": [
+              {
+                "name": "min",
+                "value": "2000"
+              },
+              {
+                "name": "max",
+                "value": "20000"
+              }
+            ]
+          },
+          {
+            "key": "display_mode",
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": [
+              {
+                "name": "choices",
+                "value": "[\"image\",\"3d\"]"
+              }
+            ]
+          }
+        ]
+      },
+      "brand": {
+        "id": "gid://shopify/Metaobject/611151708379",
+        "handle": "brand",
+        "updatedAt": "2026-10-02T12:13:27Z",
+        "fields": [
+          {
+            "key": "name",
+            "value": "Brand identity",
+            "type": "single_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "eyebrow",
+            "value": null,
+            "type": "single_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "title",
+            "value": "dyu",
+            "type": "multi_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "title_emphasis",
+            "value": null,
+            "type": "multi_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "body",
+            "value": "H A N D M A D E",
+            "type": "multi_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "image",
+            "value": null,
+            "type": "file_reference",
+            "reference": null
+          },
+          {
+            "key": "mobile_image",
+            "value": null,
+            "type": "file_reference",
+            "reference": null
+          },
+          {
+            "key": "image_alt",
+            "value": null,
+            "type": "single_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "image_position",
+            "value": null,
+            "type": "single_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "link_label",
+            "value": null,
+            "type": "single_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "link_url",
+            "value": null,
+            "type": "single_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "secondary_label",
+            "value": null,
+            "type": "single_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "secondary_url",
+            "value": null,
+            "type": "single_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "enabled",
+            "value": null,
+            "type": "boolean",
+            "reference": null
+          },
+          {
+            "key": "sort_order",
+            "value": null,
+            "type": "number_integer",
+            "reference": null
+          },
+          {
+            "key": "products",
+            "value": null,
+            "type": "list.product_reference",
+            "reference": null
+          },
+          {
+            "key": "collections",
+            "value": null,
+            "type": "list.collection_reference",
+            "reference": null
+          },
+          {
+            "key": "items",
+            "value": null,
+            "type": "list.single_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "note",
+            "value": null,
+            "type": "single_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "caption",
+            "value": "DYUhandmade",
+            "type": "single_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "category",
+            "value": null,
+            "type": "single_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "read_time",
+            "value": null,
+            "type": "single_line_text_field",
+            "reference": null
+          },
+          {
+            "key": "carousel_autoplay",
+            "value": null,
+            "type": "boolean",
+            "reference": null
+          },
+          {
+            "key": "carousel_interval",
+            "value": null,
+            "type": "number_integer",
+            "reference": null
+          },
+          {
+            "key": "display_mode",
+            "value": null,
+            "type": "single_line_text_field",
+            "reference": null
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "id": "gid://shopify/MediaImage/46412586713307",
+            "alt": "",
+            "fileStatus": "READY",
+            "image": {
+              "id": "gid://shopify/ImageSource/46412586713307",
+              "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/dyu-handmade-logo.png?v=1791107490",
+              "altText": "",
+              "width": 592,
+              "height": 421
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo0NjQxMjU4NjcxMzMwNywibGFzdF92YWx1ZSI6NDY0MTI1ODY3MTMzMDd9"
+        }
+      }
+    }
+  },
+  "fileInput": {
+    "files": [
+      {
+        "id": "gid://shopify/MediaImage/46412586713307",
+        "alt": "DYU Handmade logo"
+      }
+    ]
+  },
+  "brandInput": {
+    "id": "gid://shopify/Metaobject/611151708379",
+    "metaobject": {
+      "fields": [
+        {
+          "key": "image",
+          "value": "gid://shopify/MediaImage/46412586713307"
+        },
+        {
+          "key": "image_alt",
+          "value": "DYU Handmade"
+        }
+      ]
+    }
+  },
+  "rollback": {
+    "guard": "Fresh read must match applied values before restoring; preserve all other fields; no file deletion.",
+    "fileInput": {
+      "files": [
+        {
+          "id": "gid://shopify/MediaImage/46412586713307",
+          "alt": ""
+        }
+      ]
+    },
+    "brandFieldsToClear": [
+      "image",
+      "image_alt"
+    ],
+    "brandId": "gid://shopify/Metaobject/611151708379",
+    "method": "Clear these two previously unset optional fields in the native metaobject editor after matching current applied values. Preserve the uploaded logo file and Brand settings."
+  }
+}

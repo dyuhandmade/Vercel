@@ -5,3 +5,7 @@ node_modules/
 *.tsbuildinfo
 test-results/
 playwright-report/
+qa/accounts/preview/
+/tmp/
+# Local Shopify admin evidence containing contact details.
+qa/handover/shopify-store-name.jpg

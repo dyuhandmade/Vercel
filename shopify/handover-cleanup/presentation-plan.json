@@ -1,0 +1,37 @@
+{
+  "status": "applied_verified_admin_and_storefront",
+  "approvedAt": "2026-10-04T09:53:06.010Z",
+  "shopId": "gid://shopify/Shop/76637307099",
+  "input": {
+    "id": "gid://shopify/Collection/513925775579",
+    "handle": "frontpage",
+    "title": "Featured collection",
+    "descriptionHtml": "<p>Discover Damask Rose Cold Processed Soap from DYUhandmade.</p>",
+    "image": {
+      "src": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/Damask_Rose_Soap_Amazon.png?v=1787828685",
+      "altText": "Damask Rose Cold Processed Soap with its packaging"
+    }
+  },
+  "evidence": {
+    "memberProduct": "gid://shopify/Product/8903888994523",
+    "memberHandle": "damask-rose-cold-processed-soap",
+    "sourceMediaId": "gid://shopify/MediaImage/45202466668763",
+    "visualSource": "qa/audit-catalog/damask-rose-cold-processed-soap.png",
+    "sourceIsCurrentMerchantPhoto": true,
+    "collectionEditorOverridesUnset": true
+  },
+  "preserve": [
+    "handle",
+    "product membership and order",
+    "sortOrder",
+    "ruleSet",
+    "templateSuffix",
+    "seo overrides",
+    "publications",
+    "all product and variant fields"
+  ],
+  "excluded": {
+    "moringa": "No mutation; missing approved product facts not replaced by filler.",
+    "logoBrandSettings": "Root owns Brand UI; separately approved file alt only after fresh exact file read."
+  }
+}

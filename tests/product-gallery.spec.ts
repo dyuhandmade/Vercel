@@ -4,9 +4,10 @@ async function openProduct(page:Page,pause=true) {
  const health=await (await page.request.get('/api/health')).json();
  const handle=health.mode==='demo'?'botanical-face-balm':'facial-ubtan-orange-almond';
  await page.goto(`/products/${handle}`);
- const gallery=page.locator('.exhibit-gallery');
+ const gallery=page.locator('#main .exhibit-gallery');
  await expect(gallery).toBeVisible();
- if(pause)await gallery.getByRole('button',{name:'Pause product images',exact:true}).click();
+ const pauseButton=gallery.getByRole('button',{name:'Pause product images',exact:true});
+ if(pause&&await pauseButton.isVisible())await pauseButton.click();
  return gallery;
 }
 
@@ -42,12 +43,13 @@ test('desktop photos sit left of an independent interactive 3D model',async({pag
  expect(errors).toEqual([]);
 });
 
-test('phone photos advance in order, loop to the first, and support manual pause and resume',async({page})=>{
+test('phone photos advance in order and loop without a playback button',async({page})=>{
  await page.setViewportSize({width:390,height:844});
  await page.clock.install();
  const gallery=await openProduct(page,false),panel=gallery.locator('.product-photo-panel');
  const photos=gallery.getByRole('button',{name:/^View image /}),stage=gallery.locator('.product-image-stage');
  const count=await photos.count();expect(count).toBeGreaterThan(1);
+ await expect(gallery.getByRole('button',{name:/^(Pause|Play) product images$/})).toBeHidden();
  await page.mouse.move(5,5);
  await expect(panel).toHaveAttribute('data-autoplay','playing');
  const first=await stage.getAttribute('data-media-id');
@@ -58,10 +60,6 @@ test('phone photos advance in order, loop to the first, and support manual pause
  await page.clock.fastForward(5100);
  await expect(stage).toHaveAttribute('data-media-id',first!);
  await expect(photos.first()).toHaveAttribute('aria-pressed','true');
- await gallery.getByRole('button',{name:'Pause product images'}).click();
- await page.clock.fastForward(15000);
- await expect(stage).toHaveAttribute('data-media-id',first!);
- await gallery.getByRole('button',{name:'Play product images'}).click();
  await page.clock.fastForward(5100);
  await expect(photos.nth(1)).toHaveAttribute('aria-pressed','true');
  await expect(gallery.locator('canvas')).toHaveCount(0);
@@ -94,18 +92,18 @@ test('desktop autoplay preserves the model and pauses for image hover and keyboa
  await expect(canvas).toHaveAttribute('data-qa-identity','same-model');
 });
 
-test('reduced-motion visitors can explicitly start the image loop',async({page})=>{
+test('phone reduced-motion visitors browse photos manually without autoplay',async({page})=>{
  await page.setViewportSize({width:390,height:844});await page.emulateMedia({reducedMotion:'reduce'});await page.clock.install();
  const gallery=await openProduct(page,false),stage=gallery.locator('.product-image-stage');
- await expect(gallery.getByRole('button',{name:'Play product images'})).toBeVisible();
+ await expect(gallery.getByRole('button',{name:/^(Pause|Play) product images$/})).toBeHidden();
  const initial=await stage.getAttribute('data-media-id');
  await page.clock.fastForward(15000);await expect(stage).toHaveAttribute('data-media-id',initial!);
- await gallery.getByRole('button',{name:'Play product images'}).click();
- await page.clock.fastForward(5100);
- expect(await stage.getAttribute('data-media-id')).not.toBe(initial);
+ await gallery.getByRole('button',{name:'View image 2',exact:true}).click();
+ const selected=await stage.getAttribute('data-media-id');expect(selected).not.toBe(initial);
+ await page.clock.fastForward(15000);await expect(stage).toHaveAttribute('data-media-id',selected!);
 });
 
-for(const width of [375,430,768])test(`image gallery works at ${width}px without mounting a 3D viewer`,async({page})=>{
+for(const width of [375,430,768])test(`phone gallery at ${width}px puts the horizontal thumbnail rail below the photo`,async({page})=>{
  await page.setViewportSize({width,height:900});
  const gallery=await openProduct(page),buttons=gallery.getByRole('group',{name:'Product media'}).locator('button');
  await expect(gallery.locator('.product-model-panel')).toBeHidden();
@@ -114,6 +112,21 @@ for(const width of [375,430,768])test(`image gallery works at ${width}px without
  await expect(gallery.getByRole('group',{name:'3D view controls'})).toHaveCount(0);
  const count=await buttons.count();expect(count).toBeGreaterThan(1);
  const stage=gallery.locator('.product-image-stage'),rail=gallery.locator('.gallery-thumbs');
+ await expect(gallery.getByRole('button',{name:'View product in 3D',exact:true})).toBeVisible();
+ await expect(gallery.getByRole('button',{name:/^(Pause|Play) product images$/})).toBeHidden();
+ const layout=await gallery.evaluate(element=>{
+  const image=element.querySelector('.product-image-stage')!.getBoundingClientRect(),rail=element.querySelector('.product-thumbnail-rail')!.getBoundingClientRect();
+  const thumbs=Array.from(element.querySelectorAll('.gallery-thumbs button')).slice(0,5).map(button=>{const {left,right,top}=button.getBoundingClientRect();return {left,right,top};});
+  return {imageLeft:image.left,imageRight:image.right,imageWidth:image.width,imageBottom:image.bottom,railTop:rail.top,railLeft:rail.left,railRight:rail.right,thumbs};
+ });
+ expect(layout.railTop).toBeGreaterThanOrEqual(layout.imageBottom);
+ expect(Math.abs(layout.railLeft-layout.imageLeft)).toBeLessThan(2);
+ expect(layout.imageRight).toBeLessThanOrEqual(width);expect(layout.imageWidth).toBeGreaterThan(width*.8);
+ for(let i=0;i<layout.thumbs.length;i++){
+  expect(layout.thumbs[i].right).toBeLessThanOrEqual(layout.railRight+1);
+  expect(Math.abs(layout.thumbs[i].top-layout.thumbs[0].top)).toBeLessThan(2);
+  if(i)expect(layout.thumbs[i].left).toBeGreaterThan(layout.thumbs[i-1].left);
+ }
  const before=await stage.getAttribute('data-media-id');
  await buttons.nth(1).click();
  expect(await stage.getAttribute('data-media-id')).not.toBe(before);
@@ -123,15 +136,37 @@ for(const width of [375,430,768])test(`image gallery works at ${width}px without
  await buttons.last().press('Home');await expect(buttons.first()).toBeFocused();
  await expect(buttons.first()).toHaveAttribute('aria-pressed','true');
  await expect.poll(()=>buttons.first().locator('img').evaluate(image=>(image as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
- expect(await rail.evaluate(element=>element.scrollTop)).toBeLessThan(5);
- const bounds=await gallery.evaluate(element=>{
-  const image=element.querySelector('.product-image-stage')!.getBoundingClientRect(),rail=element.querySelector('.product-thumbnail-rail')!.getBoundingClientRect();
-  return {imageLeft:image.left,imageRight:image.right,imageWidth:image.width,railRight:rail.right};
- });
- expect(bounds.railRight).toBeLessThan(bounds.imageLeft);expect(bounds.imageRight).toBeLessThanOrEqual(width);
- expect(bounds.imageWidth).toBeGreaterThan(width*.65);
+ expect(await rail.evaluate(element=>element.scrollLeft)).toBeLessThan(5);
+ await buttons.first().press('ArrowRight');await expect(buttons.nth(1)).toBeFocused();
+ await expect(buttons.nth(1)).toHaveAttribute('aria-pressed','true');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
  if(width===375)await gallery.screenshot({path:'qa/product-gallery-mobile.png'});
+});
+
+test('phone 3D view mounts on demand in the photo stage and returns to the selected photo',async({page})=>{
+ await page.setViewportSize({width:390,height:844});
+ const gallery=await openProduct(page,false),stage=gallery.locator('.product-image-stage');
+ await expect(gallery.locator('canvas')).toHaveCount(0);
+ await gallery.getByRole('button',{name:'View image 2',exact:true}).click();
+ const selected=await stage.getAttribute('data-media-id');
+ await gallery.getByRole('button',{name:'View product in 3D',exact:true}).click();
+ await expect(stage).toHaveAttribute('data-media-id','product-model');
+ // These controls must work during loading and after a renderer/source failure.
+ // Actual rendering is covered separately from the gallery's view state.
+ await expect(stage.locator('.product-visual')).toHaveCount(1);
+ await expect(stage.getByRole('group',{name:'3D view controls'})).toBeVisible();
+ await expect(gallery.locator('.product-photo-panel')).toHaveAttribute('data-autoplay','paused');
+ await expect(gallery.getByRole('button',{name:'Show product photos',exact:true})).toHaveAttribute('aria-pressed','true');
+ await gallery.getByRole('button',{name:'Show product photos',exact:true}).click();
+ await expect(stage).toHaveAttribute('data-media-id',selected!);await expect(stage.locator('canvas')).toHaveCount(0);
+ await gallery.getByRole('button',{name:'View product in 3D',exact:true}).click();
+ await stage.getByRole('button',{name:'Close 3D view',exact:true}).click();
+ await expect(stage).toHaveAttribute('data-media-id',selected!);
+ await expect(gallery.getByRole('button',{name:'View product in 3D',exact:true})).toBeFocused();
+ await gallery.getByRole('button',{name:'View product in 3D',exact:true}).click();
+ await gallery.getByRole('button',{name:'View image 1',exact:true}).click();
+ await expect(stage.locator('canvas')).toHaveCount(0);await expect(stage.locator('.product-gallery-photo')).toBeVisible();
+ await expect(gallery.getByRole('button',{name:'View image 1',exact:true})).toHaveAttribute('aria-pressed','true');
 });
 
 for(const handle of ['almond-facial-oil','damask-rose-cold-processed-soap','camphora-pink-salt','mud-face-wash','body-ubtan-tea-tree-1','triple-body-butter-lavendar','triple-body-butter-sandalwood'])test(`the separate model fits the gallery for ${handle}`,async({page})=>{
@@ -172,6 +207,8 @@ test('landscape phones show photographs without loading 3D',async({browser})=>{
   await expect(gallery.locator('.product-model-panel')).toBeHidden();
   await expect(gallery.locator('.product-model-panel .product-visual')).toHaveCount(0);
   await expect(gallery.locator('canvas')).toHaveCount(0);
+  await expect(gallery.getByRole('button',{name:'View product in 3D',exact:true})).toBeVisible();
+  await expect(gallery.getByRole('button',{name:/^(Pause|Play) product images$/})).toBeHidden();
   await expect(gallery.getByRole('button',{name:'View image 2'})).toBeVisible();
  } finally {await context.close();}
 });

@@ -1,0 +1,110 @@
+{
+  "verifiedAt": "2026-10-04T09:19:52.837Z",
+  "source": "Signed-in Shopify admin UI",
+  "shop": "dyuhandmade.myshopify.com",
+  "storeName": {
+    "before": "My Store",
+    "after": "DYUhandmade",
+    "saved": true,
+    "legalEntityChanged": false,
+    "contactDetailsChanged": false
+  },
+  "plan": {
+    "name": "Pause and Build",
+    "purchasePerformed": false
+  },
+  "domains": {
+    "primary": "dyuhandmade.myshopify.com",
+    "secondary": "fgm0vn-7t.myshopify.com",
+    "customDomainConfigured": false
+  },
+  "shipping": {
+    "domestic": {
+      "region": "India",
+      "name": "Standard",
+      "priceINR": 0
+    },
+    "international": {
+      "countries": 28,
+      "name": "Standard",
+      "priceINR": 1700,
+      "marketNotice": "These countries must be included in a market to start selling to them."
+    },
+    "changed": false
+  },
+  "tax": {
+    "indiaService": "Manual Tax",
+    "collecting": "Taxes",
+    "priceTaxIncluded": false,
+    "shippingTaxEnabled": false,
+    "assumedRateInUI": "18%",
+    "countryOfOriginVariants": 25,
+    "variants": 27,
+    "hsCodeVariants": 0,
+    "changed": false,
+    "review": "Merchant must confirm actual registrations, classifications and intended destinations; configuration is not tax advice."
+  },
+  "payments": {
+    "changesPerformed": false,
+    "razorpayWork": "Excluded by user"
+  },
+  "orders": {
+    "orderSubmitted": false,
+    "chargeMade": false,
+    "testCompletionBlockedByPausedPlan": true
+  },
+  "policies": {
+    "returnCancellationRules": "Not set",
+    "legalNotice": "Not set",
+    "contactInformation": "Published from existing public store contact details; API read verified",
+    "terms": "Not set",
+    "shipping": "Not set",
+    "refund": "Not set",
+    "privacy": "Automated and published; custom edit not applied"
+  },
+  "noPaymentFollowup": {
+    "verifiedAt": "2026-10-04T09:53:41.308771+00:00",
+    "source": "Signed-in Shopify admin UI",
+    "currentPlan": {
+      "name": "Pause and Build",
+      "monthlyDisplayedINR": 680
+    },
+    "sellingPlanOffer": {
+      "name": "Basic",
+      "monthlyDisplayedINR": 1994,
+      "freeSellingOptionShown": false,
+      "purchasePerformed": false,
+      "prorationOrFinalBillVerified": false
+    },
+    "brand": {
+      "saved": true,
+      "defaultLogoSource": "public/images/dyu-handmade-logo.png",
+      "primaryColor": "#293d2d",
+      "primaryContrast": "#ffffff",
+      "secondaryColor": "#f9f7f1",
+      "secondaryContrast": "#293d2d",
+      "slogan": "A slower kind of care",
+      "shortDescription": "Discover the DYUhandmade digital atelier. Thoughtful botanical care, everyday rituals, and the stories behind them.",
+      "textSource": "Existing live site-seo content",
+      "colorSource": "src/app/globals.css",
+      "newClaimsAdded": false
+    },
+    "paymentProviderChanged": false,
+    "razorpayWork": "Excluded by user",
+    "evidence": [
+      "qa/handover/plan-options.jpg",
+      "qa/handover/shopify-brand-settings.jpg"
+    ],
+    "pdf": {
+      "path": "output/pdf/DYU-remaining-steps.pdf",
+      "pages": 1,
+      "renderedAndVisuallyReviewed": true,
+      "textChecksPassed": true
+    },
+    "presentationReceipts": [
+      "shopify/handover-cleanup/presentation-receipt.json",
+      "shopify/handover-cleanup/presentation-brand-receipt.json",
+      "shopify/handover-cleanup/presentation-storefront.json"
+    ]
+  }
+}

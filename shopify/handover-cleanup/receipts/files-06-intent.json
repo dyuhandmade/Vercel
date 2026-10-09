@@ -1,0 +1,461 @@
+{
+  "at": "2026-10-04T09:27:47.220Z",
+  "batch": 6,
+  "currentBefore": [
+    {
+      "productId": "gid://shopify/Product/8994674114779",
+      "handle": "rosemary-olive-hair-oil",
+      "title": "Rosemary Olive Hair Oil",
+      "id": "gid://shopify/MediaImage/38365992091867",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T10:53:58Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38365992091867",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/8_10b3aee2-bae7-48f0-b237-55ffaaffa293.png?v=1758194270",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994674114779",
+      "handle": "rosemary-olive-hair-oil",
+      "title": "Rosemary Olive Hair Oil",
+      "id": "gid://shopify/MediaImage/38365992124635",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T10:53:58Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38365992124635",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/9.png?v=1758194270",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994750759131",
+      "handle": "cold-pressed-sweet-almond-oil",
+      "title": "Cold Pressed Sweet Almond Oil",
+      "id": "gid://shopify/MediaImage/38366438031579",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T10:54:29Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38366438031579",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_ee33fd0c-0ff2-4d8a-8913-39bc93c832b0.png?v=1758199888",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994750759131",
+      "handle": "cold-pressed-sweet-almond-oil",
+      "title": "Cold Pressed Sweet Almond Oil",
+      "id": "gid://shopify/MediaImage/38366438064347",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T10:54:29Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38366438064347",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_357ecc9f-cb41-43be-8dd8-18c8a2a956e0.png?v=1758199888",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994750759131",
+      "handle": "cold-pressed-sweet-almond-oil",
+      "title": "Cold Pressed Sweet Almond Oil",
+      "id": "gid://shopify/MediaImage/38366438097115",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T10:54:29Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38366438097115",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_5049a296-104a-406c-b407-1a2123dc46e9.png?v=1758199888",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994750759131",
+      "handle": "cold-pressed-sweet-almond-oil",
+      "title": "Cold Pressed Sweet Almond Oil",
+      "id": "gid://shopify/MediaImage/38451078037723",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:40Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38451078037723",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_6c0753ec-ac6e-4459-b3a9-75d687ce0f4c.png?v=1758705735",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994750759131",
+      "handle": "cold-pressed-sweet-almond-oil",
+      "title": "Cold Pressed Sweet Almond Oil",
+      "id": "gid://shopify/MediaImage/38451078004955",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:40Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38451078004955",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_7fcc2fc6-e0cb-47ea-bee2-2b3aee0c0715.png?v=1758705735",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994750759131",
+      "handle": "cold-pressed-sweet-almond-oil",
+      "title": "Cold Pressed Sweet Almond Oil",
+      "id": "gid://shopify/MediaImage/38451078201563",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:40Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38451078201563",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/10.png?v=1758705736",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994750759131",
+      "handle": "cold-pressed-sweet-almond-oil",
+      "title": "Cold Pressed Sweet Almond Oil",
+      "id": "gid://shopify/MediaImage/38451078168795",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:40Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38451078168795",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_120e2d3e-b3ec-4527-bb36-01b4448e9b5d.png?v=1758705736",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994750759131",
+      "handle": "cold-pressed-sweet-almond-oil",
+      "title": "Cold Pressed Sweet Almond Oil",
+      "id": "gid://shopify/MediaImage/38451078070491",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:40Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38451078070491",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_33c01c23-e152-460b-b219-175062d49801.png?v=1758705736",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994750759131",
+      "handle": "cold-pressed-sweet-almond-oil",
+      "title": "Cold Pressed Sweet Almond Oil",
+      "id": "gid://shopify/MediaImage/38451078136027",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:40Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38451078136027",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/8_4551c4a6-8325-42fc-a8a8-81265041b3e0.png?v=1758705736",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8994750759131",
+      "handle": "cold-pressed-sweet-almond-oil",
+      "title": "Cold Pressed Sweet Almond Oil",
+      "id": "gid://shopify/MediaImage/38451078103259",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:40Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38451078103259",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/9_4e291d63-6b4c-4537-9c8b-39cdbb41acef.png?v=1758705736",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8997684314331",
+      "handle": "facial-ubtan-orange-almond-1",
+      "title": "Facial Ubtan Orange Almond",
+      "id": "gid://shopify/MediaImage/38450757435611",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:38Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38450757435611",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1.jpg?v=1758703135",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8997684314331",
+      "handle": "facial-ubtan-orange-almond-1",
+      "title": "Facial Ubtan Orange Almond",
+      "id": "gid://shopify/MediaImage/38450757468379",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:38Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38450757468379",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2.jpg?v=1758703134",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8997684314331",
+      "handle": "facial-ubtan-orange-almond-1",
+      "title": "Facial Ubtan Orange Almond",
+      "id": "gid://shopify/MediaImage/38450757501147",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:38Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38450757501147",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3.jpg?v=1758703134",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8997684314331",
+      "handle": "facial-ubtan-orange-almond-1",
+      "title": "Facial Ubtan Orange Almond",
+      "id": "gid://shopify/MediaImage/38450757533915",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:38Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38450757533915",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4.jpg?v=1758703135",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8997684314331",
+      "handle": "facial-ubtan-orange-almond-1",
+      "title": "Facial Ubtan Orange Almond",
+      "id": "gid://shopify/MediaImage/38450757566683",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:38Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38450757566683",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5.jpg?v=1758703135",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8997684314331",
+      "handle": "facial-ubtan-orange-almond-1",
+      "title": "Facial Ubtan Orange Almond",
+      "id": "gid://shopify/MediaImage/38450757599451",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:38Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38450757599451",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6.jpg?v=1758703135",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8997684314331",
+      "handle": "facial-ubtan-orange-almond-1",
+      "title": "Facial Ubtan Orange Almond",
+      "id": "gid://shopify/MediaImage/38450757632219",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:38Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38450757632219",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_12a8df7f-334c-4455-835b-1c8a0bb3d5d1.jpg?v=1758703135",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8997684314331",
+      "handle": "facial-ubtan-orange-almond-1",
+      "title": "Facial Ubtan Orange Almond",
+      "id": "gid://shopify/MediaImage/38450757664987",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:38Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38450757664987",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/8.jpg?v=1758703135",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8997684314331",
+      "handle": "facial-ubtan-orange-almond-1",
+      "title": "Facial Ubtan Orange Almond",
+      "id": "gid://shopify/MediaImage/38450757697755",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:38Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38450757697755",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/9.jpg?v=1758703135",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8997686608091",
+      "handle": "body-ubtan-tea-tree-1",
+      "title": "Body Ubtan Tea Tree Neem",
+      "id": "gid://shopify/MediaImage/38450938708187",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:39Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38450938708187",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_33ae4182-eb40-455d-b2f2-72dd3da330aa.jpg?v=1758704160",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8997686608091",
+      "handle": "body-ubtan-tea-tree-1",
+      "title": "Body Ubtan Tea Tree Neem",
+      "id": "gid://shopify/MediaImage/38450938740955",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:39Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38450938740955",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_88e5d7dc-f7e0-49d1-b86e-b9fa0515482d.jpg?v=1758704160",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8997686608091",
+      "handle": "body-ubtan-tea-tree-1",
+      "title": "Body Ubtan Tea Tree Neem",
+      "id": "gid://shopify/MediaImage/38450938773723",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:39Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38450938773723",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_53a4f47c-470b-4cc3-beac-c45b0b04c6c0.jpg?v=1758704160",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8997686608091",
+      "handle": "body-ubtan-tea-tree-1",
+      "title": "Body Ubtan Tea Tree Neem",
+      "id": "gid://shopify/MediaImage/38450938806491",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T11:04:39Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/38450938806491",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_fbdac7d3-5a09-4bd0-ae27-2e57981ee5a6.jpg?v=1758704160",
+        "altText": ""
+      }
+    }
+  ],
+  "variables": {
+    "files": [
+      {
+        "id": "gid://shopify/MediaImage/38365992091867",
+        "alt": "Rosemary Olive Hair Oil — product image 8 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38365992124635",
+        "alt": "Rosemary Olive Hair Oil — product image 9 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38366438031579",
+        "alt": "Cold Pressed Sweet Almond Oil — product image 1 of 10"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38366438064347",
+        "alt": "Cold Pressed Sweet Almond Oil — product image 2 of 10"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38366438097115",
+        "alt": "Cold Pressed Sweet Almond Oil — product image 3 of 10"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38451078037723",
+        "alt": "Cold Pressed Sweet Almond Oil — product image 4 of 10"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38451078004955",
+        "alt": "Cold Pressed Sweet Almond Oil — product image 5 of 10"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38451078201563",
+        "alt": "Cold Pressed Sweet Almond Oil — product image 6 of 10"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38451078168795",
+        "alt": "Cold Pressed Sweet Almond Oil — product image 7 of 10"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38451078070491",
+        "alt": "Cold Pressed Sweet Almond Oil — product image 8 of 10"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38451078136027",
+        "alt": "Cold Pressed Sweet Almond Oil — product image 9 of 10"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38451078103259",
+        "alt": "Cold Pressed Sweet Almond Oil — product image 10 of 10"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38450757435611",
+        "alt": "Facial Ubtan Orange Almond — product image 1 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38450757468379",
+        "alt": "Facial Ubtan Orange Almond — product image 2 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38450757501147",
+        "alt": "Facial Ubtan Orange Almond — product image 3 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38450757533915",
+        "alt": "Facial Ubtan Orange Almond — product image 4 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38450757566683",
+        "alt": "Facial Ubtan Orange Almond — product image 5 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38450757599451",
+        "alt": "Facial Ubtan Orange Almond — product image 6 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38450757632219",
+        "alt": "Facial Ubtan Orange Almond — product image 7 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38450757664987",
+        "alt": "Facial Ubtan Orange Almond — product image 8 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38450757697755",
+        "alt": "Facial Ubtan Orange Almond — product image 9 of 9"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38450938708187",
+        "alt": "Body Ubtan Tea Tree Neem — product image 1 of 8"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38450938740955",
+        "alt": "Body Ubtan Tea Tree Neem — product image 2 of 8"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38450938773723",
+        "alt": "Body Ubtan Tea Tree Neem — product image 3 of 8"
+      },
+      {
+        "id": "gid://shopify/MediaImage/38450938806491",
+        "alt": "Body Ubtan Tea Tree Neem — product image 4 of 8"
+      }
+    ]
+  },
+  "skipped": []
+}

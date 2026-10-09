@@ -1,0 +1,13 @@
+query CleanupSnapshot($after: String) {
+ shop { id myshopifyDomain }
+ products(first: 50, after: $after) {
+  nodes {
+   id handle title descriptionHtml updatedAt
+   media(first: 50) {
+    nodes { ... on MediaImage { id alt fileStatus updatedAt image { id url altText } } }
+    pageInfo { hasNextPage endCursor }
+   }
+  }
+  pageInfo { hasNextPage endCursor }
+ }
+}

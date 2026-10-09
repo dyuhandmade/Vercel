@@ -16,12 +16,24 @@ require.extensions['.tsx']=(loadedModule,filename)=>{
  (loadedModule as NodeModule&{_compile:(code:string,filename:string)=>void})._compile(code,filename);
 };
 const AtelierHero=(require('../src/components/AtelierHero') as typeof import('../src/components/AtelierHero')).default;
+const CraftJourney=(require('../src/components/CraftJourney') as typeof import('../src/components/CraftJourney')).default;
 if(previousCssLoader)require.extensions['.css']=previousCssLoader;
 else delete require.extensions['.css'];
 require.extensions['.tsx']=previousTsxLoader;
 
-const styles=['src/app/globals.css','src/app/atelier.css','src/app/story.css','src/components/atelier-preview.css'].map(file=>readFileSync(file,'utf8')).join('\n');
+const styles=['src/app/globals.css','src/app/atelier.css','src/app/story.css','src/components/atelier-preview.css','src/components/atelier-hero-carousel.css'].map(file=>readFileSync(file,'utf8')).join('\n');
 const products:AtelierPreviewProduct[]=[{id:'preview-one',handle:'preview-one',title:'Preview product',productType:'Oil',shape:'bottle',tone:'#95602f',image:'/images/bottle-atelier.png'}];
+
+test('uploaded making artwork works without inventing product instructions',async({page})=>{
+ const html=renderToStaticMarkup(createElement(CraftJourney,{content:{handle:'home-craft',title:'Made in our atelier',body:'Our approved making story.',image:'/images/atelier-craft-v2.webp',mobileImage:'/images/botanical-study.webp',imageAlt:'The making studio'}}));
+ await page.setContent(html);
+ await expect(page.getByRole('heading',{name:/Made in our atelier/})).toBeVisible();
+ await expect(page.getByText('Our approved making story.')).toBeVisible();
+ await expect(page.getByAltText('The making studio')).toHaveAttribute('src',/atelier-craft-v2/);
+ await expect(page.locator('source')).toHaveAttribute('srcset',/botanical-study/);
+ await expect(page.getByRole('tablist')).toHaveCount(0);
+ expect(renderToStaticMarkup(createElement(CraftJourney,{content:{handle:'home-craft',enabled:false,image:'/images/atelier-craft-v2.webp'}}))).toBe('');
+});
 function markup(content?:ContentSection,preview?:ContentSection){
  const html=renderToStaticMarkup(createElement(AtelierHero,{products,content,preview}));
  return `<!doctype html><html><head><style>${styles}</style></head><body><div style="height:108px"></div><main class="atelier-home">${html}</main></body></html>`;
@@ -31,14 +43,15 @@ test('invalid editor values retain the hero defaults and cannot inject unsafe ar
  const content=normalizeContentSection({handle:'home-hero',fields:[
   {key:'title',value:'<script>bad()</script>'},{key:'image',value:'https://unapproved.example/hero.png'},
   {key:'mobile_image',value:'javascript:bad()'},{key:'link_url',value:'javascript:bad()'},
-  {key:'image_position',value:'url(https://unapproved.example/track)'},{key:'enabled',value:'false'}
+  {key:'image_position',value:'url(https://unapproved.example/track)'}
  ]})!;
  await page.setContent(markup(content));
- await expect(page.getByRole('heading',{level:1})).toHaveText('Rooted in nature. Made forslower moments.');
+ await expect(page.getByRole('heading',{level:1})).toHaveText('Rooted in nature.Made for beautiful moments.');
  await expect(page.getByRole('link',{name:'Discover your ritual'})).toHaveAttribute('href','/shop');
- await expect(page.locator('.atelier-backdrop img')).toHaveAttribute('src',/atelier-hero.webp/);
+ await expect(page.locator('.atelier-backdrop img')).toHaveCount(4);
+ await expect(page.locator('.atelier-backdrop img').first()).toHaveAttribute('src',/atelier-hero.webp/);
  expect(await page.locator('script').count()).toBe(0);
- expect(await page.locator('.atelier-backdrop img').evaluate(image=>image.style.objectPosition)).toBe('');
+ expect(await page.locator('.atelier-backdrop img').first().evaluate(image=>image.style.objectPosition)).toBe('');
 });
 
 test('hero artwork uses distinct mobile and desktop sources and the optional 3D card can be hidden',async({page})=>{
@@ -49,14 +62,33 @@ test('hero artwork uses distinct mobile and desktop sources and the optional 3D 
  ]})!;
  await page.setViewportSize({width:375,height:812});
  await page.setContent(markup(content,{handle:'home-hero-preview',enabled:false}));
- await expect(page.locator('.atelier-backdrop source')).toHaveAttribute('media','(max-width: 540px)');
- await expect(page.locator('.atelier-backdrop source')).toHaveAttribute('srcset',/atelier-ritual-v2.webp/);
- await expect(page.locator('.atelier-backdrop img')).toHaveAttribute('srcset',/atelier-hero.webp/);
+ await expect(page.locator('.atelier-backdrop source').first()).toHaveAttribute('media','(max-width: 540px)');
+ await expect(page.locator('.atelier-backdrop source').first()).toHaveAttribute('srcset',/atelier-ritual-v2.webp/);
+ await expect(page.locator('.atelier-backdrop img').first()).toHaveAttribute('srcset',/atelier-hero.webp/);
  await expect(page.getByAltText('A merchant chosen still life')).toHaveCSS('object-position','100% 50%');
  await expect(page.getByRole('link',{name:'Explore care'})).toHaveAttribute('href','/collections/care');
  await expect(page.locator('.hero-explore')).toHaveCount(0);
  await page.setContent(markup(content,{handle:'home-hero-preview',enabled:true}));
  await expect(page.getByRole('button',{name:/Get a little closer/})).toBeVisible();
+});
+
+test('merchant wording is displayed verbatim and disabling the hero removes it',async({page})=>{
+ const content:ContentSection={handle:'home-hero',title:'Rooted in nature.\nMade for',titleEmphasis:'slower moments.'};
+ await page.setContent(markup(content));
+ await expect(page.getByRole('heading',{level:1})).toHaveText('Rooted in nature. Made forslower moments.');
+ await page.setContent(markup({...content,enabled:false}));
+ await expect(page.locator('.atelier-hero')).toHaveCount(0);
+});
+
+test('reduced motion hides autoplay controls through CSS while preserving server markup',async({page})=>{
+ await page.emulateMedia({reducedMotion:'reduce'});
+ await page.setContent(markup());
+ const toggle=page.locator('.atelier-carousel-autoplay');
+ await expect(toggle).toHaveCount(1);
+ await expect(toggle).toBeHidden();
+ await expect(page.getByRole('button',{name:'Show slide 2'})).toBeVisible();
+ await page.emulateMedia({reducedMotion:'no-preference'});
+ await expect(toggle).toBeVisible();
 });
 
 for(const width of [375,768,1024,1440])test(`long merchant copy stays inside the hero without overlapping the preview at ${width}px`,async({page})=>{

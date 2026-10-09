@@ -1,0 +1,103 @@
+{
+  "at": "2026-10-04T09:25:37.467Z",
+  "operation": "CleanupProduct",
+  "productId": "gid://shopify/Product/8974567407835",
+  "handle": "rose-reset-cold-process-soap",
+  "currentBefore": {
+    "id": "gid://shopify/Product/8974567407835",
+    "handle": "rose-reset-cold-process-soap",
+    "title": "Rose Reset Soap Bar",
+    "descriptionHtml": "<p data-start=\"230\" data-end=\"486\">Revive your skin and uplift your senses with our <em data-start=\"279\" data-end=\"300\">Rose Reset Soap Bar</em>, a handcrafted cold process soap made with pure coconut oil and naturally tinted with rose clay. Its soft blush tone and creamy lather make it a daily luxury for both skin and spirit.</p>\n<p data-start=\"488\" data-end=\"748\">Infused with rose essential oil, this natural soap gently cleanses while leaving your skin hydrated, refreshed, and delicately scented with floral notes of rose. The coconut oil base provides rich moisture, making it especially kind to dry or sensitive skin.</p>\n<p data-start=\"750\" data-end=\"1111\">✔ <strong data-start=\"752\" data-end=\"774\">Natural &amp; Handmade</strong> – Cold process soap crafted in small batches<br data-start=\"819\" data-end=\"822\">✔ <strong data-start=\"824\" data-end=\"857\">Moisturizing Coconut Oil Base</strong> – Gentle on dry and sensitive skin<br data-start=\"892\" data-end=\"895\">✔ <strong data-start=\"897\" data-end=\"921\">Uplifting Rose Aroma</strong> – Restores balance and refreshes mood<br data-start=\"959\" data-end=\"962\">✔ <strong data-start=\"964\" data-end=\"1000\" data-is-only-node=\"\">Naturally Colored with Rose Clay</strong> – No synthetic dyes or chemicals<br data-start=\"1033\" data-end=\"1036\">✔ <strong data-start=\"1038\" data-end=\"1059\">Elegant ~60 g Bar</strong> – Perfect for gifting, self-care, or travel .</p>\n<p data-start=\"1113\" data-end=\"1267\"><strong data-start=\"1113\" data-end=\"1127\">Skin Type:</strong> Suitable for all skin types, especially dry &amp; sensitive skin.<br data-start=\"1189\" data-end=\"1192\"><strong data-start=\"1192\" data-end=\"1205\">Best For:</strong> Daily bathing, gifting, pampering rituals, and travel kits.</p>",
+    "updatedAt": "2026-10-02T12:07:55Z",
+    "status": "ACTIVE",
+    "tags": [],
+    "vendor": "My Store",
+    "productType": "",
+    "totalInventory": 0,
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/47501379305691",
+          "title": "Default Title",
+          "price": "325.00",
+          "compareAtPrice": null,
+          "inventoryQuantity": 0
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjo0NzUwMTM3OTMwNTY5MSwibGFzdF92YWx1ZSI6MX0="
+      }
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/38011647394011",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:25:46Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/38011647394011",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_220818c3-38a8-4d2f-95a5-fa727f3ce614.png?v=1756376578",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/38011647426779",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:25:46Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/38011647426779",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_074718ba-f0ba-4f68-8abf-33c09eb3a704.png?v=1756376578",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/38011647459547",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:25:46Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/38011647459547",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_8b3ebbf4-e499-40ea-ad19-ff508709cbd8.png?v=1756376578",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/38011647492315",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:25:46Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/38011647492315",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_5b9793c1-dc96-4180-8ecc-b7281924c79e.png?v=1756376578",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/38011647525083",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T09:25:46Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/38011647525083",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_02281caa-4335-460b-99a8-35f8302e11af.png?v=1756376578",
+            "altText": ""
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjozODAxMTY0NzUyNTA4MywibGFzdF92YWx1ZSI6IjUifQ=="
+      }
+    }
+  },
+  "variables": {
+    "product": {
+      "id": "gid://shopify/Product/8974567407835",
+      "handle": "rose-reset-cold-process-soap",
+      "descriptionHtml": "<p data-start=\"230\" data-end=\"486\">Revive your skin and uplift your senses with our <em data-start=\"279\" data-end=\"300\">Rose Reset Soap Bar</em>, a handcrafted cold process soap made with pure coconut oil and naturally tinted with rose clay. Its soft blush tone and creamy lather make it a daily luxury for both skin and spirit.</p>\n<p data-start=\"488\" data-end=\"748\">Infused with rose essential oil, this natural soap gently cleanses while leaving your skin hydrated, refreshed, and delicately scented with floral notes of rose. The coconut oil base provides rich moisture, making it especially kind to dry or sensitive skin.</p>\n<p data-start=\"750\" data-end=\"1111\">✔ <strong data-start=\"752\" data-end=\"774\">Natural &amp; Handmade</strong> – Cold process soap crafted in small batches<br data-start=\"819\" data-end=\"822\">✔ <strong data-start=\"824\" data-end=\"857\">Moisturizing Coconut Oil Base</strong> – Gentle on dry and sensitive skin<br data-start=\"892\" data-end=\"895\">✔ <strong data-start=\"897\" data-end=\"921\">Uplifting Rose Aroma</strong> – Restores balance and refreshes mood<br data-start=\"959\" data-end=\"962\">✔ <strong data-start=\"964\" data-end=\"1000\" data-is-only-node=\"\">Naturally Colored with Rose Clay</strong> – No synthetic dyes or chemicals<br data-start=\"1033\" data-end=\"1036\">✔ <strong data-start=\"1038\" data-end=\"1059\">Elegant ~60 g Bar</strong> – Perfect for gifting, self-care, or travel.</p>\n<p data-start=\"1113\" data-end=\"1267\"><strong data-start=\"1113\" data-end=\"1127\">Skin Type:</strong> Suitable for all skin types, especially dry &amp; sensitive skin.<br data-start=\"1189\" data-end=\"1192\"><strong data-start=\"1192\" data-end=\"1205\">Best For:</strong> Daily bathing, gifting, pampering rituals, and travel kits.</p>"
+    }
+  }
+}

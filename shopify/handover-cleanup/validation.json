@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-04T09:09:54.520Z",
+  "source": "Shopify connector graphql_schema and validate_graphql_codeblocks",
+  "schema": "Current connected Admin schema; official documentation search returned 2026-10",
+  "query": {
+    "artifactId": "dyu-cleanup-snapshot-20261004",
+    "revision": 1,
+    "status": "valid",
+    "executed": "read_only"
+  },
+  "productMutation": {
+    "artifactId": "dyu-cleanup-product-20261004",
+    "revision": 1,
+    "status": "valid",
+    "executed": false
+  },
+  "fileMutation": {
+    "artifactId": "dyu-cleanup-image-alt-20261004",
+    "revision": 1,
+    "status": "valid",
+    "executed": false
+  },
+  "snapshotChecks": {
+    "shopIdVerified": true,
+    "products": 27,
+    "uniqueMedia": 154,
+    "allImagesReady": true,
+    "paginationComplete": true,
+    "remoteWrites": 0
+  }
+}

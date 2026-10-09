@@ -1,0 +1,32 @@
+# Optional Linux/systemd template. Review paths, user and environment before use.
+[Unit]
+Description=DYU Next.js storefront
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=dyu
+Group=dyu
+WorkingDirectory=/srv/dyu/current
+Environment=NODE_ENV=production
+EnvironmentFile=/etc/dyu/storefront.env
+ExecStart=/usr/bin/node /srv/dyu/current/node_modules/next/dist/bin/next start --hostname 127.0.0.1 --port 3000
+Restart=on-failure
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=30
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+# Next's data/image cache needs writable persistent disk.
+ReadWritePaths=/srv/dyu/current/.next
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

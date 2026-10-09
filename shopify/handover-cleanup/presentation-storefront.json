@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-10-04T09:57:45.987Z",
+  "status": "verified_storefront",
+  "mismatches": [],
+  "collection": {
+    "id": "gid://shopify/Collection/513925775579",
+    "handle": "frontpage",
+    "title": "Featured collection",
+    "description": "Discover Damask Rose Cold Processed Soap from DYUhandmade.",
+    "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/collections/Damask_Rose_Soap_Amazon.png?v=1791107618",
+      "altText": "Damask Rose Cold Processed Soap with its packaging"
+    },
+    "products": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Product/8903888994523",
+          "handle": "damask-rose-cold-processed-soap"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  },
+  "brand": {
+    "handle": "brand",
+    "fields": [
+      {
+        "key": "body",
+        "value": "H A N D M A D E",
+        "type": "multi_line_text_field",
+        "reference": null,
+        "references": null
+      },
+      {
+        "key": "caption",
+        "value": "DYUhandmade",
+        "type": "single_line_text_field",
+        "reference": null,
+        "references": null
+      },
+      {
+        "key": "image",
+        "value": "gid://shopify/MediaImage/46412586713307",
+        "type": "file_reference",
+        "reference": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/dyu-handmade-logo.png?v=1791107490",
+            "altText": "DYU Handmade logo"
+          }
+        },
+        "references": null
+      },
+      {
+        "key": "image_alt",
+        "value": "DYU Handmade",
+        "type": "single_line_text_field",
+        "reference": null,
+        "references": null
+      },
+      {
+        "key": "name",
+        "value": "Brand identity",
+        "type": "single_line_text_field",
+        "reference": null,
+        "references": null
+      },
+      {
+        "key": "title",
+        "value": "dyu",
+        "type": "multi_line_text_field",
+        "reference": null,
+        "references": null
+      }
+    ]
+  }
+}

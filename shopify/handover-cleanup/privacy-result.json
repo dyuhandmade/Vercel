@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-04T09:19:08.951Z",
+  "applied": false,
+  "errors": [
+    "Access denied for shopPolicyUpdate field. Required access: `write_legal_policies` access scope."
+  ],
+  "note": "No policy change. Connector lacks write_legal_policies. Signed-in Shopify admin confirms the published privacy policy uses automated updates and has a disabled editor. Automation was preserved; switching to a custom legal policy solely for two template typos is outside this factual cleanup. The automated UI preview differs from the native API body, so the backed-up proposal must not be replayed without a fresh read and merchant policy review."
+}

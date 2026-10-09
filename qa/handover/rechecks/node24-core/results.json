@@ -1,0 +1,3221 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\ASUS\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.core.config.ts",
+      "--output",
+      "qa/handover/rechecks/node24-core/artifacts",
+      "--reporter",
+      "list,json"
+    ],
+    "configFile": "C:\\Users\\ASUS\\Desktop\\freelancing\\DYU\\playwright.core.config.ts",
+    "rootDir": "C:/Users/ASUS/Desktop/freelancing/DYU/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/ASUS/Desktop/freelancing/DYU/qa/handover/rechecks/node24-core/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "logic-and-isolated-components",
+        "name": "logic-and-isolated-components",
+        "testDir": "C:/Users/ASUS/Desktop/freelancing/DYU/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/account-security.spec.ts",
+          "**/account-callback.spec.ts",
+          "**/content-safety.spec.ts",
+          "**/editorial-content.spec.ts",
+          "**/hero-content.spec.ts",
+          "**/hero-scene.spec.ts",
+          "**/home-content-settings.spec.ts",
+          "**/ingredient-index.spec.ts",
+          "**/launch-readiness.spec.ts",
+          "**/site-content.spec.ts",
+          "**/product-description.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/ASUS/Desktop/freelancing/DYU/qa/handover/rechecks/node24-core/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "account-input-validation",
+        "name": "account-input-validation",
+        "testDir": "C:/Users/ASUS/Desktop/freelancing/DYU/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/account-data.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/ASUS/Desktop/freelancing/DYU/qa/handover/rechecks/node24-core/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "backend-guards",
+        "name": "backend-guards",
+        "testDir": "C:/Users/ASUS/Desktop/freelancing/DYU/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/backend-guards.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/ASUS/Desktop/freelancing/DYU/qa/handover/rechecks/node24-core/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "recommendation-ranking",
+        "name": "recommendation-ranking",
+        "testDir": "C:/Users/ASUS/Desktop/freelancing/DYU/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/product-recommendations.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/ASUS/Desktop/freelancing/DYU/qa/handover/rechecks/node24-core/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "saved-product-storage",
+        "name": "saved-product-storage",
+        "testDir": "C:/Users/ASUS/Desktop/freelancing/DYU/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/saved-products.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/ASUS/Desktop/freelancing/DYU/qa/handover/rechecks/node24-core/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "indexing-guard",
+        "name": "indexing-guard",
+        "testDir": "C:/Users/ASUS/Desktop/freelancing/DYU/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/seo-readiness.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "account-callback.spec.ts",
+      "file": "account-callback.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "callback consumes the flow before exchange, verifies the identity and only then saves a session",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:18.976Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d187d51b17f601d746dc-974e13572be99858b476",
+          "file": "account-callback.spec.ts",
+          "line": 39,
+          "column": 5
+        },
+        {
+          "title": "missing and invalid or expired flow cookies have distinct bounded classifications",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.003Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d187d51b17f601d746dc-5d631e320b8dda2ab35b",
+          "file": "account-callback.spec.ts",
+          "line": 45,
+          "column": 5
+        },
+        {
+          "title": "mismatched and duplicate state are rejected without calling Shopify or saving a session",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.009Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d187d51b17f601d746dc-a6f990e78fbdea43c14b",
+          "file": "account-callback.spec.ts",
+          "line": 53,
+          "column": 5
+        },
+        {
+          "title": "provider errors expose only standard OAuth enums, never provider details",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.016Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d187d51b17f601d746dc-dbc37e93d13df50c5bb9",
+          "file": "account-callback.spec.ts",
+          "line": 61,
+          "column": 5
+        },
+        {
+          "title": "token exchange status and OAuth error survive classification without response bodies",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.022Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d187d51b17f601d746dc-31d60c07834b3e068ff1",
+          "file": "account-callback.spec.ts",
+          "line": 71,
+          "column": 5
+        },
+        {
+          "title": "a failed identity verification never saves a session and logs only a JWT code and claim name",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.036Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d187d51b17f601d746dc-1cb8766b085172b5bf7a",
+          "file": "account-callback.spec.ts",
+          "line": 78,
+          "column": 5
+        },
+        {
+          "title": "cookie overflow is identified after verification without exposing the session contents",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.042Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d187d51b17f601d746dc-a3e0abc286a5b2338d29",
+          "file": "account-callback.spec.ts",
+          "line": 84,
+          "column": 5
+        },
+        {
+          "title": "unexpected errors and untrusted diagnostic fields cannot leak arbitrary strings",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.056Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d187d51b17f601d746dc-91fb35224e1ea3b7a2e5",
+          "file": "account-callback.spec.ts",
+          "line": 90,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "account-security.spec.ts",
+      "file": "account-security.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "OAuth return locations reject external, encoded and control-character redirects",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.065Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c7744344cc3e600d1bb-37b2b518dc3ccc670f2a",
+          "file": "account-security.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "account writes require the exact configured Origin",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.072Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c7744344cc3e600d1bb-4e551f71094c299c2c74",
+          "file": "account-security.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "canonical login uses the browser Host instead of a normalized Next bind address",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.079Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c7744344cc3e600d1bb-81af134d4be6ca698cb6",
+          "file": "account-security.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "cart and checkout accept a configured HTTPS host behind HTTP without trusting forwarded headers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.086Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c7744344cc3e600d1bb-63f536979bd1d1a00b18",
+          "file": "account-security.spec.ts",
+          "line": 39,
+          "column": 5
+        },
+        {
+          "title": "PKCE uses the RFC 7636 S256 vector and cryptographically random verifier values",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.093Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c7744344cc3e600d1bb-fb8fe7c09cb79f62249f",
+          "file": "account-security.spec.ts",
+          "line": 54,
+          "column": 5
+        },
+        {
+          "title": "session cookies encrypt private data and reject tampering, a different key and purpose",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.108Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c7744344cc3e600d1bb-139ee4ed4b39c1628207",
+          "file": "account-security.spec.ts",
+          "line": 61,
+          "column": 5
+        },
+        {
+          "title": "malformed session values and undersized keys fail closed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.128Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c7744344cc3e600d1bb-1987f2f632a455037e47",
+          "file": "account-security.spec.ts",
+          "line": 73,
+          "column": 5
+        },
+        {
+          "title": "discovered endpoints require public HTTPS destinations without credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.137Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c7744344cc3e600d1bb-64b3dd13f482b1db5340",
+          "file": "account-security.spec.ts",
+          "line": 81,
+          "column": 5
+        },
+        {
+          "title": "ID tokens verify signature, issuer, audience, expiry, nonce and refreshing subject",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 66,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.146Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c7744344cc3e600d1bb-f18391313a12f78f692a",
+          "file": "account-security.spec.ts",
+          "line": 88,
+          "column": 5
+        },
+        {
+          "title": "signed Shopify numeric subjects normalize losslessly while identity safeguards remain enforced",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 61,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.217Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c7744344cc3e600d1bb-12e6c76026929496d7e0",
+          "file": "account-security.spec.ts",
+          "line": 114,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "content-safety.spec.ts",
+      "file": "content-safety.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "carousel and hero controls preserve explicit false and reject unsupported values",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.286Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "22bc88e93cf1f32237d0-32a778f91d4862976577",
+          "file": "content-safety.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "editor URLs cannot inject protocols, credentials, controls, or unsupported images",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.292Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "22bc88e93cf1f32237d0-853d89a77f18980e71b6",
+          "file": "content-safety.spec.ts",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "rich text becomes readable plain text and large content is bounded",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.300Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "22bc88e93cf1f32237d0-340b882522394de7c49c",
+          "file": "content-safety.spec.ts",
+          "line": 23,
+          "column": 5
+        },
+        {
+          "title": "section mapping preserves editor intent while rejecting invalid optional settings",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.306Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "22bc88e93cf1f32237d0-a6ea07bd6f832cb3328a",
+          "file": "content-safety.spec.ts",
+          "line": 32,
+          "column": 5
+        },
+        {
+          "title": "usable dyu content wins, while empty new fields preserve legacy custom data",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.321Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "22bc88e93cf1f32237d0-33153cd39c63251b86e6",
+          "file": "content-safety.spec.ts",
+          "line": 39,
+          "column": 5
+        },
+        {
+          "title": "product references and presentation controls stay within supported shapes and colors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.326Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "22bc88e93cf1f32237d0-bb271fa29b22a1ec41ee",
+          "file": "content-safety.spec.ts",
+          "line": 48,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "editorial-content.spec.ts",
+      "file": "editorial-content.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "editorial images retain fill layout and select mobile artwork without changing desktop artwork",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.526Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4df55fb260fb3d51dfd7-6bdd6be9e886b58963a0",
+          "file": "editorial-content.spec.ts",
+          "line": 21,
+          "column": 5
+        },
+        {
+          "title": "Shopify article copy and reading time always win, including the original starter copy",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.540Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4df55fb260fb3d51dfd7-79a80a055d42077541ff",
+          "file": "editorial-content.spec.ts",
+          "line": 32,
+          "column": 5
+        },
+        {
+          "title": "merchant article headings create reader chapters and editable invitations remain independent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.546Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4df55fb260fb3d51dfd7-3145cc80f66f49bc838e",
+          "file": "editorial-content.spec.ts",
+          "line": 51,
+          "column": 5
+        },
+        {
+          "title": "ingredient presentation overrides preserve product evidence and support hiding entries",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.551Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4df55fb260fb3d51dfd7-6e8b84d3733baf1b9da2",
+          "file": "editorial-content.spec.ts",
+          "line": 62,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "hero-content.spec.ts",
+      "file": "hero-content.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "four default carousel scenes remain available; hidden slides stay hidden and sorting retains their own artwork",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.561Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ecbba943ae6dda3c4322-8fb6f58536426e669a12",
+          "file": "hero-content.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "normalized empty override fields inherit base content, while explicit false survives",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.567Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ecbba943ae6dda3c4322-3f47833829da7b04bbef",
+          "file": "hero-content.spec.ts",
+          "line": 21,
+          "column": 5
+        },
+        {
+          "title": "merchant product references win in order, with category fallback for unavailable references",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.573Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ecbba943ae6dda3c4322-d60d7bfb1dbbf6c25f2d",
+          "file": "hero-content.spec.ts",
+          "line": 29,
+          "column": 5
+        },
+        {
+          "title": "merchant and native collection images take precedence over 3D, with mobile artwork and product-image mode",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.592Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ecbba943ae6dda3c4322-3f75bf63e9622d35d445",
+          "file": "hero-content.spec.ts",
+          "line": 35,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "hero-scene.spec.ts",
+      "file": "hero-scene.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "the hero follows the selected category and skips unavailable sources",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.609Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2305bdd4f7af1ebc892-264de354a7a0eb799436",
+          "file": "hero-scene.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "botanical names use the product identity before supporting ingredients",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.615Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2305bdd4f7af1ebc892-dc107519e829a0800155",
+          "file": "hero-scene.spec.ts",
+          "line": 23,
+          "column": 5
+        },
+        {
+          "title": "compact jars and bottles have smaller pedestals than a soap ensemble",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.621Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2305bdd4f7af1ebc892-8641da9aa4b0a3097adb",
+          "file": "hero-scene.spec.ts",
+          "line": 36,
+          "column": 5
+        },
+        {
+          "title": "real model proportions drive uniform scaling and pedestal bounds",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.627Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2305bdd4f7af1ebc892-b540165578d36cd3a15a",
+          "file": "hero-scene.spec.ts",
+          "line": 50,
+          "column": 5
+        },
+        {
+          "title": "invalid reconstruction measurements cannot produce invalid scene coordinates",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.633Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2305bdd4f7af1ebc892-a3e7fd344b579ff54029",
+          "file": "hero-scene.spec.ts",
+          "line": 62,
+          "column": 5
+        },
+        {
+          "title": "promotional bundle artwork uses only the verified complete set of real members",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.639Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f2305bdd4f7af1ebc892-6a5639513a8e00681361",
+          "file": "hero-scene.spec.ts",
+          "line": 71,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "home-content-settings.spec.ts",
+      "file": "home-content-settings.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "a partial homepage order is deduplicated and invalid handles cannot remove sections",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.685Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c64bd0015b335709985e-e2a7dc0cdbe9cdbcaf98",
+          "file": "home-content-settings.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "default sections retain their intended positions when only one sort order is saved",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.697Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c64bd0015b335709985e-8f34a68ecbe8fa50c31c",
+          "file": "home-content-settings.spec.ts",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "journal cards can be added, hidden, and explicitly ordered without accepting unrelated content",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.702Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c64bd0015b335709985e-e946ee2de8dc25e917b2",
+          "file": "home-content-settings.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "ritual editing preserves copy and image settings and removes disabled moments and steps",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.706Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c64bd0015b335709985e-f62d40ab9328a8745c63",
+          "file": "home-content-settings.spec.ts",
+          "line": 23,
+          "column": 5
+        },
+        {
+          "title": "uploaded Shopify branding replaces the bundled image while retaining safe image dimensions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.711Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c64bd0015b335709985e-ef0ed549754251521f8b",
+          "file": "home-content-settings.spec.ts",
+          "line": 34,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "ingredient-index.spec.ts",
+      "file": "ingredient-index.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ingredient detail resolves an exact story handle before a generated name alias",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.727Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bed1491a30187d8f3ac6-3a4a53034229dbdb886a",
+          "file": "ingredient-index.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "generic ingredient-list words do not assert butter or French origin",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.739Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bed1491a30187d8f3ac6-b00ab07c43a339ae7442",
+          "file": "ingredient-index.spec.ts",
+          "line": 27,
+          "column": 5
+        },
+        {
+          "title": "generic product names do not assert more specific ingredients",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.743Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bed1491a30187d8f3ac6-7df60e458015e5dfe306",
+          "file": "ingredient-index.spec.ts",
+          "line": 34,
+          "column": 5
+        },
+        {
+          "title": "fully named ingredients remain indexed with their published source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.747Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bed1491a30187d8f3ac6-f223a59eaf54c417ffc6",
+          "file": "ingredient-index.spec.ts",
+          "line": 41,
+          "column": 5
+        },
+        {
+          "title": "merchant ingredient stories keep their supplied identity",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.752Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bed1491a30187d8f3ac6-886c36b3953f7c26b932",
+          "file": "ingredient-index.spec.ts",
+          "line": 52,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "launch-readiness.spec.ts",
+      "file": "launch-readiness.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "configuration readiness retains external payment and operational gates",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.759Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "68c10e052c19da874627-4e0c525619c9f33aae87",
+          "file": "launch-readiness.spec.ts",
+          "line": 12,
+          "column": 5
+        },
+        {
+          "title": "preview, insecure, credentialed, path and mismatched origins cannot pass launch checks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.767Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "68c10e052c19da874627-5e705e7a872fcc034512",
+          "file": "launch-readiness.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "launch check catches demo, unset indexing, weak secrets and exposed credentials without logging them",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.777Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "68c10e052c19da874627-32872aa4db72d79249fb",
+          "file": "launch-readiness.spec.ts",
+          "line": 25,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "product-description.spec.ts",
+      "file": "product-description.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Shopify paragraphs and attributed breaks retain distinct text boundaries",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.793Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c5a384db5aa263020ff9-0e5e2870425f42655ad0",
+          "file": "product-description.spec.ts",
+          "line": 17,
+          "column": 5
+        },
+        {
+          "title": "unordered, ordered and paragraph-wrapped list items remain readable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.799Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c5a384db5aa263020ff9-2a0092eb4285a18d0b09",
+          "file": "product-description.spec.ts",
+          "line": 23,
+          "column": 5
+        },
+        {
+          "title": "entities decode once after tags, scripts and comments are removed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.804Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c5a384db5aa263020ff9-d974076c3806567528dd",
+          "file": "product-description.spec.ts",
+          "line": 30,
+          "column": 5
+        },
+        {
+          "title": "unknown and invalid numeric entities remain literal without crashing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.809Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c5a384db5aa263020ff9-fe5512f0971735fda9b1",
+          "file": "product-description.spec.ts",
+          "line": 35,
+          "column": 5
+        },
+        {
+          "title": "missing or unusable HTML uses native plain text without parsing it as markup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.813Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c5a384db5aa263020ff9-42c8260574320b910a78",
+          "file": "product-description.spec.ts",
+          "line": 40,
+          "column": 5
+        },
+        {
+          "title": "long merchant description text is preserved without an implicit display cap",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.817Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c5a384db5aa263020ff9-ff786da949159d595a00",
+          "file": "product-description.spec.ts",
+          "line": 48,
+          "column": 5
+        },
+        {
+          "title": "actual description renderer uses separate escaped pre-line paragraphs and safe fallback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.822Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c5a384db5aa263020ff9-f3b201e58a1fcee1fe18",
+          "file": "product-description.spec.ts",
+          "line": 53,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "site-content.spec.ts",
+      "file": "site-content.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "uploaded making artwork works without inventing product instructions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 163,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:19.935Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d53871d8cc728600f049-d26bd307048d66f1dcab",
+          "file": "site-content.spec.ts",
+          "line": 27,
+          "column": 5
+        },
+        {
+          "title": "invalid editor values retain the hero defaults and cannot inject unsafe artwork or links",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 184,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:20.272Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d53871d8cc728600f049-fefac461fb548cd7df17",
+          "file": "site-content.spec.ts",
+          "line": 42,
+          "column": 5
+        },
+        {
+          "title": "hero artwork uses distinct mobile and desktop sources and the optional 3D card can be hidden",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 196,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:20.464Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d53871d8cc728600f049-f4d67d9b5ddcdb198914",
+          "file": "site-content.spec.ts",
+          "line": 57,
+          "column": 5
+        },
+        {
+          "title": "merchant wording is displayed verbatim and disabling the hero removes it",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 146,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:20.666Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d53871d8cc728600f049-e58259b719f91611d13b",
+          "file": "site-content.spec.ts",
+          "line": 75,
+          "column": 5
+        },
+        {
+          "title": "reduced motion hides autoplay controls through CSS while preserving server markup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 164,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:20.818Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d53871d8cc728600f049-d8a34f1c29c828e0fb0f",
+          "file": "site-content.spec.ts",
+          "line": 83,
+          "column": 5
+        },
+        {
+          "title": "long merchant copy stays inside the hero without overlapping the preview at 375px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 142,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:20.989Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d53871d8cc728600f049-504cc3bea75af40d8d24",
+          "file": "site-content.spec.ts",
+          "line": 94,
+          "column": 44
+        },
+        {
+          "title": "long merchant copy stays inside the hero without overlapping the preview at 768px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 145,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:21.139Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d53871d8cc728600f049-fa2325aa03ea20e25cb6",
+          "file": "site-content.spec.ts",
+          "line": 94,
+          "column": 44
+        },
+        {
+          "title": "long merchant copy stays inside the hero without overlapping the preview at 1024px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 135,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:21.293Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d53871d8cc728600f049-047b57e8176459445091",
+          "file": "site-content.spec.ts",
+          "line": 94,
+          "column": 44
+        },
+        {
+          "title": "long merchant copy stays inside the hero without overlapping the preview at 1440px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "logic-and-isolated-components",
+              "projectName": "logic-and-isolated-components",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 140,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:21.435Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d53871d8cc728600f049-a43790eda8b8727e49d9",
+          "file": "site-content.spec.ts",
+          "line": 94,
+          "column": 44
+        }
+      ]
+    },
+    {
+      "title": "account-data.spec.ts",
+      "file": "account-data.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "profile edits permit only bounded name fields",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "account-input-validation",
+              "projectName": "account-input-validation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:22.140Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c59d46cb760a5bfe6d7-096d8c5c2679993ae817",
+          "file": "account-data.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "address inputs reject unrelated customer fields and preserve country/region codes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "account-input-validation",
+              "projectName": "account-input-validation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:22.171Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c59d46cb760a5bfe6d7-c4af40bfc30aa8642c59",
+          "file": "account-data.spec.ts",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "title": "order and cursor inputs are bounded identifiers, never arbitrary query text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "account-input-validation",
+              "projectName": "account-input-validation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:22.178Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c59d46cb760a5bfe6d7-45a95e21f45a27d6ea61",
+          "file": "account-data.spec.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "wishlist merges deduplicate, removals are targeted and full lists are never silently truncated",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "account-input-validation",
+              "projectName": "account-input-validation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:22.184Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c59d46cb760a5bfe6d7-bc63f7ac01d9ac1cb26c",
+          "file": "account-data.spec.ts",
+          "line": 20,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "backend-guards.spec.ts",
+      "file": "backend-guards.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "readiness returns 503 for an empty or failed catalogue and 200 only when products load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "backend-guards",
+              "projectName": "backend-guards",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:22.650Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80e18bbda4e0b9b539a-ebda114e9f62a95accde",
+          "file": "backend-guards.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "request limits reject declared oversize before consuming the stream",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "backend-guards",
+              "projectName": "backend-guards",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:22.683Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80e18bbda4e0b9b539a-d93e602dd159386ea867",
+          "file": "backend-guards.spec.ts",
+          "line": 21,
+          "column": 5
+        },
+        {
+          "title": "chunked oversized requests are cancelled before the remaining body is buffered",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "backend-guards",
+              "projectName": "backend-guards",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:22.690Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80e18bbda4e0b9b539a-d80509d3126a67c45428",
+          "file": "backend-guards.spec.ts",
+          "line": 27,
+          "column": 5
+        },
+        {
+          "title": "JSON requests require an object, valid UTF-8, a JSON content type and a byte bound",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "backend-guards",
+              "projectName": "backend-guards",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:22.699Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80e18bbda4e0b9b539a-910b5b36c1c4fcd65216",
+          "file": "backend-guards.spec.ts",
+          "line": 36,
+          "column": 5
+        },
+        {
+          "title": "cart changes accept only bounded IDs, quantities and implemented fields",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "backend-guards",
+              "projectName": "backend-guards",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:22.708Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80e18bbda4e0b9b539a-bc8f64f98714c9f96d30",
+          "file": "backend-guards.spec.ts",
+          "line": 45,
+          "column": 5
+        },
+        {
+          "title": "stored wishlist data cannot silently discard malformed or excess entries during the next write",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "backend-guards",
+              "projectName": "backend-guards",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:22.726Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80e18bbda4e0b9b539a-4cffd978dcc5e6d3468c",
+          "file": "backend-guards.spec.ts",
+          "line": 61,
+          "column": 5
+        },
+        {
+          "title": "webhook authentication covers exact raw bytes and rejects malformed or forged signatures",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "backend-guards",
+              "projectName": "backend-guards",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:22.734Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80e18bbda4e0b9b539a-ca3cae0a5eda4419f529",
+          "file": "backend-guards.spec.ts",
+          "line": 66,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "product-recommendations.spec.ts",
+      "file": "product-recommendations.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "similarity changes with the viewed product, excludes itself and ignores catalog order",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "recommendation-ranking",
+              "projectName": "recommendation-ranking",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:23.189Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "adf5d0d9d3eda4dcbc4b-d77244a9854d3d5c665e",
+          "file": "product-recommendations.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "generic marketing, bottle shape and a matching price do not qualify unrelated products",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "recommendation-ranking",
+              "projectName": "recommendation-ranking",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:23.218Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "adf5d0d9d3eda4dcbc4b-c1b5a91c3ed78b86be12",
+          "file": "product-recommendations.spec.ts",
+          "line": 22,
+          "column": 5
+        },
+        {
+          "title": "a matching botanical in another soap category outranks an unrelated scent in the exact category",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "recommendation-ranking",
+              "projectName": "recommendation-ranking",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:23.224Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "adf5d0d9d3eda4dcbc4b-dc8c3f79a1d82a0e59b7",
+          "file": "product-recommendations.spec.ts",
+          "line": 29,
+          "column": 5
+        },
+        {
+          "title": "ingredients, care purpose, merchant selections, price and availability refine recommendations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "recommendation-ranking",
+              "projectName": "recommendation-ranking",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:23.237Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "adf5d0d9d3eda4dcbc4b-37656684e13fafb3245b",
+          "file": "product-recommendations.spec.ts",
+          "line": 37,
+          "column": 5
+        },
+        {
+          "title": "recommendations contain at most eight unique relevant items and never pad a short list",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "recommendation-ranking",
+              "projectName": "recommendation-ranking",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:23.244Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "adf5d0d9d3eda4dcbc4b-d07bc1dbcdd9bc0bd4a2",
+          "file": "product-recommendations.spec.ts",
+          "line": 55,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "saved-products.spec.ts",
+      "file": "saved-products.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "saved handles reject malformed storage, deduplicate and enforce capacity",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "saved-product-storage",
+              "projectName": "saved-product-storage",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:23.698Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9031e7468c52838dc28d-c4a915334eab1d083e6e",
+          "file": "saved-products.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "recent views move to the front and retain only the last 24 products",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "saved-product-storage",
+              "projectName": "saved-product-storage",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:23.726Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9031e7468c52838dc28d-edb0733a67bd179f324c",
+          "file": "saved-products.spec.ts",
+          "line": 15,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "seo-readiness.spec.ts",
+      "file": "seo-readiness.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "only an explicitly approved production origin can be indexed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "indexing-guard",
+              "projectName": "indexing-guard",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-04T09:45:24.168Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4a960713a456e504efed-2373dd00cfc4f4db6343",
+          "file": "seo-readiness.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-04T09:45:17.996Z",
+    "duration": 6212.343,
+    "expected": 86,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

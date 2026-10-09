@@ -181,14 +181,14 @@
         "key": "enabled",
         "name": "Show this section",
         "type": "boolean",
-        "description": "Turn optional sections off without removing their content. Main hero always remains visible.",
+        "description": "Turn supported optional sections, including the homepage hero, off without removing their content. Essential purchase controls and core page introductions remain available.",
         "required": false
       },
       {
         "key": "sort_order",
         "name": "Display order",
         "type": "number_integer",
-        "description": "Orders repeatable FAQ/navigation/journal entries; fixed page composition remains protected.",
+        "description": "Display order for carousel slides, navigation, FAQ, journal and repeatable entries. Homepage section order is set in Home · Section order.",
         "required": false,
         "validations": [
           {

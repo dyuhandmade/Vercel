@@ -1,0 +1,92 @@
+{
+  "at": "2026-10-04T09:24:19.267Z",
+  "operation": "CleanupProduct",
+  "productId": "gid://shopify/Product/8906853089499",
+  "handle": "triple-body-butter-rose",
+  "currentBefore": {
+    "id": "gid://shopify/Product/8906853089499",
+    "handle": "triple-body-butter-rose",
+    "title": "Triple Body Butter -Rose",
+    "descriptionHtml": "<ul class=\"a-unordered-list a-vertical a-spacing-mini\">\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">DYU Triple Body Butter - Rose blends cocoa, mango, and shea butter with coconut oil and rose absolute to deliver deep, lasting hydration while leaving skin soft, smooth, and beautifully scented. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Infused with Rose Centifolia Absolute, this body butter soothes the senses with a gentle floral aroma while helping calm inflammation and restore the skin's natural glow and suppleness. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Cocoa and mango butter work together to nourish dry, rough skin and provide a rich, creamy texture that melts on contact and absorbs easily without feeling greasy or sticky. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Shea butter and coconut oil offer intense moisturization, protecting against dryness, improving elasticity, and helping to repair damaged skin from environmental stressors and pollutants. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Enriched with vitamin E, this chemical-free body moisturiser promotes skin repair and rejuvenation, making it perfect for daily use on dry areas like elbows, knees, hands, and feet.</span></li>\n</ul>",
+    "updatedAt": "2026-10-02T12:07:56Z",
+    "status": "ACTIVE",
+    "tags": [],
+    "vendor": "My Store",
+    "productType": "Body Moisturiser",
+    "totalInventory": 0,
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/46844325134555",
+          "title": "Default Title",
+          "price": "599.00",
+          "compareAtPrice": null,
+          "inventoryQuantity": 0
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjo0Njg0NDMyNTEzNDU1NSwibGFzdF92YWx1ZSI6MX0="
+      }
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/37091808903387",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T06:57:07Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37091808903387",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/55.jpg?v=1749473211",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/37091808837851",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T06:57:07Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37091808837851",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/16.jpg?v=1749473211",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/37091808936155",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T06:57:07Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37091808936155",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/14.jpg?v=1749473202",
+            "altText": ""
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/37108875821275",
+          "alt": "",
+          "fileStatus": "READY",
+          "updatedAt": "2026-08-20T07:00:58Z",
+          "image": {
+            "id": "gid://shopify/ImageSource/37108875821275",
+            "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7.jpg?v=1749653505",
+            "altText": ""
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjozNzEwODg3NTgyMTI3NSwibGFzdF92YWx1ZSI6IjQifQ=="
+      }
+    }
+  },
+  "variables": {
+    "product": {
+      "id": "gid://shopify/Product/8906853089499",
+      "handle": "triple-body-butter-rose",
+      "title": "Triple Body Butter - Rose"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "at": "2026-10-04T09:27:07.787Z",
+  "data": {
+    "fileUpdate": {
+      "files": [
+        {
+          "id": "gid://shopify/MediaImage/36988245049563",
+          "alt": "Coffee Vanilla Cold Processed Soap — product image 2 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988245082331",
+          "alt": "Coffee Vanilla Cold Processed Soap — product image 3 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988245115099",
+          "alt": "Coffee Vanilla Cold Processed Soap — product image 4 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988245147867",
+          "alt": "Coffee Vanilla Cold Processed Soap — product image 5 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988296560859",
+          "alt": "Himalayan Jasmine Cold Processed Soap — product image 1 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988296593627",
+          "alt": "Himalayan Jasmine Cold Processed Soap — product image 2 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988296626395",
+          "alt": "Himalayan Jasmine Cold Processed Soap — product image 3 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988296659163",
+          "alt": "Himalayan Jasmine Cold Processed Soap — product image 4 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988296691931",
+          "alt": "Himalayan Jasmine Cold Processed Soap — product image 5 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988464562395",
+          "alt": "Charcoal Mint Cold Processed Soap — product image 1 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988464595163",
+          "alt": "Charcoal Mint Cold Processed Soap — product image 2 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988464627931",
+          "alt": "Charcoal Mint Cold Processed Soap — product image 3 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988464660699",
+          "alt": "Charcoal Mint Cold Processed Soap — product image 4 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988464693467",
+          "alt": "Charcoal Mint Cold Processed Soap — product image 5 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988524495067",
+          "alt": "Red Sandalwood Cold Processed Soap — product image 1 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988524527835",
+          "alt": "Red Sandalwood Cold Processed Soap — product image 2 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988524560603",
+          "alt": "Red Sandalwood Cold Processed Soap — product image 3 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988524593371",
+          "alt": "Red Sandalwood Cold Processed Soap — product image 4 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988524626139",
+          "alt": "Red Sandalwood Cold Processed Soap — product image 5 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988543795419",
+          "alt": "Neem Basil Cold Processed Soap — product image 1 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988543828187",
+          "alt": "Neem Basil Cold Processed Soap — product image 2 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988543860955",
+          "alt": "Neem Basil Cold Processed Soap — product image 3 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988543893723",
+          "alt": "Neem Basil Cold Processed Soap — product image 4 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988543926491",
+          "alt": "Neem Basil Cold Processed Soap — product image 5 of 5",
+          "fileStatus": "READY"
+        },
+        {
+          "id": "gid://shopify/MediaImage/36988578267355",
+          "alt": "Floral Soap Gift Set — product image 1 of 7",
+          "fileStatus": "READY"
+        }
+      ],
+      "userErrors": []
+    }
+  }
+}

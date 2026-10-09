@@ -1,0 +1,24 @@
+{
+  "createdAt": "2026-10-04T09:31:24.533Z",
+  "guard": "Apply only if current field value equals this cleanup after value; re-read current compareDigest if needed. Never overwrite a later merchant edit.",
+  "variables": {
+    "metafields": [
+      {
+        "ownerId": "gid://shopify/Product/8906854957275",
+        "namespace": "dyu",
+        "key": "short_story",
+        "type": "multi_line_text_field",
+        "value": "DYU Triple Body Butter ?",
+        "compareDigest": "811594929602395db21e32b1b9f2ae992f0dd39a8497be678a03a91a463f7eb3"
+      },
+      {
+        "ownerId": "gid://shopify/Product/8974634778843",
+        "namespace": "dyu",
+        "key": "short_story",
+        "type": "multi_line_text_field",
+        "value": "Energize your skin and awaken your senses with our Tea Tree Trips Soap Bar, a handcrafted cold process soap made with pure coconut oil and naturally colored with French Green Clay .",
+        "compareDigest": "53307a51d644f0873460ed00c0192c7467ecc5608114069b65de9d447c815e1b"
+      }
+    ]
+  }
+}

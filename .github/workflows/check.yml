@@ -1,19 +1,41 @@
 name: Storefront checks
 on: [push, pull_request]
+permissions:
+  contents: read
 jobs:
   verify:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     env:
       DEMO_MODE: 'true'
       NEXT_PUBLIC_SITE_URL: http://localhost:3000
+      SITE_INDEXING_ENABLED: 'false'
+      NEXT_TELEMETRY_DISABLED: '1'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
       - run: npm ci
       - run: npm run typecheck
+      - name: Deployment readiness probe tests
+        run: node --test deploy/healthcheck.test.mjs
       - run: npm run build
       - run: npx playwright install --with-deps chrome
-      - run: npm test
+      # No Shopify secrets or live-catalogue/browser acceptance in ordinary CI.
+      - name: Deterministic security, content and isolated component checks
+        run: npm run test:core
+      - name: Built demo app and mocked account boundaries
+        run: npm run test:ci-browser
+      - name: Preserve core verification receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: core-test-results
+          path: |
+            test-results/core-results.json
+            test-results/core/
+            test-results/ci-browser-results.json
+            test-results/ci-browser/
+          if-no-files-found: ignore

@@ -1,4 +1,8 @@
 import {test,expect} from '@playwright/test';
+test.beforeEach(async({request})=>{
+ const health=await (await request.get('/api/health')).json();
+ test.skip(health.mode!=='demo','Legacy illustrative-product fixtures only run with DEMO_MODE=true; their cart actions must never reach the live Shopify store.');
+});
 test('browse, add, persist, update and remove a preview product',async({page})=>{
  await page.goto('/shop');
  await page.getByRole('link',{name:'Discover Botanical Face Balm',exact:true}).click();
@@ -295,7 +299,7 @@ test('product guidance opens native answers and sends visitors to existing secti
 
 test('philosophy supports keyboard exploration and links each idea to its matching destination',async({page})=>{
  await page.goto('/');
- const philosophy=page.locator('.philosophy-experience');
+ const philosophy=page.getByTestId('home-philosophy');
  const tabs=philosophy.getByRole('tablist',{name:'Explore our philosophy'});
  const panel=philosophy.getByRole('tabpanel');
  await tabs.getByRole('tab',{name:'Nature',exact:true}).focus();

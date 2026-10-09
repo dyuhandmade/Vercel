@@ -1,0 +1,73 @@
+{
+  "preparedAt": "2026-10-04T09:31:16.577Z",
+  "shop": {
+    "id": "gid://shopify/Shop/76637307099"
+  },
+  "approvedScope": "Two short-story corrections; existing product text only",
+  "changes": [
+    {
+      "productId": "gid://shopify/Product/8906854957275",
+      "handle": "triple-body-butter-sandalwood",
+      "source": "Exact corrected first sentence already present in native descriptionHtml",
+      "before": {
+        "id": "gid://shopify/Metafield/70722140471515",
+        "namespace": "dyu",
+        "key": "short_story",
+        "type": "multi_line_text_field",
+        "value": "DYU Triple Body Butter ?",
+        "compareDigest": "af74bbe5ab892deaa420eb96f22c5b5f8139ca5238aa5cebc33b50a02dc2bac3"
+      },
+      "after": "DYU Triple Body Butter - Sandalwood offers intense hydration with cocoa, mango, and shea butters blended with coconut oil and sandalwood for deeply nourished, soft, and supple skin.",
+      "variables": {
+        "ownerId": "gid://shopify/Product/8906854957275",
+        "namespace": "dyu",
+        "key": "short_story",
+        "type": "multi_line_text_field",
+        "value": "DYU Triple Body Butter - Sandalwood offers intense hydration with cocoa, mango, and shea butters blended with coconut oil and sandalwood for deeply nourished, soft, and supple skin.",
+        "compareDigest": "af74bbe5ab892deaa420eb96f22c5b5f8139ca5238aa5cebc33b50a02dc2bac3"
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8974634778843",
+      "handle": "tea-tree-trip-soap-bar",
+      "source": "Existing short-story text with one space removed before the full stop",
+      "before": {
+        "id": "gid://shopify/Metafield/70722140373211",
+        "namespace": "dyu",
+        "key": "short_story",
+        "type": "multi_line_text_field",
+        "value": "Energize your skin and awaken your senses with our Tea Tree Trips Soap Bar, a handcrafted cold process soap made with pure coconut oil and naturally colored with French Green Clay .",
+        "compareDigest": "9faf5164f806c3aebdcc5a516e90ff663f959e323d5bcea2eddd68d0f9ca900f"
+      },
+      "after": "Energize your skin and awaken your senses with our Tea Tree Trips Soap Bar, a handcrafted cold process soap made with pure coconut oil and naturally colored with French Green Clay.",
+      "variables": {
+        "ownerId": "gid://shopify/Product/8974634778843",
+        "namespace": "dyu",
+        "key": "short_story",
+        "type": "multi_line_text_field",
+        "value": "Energize your skin and awaken your senses with our Tea Tree Trips Soap Bar, a handcrafted cold process soap made with pure coconut oil and naturally colored with French Green Clay.",
+        "compareDigest": "9faf5164f806c3aebdcc5a516e90ff663f959e323d5bcea2eddd68d0f9ca900f"
+      }
+    }
+  ],
+  "variables": {
+    "metafields": [
+      {
+        "ownerId": "gid://shopify/Product/8906854957275",
+        "namespace": "dyu",
+        "key": "short_story",
+        "type": "multi_line_text_field",
+        "value": "DYU Triple Body Butter - Sandalwood offers intense hydration with cocoa, mango, and shea butters blended with coconut oil and sandalwood for deeply nourished, soft, and supple skin.",
+        "compareDigest": "af74bbe5ab892deaa420eb96f22c5b5f8139ca5238aa5cebc33b50a02dc2bac3"
+      },
+      {
+        "ownerId": "gid://shopify/Product/8974634778843",
+        "namespace": "dyu",
+        "key": "short_story",
+        "type": "multi_line_text_field",
+        "value": "Energize your skin and awaken your senses with our Tea Tree Trips Soap Bar, a handcrafted cold process soap made with pure coconut oil and naturally colored with French Green Clay.",
+        "compareDigest": "9faf5164f806c3aebdcc5a516e90ff663f959e323d5bcea2eddd68d0f9ca900f"
+      }
+    ]
+  }
+}

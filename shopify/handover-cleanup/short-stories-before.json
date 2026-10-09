@@ -1,0 +1,36 @@
+{
+  "capturedAt": "2026-10-04T09:31:16.577Z",
+  "shop": {
+    "id": "gid://shopify/Shop/76637307099"
+  },
+  "nodes": [
+    {
+      "id": "gid://shopify/Product/8906854957275",
+      "handle": "triple-body-butter-sandalwood",
+      "title": "Triple Body Butter - Sandalwood",
+      "descriptionHtml": "<ul class=\"a-unordered-list a-vertical a-spacing-mini\">\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">DYU Triple Body Butter - Sandalwood offers intense hydration with cocoa, mango, and shea butters blended with coconut oil and sandalwood for deeply nourished, soft, and supple skin. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Infused with Santalum album L (pure sandalwood), this body butter calms the skin and uplifts the senses with a warm, woody aroma that lingers and comforts without overpowering. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">The rich formula melts on contact and absorbs quickly, locking in moisture while healing dryness, rough patches, and improving overall skin tone and texture with daily application. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Coconut oil and shea butter work together to restore the skin barrier, soothe irritation, and shield the skin from pollutants, making this ideal for sensitive and mature skin types. </span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">With added vitamin E for antioxidant support, this non-toxic, paraben-free body butter promotes cell regeneration and keeps your skin radiant, firm, and silky smooth all day long. </span></li>\n</ul>\n<p> </p>",
+      "metafield": {
+        "id": "gid://shopify/Metafield/70722140471515",
+        "namespace": "dyu",
+        "key": "short_story",
+        "type": "multi_line_text_field",
+        "value": "DYU Triple Body Butter ?",
+        "compareDigest": "af74bbe5ab892deaa420eb96f22c5b5f8139ca5238aa5cebc33b50a02dc2bac3"
+      }
+    },
+    {
+      "id": "gid://shopify/Product/8974634778843",
+      "handle": "tea-tree-trip-soap-bar",
+      "title": "Tea Tree Trip Soap Bar",
+      "descriptionHtml": "<p data-start=\"204\" data-end=\"484\">Energize your skin and awaken your senses with our <em data-start=\"255\" data-end=\"280\">Tea Tree Trips Soap Bar</em>, a handcrafted cold process soap made with pure coconut oil and naturally colored with French Green Clay. Its refreshing green hue and crisp, herbal aroma make it a revitalizing addition to your daily routine.</p>\n<p data-start=\"486\" data-end=\"731\">Infused with tea tree essential oil, this natural soap deeply cleanses while leaving your skin feeling fresh, clarified, and hydrated. The coconut oil base creates a gentle, creamy lather that nourishes while balancing oily or acne-prone skin.</p>\n<p data-start=\"733\" data-end=\"1124\">✔ <strong data-start=\"735\" data-end=\"757\">Natural &amp; Handmade</strong> – Cold process soap made in small batches<br data-start=\"799\" data-end=\"802\">✔ <strong data-start=\"804\" data-end=\"837\">Moisturizing Coconut Oil Base</strong> – Gentle, nourishing, and hydrating<br data-start=\"873\" data-end=\"876\">✔ <strong data-start=\"878\" data-end=\"906\">Purifying Tea Tree Aroma</strong> – Fresh, herbal scent with antibacterial benefits<br data-start=\"956\" data-end=\"959\">✔ <strong data-start=\"961\" data-end=\"996\" data-is-only-node=\"\">Naturally Tinted with French Green Clay</strong> – Clean green tones without synthetic dyes<br data-start=\"1039\" data-end=\"1042\">✔ <strong data-start=\"1044\" data-end=\"1072\">Travel-Friendly 60g Size</strong> – Ideal for gifting, skincare kits, and daily use</p>\n<p data-start=\"1126\" data-end=\"1290\"><strong data-start=\"1126\" data-end=\"1140\">Skin Type:</strong> Suitable for all skin types, especially oily &amp; acne-prone skin.<br data-start=\"1204\" data-end=\"1207\"><strong data-start=\"1207\" data-end=\"1220\">Best For:</strong> Daily cleansing, refreshing bath rituals, gifting, and travel kits.</p>",
+      "metafield": {
+        "id": "gid://shopify/Metafield/70722140373211",
+        "namespace": "dyu",
+        "key": "short_story",
+        "type": "multi_line_text_field",
+        "value": "Energize your skin and awaken your senses with our Tea Tree Trips Soap Bar, a handcrafted cold process soap made with pure coconut oil and naturally colored with French Green Clay .",
+        "compareDigest": "9faf5164f806c3aebdcc5a516e90ff663f959e323d5bcea2eddd68d0f9ca900f"
+      }
+    }
+  ]
+}

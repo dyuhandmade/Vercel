@@ -1,0 +1,461 @@
+{
+  "at": "2026-10-04T09:27:17.058Z",
+  "batch": 4,
+  "currentBefore": [
+    {
+      "productId": "gid://shopify/Product/8904108048603",
+      "handle": "body-ubtan-tea-tree",
+      "title": "Body Ubtan - Tea Tree",
+      "id": "gid://shopify/MediaImage/36988647112923",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988647112923",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_660905b9-9592-4013-a089-f68c90b1d918.png?v=1748536216",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8904108048603",
+      "handle": "body-ubtan-tea-tree",
+      "title": "Body Ubtan - Tea Tree",
+      "id": "gid://shopify/MediaImage/36988647145691",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:13:31Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/36988647145691",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_333ebc69-26b6-4e55-aa98-776a1d0251d7.png?v=1748536216",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906849222875",
+      "handle": "moringa-facial-oil",
+      "title": "Moringa Facial Oil",
+      "id": "gid://shopify/MediaImage/37014564864219",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014564864219",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_8449d4f3-caf5-4998-a6ba-b1f1cd2c5fe3.png?v=1748867272",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906849222875",
+      "handle": "moringa-facial-oil",
+      "title": "Moringa Facial Oil",
+      "id": "gid://shopify/MediaImage/37014564896987",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014564896987",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_b1c92315-6b8e-4112-ac44-41045b605cb6.png?v=1748867272",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906849222875",
+      "handle": "moringa-facial-oil",
+      "title": "Moringa Facial Oil",
+      "id": "gid://shopify/MediaImage/37014564929755",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014564929755",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_a64cee59-6731-45e1-bc30-bd0dc75b6d2c.png?v=1748867272",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906849222875",
+      "handle": "moringa-facial-oil",
+      "title": "Moringa Facial Oil",
+      "id": "gid://shopify/MediaImage/37014564962523",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014564962523",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_79be88b9-80a7-4bb8-8809-f0afe468822a.png?v=1748867272",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906849222875",
+      "handle": "moringa-facial-oil",
+      "title": "Moringa Facial Oil",
+      "id": "gid://shopify/MediaImage/37014564995291",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014564995291",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_b6a135b3-ea90-4ba8-85d5-0ceaa37636ea.png?v=1748867272",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906849222875",
+      "handle": "moringa-facial-oil",
+      "title": "Moringa Facial Oil",
+      "id": "gid://shopify/MediaImage/37014565028059",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014565028059",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_df8a94c1-2e3c-4ffd-b186-faf9cef5d27f.png?v=1748867272",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906849222875",
+      "handle": "moringa-facial-oil",
+      "title": "Moringa Facial Oil",
+      "id": "gid://shopify/MediaImage/37014565060827",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014565060827",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_182b807f-903e-4ed9-a266-9ed1f5867109.png?v=1748867272",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906850205915",
+      "handle": "almond-facial-oil",
+      "title": "Almond Facial Oil",
+      "id": "gid://shopify/MediaImage/37014587506907",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014587506907",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_f906ce8b-0299-41b5-a149-736839561145.png?v=1748867665",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906850205915",
+      "handle": "almond-facial-oil",
+      "title": "Almond Facial Oil",
+      "id": "gid://shopify/MediaImage/37014587539675",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014587539675",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_4a8184ff-ece3-4dde-b3b6-41e03f80090c.png?v=1748867665",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906850205915",
+      "handle": "almond-facial-oil",
+      "title": "Almond Facial Oil",
+      "id": "gid://shopify/MediaImage/37014587572443",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014587572443",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/3_ea9d06bb-ba14-4e17-a7cf-ffd9d2e0f793.png?v=1748867665",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906850205915",
+      "handle": "almond-facial-oil",
+      "title": "Almond Facial Oil",
+      "id": "gid://shopify/MediaImage/37014587605211",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014587605211",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/4_9def0338-0c42-4e75-9930-1c8cdbf8267f.png?v=1748867665",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906850205915",
+      "handle": "almond-facial-oil",
+      "title": "Almond Facial Oil",
+      "id": "gid://shopify/MediaImage/37014587637979",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014587637979",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/5_8bd2a8ab-8a03-4ffa-a3d3-2017757ed52f.png?v=1748867665",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906850205915",
+      "handle": "almond-facial-oil",
+      "title": "Almond Facial Oil",
+      "id": "gid://shopify/MediaImage/37014587670747",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014587670747",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/6_df34cc42-2c07-448e-a5b6-dacc42dde57c.png?v=1748867665",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906850205915",
+      "handle": "almond-facial-oil",
+      "title": "Almond Facial Oil",
+      "id": "gid://shopify/MediaImage/37014587703515",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:23:42Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37014587703515",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7_2cf061f9-ea96-4add-bc8c-c36d912a9f09.png?v=1748867665",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906853089499",
+      "handle": "triple-body-butter-rose",
+      "title": "Triple Body Butter - Rose",
+      "id": "gid://shopify/MediaImage/37091808903387",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:57:07Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37091808903387",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/55.jpg?v=1749473211",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906853089499",
+      "handle": "triple-body-butter-rose",
+      "title": "Triple Body Butter - Rose",
+      "id": "gid://shopify/MediaImage/37091808837851",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:57:07Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37091808837851",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/16.jpg?v=1749473211",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906853089499",
+      "handle": "triple-body-butter-rose",
+      "title": "Triple Body Butter - Rose",
+      "id": "gid://shopify/MediaImage/37091808936155",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:57:07Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37091808936155",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/14.jpg?v=1749473202",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906853089499",
+      "handle": "triple-body-butter-rose",
+      "title": "Triple Body Butter - Rose",
+      "id": "gid://shopify/MediaImage/37108875821275",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T07:00:58Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37108875821275",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/7.jpg?v=1749653505",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906853449947",
+      "handle": "triple-body-butter-lavendar",
+      "title": "Triple Body Butter - Lavendar",
+      "id": "gid://shopify/MediaImage/37091699982555",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:57:06Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37091699982555",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/DamaskRoseBodyButter.jpg?v=1749474416",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906853449947",
+      "handle": "triple-body-butter-lavendar",
+      "title": "Triple Body Butter - Lavendar",
+      "id": "gid://shopify/MediaImage/37091862970587",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:57:07Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37091862970587",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/DamaskRoseBodyButter_760e5b26-0bef-4c64-aa13-ed37bf698f33.jpg?v=1749473921",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8906854957275",
+      "handle": "triple-body-butter-sandalwood",
+      "title": "Triple Body Butter - Sandalwood",
+      "id": "gid://shopify/MediaImage/37091857367259",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T06:57:07Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37091857367259",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/16_c965d560-7b56-40ed-b66c-5f3f700c7233.jpg?v=1749473859",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8971085185243",
+      "handle": "lavendar-haze-soap-bar-60-gm",
+      "title": "Lavendar Haze Soap Bar - 60 gm",
+      "id": "gid://shopify/MediaImage/37932472336603",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:15:12Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37932472336603",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/1_45570032-b7db-4cef-b9db-e9ce3b246083.png?v=1755942863",
+        "altText": ""
+      }
+    },
+    {
+      "productId": "gid://shopify/Product/8971085185243",
+      "handle": "lavendar-haze-soap-bar-60-gm",
+      "title": "Lavendar Haze Soap Bar - 60 gm",
+      "id": "gid://shopify/MediaImage/37932472303835",
+      "alt": "",
+      "fileStatus": "READY",
+      "updatedAt": "2026-08-20T09:15:12Z",
+      "image": {
+        "id": "gid://shopify/ImageSource/37932472303835",
+        "url": "https://cdn.shopify.com/s/files/1/0766/3730/7099/files/2_f7bf3bd2-7715-4531-beae-854fed7b801d.png?v=1755942863",
+        "altText": ""
+      }
+    }
+  ],
+  "variables": {
+    "files": [
+      {
+        "id": "gid://shopify/MediaImage/36988647112923",
+        "alt": "Body Ubtan - Tea Tree — product image 6 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/36988647145691",
+        "alt": "Body Ubtan - Tea Tree — product image 7 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014564864219",
+        "alt": "Moringa Facial Oil — product image 1 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014564896987",
+        "alt": "Moringa Facial Oil — product image 2 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014564929755",
+        "alt": "Moringa Facial Oil — product image 3 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014564962523",
+        "alt": "Moringa Facial Oil — product image 4 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014564995291",
+        "alt": "Moringa Facial Oil — product image 5 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014565028059",
+        "alt": "Moringa Facial Oil — product image 6 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014565060827",
+        "alt": "Moringa Facial Oil — product image 7 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014587506907",
+        "alt": "Almond Facial Oil — product image 1 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014587539675",
+        "alt": "Almond Facial Oil — product image 2 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014587572443",
+        "alt": "Almond Facial Oil — product image 3 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014587605211",
+        "alt": "Almond Facial Oil — product image 4 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014587637979",
+        "alt": "Almond Facial Oil — product image 5 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014587670747",
+        "alt": "Almond Facial Oil — product image 6 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37014587703515",
+        "alt": "Almond Facial Oil — product image 7 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37091808903387",
+        "alt": "Triple Body Butter - Rose — product image 1 of 4"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37091808837851",
+        "alt": "Triple Body Butter - Rose — product image 2 of 4"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37091808936155",
+        "alt": "Triple Body Butter - Rose — product image 3 of 4"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37108875821275",
+        "alt": "Triple Body Butter - Rose — product image 4 of 4"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37091699982555",
+        "alt": "Triple Body Butter - Lavendar — product image 1 of 2"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37091862970587",
+        "alt": "Triple Body Butter - Lavendar — product image 2 of 2"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37091857367259",
+        "alt": "Triple Body Butter - Sandalwood — product image 1 of 1"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37932472336603",
+        "alt": "Lavendar Haze Soap Bar - 60 gm — product image 1 of 7"
+      },
+      {
+        "id": "gid://shopify/MediaImage/37932472303835",
+        "alt": "Lavendar Haze Soap Bar - 60 gm — product image 2 of 7"
+      }
+    ]
+  },
+  "skipped": []
+}

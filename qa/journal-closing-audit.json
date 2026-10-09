@@ -1,0 +1,902 @@
+[
+  {
+    "width": 2560,
+    "via": "direct",
+    "geometry": {
+      "root": {
+        "class": "journal-module__UhKvEq__collectionInvitation",
+        "rect": {
+          "x": 560,
+          "y": 471.5,
+          "width": 1440,
+          "height": 267.09375,
+          "top": 471.5,
+          "right": 2000,
+          "bottom": 738.59375,
+          "left": 560
+        },
+        "grid": "750px 480px",
+        "maxWidth": "none",
+        "width": "1440px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "FROM READING TO LIVINGMake it part ofyour everyday.The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+      },
+      "children": [
+        {
+          "class": "journal-module__UhKvEq__invitationHeading",
+          "rect": {
+            "x": 625,
+            "y": 522.5,
+            "width": 750,
+            "height": 165.09375,
+            "top": 522.5,
+            "right": 1375,
+            "bottom": 687.59375,
+            "left": 625
+          },
+          "grid": "none",
+          "maxWidth": "none",
+          "width": "750px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "FROM READING TO LIVINGMake it part ofyour everyday."
+        },
+        {
+          "class": "journal-module__UhKvEq__invitationCopy",
+          "rect": {
+            "x": 1555,
+            "y": 549.015625,
+            "width": 380,
+            "height": 112.0625,
+            "top": 549.015625,
+            "right": 1935,
+            "bottom": 661.078125,
+            "left": 1555
+          },
+          "grid": "none",
+          "maxWidth": "380px",
+          "width": "380px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+        }
+      ],
+      "heading": {
+        "class": "",
+        "rect": {
+          "x": 625,
+          "y": 553.8125,
+          "width": 750,
+          "height": 133.78125,
+          "top": 553.8125,
+          "right": 1375,
+          "bottom": 687.59375,
+          "left": 625
+        },
+        "grid": "none",
+        "maxWidth": "none",
+        "width": "750px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "Make it part ofyour everyday."
+      },
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 2560,
+    "via": "story",
+    "geometry": {
+      "root": {
+        "class": "journal-module__UhKvEq__collectionInvitation",
+        "rect": {
+          "x": 560,
+          "y": 471.5,
+          "width": 1440,
+          "height": 267.09375,
+          "top": 471.5,
+          "right": 2000,
+          "bottom": 738.59375,
+          "left": 560
+        },
+        "grid": "750px 480px",
+        "maxWidth": "none",
+        "width": "1440px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "FROM READING TO LIVINGMake it part ofyour everyday.The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+      },
+      "children": [
+        {
+          "class": "journal-module__UhKvEq__invitationHeading",
+          "rect": {
+            "x": 625,
+            "y": 522.5,
+            "width": 750,
+            "height": 165.09375,
+            "top": 522.5,
+            "right": 1375,
+            "bottom": 687.59375,
+            "left": 625
+          },
+          "grid": "none",
+          "maxWidth": "none",
+          "width": "750px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "FROM READING TO LIVINGMake it part ofyour everyday."
+        },
+        {
+          "class": "journal-module__UhKvEq__invitationCopy",
+          "rect": {
+            "x": 1555,
+            "y": 549.015625,
+            "width": 380,
+            "height": 112.0625,
+            "top": 549.015625,
+            "right": 1935,
+            "bottom": 661.078125,
+            "left": 1555
+          },
+          "grid": "none",
+          "maxWidth": "380px",
+          "width": "380px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+        }
+      ],
+      "heading": {
+        "class": "",
+        "rect": {
+          "x": 625,
+          "y": 553.8125,
+          "width": 750,
+          "height": 133.78125,
+          "top": 553.8125,
+          "right": 1375,
+          "bottom": 687.59375,
+          "left": 625
+        },
+        "grid": "none",
+        "maxWidth": "none",
+        "width": "750px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "Make it part ofyour everyday."
+      },
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 2048,
+    "via": "direct",
+    "geometry": {
+      "root": {
+        "class": "journal-module__UhKvEq__collectionInvitation",
+        "rect": {
+          "x": 304,
+          "y": 471.5,
+          "width": 1440,
+          "height": 267.09375,
+          "top": 471.5,
+          "right": 1744,
+          "bottom": 738.59375,
+          "left": 304
+        },
+        "grid": "750px 480px",
+        "maxWidth": "none",
+        "width": "1440px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "FROM READING TO LIVINGMake it part ofyour everyday.The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+      },
+      "children": [
+        {
+          "class": "journal-module__UhKvEq__invitationHeading",
+          "rect": {
+            "x": 369,
+            "y": 522.5,
+            "width": 750,
+            "height": 165.09375,
+            "top": 522.5,
+            "right": 1119,
+            "bottom": 687.59375,
+            "left": 369
+          },
+          "grid": "none",
+          "maxWidth": "none",
+          "width": "750px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "FROM READING TO LIVINGMake it part ofyour everyday."
+        },
+        {
+          "class": "journal-module__UhKvEq__invitationCopy",
+          "rect": {
+            "x": 1299,
+            "y": 549.015625,
+            "width": 380,
+            "height": 112.0625,
+            "top": 549.015625,
+            "right": 1679,
+            "bottom": 661.078125,
+            "left": 1299
+          },
+          "grid": "none",
+          "maxWidth": "380px",
+          "width": "380px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+        }
+      ],
+      "heading": {
+        "class": "",
+        "rect": {
+          "x": 369,
+          "y": 553.8125,
+          "width": 750,
+          "height": 133.78125,
+          "top": 553.8125,
+          "right": 1119,
+          "bottom": 687.59375,
+          "left": 369
+        },
+        "grid": "none",
+        "maxWidth": "none",
+        "width": "750px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "Make it part ofyour everyday."
+      },
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 2048,
+    "via": "story",
+    "geometry": {
+      "root": {
+        "class": "journal-module__UhKvEq__collectionInvitation",
+        "rect": {
+          "x": 304,
+          "y": 471.5,
+          "width": 1440,
+          "height": 267.09375,
+          "top": 471.5,
+          "right": 1744,
+          "bottom": 738.59375,
+          "left": 304
+        },
+        "grid": "750px 480px",
+        "maxWidth": "none",
+        "width": "1440px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "FROM READING TO LIVINGMake it part ofyour everyday.The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+      },
+      "children": [
+        {
+          "class": "journal-module__UhKvEq__invitationHeading",
+          "rect": {
+            "x": 369,
+            "y": 522.5,
+            "width": 750,
+            "height": 165.09375,
+            "top": 522.5,
+            "right": 1119,
+            "bottom": 687.59375,
+            "left": 369
+          },
+          "grid": "none",
+          "maxWidth": "none",
+          "width": "750px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "FROM READING TO LIVINGMake it part ofyour everyday."
+        },
+        {
+          "class": "journal-module__UhKvEq__invitationCopy",
+          "rect": {
+            "x": 1299,
+            "y": 549.015625,
+            "width": 380,
+            "height": 112.0625,
+            "top": 549.015625,
+            "right": 1679,
+            "bottom": 661.078125,
+            "left": 1299
+          },
+          "grid": "none",
+          "maxWidth": "380px",
+          "width": "380px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+        }
+      ],
+      "heading": {
+        "class": "",
+        "rect": {
+          "x": 369,
+          "y": 553.8125,
+          "width": 750,
+          "height": 133.78125,
+          "top": 553.8125,
+          "right": 1119,
+          "bottom": 687.59375,
+          "left": 369
+        },
+        "grid": "none",
+        "maxWidth": "none",
+        "width": "750px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "Make it part ofyour everyday."
+      },
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "via": "direct",
+    "geometry": {
+      "root": {
+        "class": "journal-module__UhKvEq__collectionInvitation",
+        "rect": {
+          "x": 86.40625,
+          "y": 488.015625,
+          "width": 1267.1875,
+          "height": 234.1875,
+          "top": 488.015625,
+          "right": 1353.59375,
+          "bottom": 722.203125,
+          "left": 86.40625
+        },
+        "grid": "658.531px 421.469px",
+        "maxWidth": "none",
+        "width": "1267.19px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "FROM READING TO LIVINGMake it part ofyour everyday.The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+      },
+      "children": [
+        {
+          "class": "journal-module__UhKvEq__invitationHeading",
+          "rect": {
+            "x": 144,
+            "y": 539.015625,
+            "width": 658.53125,
+            "height": 132.1875,
+            "top": 539.015625,
+            "right": 802.53125,
+            "bottom": 671.203125,
+            "left": 144
+          },
+          "grid": "none",
+          "maxWidth": "none",
+          "width": "658.531px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "FROM READING TO LIVINGMake it part ofyour everyday."
+        },
+        {
+          "class": "journal-module__UhKvEq__invitationCopy",
+          "rect": {
+            "x": 916,
+            "y": 549.078125,
+            "width": 380,
+            "height": 112.0625,
+            "top": 549.078125,
+            "right": 1296,
+            "bottom": 661.140625,
+            "left": 916
+          },
+          "grid": "none",
+          "maxWidth": "380px",
+          "width": "380px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+        }
+      ],
+      "heading": {
+        "class": "",
+        "rect": {
+          "x": 144,
+          "y": 570.328125,
+          "width": 658.53125,
+          "height": 100.875,
+          "top": 570.328125,
+          "right": 802.53125,
+          "bottom": 671.203125,
+          "left": 144
+        },
+        "grid": "none",
+        "maxWidth": "none",
+        "width": "658.531px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "Make it part ofyour everyday."
+      },
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "via": "story",
+    "geometry": {
+      "root": {
+        "class": "journal-module__UhKvEq__collectionInvitation",
+        "rect": {
+          "x": 86.40625,
+          "y": 488.015625,
+          "width": 1267.1875,
+          "height": 234.1875,
+          "top": 488.015625,
+          "right": 1353.59375,
+          "bottom": 722.203125,
+          "left": 86.40625
+        },
+        "grid": "658.531px 421.469px",
+        "maxWidth": "none",
+        "width": "1267.19px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "FROM READING TO LIVINGMake it part ofyour everyday.The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+      },
+      "children": [
+        {
+          "class": "journal-module__UhKvEq__invitationHeading",
+          "rect": {
+            "x": 144,
+            "y": 539.015625,
+            "width": 658.53125,
+            "height": 132.1875,
+            "top": 539.015625,
+            "right": 802.53125,
+            "bottom": 671.203125,
+            "left": 144
+          },
+          "grid": "none",
+          "maxWidth": "none",
+          "width": "658.531px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "FROM READING TO LIVINGMake it part ofyour everyday."
+        },
+        {
+          "class": "journal-module__UhKvEq__invitationCopy",
+          "rect": {
+            "x": 916,
+            "y": 549.078125,
+            "width": 380,
+            "height": 112.0625,
+            "top": 549.078125,
+            "right": 1296,
+            "bottom": 661.140625,
+            "left": 916
+          },
+          "grid": "none",
+          "maxWidth": "380px",
+          "width": "380px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+        }
+      ],
+      "heading": {
+        "class": "",
+        "rect": {
+          "x": 144,
+          "y": 570.328125,
+          "width": 658.53125,
+          "height": 100.875,
+          "top": 570.328125,
+          "right": 802.53125,
+          "bottom": 671.203125,
+          "left": 144
+        },
+        "grid": "none",
+        "maxWidth": "none",
+        "width": "658.531px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "Make it part ofyour everyday."
+      },
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 768,
+    "via": "direct",
+    "geometry": {
+      "root": {
+        "class": "journal-module__UhKvEq__collectionInvitation",
+        "rect": {
+          "x": 38.40625,
+          "y": 438.875,
+          "width": 691.1875,
+          "height": 332.53125,
+          "top": 438.875,
+          "right": 729.59375,
+          "bottom": 771.40625,
+          "left": 38.40625
+        },
+        "grid": "651.188px",
+        "maxWidth": "none",
+        "width": "691.188px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "FROM READING TO LIVINGMake it part ofyour everyday.The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+      },
+      "children": [
+        {
+          "class": "journal-module__UhKvEq__invitationHeading",
+          "rect": {
+            "x": 58.40625,
+            "y": 479.875,
+            "width": 651.1875,
+            "height": 114.46875,
+            "top": 479.875,
+            "right": 709.59375,
+            "bottom": 594.34375,
+            "left": 58.40625
+          },
+          "grid": "none",
+          "maxWidth": "none",
+          "width": "651.188px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "FROM READING TO LIVINGMake it part ofyour everyday."
+        },
+        {
+          "class": "journal-module__UhKvEq__invitationCopy",
+          "rect": {
+            "x": 58.40625,
+            "y": 618.34375,
+            "width": 470,
+            "height": 112.0625,
+            "top": 618.34375,
+            "right": 528.40625,
+            "bottom": 730.40625,
+            "left": 58.40625
+          },
+          "grid": "none",
+          "maxWidth": "470px",
+          "width": "470px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+        }
+      ],
+      "heading": {
+        "class": "",
+        "rect": {
+          "x": 58.40625,
+          "y": 511.1875,
+          "width": 651.1875,
+          "height": 83.15625,
+          "top": 511.1875,
+          "right": 709.59375,
+          "bottom": 594.34375,
+          "left": 58.40625
+        },
+        "grid": "none",
+        "maxWidth": "none",
+        "width": "651.188px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "Make it part ofyour everyday."
+      },
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 768,
+    "via": "story",
+    "geometry": {
+      "root": {
+        "class": "journal-module__UhKvEq__collectionInvitation",
+        "rect": {
+          "x": 38.40625,
+          "y": 438.875,
+          "width": 691.1875,
+          "height": 332.53125,
+          "top": 438.875,
+          "right": 729.59375,
+          "bottom": 771.40625,
+          "left": 38.40625
+        },
+        "grid": "651.188px",
+        "maxWidth": "none",
+        "width": "691.188px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "FROM READING TO LIVINGMake it part ofyour everyday.The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+      },
+      "children": [
+        {
+          "class": "journal-module__UhKvEq__invitationHeading",
+          "rect": {
+            "x": 58.40625,
+            "y": 479.875,
+            "width": 651.1875,
+            "height": 114.46875,
+            "top": 479.875,
+            "right": 709.59375,
+            "bottom": 594.34375,
+            "left": 58.40625
+          },
+          "grid": "none",
+          "maxWidth": "none",
+          "width": "651.188px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "FROM READING TO LIVINGMake it part ofyour everyday."
+        },
+        {
+          "class": "journal-module__UhKvEq__invitationCopy",
+          "rect": {
+            "x": 58.40625,
+            "y": 618.34375,
+            "width": 470,
+            "height": 112.0625,
+            "top": 618.34375,
+            "right": 528.40625,
+            "bottom": 730.40625,
+            "left": 58.40625
+          },
+          "grid": "none",
+          "maxWidth": "470px",
+          "width": "470px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+        }
+      ],
+      "heading": {
+        "class": "",
+        "rect": {
+          "x": 58.40625,
+          "y": 511.1875,
+          "width": 651.1875,
+          "height": 83.15625,
+          "top": 511.1875,
+          "right": 709.59375,
+          "bottom": 594.34375,
+          "left": 58.40625
+        },
+        "grid": "none",
+        "maxWidth": "none",
+        "width": "651.188px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "Make it part ofyour everyday."
+      },
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 390,
+    "via": "direct",
+    "geometry": {
+      "root": {
+        "class": "journal-module__UhKvEq__collectionInvitation",
+        "rect": {
+          "x": 19.5,
+          "y": 431.390625,
+          "width": 351,
+          "height": 347.5625,
+          "top": 431.390625,
+          "right": 370.5,
+          "bottom": 778.953125,
+          "left": 19.5
+        },
+        "grid": "343px",
+        "maxWidth": "none",
+        "width": "351px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "FROM READING TO LIVINGMake it part ofyour everyday.The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+      },
+      "children": [
+        {
+          "class": "journal-module__UhKvEq__invitationHeading",
+          "rect": {
+            "x": 23.5,
+            "y": 467.390625,
+            "width": 343,
+            "height": 114.46875,
+            "top": 467.390625,
+            "right": 366.5,
+            "bottom": 581.859375,
+            "left": 23.5
+          },
+          "grid": "none",
+          "maxWidth": "none",
+          "width": "343px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "FROM READING TO LIVINGMake it part ofyour everyday."
+        },
+        {
+          "class": "journal-module__UhKvEq__invitationCopy",
+          "rect": {
+            "x": 23.5,
+            "y": 604.859375,
+            "width": 343,
+            "height": 138.09375,
+            "top": 604.859375,
+            "right": 366.5,
+            "bottom": 742.953125,
+            "left": 23.5
+          },
+          "grid": "none",
+          "maxWidth": "470px",
+          "width": "343px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+        }
+      ],
+      "heading": {
+        "class": "",
+        "rect": {
+          "x": 23.5,
+          "y": 498.703125,
+          "width": 343,
+          "height": 83.15625,
+          "top": 498.703125,
+          "right": 366.5,
+          "bottom": 581.859375,
+          "left": 23.5
+        },
+        "grid": "none",
+        "maxWidth": "none",
+        "width": "343px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "Make it part ofyour everyday."
+      },
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 390,
+    "via": "story",
+    "geometry": {
+      "root": {
+        "class": "journal-module__UhKvEq__collectionInvitation",
+        "rect": {
+          "x": 19.5,
+          "y": 431.390625,
+          "width": 351,
+          "height": 347.5625,
+          "top": 431.390625,
+          "right": 370.5,
+          "bottom": 778.953125,
+          "left": 19.5
+        },
+        "grid": "343px",
+        "maxWidth": "none",
+        "width": "351px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "FROM READING TO LIVINGMake it part ofyour everyday.The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+      },
+      "children": [
+        {
+          "class": "journal-module__UhKvEq__invitationHeading",
+          "rect": {
+            "x": 23.5,
+            "y": 467.390625,
+            "width": 343,
+            "height": 114.46875,
+            "top": 467.390625,
+            "right": 366.5,
+            "bottom": 581.859375,
+            "left": 23.5
+          },
+          "grid": "none",
+          "maxWidth": "none",
+          "width": "343px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "FROM READING TO LIVINGMake it part ofyour everyday."
+        },
+        {
+          "class": "journal-module__UhKvEq__invitationCopy",
+          "rect": {
+            "x": 23.5,
+            "y": 604.859375,
+            "width": 343,
+            "height": 138.09375,
+            "top": 604.859375,
+            "right": 366.5,
+            "bottom": 742.953125,
+            "left": 23.5
+          },
+          "grid": "none",
+          "maxWidth": "470px",
+          "width": "343px",
+          "whiteSpace": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "normal",
+          "text": "The next small ritual is yours to choose. Get to know the objects, ingredients and ideas behind the collection.Explore the collection "
+        }
+      ],
+      "heading": {
+        "class": "",
+        "rect": {
+          "x": 23.5,
+          "y": 498.703125,
+          "width": 343,
+          "height": 83.15625,
+          "top": 498.703125,
+          "right": 366.5,
+          "bottom": 581.859375,
+          "left": 23.5
+        },
+        "grid": "none",
+        "maxWidth": "none",
+        "width": "343px",
+        "whiteSpace": "normal",
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "text": "Make it part ofyour everyday."
+      },
+      "overflow": 0
+    },
+    "errors": []
+  }
+]

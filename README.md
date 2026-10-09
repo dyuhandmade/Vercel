@@ -2,9 +2,11 @@
 
 A spacious, editorial Next.js storefront with optional interactive 3D, built from the supplied PRD and TRD. The local site now reads the live DYUhandmade Shopify catalogue through the Storefront API.
 
+**Start with [HANDOVER.md](HANDOVER.md)** for the current audit, architecture, Razorpay setup, deployment steps and launch gates. As of 4 October 2026 the Shopify store is paused: the test bag reaches Shopify, but order completion is blocked. Razorpay activation and a completed no-charge payment test remain outstanding. `npm run check:launch` checks configuration without exposing secrets; temporary previews remain excluded from search indexing.
+
 ## Run locally
 
-Requires Node.js 20.9 or later.
+Use a patched Node.js 24 LTS release for new setups; the installed Next.js minimum is 20.9. CI targets Node 24. See [deployment.md](docs/deployment.md) for target-host validation and [testing.md](docs/testing.md) for secret-free CI versus connected-store acceptance.
 
 On Windows, double-click [`START_DYU.bat`](./START_DYU.bat). It checks the local setup, installs missing dependencies, starts the Next.js frontend and API routes, waits for the server, and opens `http://127.0.0.1:3000`. Keep the server window open while using the site. The explicit IPv4 address avoids Windows `localhost`/IPv6 resolution conflicts.
 
@@ -46,16 +48,22 @@ The site loads editable content from Shopify's `dyu_site_content` metaobjects. C
 
 ## Editing the website in Shopify
 
-Open **Content → Metaobjects → DYU • Website content**. There are 66 initial entries with descriptive editor labels. Keep entry handles and definitions unchanged: the handles connect each entry to its section. Save changes in Shopify; the connected website refreshes its cached content after approximately two minutes and a subsequent request. The `/api/revalidate` signed webhook also invalidates content when configured for relevant Shopify events. No webhook was registered by this migration.
+Open **Content → Metaobjects → DYU • Website content**. This Next.js storefront reads these entries directly; Shopify's theme customizer controls a separate Shopify theme. Entries have descriptive editor labels. Keep entry handles and definitions unchanged: the handles connect each entry to its section. Save changes in Shopify; the connected website refreshes its cached content after approximately two minutes and subsequent requests. The `/api/revalidate` signed webhook expires content immediately when configured for relevant Shopify events. No webhook was registered by this migration.
 
 | What to change | Entry / location |
 | --- | --- |
-| Front hero picture, mobile picture, crop, heading, description and buttons | `home-hero` |
+| First hero picture, shared heading, description, buttons, mobile artwork, crop and autoplay timing | `home-hero` |
+| Other three moving hero pictures, optional individual text/buttons, visibility and order | `home-hero-slide-2`, `home-hero-slide-3`, `home-hero-slide-4` |
+| Homepage section order | `home-layout` → Short list items (section handles, in order) |
+| Shop page heading and featured collection links | `shop-page` |
+| Default shop hero image or 3D product | `shop-hero` → Desktop / section image, Mobile image, Selected products, Image or 3D display |
+| Different hero for each product category | `shop-hero-<category>`; entries are provided for the current catalogue |
+| Collection page headings, artwork and hero product | Native **Products → Collections** title, description and image; optional `collection-<handle>` overrides; `collection-page` supplies shared defaults |
 | Hero 3D card, its visibility and selected products | `home-hero-preview` |
 | Homepage product picks and order (up to three shown) | `home-favorites` → Selected products |
 | Homepage collection picks and order (up to four shown) | `home-collections` → Selected collections |
 | Homepage section headings and visibility | `home-welcome`, `home-collections`, `home-craft`, `home-ingredients`, `home-favorites`, `home-journal`, `home-reassurance` |
-| Announcement, wordmark, navigation, footer | `announcement`, `brand`, `nav-*`, `header-menu`, `footer`, `footer-philosophy` |
+| Announcement, uploaded logo, navigation, footer | `announcement`, `brand` (image and image description), `nav-*`, `header-menu`, `footer`, `footer-philosophy` |
 | Story slides, images and calls to action | `philosophy`, `philosophy-nature`, `philosophy-human-touch`, `philosophy-everyday` |
 | Morning, evening and pause narratives | `ritual`, `ritual-*`, `ritual-*-step-*` |
 | Page introductions and contact links | `story-page`, `craft-page`, `ingredients-page`, `contact-page`, `contact` |
@@ -63,21 +71,28 @@ Open **Content → Metaobjects → DYU • Website content**. There are 66 initi
 | Journal copy and images | `journal-page`, `article-*`; homepage cards use `home-journal-1` / `home-journal-2` |
 | Product copy, price, stock, options, gallery photos | Native **Products** fields |
 | Product ingredients, directions, care, related products and display controls | Product's **Metafields → DYU** fields |
+| Shared product-page headings, purchase panel, guidance and related carousel | `product-page`, `product-invitation`, `product-craft`, `product-ingredients`, `product-purchase`, `product-guidance`, `product-related` |
 | Ingredient descriptions and imagery | **Content → Metaobjects → DYU • Ingredient** |
+| Ingredient atlas/detail presentation overrides, including ingredients inferred from the catalogue | `ingredient-<handle>`; `ingredients-*` and `ingredient-*` section entries |
+| Our story page sections, images and onward links | `story-*` |
+| Journal index, article images, chapter content and closing panels | `journal-*`, `article-<slug>`; use a line beginning `## ` for a chapter heading in article Body text |
+| Making page headings, artwork and onward links | `craft-page`, `craft-journey`, `craft-products`, `craft-onward-*` |
 | Reusable approved making / usage steps | **Content → Metaobjects → DYU • Making or ritual step** |
 | Privacy, shipping, refund and terms policies | Native **Settings → Policies**; these take precedence on the website |
 
-For the hero, select an image in **Desktop / section image**, optionally choose a different **Mobile image**, and fill **Image description**. Uploaded starting artwork is illustrative and retains that description. Changing the hero does not change product photos or their 3D source images. Focal positions are limited to left, center, right, top and bottom.
+For each hero slide, select an image in **Desktop / section image**, optionally choose a different **Mobile image**, and fill **Image description**. Blank text on slides 2–4 inherits the first hero's copy and buttons. **Display order** reorders slides. On `home-hero`, **Automatically rotate hero slides** enables autoplay and **Hero slide duration (milliseconds)** accepts 2000–20000 (5000 = five seconds). Visitors can pause or choose slides; reduced-motion preferences disable autoplay. Uploaded starting artwork is illustrative and retains that description. Focal positions are left, center, right, top and bottom.
+
+For a shop/category hero, uploading an image takes precedence over the 3D display. With no uploaded image, choose **Selected products** to control the 3D source, or set **Image or 3D display** to `image` to show its product photograph. Product galleries and photo-based models continue to use native product media. A native collection image automatically appears on its collection page unless an explicit section image overrides it. Blank category fields inherit `shop-hero`; blank collection fields inherit `collection-page` or native collection data.
 
 Use plain text; line breaks work in heading and body fields. Local destinations such as `/shop` and HTTPS links are supported, plus valid contact links. Text is escaped, images are restricted to Shopify's CDN, and unsupported values fall back to the existing design. Blank fields restore default copy. Shopify retains entered content even where the site limits display length. CSS, scripts, font sizes and interactive structure stay controlled in code.
 
-**Show this section** controls optional homepage sections, the 3D card, announcement, navigation links, FAQs and journal entries. The main hero remains present. Philosophy and ritual have parent visibility switches; their fixed child panels remain in place to preserve keyboard navigation and the story sequence. Extra generic fields only affect a section where that section uses them. The page composition stays fixed; product/collection reference list order controls the featured items.
+**Show this section** controls optional homepage sections (including the hero), the 3D card, announcement, navigation links, FAQs, editorial blocks, ingredient entries and journal entries. Core page introductions, purchase controls and essential product guidance remain available. Each generic field affects only components that use that field; 3D geometry, interaction controls and layout styling remain in code. Product/collection reference list order controls featured items. `home-layout` reorders supported homepage sections; unknown or duplicate handles are ignored, and omitted sections retain their fallback order. Use each section's visibility switch to hide it.
 
 To add an FAQ, create an entry with a `faq-` handle, heading and body; include its handle in `faq-page` → Short list items (or clear that list to use all FAQ entries), and set Display order. To add a journal article, create an `article-<slug>` entry with heading and body; separate paragraphs with a blank line. It appears in the journal and sitemap at `/journal/<slug>`. Disabled articles are also removed from matching homepage cards. Homepage journal card copy is separately editable.
 
 Product ingredient selections are ingredient stories, not a complete formulation label. Enter the approved complete label in **DYU full ingredient list**. Add making/ritual steps only from approved instructions. Reordering reference lists reorders their steps. Native prices, stock and checkout settings keep their Shopify behavior.
 
-Migration sources and receipts are in `shopify/`. Original data snapshots are in `shopify/backups/`; these contain store catalogue content and should be kept private. `qa/content/preservation-verification.json` records the unchanged-data comparison. This was additive: no existing Shopify resources were deleted or renamed. Do not blindly rerun seed writes over later merchant edits. To undo a content change, restore its prior values using Shopify or a reviewed snapshot. The local frontend must be deployed to your existing Next.js host before these controls affect that deployment.
+Migration sources and receipts are in `shopify/`. Original data snapshots are in `shopify/backups/`; these contain store catalogue content and should be kept private. The October 4 extension adds 95 entries (161 total) and three optional editor field definitions, and preserves all values in the original 66 website entries. See `shopify/editability-receipt.json` and `editability-*-seed.json`. `scripts/prepare-editability.mjs` only prepares a plan; it never executes writes. Its baseline is a point-in-time snapshot: always re-read Shopify and skip existing handles before applying a plan. Do not blindly rerun seed writes over later merchant edits. To undo a content change, restore its prior values using Shopify or a reviewed snapshot. The local frontend must be deployed to your existing Next.js host before these controls affect that deployment.
 
 ## Validation
 

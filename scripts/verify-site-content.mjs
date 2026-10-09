@@ -1,4 +1,4 @@
-import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {readFileSync,writeFileSync,mkdirSync,readdirSync} from 'node:fs';
 const env=Object.fromEntries(readFileSync('.env.local','utf8').split(/\r?\n/).filter(line=>line.includes('=')&&!line.trim().startsWith('#')).map(line=>{const i=line.indexOf('=');return [line.slice(0,i).trim(),line.slice(i+1).trim()]}));
 const domain=env.SHOPIFY_STORE_DOMAIN;
 if(!/^[a-z0-9-]+\.myshopify\.com$/i.test(domain||'')||!env.SHOPIFY_STOREFRONT_PUBLIC_TOKEN)throw new Error('Storefront connection is missing.');
@@ -11,7 +11,7 @@ async function request(query,variables={}){
 }
 const entries=[];let after=null;
 do{const data=await request(query,{after});entries.push(...data.metaobjects.nodes);after=data.metaobjects.pageInfo.hasNextPage?data.metaobjects.pageInfo.endCursor:null;}while(after);
-const expected=['home-content-seed.json','secondary-content-seed.json'].flatMap(file=>JSON.parse(readFileSync(`shopify/${file}`,'utf8')));
+const expected=[...new Map(['home-content-seed.json','secondary-content-seed.json',...readdirSync('shopify').filter(file=>/^editability-.*-seed\.json$/.test(file))].flatMap(file=>JSON.parse(readFileSync(`shopify/${file}`,'utf8'))).map(entry=>[entry.handle,entry])).values()];
 const missing=expected.filter(e=>!entries.some(x=>x.handle===e.handle)).map(e=>e.handle);
 const unresolvedImages=entries.flatMap(e=>e.fields.filter(f=>['image','mobile_image'].includes(f.key)&&f.value&&!f.reference?.image?.url).map(f=>`${e.handle}.${f.key}`));
 const hero=entries.find(e=>e.handle==='home-hero');
