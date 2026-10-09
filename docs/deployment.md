@@ -12,6 +12,29 @@ On 9 October, `dyu1.vercel.app` served `/images/dyu-handmade-logo.png` with HTTP
 
 Production Shopify/account variables must also be configured in the Vercel project's environment settings; `.env.local` is intentionally excluded from GitHub. Use the permanent origin for both site URL variables and register its callback/logout URLs in Shopify. This build configuration does not resolve the separate multi-instance account refresh limitation described below.
 
+#### Current deployment and owner setup
+
+Commit `3c2a566` deployed successfully to `https://dyu1.vercel.app` on 9 October. Its clean Linux CI install, type checking, production build and automated verification all passed. The Vercel platform 404 is resolved. The running application still shows its error page: `/api/health` reports HTTP 503 with `mode: "shopify"`, `ready: false` and zero products, while `/api/account` reports `configured: false`. The account configuration is incomplete; the catalogue connection needs valid production settings or investigation in the owner's runtime logs. GitHub collaborator identity is not blocking deployments.
+
+The Vercel account owner should open **dyu1 → Settings → Environment Variables**, select **Production**, and add or correct the following. Enter credentials privately using the existing working configuration; never put their values in GitHub or screenshots.
+
+| Variable | Production value |
+| --- | --- |
+| `SHOPIFY_STORE_DOMAIN` | `dyuhandmade.myshopify.com` |
+| `SHOPIFY_STOREFRONT_PUBLIC_TOKEN` | Existing working Shopify Storefront token |
+| `DEMO_MODE` | `false` |
+| `NEXT_PUBLIC_SITE_URL` | `https://dyu1.vercel.app` |
+| `CUSTOMER_ACCOUNT_SITE_URL` | `https://dyu1.vercel.app` |
+| `SHOPIFY_CUSTOMER_ACCOUNT_CLIENT_ID` | Existing Shopify Headless Customer Account public client ID |
+| `SHOPIFY_CUSTOMER_ACCOUNT_SHOP_ID` | `76637307099` |
+| `CUSTOMER_ACCOUNT_SESSION_SECRET` | Existing stable random secret, at least 32 bytes |
+
+An existing `SHOPIFY_STOREFRONT_PRIVATE_TOKEN` can replace the public token; do not leave an invalid public token configured alongside it, because the public token takes precedence. The Storefront and Customer Account API versions default to `2026-07`. Keep `SITE_INDEXING_ENABLED=false` during acceptance. Do not copy a temporary Cloudflare origin into either site URL variable.
+
+In the existing Shopify Headless Customer Account client, add the callback `https://dyu1.vercel.app/api/auth/callback`, logout URL `https://dyu1.vercel.app/account`, and JavaScript origin `https://dyu1.vercel.app`. Keep existing preview URLs until cutover is verified.
+
+After saving the environment values, **redeploy dyu1**. Confirm the homepage renders, `/api/health` returns HTTP 200 with `mode: "shopify"` and `ready: true`, and `/api/account` reports `configured: true` before testing sign-in. Environment changes apply to new deployments: [Vercel environment variables](https://vercel.com/docs/environment-variables). If catalogue readiness still fails, the owner must inspect the Vercel runtime logs for the Shopify connection error; these anonymous probes do not reveal which token or network setting failed.
+
 References: [Vercel project configuration](https://vercel.com/docs/project-configuration/vercel-json), [build settings and root directory](https://vercel.com/docs/builds/configure-a-build).
 
 ### Persistent Node hosting
